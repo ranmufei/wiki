@@ -1,3 +1,5 @@
+[wiki语法的使用](wikihelp)
+
 [移动端API](mobileAPI)
 <br/>
 
