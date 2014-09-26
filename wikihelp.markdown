@@ -1,6 +1,8 @@
 ----       = 创建水平线.
 \\         = 换行, \\\=force line break and clear.
-#wiki#帮助文档
+
+#wiki帮助文档#
+
 [link]     = 创建一个链接，指向内部的wiki页面'Link'.
 [this is also a link] = 创建一个链接，指向内部的wiki页面'ThisIsAlsoALink'.
 [click here|link] = 创建一个链接，指向内部的wiki页面'Link', 链接文字是'click here'.
