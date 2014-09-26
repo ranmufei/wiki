@@ -1,3 +1,8 @@
+> wiki 支持两种语法格式
+>> 1 markdown  参考语法 http://equation85.github.io/blog/markdown-examples/
+>> 2 Rdoc 
+
+
 ----       = 创建水平线.
 \\         = 换行, \\\=force line break and clear.
 
