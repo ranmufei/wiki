@@ -10,6 +10,8 @@
 [#1]       = Marks the footnote number 1.
 [[link]    = 不创建链接而是输出文字'[link]'.
 
+## 大小标题
+
 !heading   = 小号标题
 !!heading  = 中号标题
 !!!heading = 大号标题
