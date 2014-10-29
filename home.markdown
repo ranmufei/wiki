@@ -1,4 +1,4 @@
-# [wiki语法的使用](wikihelp)
+## [wiki语法的使用](wikihelp)
 
 ## [移动端API列表](mobileAPI)
 
