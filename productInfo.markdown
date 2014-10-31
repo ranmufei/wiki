@@ -7,3 +7,5 @@
  * http://www.apps.com/index.php?app=Home&m=InvoicingApi&a=productInfo&cat_id=77
 
 ## 请求参数
+
+## 返回结果
