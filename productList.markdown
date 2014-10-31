@@ -28,6 +28,8 @@
 |name| | string| 产品名称 |
 |b_no| | sting | 产品编号 |
 |unit| | string | 单位 |
+|mark| | string | 备注 |
+|sns_id| | int | 产品同步到linksame平台的id |
 
 
 
