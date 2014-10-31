@@ -14,12 +14,18 @@
 
 
 ## 返回结果
-
-
-
-
-
-
+|字段 |  值| 类型 | 说明|
+|:----|----|----|-----|
+|status| success/error | string| 请求状态 |
+|info|array | array | 返回数据 数组|
+|id|900|int|产品型号id|
+|name|9001*78|string|型号名|
+|y_code|JX|string| 产品编码 |
+|class_id|12|int|产品大分类别 切记这里的分类是产品大类别 而不是 所属产品名称的那个分类|
+|num|903|int|库存数量|
+|cat_id|77|int|产品id(产品的id)|
+|yujin|0|int|预警下限值|
+|content|最新产品处理|string|备注|
 ### 返回实例
 
    ``` javascript
