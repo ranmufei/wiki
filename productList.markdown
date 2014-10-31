@@ -32,7 +32,7 @@
 |unit| | string | 单位 |
 |mark| | string | 备注 |
 |sns_id| | int | 产品同步到linksame平台的id |
-
+|cateName| | string | 分类名称 |
 
 
 
