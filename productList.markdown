@@ -1,8 +1,9 @@
 # 产品列表
 
-# 内部测试地址 
+# 内部开发调试环境
 
-* http://www.apps.com/
+* 账号登陆授权地址  http://kaifa.linksame.com
+* 私有盘测试调用   http://www.apps.com/
 * 账号 sving 密码 58456qwe
 
 ## 请求地址
