@@ -26,7 +26,7 @@
 
 ### 返回实例
 
-```  json
+```  javascript
 {
 status: "success",
 info: {
