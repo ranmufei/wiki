@@ -26,6 +26,9 @@
 |cat_id|77|int|产品id(产品的id)|
 |yujin|0|int|预警下限值|
 |content|最新产品处理|string|备注|
+|cateName|服装|string|大分类名称|
+|proName|新衣服|string |产品名称|
+
 ### 返回实例
 
    ``` javascript
