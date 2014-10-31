@@ -29,6 +29,7 @@
 |order_id|lssv20140901|string|订单号|
 |rec_amount|900.00|float|应收金额|
 |state|1/3/ 其他数 |int|状态值 : 待生产出库单/ 已生成出货单 / 出货完成 |
+|time|2013-09-32 09:12| date | 时间|
 
 
 ## 案例
