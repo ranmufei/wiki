@@ -1,3 +1,4 @@
 # 产品列表
 
-/index.php?app=Home&m=InvoicingApi&a=productList
+## 请求地址
+* /index.php?app=Home&m=InvoicingApi&a=productList
