@@ -10,4 +10,5 @@
 ### 进销存
 * [产品列表](productList)
 
+* [产品具体详情](productInfo)
 
