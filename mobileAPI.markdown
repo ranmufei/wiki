@@ -7,4 +7,4 @@
 ### 进销存
 
 ### 工作流
-    (产品列表)[productList]
+[产品列表](productList)
