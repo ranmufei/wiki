@@ -17,4 +17,8 @@
 
 ## 返回参数
 
+|字段|值|类型|说明|
+|status|success/error| string | 状态值 |
+
+
 ## 案例
