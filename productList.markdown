@@ -3,6 +3,7 @@
 # 内部测试地址 
 
 * http://www.apps.com/
+* 账号 sving 密码 58456qwe
 
 ## 请求地址
 *  /index.php?app=Home&m=InvoicingApi&a=productList
