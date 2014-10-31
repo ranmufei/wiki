@@ -33,3 +33,26 @@
 
 
 ## 案例
+
+
+```  javascript
+
+{
+status: "success",
+info: [
+{
+id: "33",
+order_id: "lssv2014081831",
+rec_amount: "3123.35",
+state: "1",
+time: "2014-08-18 15:41"
+},
+{
+id: "30",
+order_id: "lssv2014081130",
+rec_amount: "23123.00",
+state: "3",
+time: "2014-08-11 18:18"
+},
+]
+}
