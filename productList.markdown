@@ -25,7 +25,7 @@
 
 ## 实例
 
-``` json
+``` javascript
 
 {
 status: "success",
