@@ -1,7 +1,11 @@
 # 产品列表
 
+# 内部测试地址 
+
+* http://www.apps.com/
+
 ## 请求地址
-* /index.php?app=Home&m=InvoicingApi&a=productList
+*  /index.php?app=Home&m=InvoicingApi&a=productList
 
 ## 参数
 
