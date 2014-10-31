@@ -20,6 +20,15 @@
 | 参数名称  |      值|  类型     |说明     |
 | :--------  |  ------- | ------| -------- |
 |status     |success/error| string| 接口请求状态码  （成功/失败） 请根据状态值  处理返回数据|
+|info       |             | array | 二维数组 |
+|id| | int | 索引编号 |
+|uid| | int | 用户id |
+|cid| | int | 公司id |
+|cat_id| | int | 分类id |
+|name| | string| 产品名称 |
+|b_no| | sting | 产品编号 |
+|unit| | string | 单位 |
+
 
 
 
