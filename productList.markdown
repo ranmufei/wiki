@@ -69,26 +69,6 @@ min_limit: "0",
 mark: "",
 status: "0",
 sns_id: "0"
-},
-{
-id: "96",
-uid: "1",
-cid: "1",
-cate_id: "30",
-name: "52345",
-b_no: "3245",
-xinhao: "3245",
-h_id: "2345",
-unit: "打",
-price: "23453245.00",
-count_price: null,
-time: "1405674526",
-num: "0",
-max_limit: "0",
-min_limit: "0",
-mark: "",
-status: "0",
-sns_id: "0"
 }
 }
 ]
