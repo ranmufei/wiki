@@ -5,7 +5,7 @@
 
 ## 参数
 
- | Item      |    Value | Qty  |
+| Item      |    Value | Qty  |
 | :-------- | --------:| :--: |
 | Computer  | 1600 USD |  5   |
 | Phone     |   12 USD |  12  |
