@@ -19,6 +19,8 @@
 |status|success/error|string|请求返回的状态 成功/失败|
 |id|33|int|返回的结果订单id|
 |order_id|lssv20213123|string|订单单号|
+|charge_name|Jiam|string|负责人|
+|custom_name|baiducc|string|客户|
 |goods_info|array|array|产品详细数组|
 |googds_info[][product_name]|圆珠笔|string|发货产品名称|
 
