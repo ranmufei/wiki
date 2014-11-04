@@ -24,7 +24,10 @@
 |type|1|int|订单状态 1：周期性订单 。其他值 为一次性订单| 
 |zqsj|2014-08-4 12:08|date|周期订单时间；周期订单表示一段时间内有时间限制 本字段表示时间范围内|
 |goods_info|array|array|产品详细数组|
-|googds_info[][product_name]|圆珠笔|string|发货产品名称|
+|googds_info[][product_name]|圆珠笔|string|发货产品名称信息|
+|stateArr||array|订单状态数组|
+|time|2013-09-23|date|状态确认时间|
+|stateName|已确定|string|确认状态|
 
 
 
