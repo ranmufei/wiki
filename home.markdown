@@ -6,9 +6,9 @@
 # 公共插件
 * [私有盘模板在线查阅](http://192.168.1.241/moban/matrix-admin00/)
 
-* [http://192.168.1.241/moban/artDialog/] (jquery 弹出层插件在线查询文档)
+* [jquery 弹出层插件在线查询文档] (http://192.168.1.241/moban/artDialog/)
 
-* [http://192.168.1.241/moban/my-mind-master/] (思维导图在线使用)
+* [思维导图在线使用] (http://192.168.1.241/moban/my-mind-master/)
 # 数据库设计文档
 
 # 公共函数帮助查询
