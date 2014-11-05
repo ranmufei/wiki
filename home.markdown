@@ -2,7 +2,7 @@
 
 # 开发帮助
 * [内部测试环境帮助说明](devHelp)
-* [私有盘开发说明]（privateDev）
+* [私有盘开发说明](privateDev)
 
 # 接口
 ## [移动端API列表](mobileAPI)
