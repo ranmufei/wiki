@@ -4,7 +4,7 @@
 ## [移动端API列表](mobileAPI)
 ## [招聘技术提问](ask)
 # 公共插件
-* [http://192.168.1.241/moban/matrix-admin00/](私有盘模板在线查阅)
+* [私有盘模板在线查阅](http://192.168.1.241/moban/matrix-admin00/)
 
 * [http://192.168.1.241/moban/artDialog/] (jquery 弹出层插件在线查询文档)
 
