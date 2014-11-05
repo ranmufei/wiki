@@ -19,7 +19,7 @@
 # 公共函数帮助查询
 
 
-== 帮助 
-
-## [wiki语法的使用](wikihelp)
+# 帮助 
+## * [markdown 语法](markdownWiki)
+## *[wiki语法的使用](wikihelp)
 
