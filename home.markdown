@@ -21,7 +21,7 @@
 
 # 帮助 
 
-## * [markdown 语法](markdownWiki)
+ * [markdown 语法](markdownWiki)
 
-## * [wiki语法的使用](wikihelp)
+ * [wiki语法的使用](wikihelp)
 
