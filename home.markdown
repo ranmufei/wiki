@@ -4,6 +4,8 @@
 * [内部测试环境帮助说明](devHelp)
 * [私有盘开发说明](privateDev)
 
+#PCD引用Linksame页面
+
 # 接口
 ## [移动端API列表](mobileAPI)
 ## [招聘技术提问](ask)
