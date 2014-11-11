@@ -23,6 +23,7 @@
 |:----|----|----|-----|
 |status| success/error | string| 请求状态 |
 |list|array | array | 返回数据 数组|
+|:----|----|----|-----|
 |id|900|int|编号id|
 |uid|2|int|用户id|
 |pro_name|党校开发|string| 项目名称 |
