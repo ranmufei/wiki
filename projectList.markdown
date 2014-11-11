@@ -8,7 +8,7 @@
 
 >  method : get/post
 
-> **测试 http://www.apps.com/index.php?app=Home&m=ProjectApi&a=projectList&num=4&p=2 **
+> **测试http://www.apps.com/index.php?app=Home&m=ProjectApi&a=projectList&num=4&p=2**
 ## 参数
 
 | 参数名称      |    必填 | 说明  |
