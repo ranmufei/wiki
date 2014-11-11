@@ -36,8 +36,6 @@ id|900|int|编号id|
 |display|0/1|int|公开/私有|
 |status|0/1|int|状态| 进行中/ 结束 |
 |isOrder|0|int|如果大于0表示服务型订单号 该订单为服务性订单； 等于0表示普通项目管理|
-
-
 |:----|----|----|-----|
 |nid|900|int|编号id|
 |notice|strsssda asd|string| 动态消息 |
