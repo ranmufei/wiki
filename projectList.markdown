@@ -21,7 +21,7 @@
 ## 返回结果
 |字段 |  值| 类型 | 说明|
 |:----|----|----|-----|
-|status| success/error | string|style='color:red;' 请求状态 |
+|status| success/error | string| 请求状态 |
 |list|array | array | 返回数据 数组|
 |id|900|int|编号id|
 |uid|2|int|用户id|
