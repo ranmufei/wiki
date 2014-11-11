@@ -33,7 +33,7 @@
 |end_time|2013-09-3|date|项目截止时间|
 |leader|1|int|负责人id|
 |user|2,32|string|邀请通知的同事id|
-|display|0/1|int|显示/隐藏|
+|display|0/1|int|公开/私有|
 |status|0/1|int|状态| 进行中/ 结束 |
 |isOrder|0|int|如果大于0表示服务型订单号 该订单为服务性订单； 等于0表示普通项目管理|
 |nd|int|12|需求帖子数|
