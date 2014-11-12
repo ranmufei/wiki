@@ -16,6 +16,8 @@
 
 * [思维导图在线使用] (http://192.168.1.241/moban/my-mind-master/)
 
+* [LOMOX软件接口文档](LOMOXDOC)
+
 # 数据库设计文档
 
 # 公共函数帮助查询
