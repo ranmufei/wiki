@@ -31,24 +31,21 @@ var WindowSettings = {
 
 //基本功能
  $(function(){
-			//第一隐藏窗口
-			 
-			
-			//第二 如果报错不执行继续隐藏 
-			
-	     LxExt.Dialog.dragRegion($('#MyTitle'));
-		 //console.log(LomoX.setupJsAPIObject());
+	
+	    //第二 如果报错不执行继续隐藏 			
+	     LxExt.Dialog.dragRegion($('#MyTitle')); // 拖动元素 
+	     //console.log(LomoX.setupJsAPIObject());
 		     
-		 LxExt.Dialog.setMinimumSize(WindowSettings.minWidth, WindowSettings.minHeight);
+		 LxExt.Dialog.setMinimumSize(WindowSettings.minWidth, WindowSettings.minHeight); //设置窗口大小
 		 
 		 //添加 最小化，关闭事件
 		var _max = function() {
 			if($("#lx-max").hasClass('lx-normal')) {
 				$("#lx-max").removeClass('lx-normal');
-				LxExt.Dialog.showNormal();
+				LxExt.Dialog.showNormal(); //显示最小化
 			} else {
 				$("#lx-max").addClass('lx-normal');
-				LxExt.Dialog.showMaximized();
+				LxExt.Dialog.showMaximized(); //显示最大化
 			}
 		}
 		$("#lx-max").on('mouseup', _max);
@@ -58,7 +55,7 @@ var WindowSettings = {
 		});
 		$("#lx-close").on('mouseup', function(){
 			//提醒
-					LxExt.Dialog.closeWnd();
+					LxExt.Dialog.closeWnd(); //窗口关闭
 		});
 		 
 	
