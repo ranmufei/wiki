@@ -15,6 +15,27 @@
 
 > **下载地址 http://www.linksame.com/Public/js/LxExt-1.0.dev.js**
 
+### 调试环境 
+
+> 调试只在lomox下看得到效果 请下载lomox项目
+
+> 本地调试 网页资源放到 Resources/ 文件夹下
+
+> 网络在线调试 请修改配置文件
+
+```  python
+
+[cfg]
+url=http://baidu.com //网络调试地址 自定义  ，本地调试请删除此行
+mainframe=0
+maintop=0
+title=邻商智能云管理系统
+childframe=0
+[maindialog]
+hrefincurrent=0
+[childdialog]
+hrefincurrent=1
+
 # lomox常用接口
 
 ``` javascript
