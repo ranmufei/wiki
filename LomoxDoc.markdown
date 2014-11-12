@@ -36,6 +36,8 @@ hrefincurrent=0
 [childdialog]
 hrefincurrent=1
 
+```
+
 # lomox常用接口
 
 ``` javascript
