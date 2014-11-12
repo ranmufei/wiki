@@ -14,3 +14,57 @@
         <script type="text/javascript" src="http://www.linksame.com/Public/js/LxExt-1.0.dev.js"></script> 
 
 > **下载地址 http://www.linksame.com/Public/js/LxExt-1.0.dev.js**
+
+# lomox常用接口
+
+``` javascript
+ // 窗口初始化配置
+var WindowSettings = {
+	minWidth: 538,
+	minHeight: 600,
+	width:538,
+	height: 600,
+	center: true,
+	debug: true
+}
+
+
+//基本功能
+ $(function(){
+			//第一隐藏窗口
+			 
+			
+			//第二 如果报错不执行继续隐藏 
+			
+	     LxExt.Dialog.dragRegion($('#MyTitle'));
+		 //console.log(LomoX.setupJsAPIObject());
+		     
+		 LxExt.Dialog.setMinimumSize(WindowSettings.minWidth, WindowSettings.minHeight);
+		 
+		 //添加 最小化，关闭事件
+		var _max = function() {
+			if($("#lx-max").hasClass('lx-normal')) {
+				$("#lx-max").removeClass('lx-normal');
+				LxExt.Dialog.showNormal();
+			} else {
+				$("#lx-max").addClass('lx-normal');
+				LxExt.Dialog.showMaximized();
+			}
+		}
+		$("#lx-max").on('mouseup', _max);
+		$('#MyTitle').dblclick(_max);
+		$("#lx-min").on('mouseup', function(){
+			LxExt.Dialog.showMinimized();
+		});
+		$("#lx-close").on('mouseup', function(){
+			//提醒
+					LxExt.Dialog.closeWnd();
+		});
+		 
+	
+	});  
+
+
+
+
+
