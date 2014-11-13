@@ -61,6 +61,11 @@ var WindowSettings = {
 		     
 		 LxExt.Dialog.setMinimumSize(WindowSettings.minWidth, WindowSettings.minHeight); //设置窗口大小
 		 
+	 //窗体大小变动
+	LxExt.Dialog.borderDrag($(".max_border_content"),$(".max_border_content")); // 变动大小对象
+	//开启拖动支持
+	LxExt.Dialog.setBorderDrag(true);
+
 		 //添加 最小化，关闭事件
 		var _max = function() {
 			if($("#lx-max").hasClass('lx-normal')) {
