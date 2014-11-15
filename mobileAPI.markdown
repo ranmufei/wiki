@@ -26,3 +26,8 @@
 * [项目我的任务列表](myprojectList)
 
 * [项目我的任务详情](myprojectInfo)
+
+### 考勤管理
+
+* [公司考勤时间](companySett)
+* [打卡考勤](playKa)
