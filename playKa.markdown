@@ -14,7 +14,10 @@
 
 | 参数名称      |    必填 | 说明  |
 | :-------- | :--------:| :-- |
-| cid | 否 |   不填安装默认数   |
+| uid | 是 |   当前用户uid   |
+| cid | 是 |   当前用户cid  公司id  |
+| tag | 是 |   打卡点 1：早上上班；2：早上下班；3 下午上班 ；4 下午下班  |
+| address | 是 |   用户地点字符串   |
 
 
 
@@ -25,15 +28,9 @@
 |status| success/error | string| 请求状态 |
 |info|array | array | 返回数据 数组|
 |:----|----|----|-----|
-|statu|0/1|int|接口请求状态 有设置时间/无设置时间|
-|info|成功/失败|string|状态信息说明|
-|:----|---|---|-----|
-|data|array|array|时间一维数组 |
-|sw_star_time|9:00:00|string|上午上班时间|
-|sw_end_time|12:00:00|string|上午下班时间|
-|xw_star_time|14:00:00|string|下午上班时间|
-|xw_end_time|19:00:00|string|下午下班时间|
-|ws_star_time|20:00:00|string|晚上加班上班时间  参考|
-|ws_end_time|22:00:00|string|晚上加班下班时间 参考|
+|statu|0/1|int|接口请求状态 失败/成功|
+|infos|请求成功|string|状态信息说明|
+|nowtime|2013-09-32|date|请求后返回的时间|
+
 
 
