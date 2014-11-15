@@ -89,6 +89,14 @@ var WindowSettings = {
 	
 	});  
 
+
+//浏览器打开链接 url 
+function openUrl(url){
+		LxExt.Dialog.openURL(url);	
+        
+        return false;
+	}
+
 ``` 
 
 
