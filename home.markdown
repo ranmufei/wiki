@@ -6,6 +6,10 @@
 
 # [PCD引用Linksame页面](pcdaddls)
 
+# 私有盘硬件文档
+ 
+   - [技嘉抓板 centos 系统无法启动处理](centosDoc)
+
 # 接口
 ## [移动端API列表](mobileAPI)
 ## [招聘技术提问](ask)
