@@ -8,7 +8,7 @@
 
 # 私有盘硬件文档
  
-   - [技嘉抓板 centos 系统无法启动处理](centosDoc)
+   - [技嘉主板 centos 系统无法启动处理](centosDoc)
 
 # 接口
 ## [移动端API列表](mobileAPI)
