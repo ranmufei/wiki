@@ -1,6 +1,9 @@
 # 选择发货地址控件
+
  ## 调用函数
+
  >  {:widget('ChoiceAddress',array('cid'=>$data['custom_id'],'where'=>0))}
+
 
  ## 参数解释 
 
