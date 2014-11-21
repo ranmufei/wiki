@@ -13,7 +13,19 @@
  - where : 来源 0/1  网络客户/本地添加
  - callbackfun : 自定义回调函数
 
+## 回调函数参数解释
 
+> 回调函数参数 为地址对象
+
+*回调函数返回数据参考
+
+``` javascript
+address: "湖北省武汉市武昌区街道口10号"
+adds: function () {
+name: "张耀辉"
+phone: "24587454"
+
+```
 ## 回到函数 案例参考
 
 ``` javascript
