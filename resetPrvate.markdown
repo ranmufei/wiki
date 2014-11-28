@@ -5,4 +5,4 @@
 
 -  重置地址 ：
 
- ** ip/system/?App&m=Index&a=reSetSys **
+ **ip地址/system/?App&m=Index&a=reSetSys**
