@@ -5,7 +5,7 @@
 * [私有盘开发说明](privateDev)
 * [私有盘重置说明](resetPrvate)
 
-  %%(color:red)
+  %%( font-size: 150%; color: red; )
     # 发行及升级 
   %%
 
