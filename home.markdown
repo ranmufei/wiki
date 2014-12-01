@@ -5,7 +5,7 @@
 * [私有盘开发说明](privateDev)
 * [私有盘重置说明](resetPrvate)
 
-  %%{color:red}
+  %%(color:red)
     # 发行及升级 
   %%
 
