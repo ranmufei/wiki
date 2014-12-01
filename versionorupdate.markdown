@@ -1,5 +1,6 @@
 ## 制作`发行版本` 注意事项
-- 清空项目项目附件(根目录`Uploads`文件下附件,avatar[头像]、datums[资料]、qrcode[二维码]文件件不要删除)
+* 清空项目项目附件
+*  根目录`Uploads`文件下附件,avatar[头像]、datums[资料]、qrcode[二维码]文件件不要删除
 - 清除缓存文件（`Cache`下所有文件）
 - 初始化文件(`baseset_data.php`)中 `版本信息`部分的更新
 - `debug`要关闭
