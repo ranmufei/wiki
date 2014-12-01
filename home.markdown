@@ -5,7 +5,7 @@
 * [私有盘开发说明](privateDev)
 * [私有盘重置说明](resetPrvate)
 
-#  %%small 发行及升级 %%
+  %%small # 发行及升级 %%
 
 # [PCD引用Linksame页面](pcdaddls)
 
