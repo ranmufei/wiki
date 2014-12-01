@@ -4,6 +4,6 @@
 - 初始化文件(`baseset_data.php`)中 `版本信息`部分的更新
 - `debug`要关闭
 - 客户端`右键`屏蔽
-- 加密`Addons`及`App`文件夹下文件 (其中App下的应用其中文件 应用/Common/common.php、应用/Conf/config.php)
+- 加密`Addons`及`App`文件夹下文件 (其中 `应用/Common/common.php`、`应用/Conf/config.php` `不可加密`)
 
 ## 制作`升级包` 注意事项
