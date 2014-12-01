@@ -6,7 +6,7 @@
 * [私有盘重置说明](resetPrvate)
 
   %%( font-size: 150%; color: red; )
-    # 发行及升级 
+    发行及升级 
   %%
 
 # [PCD引用Linksame页面](pcdaddls)
