@@ -4,7 +4,7 @@
 - 清除缓存文件（`Cache`下所有文件）
 - 初始化文件(`baseset_data.php`)中 `版本信息`部分的更新
 - 项目设置
-- `debug`要关闭
+ - `debug`要关闭
  - 客户端`右键`屏蔽
 - 加密`Addons`及`App`文件夹下文件 (其中 `应用/Common/common.php`、`应用/Conf/config.php` `不可加密`)
 
