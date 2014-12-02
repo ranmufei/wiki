@@ -22,4 +22,5 @@
  - addAction位于插件入口文件 `index.php`中,通过他将插件执行函数挂载到勾子上。 
    ![index.php](http://192.168.1.240/uploads/ranmufei/apps/b1f88a4dc2/QQ%E6%88%AA%E5%9B%BE20141202154818.png)
 - doAction
-
+ - doAction 函数位于你想调用勾子的地方
+   ![QQ截图20141202155149](http://192.168.1.240/uploads/ranmufei/apps/9e40f82a17/QQ%E6%88%AA%E5%9B%BE20141202155149.png)
