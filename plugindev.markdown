@@ -19,6 +19,7 @@
 插件运行依赖两个重要的全局函数，将插件挂载到勾子上的addAction 和 在页面中要调用插件的doAction函数。
 
 - addAction
- - addAction位于插件入口文件 `index.php`中,通过他将插件执行函数挂载到勾子上。
+ - addAction位于插件入口文件 `index.php`中,通过他将插件执行函数挂载到勾子上。 
+   ![index.php](http://192.168.1.240/uploads/ranmufei/apps/b1f88a4dc2/QQ%E6%88%AA%E5%9B%BE20141202154818.png)
 - doAction
 
