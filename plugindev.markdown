@@ -10,7 +10,14 @@
 - feedback （插件文件夹名称）
  - index.php (插件入口文件)
  - about.php （插件配制文件）
-因为插件是在文档渲染时动态执行的,所以仍然可以使用thinkphp框架。不过插件入口文件(index.php)未使用面向对象的编程风格，这点要注意。
+因为插件是在文档渲染时动态执行的,所以仍然可以使用thinkphp框架。不过插件入口文件(index.php)未使用面向对象的编程风格，这点要注意,插件制作完成后，在`后台更新插件缓存`，则新的插件信息会写入插件缓存。
 
 #### 配制文件（`about.php`）
 ![配制文件](http://192.168.1.240/uploads/ranmufei/apps/a3f97fc2e1/QQ%E6%88%AA%E5%9B%BE20141202151303.png)
+
+#### `addAction` 和 `doAction`
+插件运行依赖两个重要的全局函数，将插件挂载到勾子上的addAction 和 在页面中要调用插件的doAction函数。
+
+- addAction
+- doAction
+
