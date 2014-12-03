@@ -18,3 +18,10 @@
 
 > ip 192.168.1.253
 > 账号 testcompany1 psw : feifei
+
+
+# 内部开发超级管理员站好
+
+> 账号 sving
+
+> 密码 58456qwe
