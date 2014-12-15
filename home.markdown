@@ -13,6 +13,8 @@
  
    - [技嘉主板 centos 系统无法启动处理](centosDoc)
 
+### [公共模型](staticmodel)
+
 # 接口
 ## [移动端API列表](mobileAPI)
 ## [招聘技术提问](ask)
