@@ -2,7 +2,7 @@
 
 # 开发帮助
 * [内部测试环境帮助说明](devHelp)
-* [私有盘开发说明](privateDev)
+* [私有盘系统开发说明](privateDev)
 * [私有盘重置说明](resetPrvate)
 
 ### [发行及升级](versionorupdate)
