@@ -1,5 +1,12 @@
 # 私有盘系统开发 版本说明
 
+## vision4.0
+
+- nodeim 移动到网站目录下
+
+- /etc/rc.local  修改 启动系统初始化 getIp.sh   dnspodsh.sh 文件位置路径到网站目录的nodeim下
+
+
 ## vision3.3
 
 - 增加对当前系统空间的合理利用，1T，2T的硬盘空间挂载到 根目录
