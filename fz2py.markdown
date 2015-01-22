@@ -3,7 +3,7 @@
 
 ##使用说明##
    
-   引入js文件  <script src="/Public1/js/f2PY.js"></script>
+   引入js文件  Public1/js/f2PY.js
 
    >> 函数 returnFist(str)  str为文字参数 
 
