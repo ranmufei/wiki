@@ -11,9 +11,13 @@
    >> 返回拼音码大写
    
 ## 举例
+
  >> 输入字段 id=txtChinese
+
  >> 拼音码字段 id=py
+
 ### html
+
 ````   html
    
    <label for="inputEmail" class="col-lg-2 control-label">仓库名称<span>*</span></label>
