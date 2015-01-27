@@ -36,6 +36,13 @@
 
 ````
 
-### javascript  avalon
+### javascript  avalon 调取
 
+```` javascript
+ // 函数returnFist(str) 返回汉字拼音码 该函数在引入的的js文件中 一如文件直接调用即可
+ //avalon 监听输入汉字转换拼音码 returnFist(a);
 
+              vmodel.product.$watch("productName", function(a) {
+                 vmodel.product.code=returnFist(a);
+                
+			  })
