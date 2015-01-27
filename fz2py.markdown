@@ -12,6 +12,7 @@
    
 ## 举例
 
+###html
 ````   html
    
    <label for="inputEmail" class="col-lg-2 control-label">仓库名称<span>*</span></label>
