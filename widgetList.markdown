@@ -8,4 +8,8 @@
 
 ## 常见控件  规格控件
 ```` html
+ 规格控件
    <span>{:widget('Format')}</span>  
+ 
+   
+````
