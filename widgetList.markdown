@@ -10,6 +10,7 @@
 ```` html
  规格控件
    <span>{:widget('Format')}</span>  
- 
+ 添加产品控件
+    {:widget('AddProduct')}
    
 ````
