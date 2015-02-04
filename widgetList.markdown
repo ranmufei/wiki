@@ -6,5 +6,6 @@
 
 - [汉字转拼音码](fz2py)   
 
+## 常见控件  规格控件
 ```` html
    <span>{:widget('Format')}</span>  
