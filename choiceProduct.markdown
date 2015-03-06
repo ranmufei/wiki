@@ -18,6 +18,8 @@
 
 ``` javascript
 
+// 请在该函数过程中写 自己业务过程
+
    getSelectProduct(data){
 
     }
