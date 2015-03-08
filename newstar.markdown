@@ -30,7 +30,26 @@
 ## 公司项目 云盘技术参考
 
 
-函数参考
+### 函数参考
+
+| 函数名      |    参数 | 返回值  |  说明 |
+| :-------- | --------:| :--: |:-------|
+| getIP()  | 否 | string   |  返回用户ip地址  例如 201.23.12.33|
+| get_avatar()|$uid|string| 根据用户uid 返回用户会员头像地址|
+| friendlyDate()|$sTime|string| 格式化时间 返回友好的时间格式 例如 “三分钟之前”。传统时间 2013-10-23 10:20:21|
+| getName()|$uid|string| 根据用户uid 返回用户的姓名 |
+| getUserName()|$uid|string|根据用户uid 返回用户的账号 切记这个账号是注册账号和姓名不一样 |
+| getName()|$uid|string| 根据用户uid 返回用户的姓名 |
+| getUserbm()|$jid|string|根据部门jid  返回用部门名称 |
+| getUserzw()|$zid|string|根据职位zid  返回用职位名称 |
+| getCompanyName()|$cid|string|根据公司cid  返回公司名称 |
+| clearArray()|$arr 数组|arrr|删除数组中空字符 空值  |
+| appIcon($key,$size)|$key 应用key ,$size 返回应用图片大小（80/32/16）像素|string|应用图片地址  |
+
+
+
+
+
 
 
 
