@@ -7,6 +7,8 @@
 
 * [私有盘重置说明](resetPrvate)
 
+* [新人快速入门](newstar)
+
 ### [发行及升级](versionorupdate)
 ### [PCD引用Linksame页面](pcdaddls)
 ### **[插件开发](plugindev)**
