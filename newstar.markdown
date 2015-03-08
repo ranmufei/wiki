@@ -49,17 +49,11 @@
 |  notify($data,$echo=1)|$data   array 消息内容(title,content,link)  ,  $echo   int   是否直接输出|string| 应用发送通知 |
 | combination（$arr）|$arr 格式如 Array ( [0] => Array ( [name] => 颜色 [value] => Array ( [0] => 红 [2] => 蓝 [3] => 黑 ) ) ) |string| 生成数组元素的组合 产品多规格通常用到 |
 | yuanliaoClass($id)|$id 原料id|string| 原料分类名称 |
-
 | danwei($id)|$id 单位id|string| 返回单位名称 个，元 |
-
 | access_r($uid,$app,$m,$a)|$uid（用户uid）,$app(应用name),$m(模块名),$a（控制器名）|bool| 基于节点的权限判断   例如 access_r(2,Product,Index,dell)  参考建议用tp常量方式获取 模块 控制名 |
 | get_03in_companyinfo($cid,$field ='*')|$cid |string| 根据公司cid 获取公司名称  可以获取其他公司名称 |
-
 | app_relyon($name)|$name 应用名称|string| 判断该应用是否有其他应用依赖关系 |
-
-
 | bool_app_open($key)|$key 应用名称|bool| 应用开启关闭判断|
-
 | nav_string($array,$split ='#')|$arr|string| 
  * 导航组装 
  * 二种模式 : 1二维数组,链接信息由其中的数组组成,第一个元素为链接名,第二个元素为链接地址; 2一维数组,链接信息由字符串组成,由分隔符隔开,分隔符默认为#号
