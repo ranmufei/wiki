@@ -10,3 +10,19 @@
  3 设计数据表 （对功能设计数据表）
 
  4 功能开发（以上三步功能审核完成后 才可以进行编码工作）
+
+
+## 学习资料参考
+
+### 前端知识点
+
+- bootstrap 参考：http://www.bootcss.com/
+
+- 项目前端框架 基于bootstrap 参考 http://www.zui.sexy/docs/start.html#intro
+
+- avalonjs（非常重要必须学习） 参考 http://www.cnblogs.com/rubylouvre/p/3181291.html
+
+
+
+
+
