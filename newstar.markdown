@@ -78,3 +78,5 @@ ThinkPHP/Common/function.php
 ## 产品功能设计参考
 
 
+![进销存pig](http://192.168.1.240/uploads/ranmufei/apps/1d864819e6/%E8%BF%9B%E9%94%80%E5%AD%98pig.jpg)
+![databasesDesgin](http://192.168.1.240/uploads/ranmufei/apps/1071e4f873/databasesDesgin.png)
