@@ -46,6 +46,10 @@
 | clearArray()|$arr 数组|arrr|删除数组中空字符 空值  |
 | appIcon($key,$size)|$key 应用key ,$size 返回应用图片大小（80/32/16）像素|string|应用图片地址  |
 
+| appLink($key)|$key 应用key|string| 获取应用链接地址 |
+
+|  notify($data,$echo=1)|$data   array 消息内容(title,content,link)  ,  $echo   int   是否直接输出|string| 应用发送通知 |
+| combination（$arr）|$arr 格式如 Array ( [0] => Array ( [name] => 颜色 [value] => Array ( [0] => 红 [2] => 蓝 [3] => 黑 ) ) ) |string| 生成数组元素的组合 产品多规格通常用到 |
 
 
 
