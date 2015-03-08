@@ -56,3 +56,13 @@
 | bool_app_open($key)|$key 应用名称|bool| 应用开启关闭判断|
 | nav_string($array,$split ='#')|$arr|string|  导航组装  二种模式 : 1二维数组,链接信息由其中的数组组成,第一个元素为链接名,第二个元素为链接地址; 2一维数组,链接信息由字符串组成,由分隔符隔开,分隔符默认为#号导航组装 $array 二维数组,元素中第一个参数为导航名,第二个为链接地址,如果元素中没有链接,则a=javascript:|
 
+
+
+### 更多功能函数参考
+
+ThinkPHP/appFunction.php
+
+ThinkPHP/Common/common.php
+
+ThinkPHP/Common/function.php
+
