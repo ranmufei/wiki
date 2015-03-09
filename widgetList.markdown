@@ -5,6 +5,7 @@
 - [选择发货地址](choiceAddressWidgit)
 
 - [汉字转拼音码](fz2py)   
+- [客户选择(avalon)](selcustom)   
 
 ## 常见控件  规格控件
 ```` html
