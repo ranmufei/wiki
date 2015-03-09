@@ -5,7 +5,7 @@
 | :--------  |  ------- | ------| -------- |
 |mix      | string| 1 | 选择的客户数量|
 
-|isparent | boolean| false           | 是否只允许选择顶级公司 |
+|isparent | boolean| false  | 是否只允许选择顶级公司 |
 
 |sureCallback| function | null | 选择客户确认后的回调函数 |
 |onInit| function| null | 组件初始化后的回调 |
