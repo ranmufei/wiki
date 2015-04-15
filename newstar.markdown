@@ -60,7 +60,7 @@
 
 ### 更多功能函数参考
 
-ThinkPHP/appFunction.php
+* [公共函数查询 ThinkPHP/appFunction.php] (appfunction)
 
 ThinkPHP/Common/common.php
 
