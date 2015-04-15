@@ -60,11 +60,7 @@
 
 ### 更多功能函数参考
 
-* [公共函数查询 ThinkPHP/appFunction.php] (appfunction)
-
-ThinkPHP/Common/common.php
-
-ThinkPHP/Common/function.php
+* 公共函数查询 http://192.168.1.240/ranmufei/pubic-model/tree/master
 
 
 
