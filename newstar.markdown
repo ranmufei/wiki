@@ -60,7 +60,7 @@
 
 ### 更多功能函数参考
 
-* 公共函数查询 http://192.168.1.240/ranmufei/pubic-model/tree/master
+* 公共函数以及公共模型查询  http://192.168.1.240/ranmufei/pubic-model/tree/master
 
 
 
