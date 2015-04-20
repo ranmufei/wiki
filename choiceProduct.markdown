@@ -30,7 +30,7 @@
 ```` javascript
 
  avalon.vmodels.choice_Product.show('bb');
-
+````
 
   data 数据格式参考
 
