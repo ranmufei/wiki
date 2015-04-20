@@ -32,13 +32,13 @@
  avalon.vmodels.choice_Product.show('bb');
 ````
 
-  data 数据格式参考
-
+ data 数据格式参考
+```` javascript
 [
 { Object$id: "smartgridTr3"cat_id: "74"class_id: "30"code: "TLS5"format: "黄色*90L*13"id: "5"name: "塔拉斯5"selected: truestornNum: null}
 ,{ Object$id: "smartgridTr4"cat_id: "74"class_id: "30"code: "TLS5"format: "黄色*90L*15"id: "6"name: "塔拉斯5"selected: truestornNum: null
 }
 ]
 
-
+````
    
