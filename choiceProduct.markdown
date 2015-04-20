@@ -23,6 +23,14 @@
    getSelectProduct(data){
 
     }
+````
+
+## 调出弹出层
+
+```` javascript
+
+ avalon.vmodels.choice_Product.show('bb');
+
 
   data 数据格式参考
 
