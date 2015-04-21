@@ -4,3 +4,5 @@
 - 注: add方法添加消息已 `不推荐使用`
 - addUserNews 添加个人消息
 - addAppNews 添加应用消息
+
+##(进销存添加订单)[jinxiaoaddorder]
