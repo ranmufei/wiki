@@ -1,7 +1,7 @@
 # 添加订单接口
 
 # model('Invoicing')->save_data($data);
-## 参数
+## 参数 $data[orderinfo]
 
 | 参数名称  |      值|  类型     |说明     |
 | :--------  |  ------- | ------| -------- |
@@ -17,9 +17,16 @@
 |form     |2 | string| 分店补货 |
 |mark     |啊 | string| 备注 |
 |ckid_1     |啊 | string| 出库仓库id  |
-## 参数
 
+## 参数$data['productList']
 
+| 参数名称  |      值|  类型     |说明     |
+| :--------  |  ------- | ------| -------- |
+|pro_id     |啊 | string| 产品id |
+|uid     |啊 | string| 创建人id |
+|xinhao     |时间戳 | string| 产品规格型号 |
+|price     |时间戳 | string| 该产品价格 |
+|num     |时间戳 | string| 该产品数量 |
 ```` php
 $data参数
 /**
