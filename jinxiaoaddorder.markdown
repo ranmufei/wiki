@@ -35,3 +35,5 @@ $data参数
 
 
 ````
+
+# 返回 bool  : true/ flase
