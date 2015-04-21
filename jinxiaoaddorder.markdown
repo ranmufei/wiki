@@ -3,6 +3,20 @@
 # model('Invoicing')->save_data($data);
 ## 参数
 
+| 参数名称  |      值|  类型     |说明     |
+| :--------  |  ------- | ------| -------- |
+|uid     |啊 | string| 啊 |
+|order_num     |啊 | string| 订单号 |
+|creat_time     |时间戳 | string| 创建时间 |
+|to_time     |时间戳 | string| 到货时间 |
+|gys_id     |啊 | string| 供应商id |
+|num     |啊 | string| 订单总数 |
+|count_price     |啊 | string| 订单总价 |
+|type     |啊 | string| 0 默认 |
+|ordertype     |5 | string| 5：补货出库 |
+|form     |2 | string| 分店补货 |
+|mark     |啊 | string| 备注 |
+|ckid_1     |啊 | string| 出库仓库id  |
 ## 参数
 
 
