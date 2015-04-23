@@ -1,4 +1,4 @@
-在使用自定义模型的方式(继承Model)供我们实现自动验证及完成。一定要用正确的官方格式 _xxxxModel.class.php_
+在使用自定义模型的方式(继承Model)供我们实现自动验证及完成。一定要用正确的官方格式 **_xxxxModel.class.php_**
 
 模型文件及类名一定要以Model结尾，因为model父类会substr(0,-5)去生成模型名称。
 
