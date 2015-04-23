@@ -1,4 +1,4 @@
-*THINKPHP*
+-THINKPHP-
 _关于自定义模型_
 
 * 前端JS
