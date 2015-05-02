@@ -43,6 +43,8 @@
 
 - [商品选择控件](choiceProduct)
 
+- [设置右键](settingmenu)
+
 # 公共函数帮助查询
 
 # [常见问题汇总](questionCollect) 
