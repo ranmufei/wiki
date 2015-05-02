@@ -8,7 +8,7 @@
 
 <script>
 
-var bodyMenuData = [[
+var qqqq = [[
 { text: "刷新",
   func:function(){
     window.location.reload();
@@ -26,9 +26,14 @@ var bodyMenuData = [[
  }
  ]];
 
-$("#body_min_height").smartMenu(bodyMenuData, {
+// 承载右键元素
+$("#body_min_height").smartMenu(qqqq, {
     name: "body"    
 });
 </script>
 
 ````
+
+
+
+ c
