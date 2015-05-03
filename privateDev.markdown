@@ -1,5 +1,10 @@
 # 私有盘系统开发 版本说明
 
+## vision6.0
+
+- dnspod 改回 /usr/bin/dnspodsh.sh 启动
+
+
 ## vision4.0
 
 - nodeim 移动到网站目录下
