@@ -19,6 +19,7 @@
 - bootstrap 参考：http://www.bootcss.com/
 
 - 项目前端框架 基于bootstrap 参考 http://www.zui.sexy/docs/start.html#intro
+ （从5月1号开始所有新应用前端不在基于zui.css 如需使用 请基于bootstrap）
 
 - avalonjs（非常重要必须学习） 参考 http://www.cnblogs.com/rubylouvre/p/3181291.html
 
