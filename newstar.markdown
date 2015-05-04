@@ -22,6 +22,9 @@
  （从5月1号开始之后的新应用前端不在基于zui.css 如需使用 请基于bootstrap ，各位同学请注意）
 
 - avalonjs（非常重要必须学习） 参考 http://www.cnblogs.com/rubylouvre/p/3181291.html
+
+- 前端插件 OniUI http://192.168.1.241/moban/oniui/#avalon.accordion.doc.html
+
 #### 前端注意事项：
 - 禁止写行间样式即 style='.....'
 - 样式用class， js Dom 操作用ID，禁止用ID写样式，同样js中也不要用class操作Dom 
