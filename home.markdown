@@ -45,6 +45,8 @@
 
 - [设置右键](settingmenu)
 
+- [下载监听](downloadAddevenlist)
+
 # 公共函数帮助查询
 
 # [常见问题汇总](questionCollect) 
