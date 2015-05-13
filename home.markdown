@@ -9,7 +9,7 @@
 
 * [新人快速入门](newstar)
 
-* [test ceshi](irltest)
+
 
 ### [发行及升级](versionorupdate)
 ### [PCD引用Linksame页面](pcdaddls)
