@@ -8,7 +8,6 @@
 * [私有盘重置说明](resetPrvate)
 
 * [新人快速入门](newstar)
-* [报销总结](bxiaowangyan)
 
 
 
