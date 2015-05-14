@@ -1,5 +1,11 @@
 # 私有盘系统开发 版本说明
 
+## vision6.1 5-14 系统新增加功能 （还未做成安装盘）
+
+- 新增加dns 动态域名 检测程序 php 版本  /路径  localhost/system/dns/dnns.php?ac=ToDNS
+
+- 增加系统定时更新路径 curl localhost/system/dns/dnns.php?ac=ToDNS
+
 ## vision6.0
 
 - dnspod 改回 /usr/bin/dnspodsh.sh 启动
