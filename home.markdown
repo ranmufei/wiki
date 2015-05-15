@@ -5,6 +5,8 @@
 
 * [私有盘系统开发说明](privateDev)
 
+* [系统定时任务](syscorntab)
+
 * [私有盘重置说明](resetPrvate)
 
 * [新人快速入门](newstar)
