@@ -11,7 +11,7 @@
 ```
 
 
-# /etc/rc.d/rc.local
+# 系统启动加载 /etc/rc.d/rc.local
 
 ``` bash
 #!/bin/sh
