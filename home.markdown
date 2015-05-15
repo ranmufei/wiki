@@ -5,7 +5,7 @@
 
 * [私有盘系统开发说明](privateDev)
 
-* [系统定时任务](syscorntab)
+* [操作系统配置](syscorntab)
 
 * [私有盘重置说明](resetPrvate)
 
