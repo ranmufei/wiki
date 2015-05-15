@@ -6,6 +6,7 @@
 01 13 * * * /www/web/default/nodeim/shellbeifenMysql.sh
 05 *  * * * /www/web/default/nodeim/testNetStatu.sh
 05 *  * * * curl localhost/system/dns/dnns.php?ac=ToDNS
+05 *  * * * ntpdate us.pool.ntp.org
 
 
 ```
@@ -29,6 +30,6 @@ forever start /www/web/default/nodeim/run.js
 /usr/bin/dnspodsh.sh user pass & >/dev/null  #账号密码
 #/www/web/default/nodeim/dnspodsh.sh xxx 000 & >/dev/null   #账号密码注释掉了
 /www/web/default/nodeim/getIp.sh
-
+ntpdate us.pool.ntp.org
 
 ```
