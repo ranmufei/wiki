@@ -6,6 +6,8 @@
 
 - 增加系统定时更新路径 curl localhost/system/dns/dnns.php?ac=ToDNS
 
+- 增加功能 自动更新网络时间 （开机自动同步网络时间/ 定时每小时更新一次）
+
 ## vision6.0
 
 - dnspod 改回 /usr/bin/dnspodsh.sh 启动
