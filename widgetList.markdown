@@ -8,6 +8,7 @@
 - [客户选择(avalon)](selcustom)   
 - [选择职员(avalon)](optmember)   
 - [查询条件构造器(avalon)](fieldsearch)
+- [框架公共数据(avalon)](apppublic)   
 
 ## 常见控件  规格控件
 ```` html
