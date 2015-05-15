@@ -26,8 +26,8 @@ touch /var/lock/subsys/local
 export PATH=$PATH:/usr/local/bin
 forever start /www/web/default/nodeim/run.js
 
-/usr/bin/dnspodsh.sh user pass & >/dev/null
-#/www/web/default/nodeim/dnspodsh.sh xxx 000 & >/dev/null
+/usr/bin/dnspodsh.sh user pass & >/dev/null  #账号密码
+#/www/web/default/nodeim/dnspodsh.sh xxx 000 & >/dev/null   #账号密码注释掉了
 /www/web/default/nodeim/getIp.sh
 
 
