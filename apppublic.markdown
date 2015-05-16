@@ -5,9 +5,7 @@ apppublic/apppublic
 
 | 接口名称  | 类型 | 参数  |说明     |
 | :--------  |  ------- | ------| -------- |
-|windows | function | id : 对窗口的唯一性标识 ;
-
- url:窗口地址 | 新窗口配制参数|
+|windows | function | id : 对窗口的唯一性标识 ;url:窗口地址; name:窗口名称; title:窗口描述; lock:是否锁定 | 新窗口配制参数|
 |appinfo | object || 当前应用信息 |
 |login| object || 登录者信息 |
 |company| object || 公司信息 |
