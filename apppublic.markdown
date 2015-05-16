@@ -11,3 +11,9 @@ apppublic/apppublic
 |company| object || 公司信息 |
 |pages|object|| 分页信息 |
 |others|object||预留接口|
+
+<table>
+    <tr>
+        <td>Foo</td>
+    </tr>
+</table>
