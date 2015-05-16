@@ -5,12 +5,7 @@ apppublic/apppublic
 
 | 接口名称  | 类型 | 参数  |说明     |
 | :--------  |  ------- | ------| -------- |
-|windows | function | 
-<table>
-    <tr>
-        <td>Foo</td>
-    </tr>
-</table> | 新窗口配制参数|
+|windows | function |  | 新窗口配制参数|
 |appinfo | object || 当前应用信息 |
 |login| object || 登录者信息 |
 |company| object || 公司信息 |
