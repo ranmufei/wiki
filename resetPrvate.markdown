@@ -7,6 +7,7 @@
 
  **ip地址/system/?App&m=Index&a=reSetSys**
 
+## 出厂重置
 - 系统重置 /system//?App&m=Index&a=allreset
 
 > 会完全重置为出厂设置 删除所有的信息 用户需要重新激活
