@@ -1,10 +1,10 @@
 # 私有盘系统开发 版本说明
 
-## vision6.1 5-14 系统新增加功能 （还未做成安装盘）
+## vision6.1  系统新增加功能 
 
 - 新增加dns 动态域名 检测程序 php 版本  /路径  localhost/system/dns/dnns.php?ac=ToDNS
 
-- 增加系统定时更新路径 curl localhost/system/dns/dnns.php?ac=ToDNS
+- 增加系统定时更新dns 动态ip curl localhost/system/dns/dnns.php?ac=ToDNS
 
 - 增加功能 自动更新网络时间 （开机自动同步网络时间/ 定时每小时更新一次）
 
