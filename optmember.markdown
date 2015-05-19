@@ -6,7 +6,7 @@
 | :--------  |  ------- | ------| -------- |
 |mix      | string| 1 | 选择的职员数量|
 |width | int| 450  | 组件宽度 |
-|height| int| 250 | 组件高度 |
+|height| int| 250 | 下拉选择panel高度 |
 |expand| boolean| true | 默认是否展开 所有部门(`废弃`)|
 |aline| ele | null | 人员选择框 对齐的对象(`废弃`)|
 |boolBodyClickHide | boolean | true | 点击body其他部分是否关闭组件 (`废弃`)| 
