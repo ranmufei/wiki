@@ -1,6 +1,6 @@
-`<input type="text" ms-widget="optmember" ms-duplex="memberval" />`
+`<div ms-widget="optmember" ms-duplex="memberval" ></div>`
 
-可以使用duplex双关绑定 或用户自己 通过回调处理选择的职员
+可以使用duplex双关绑定 或用户自己 通过回调处理选择的职员 **`目前只支持封闭函数`**
 
 | 参数名称  |     类型|  默认值  |说明     |
 | :--------  |  ------- | ------| -------- |
