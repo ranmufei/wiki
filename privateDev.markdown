@@ -1,5 +1,9 @@
 # 私有盘系统开发 版本说明
 
+## vision6.2 
+
+-  给 ngix添加端口监听 8082 .有了该功能以后不需要做路由器映射了 只需要设置 dmz 主机即可。__[重大简化改进]__(#000000)
+
 ## vision6.1  系统新增加功能 
 
 - 新增加dns 动态域名 检测程序 php 版本  /路径  localhost/system/dns/dnns.php?ac=ToDNS
