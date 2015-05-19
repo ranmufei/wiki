@@ -4,6 +4,30 @@
 
 -  给 ngix添加端口监听 8082 .有了该功能以后不需要做路由器映射了 只需要设置 dmz 主机即可。
 
+``` bash
+     server {
+        listen       8082;
+        listen       80;
+        server_name  localhost;
+        root /www/web/default;
+        index index.php index.html index.htm;
+
+
+        location ~ \.php$ {
+		proxy_pass http://127.0.0.1:88;
+		include naproxy.conf;
+        }
+        location ~ .*\.(gif|jpg|jpeg|png|bmp|swf)$ {
+                expires      30d;
+        }
+
+        location ~ .*\.(js|css)?$ {
+                expires      12h;
+        }
+    }  
+
+```
+
 ## vision6.1  系统新增加功能 
 
 - 新增加dns 动态域名 检测程序 php 版本  /路径  localhost/system/dns/dnns.php?ac=ToDNS
