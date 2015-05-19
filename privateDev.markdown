@@ -2,7 +2,11 @@
 
 ## vision6.2 
 
--  给 ngix添加端口监听 8082 .有了该功能以后不需要做路由器映射了 只需要设置 dmz 主机即可。
+
+
+-  给 ngix添加端口监听 8082 .有了该功能以后不需要做路由器映射了 只需要设置 dmz 主机即可。 **很牛逼的更新**
+
+
 
 /www/wdlinux/nginx/conf/vhost/00000.default.conf
 
