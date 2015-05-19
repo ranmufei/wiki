@@ -12,4 +12,5 @@
 |boolBodyClickHide | boolean | true | 点击body其他部分是否关闭组件 (`废弃`)| 
 |onInit|function|null|组件初始化后的回调|
 |itemChange| function| {} | 选中队列发生改变的回调 |
+|getTemplate| function| |修改模板 |
 
