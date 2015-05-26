@@ -9,9 +9,9 @@
 查看现金流 支付 记录
  ![QQ截图20150526160759](http://192.168.1.240/uploads/ranmufei/apps/57777815be/QQ%E6%88%AA%E5%9B%BE20150526160759.png)
 
-| 参数名称  |     类型|  默认值  |说明     |
-| :--------  |  ------- | ------| -------- |
-|mix      | string| 1 | 选择的客户数量|
+| 参数名称  |     类型|说明     |
+| | ------| -------- |
+|amount| string| 选择的客户数量|
 |isparent | boolean| false  | 是否只允许选择顶级公司 |
 |sureCallback| function | null | 选择客户确认后的回调函数 |
 |onInit| function| null | 组件初始化后的回调 |
