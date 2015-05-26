@@ -3,14 +3,6 @@
 
 <strong>接口列表</strong>
 
-| 参数名称  |     参数|  返回值   |
-| :--------  |  ------- | ------| -------- |
-|addData |  $oid:唯一标识源订单的id值 , 通过此id能查找到你的订单详情 $amount:总金额  $custom:客户ID  $appname : 应用key(一般情况 系统会判断)  $remark : 备注(貌似一般也不用填写)  | 失败返回false 成功返回对应的现金流ID(不需要你保存) |
-|addDataNoCustom| int| 450  | 组件宽度 |
-|height| int| 250 | 下拉选择panel高度 |
-|expand| boolean| true | 默认是否展开 所有部门(`废弃`)|
-|aline| ele | null | 人员选择框 对齐的对象(`废弃`)|
-|boolBodyClickHide | boolean | true | 点击body其他部分是否关闭组件 (`废弃`)| 
-|onInit|function|null|组件初始化后的回调|
-|itemChange| function| {} | 选中队列发生改变的回调 |
-|getTemplate| function| |修改模板 |
+新增 现金流
+![QQ截图20150526152827](http://192.168.1.240/uploads/ranmufei/apps/7014d2b354/QQ%E6%88%AA%E5%9B%BE20150526152827.png)
+ 
