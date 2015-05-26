@@ -1,6 +1,6 @@
 `<div ms-widget="member" ms-duplex="memberval" ></div>`
 
-可以使用duplex双关绑定 或用户自己 通过回调处理选择的职员 (客户)数据量<500,可根据拼音、首字母搜索。 **`目前只支持封闭函数`**
+可以使用duplex双关绑定 或用户自己 通过回调处理选择的职员 (客户)数据量<500,可根据拼音、首字母搜索。 **`目前只支持html又标签`**
 
 define(['member/member'], function(){})
 
