@@ -52,7 +52,7 @@
 - [下载监听](downloadAddevenlist)
 
 # 应用接口
-- [财物室](app-cws)
+- [现金流](app-cws)
 
 # 公共函数帮助查询
 
