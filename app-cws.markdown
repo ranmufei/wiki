@@ -9,12 +9,11 @@
 查看现金流 支付 记录
  ![QQ截图20150526160759](http://192.168.1.240/uploads/ranmufei/apps/57777815be/QQ%E6%88%AA%E5%9B%BE20150526160759.png)
 
-| 参数名称  |     类型|说明     |
+| 参数名称  |     类型|说明|
 |:-------- | ------| -------- |
-|amount| string| 选择的客户数量|
-|isparent | boolean| false  | 是否只允许选择顶级公司 |
-|sureCallback| function | null | 选择客户确认后的回调函数 |
+|amount| string| 现金流总金额|
+|pay| string| 已付 |
+|remain| string | 未付 |
 |onInit| function| null | 组件初始化后的回调 |
-| triTemplate | string | null | 触发组件的模块 |
-|dialog| object | {} | 尽量不要修改该参数 | 
-|smartgrid| object | {} | 尽量不要修改该参数 |
+|opt | int | 付款/收款(暂时不需要) |
+|logs| array(  ) | 付款记录 | 
