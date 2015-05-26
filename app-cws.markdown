@@ -3,10 +3,10 @@
 
 <strong>接口列表</strong>
 
-| 参数名称  |     参数|  默认值  |说明     |
+| 参数名称  |     参数|  返回值   |
 | :--------  |  ------- | ------| -------- |
-|addData | $oid:唯一标识源订单的id值 ,<br/> 通过此id能查找到你的订单详情  $amount:总金额  $custom:客户ID  $appname : 应用key(一般情况 系统会判断)  $remark : 备注(貌似一般也不用填写)  | 1 | 选择的职员数量|
-|width | int| 450  | 组件宽度 |
+|addData | $oid:唯一标识源订单的id值 ,<br/> 通过此id能查找到你的订单详情  $amount:总金额  $custom:客户ID  $appname : 应用key(一般情况 系统会判断)  $remark : 备注(貌似一般也不用填写)  | 失败返回false 成功返回对应的现金流ID(不需要你保存) |
+|addDataNoCustom| int| 450  | 组件宽度 |
 |height| int| 250 | 下拉选择panel高度 |
 |expand| boolean| true | 默认是否展开 所有部门(`废弃`)|
 |aline| ele | null | 人员选择框 对齐的对象(`废弃`)|
