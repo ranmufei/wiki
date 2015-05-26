@@ -16,4 +16,4 @@
 |remain| string | 未付 |
 |onInit| function| null | 组件初始化后的回调 |
 |opt | int | 付款/收款(暂时不需要) |
-|logs| array(  ) | 付款记录 | 
+|logs| array[ 'amount'/*金额*/ , 'inputtime'/*时间*/ , 'username'/*操作人*/ ] | 付款记录  | 
