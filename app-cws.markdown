@@ -5,7 +5,7 @@
 
 | 参数名称  |     参数|  返回值   |
 | :--------  |  ------- | ------| -------- |
-|addData | $oid:唯一标识源订单的id值 ,<br/><br/> 通过此id能查找到你的订单详情  $amount:总金额  $custom:客户ID  $appname : 应用key(一般情况 系统会判断)  $remark : 备注(貌似一般也不用填写)  | 失败返回false 成功返回对应的现金流ID(不需要你保存) |
+|addData | <p>$oid:唯一标识源订单的id值 ,</p> 通过此id能查找到你的订单详情  $amount:总金额  $custom:客户ID  $appname : 应用key(一般情况 系统会判断)  $remark : 备注(貌似一般也不用填写)  | 失败返回false 成功返回对应的现金流ID(不需要你保存) |
 |addDataNoCustom| int| 450  | 组件宽度 |
 |height| int| 250 | 下拉选择panel高度 |
 |expand| boolean| true | 默认是否展开 所有部门(`废弃`)|
