@@ -51,6 +51,14 @@
 |[下载监听](downloadAddevenlist)| js | 软件下载文件保存地址接口 |
 
 
+|[客户选择(avalon)](selcustom) | avalon | avalon组件选择客户 |
+|[选择职员(avalon)](member)   | Avalon | 选择职员 |
+|[查询条件构造器(avalon)](fieldsearch)| Avalon | 查询条件构造器 |
+|[框架公共数据(avalon)](apppublic)| Avalon | 框架公共数据 |
+
+
+
+
 # 应用接口
 - [现金流](app-cws)
 
