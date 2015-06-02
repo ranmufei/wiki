@@ -49,8 +49,6 @@
 |[商品选择控件](choiceProduct)| thinkphp | thinkphp 组件选择进销存产品 |
 |[设置右键](settingmenu)| js | js右键下载 |
 |[下载监听](downloadAddevenlist)| js | 软件下载文件保存地址接口 |
-
-
 |[客户选择(avalon)](selcustom) | avalon | avalon组件选择客户 |
 |[选择职员(avalon)](member)   | Avalon | 选择职员 |
 |[查询条件构造器(avalon)](fieldsearch)| Avalon | 查询条件构造器 |
