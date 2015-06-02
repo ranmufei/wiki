@@ -44,15 +44,17 @@
 
 | 组件名称 |  类型  |  描述  |
 | :-- | ----:| :--: |
+|[新建销售订单(avalon)]| avalon | 创建销售订单 Avalon 组件 |
+|[客户选择(avalon)](selcustom) | avalon | avalon组件选择客户 |
+|[选择职员(avalon)](member)   | Avalon | 选择职员 |
+|[查询条件构造器(avalon)](fieldsearch)| Avalon | 查询条件构造器 |
+|[框架公共数据(avalon)](apppublic)| Avalon | 框架公共数据 |
 |[选择发货地址](choiceAddressWidgit)| thinkphp | thinkphp 组件选择发货地址 |
 |[汉字转拼音码](fz2py)| js + avalon | thinkphp 汉字转拼音首字母 |
 |[商品选择控件](choiceProduct)| thinkphp | thinkphp 组件选择进销存产品 |
 |[设置右键](settingmenu)| js | js右键下载 |
 |[下载监听](downloadAddevenlist)| js | 软件下载文件保存地址接口 |
-|[客户选择(avalon)](selcustom) | avalon | avalon组件选择客户 |
-|[选择职员(avalon)](member)   | Avalon | 选择职员 |
-|[查询条件构造器(avalon)](fieldsearch)| Avalon | 查询条件构造器 |
-|[框架公共数据(avalon)](apppublic)| Avalon | 框架公共数据 |
+
 
 
 
