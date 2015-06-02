@@ -8,7 +8,7 @@
 
   > 引入 Avalon组件地址  creatsellorder/creatorder
 
-   在线预览案列 http://www.apps.com/index.php?app=Invoicimg&m=Sale&a=a
+   [在线预览案列](http://www.apps.com/index.php?app=Invoicimg&m=Sale&a=a) http://www.apps.com/index.php?app=Invoicimg&m=Sale&a=a
 
 ``` javascript
 require(['avalon','creatsellorder/creatorder'],function(avalon,creatorder){
