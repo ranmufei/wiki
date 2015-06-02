@@ -44,8 +44,11 @@
 
 | 组件名称 |  类型  |  描述  |
 | :-- | ----:| :--: |
-|选择发货地址| thinkphp | thinkphp 组件选择发货地址 |
-
+|[选择发货地址](choiceAddressWidgit)| thinkphp | thinkphp 组件选择发货地址 |
+|[汉字转拼音码](fz2py)| thinkphp | thinkphp 汉字转拼音首字母 |
+|[商品选择控件](choiceProduct)| thinkphp | thinkphp 组件选择进销存产品 |
+|[设置右键](settingmenu)| thinkphp | js右键下载 |
+|[下载监听](downloadAddevenlist)| thinkphp | 软件下载文件保存地址接口 |
 
 - [选择发货地址](choiceAddressWidgit)
 
