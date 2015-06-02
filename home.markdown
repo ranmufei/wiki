@@ -41,6 +41,12 @@
 
 # [私有盘控件](widgetList)
 
+
+| 组件名称 |  类型  |  描述  |
+|-|-|-|
+|选择发货地址| thinkphp | thinkphp 组件选择发货地址 |
+
+
 - [选择发货地址](choiceAddressWidgit)
 
 - [汉字转拼音码](fz2py)
