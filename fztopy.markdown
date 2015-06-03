@@ -1,4 +1,4 @@
-汉字转拼音模型
+# 汉字转拼音模型（PHP）
 
 ## 模型 (PublicPinyinModel.class.php)
 
