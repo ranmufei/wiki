@@ -2,7 +2,7 @@
 
 ## 模型 (PublicPinyinModel.class.php)
 
-### - TransformWithoutTone 转成带无声调的汉语拼音 model('PublicPinyin')->TransformWithoutTone($input_char,$delimiter='',$outside_ignore=true)
+### - 转成带无声调的汉语拼音 model('PublicPinyin')->TransformWithoutTone($input_char,$delimiter='',$outside_ignore=true)
 ```` php
 ` /*
 `	* 转成带无声调的汉语拼音
@@ -11,7 +11,7 @@
 `	* param $outside_ignore  Boolean     是否忽略非汉字内容
 `	*/	
 ````
-### - TransformUcwords 转成汉语拼音首字母 model('PublicPinyin')->TransformUcwords($input_char,$delimiter='')
+### - 转成汉语拼音首字母 model('PublicPinyin')->TransformUcwords($input_char,$delimiter='')
 ```` php
 /*
 	* 转成汉语拼音首字母
@@ -19,7 +19,7 @@
 	* param $delimiter  String   转换之后拼音之间分隔符
 	*/	
 ````
-### - TransformWithTone 转成带有声调的汉语拼音 model('PublicPinyin')->TransformWithTone($input_char,$delimiter=' ',$outside_ignore=false)
+### - 转成带有声调的汉语拼音 model('PublicPinyin')->TransformWithTone($input_char,$delimiter=' ',$outside_ignore=false)
 ```` php
 /*
 	* 转成带有声调的汉语拼音
