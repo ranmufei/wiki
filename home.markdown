@@ -21,7 +21,10 @@
  
    - [技嘉主板 centos 系统无法启动处理](centosDoc)
 
-### [公共模型](staticmodel)
+## [公共模型](staticmodel)
+
+* [汉字转拼音PHP](fztopy)
+
 
 # 接口
 ## [移动端API列表](mobileAPI)
