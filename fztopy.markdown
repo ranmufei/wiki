@@ -1,8 +1,7 @@
 汉字转拼音模型
 
 #### 模型 (PublicPinyinModel.class.php)
-````
-````
+
 - TransformWithoutTone 转成带无声调的汉语拼音 model('PublicPinyin')->TransformWithoutTone($input_char,$delimiter='',$outside_ignore=true)
 ```` php
 ` /*
