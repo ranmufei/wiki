@@ -32,4 +32,4 @@
 	*/
 ````
 
-## 测试地址：http://www.apps.com/index.php?app=Kaoqin&m=Index&a=test
+## 测试地址：http://www.apps.com/index.php?app=Kaoqin&m=Index&a=test(http://www.apps.com/index.php?app=Kaoqin&m=Index&a=test)
