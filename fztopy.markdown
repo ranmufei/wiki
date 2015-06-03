@@ -1,14 +1,16 @@
 汉字转拼音模型
 
 #### 模型 (PublicPinyinModel.class.php)
+````
+````
 - TransformWithoutTone 转成带无声调的汉语拼音 model('PublicPinyin')->TransformWithoutTone($input_char,$delimiter='',$outside_ignore=true)
 ```` php
-/*
-	* 转成带无声调的汉语拼音
-	* param $input_char String  需要转换的汉字
-	* param $delimiter  String   转换之后拼音之间分隔符
-	* param $outside_ignore  Boolean     是否忽略非汉字内容
-	*/	
+` /*
+`	* 转成带无声调的汉语拼音
+`	* param $input_char String  需要转换的汉字
+`	* param $delimiter  String   转换之后拼音之间分隔符
+`	* param $outside_ignore  Boolean     是否忽略非汉字内容
+`	*/	
 ````
 - TransformUcwords 转成汉语拼音首字母 model('PublicPinyin')->TransformUcwords($input_char,$delimiter='')
 ```` php
