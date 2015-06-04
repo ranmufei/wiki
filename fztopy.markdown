@@ -33,3 +33,12 @@
 ````
 
 ## 测试地址：http://www.apps.com/index.php?app=Kaoqin&m=Index&a=test
+
+
+
+# 备注
+### 可以通过 model('Member')->get_pinyin("小玲");
+```` php
+* 返回  $data数组
+* $data['spelling']全拼和$data['abbreviation']首字母，根据需要调用
+````
