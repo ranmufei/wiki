@@ -10,10 +10,8 @@
 * [通讯录用户详情](contacts_user_message)
 
 ### [通知公告](notice)
-
-### [工作流](workflow)
-
-### [客户管理](customer)
+* [公告列表](notice_list)
+* [公告详情](notice_message)
 
 ### 网盘
 
@@ -46,3 +44,7 @@
 
 * [公司考勤时间](companySett)
 * [移动考勤](playKa)
+
+### [工作流](workflow)
+
+### [客户管理](customer)
