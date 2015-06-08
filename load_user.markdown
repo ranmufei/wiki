@@ -30,8 +30,9 @@
 |status| success/error | string| 请求状态 |
 |info|array | array | 返回数据 数组|
 |:----|----|----|-----|
-|statu|0/1|int|接口请求状态 失败/成功|
-|infos|请求成功|string|状态信息说明|
-|nowtime|2013-09-32|date|请求后返回的时间|
+|errorDesc| |String|错误信息|
+|uid||string|用户id|
+|cid||String|用户所在的公司id|
+|domain||String|用户所在的公司网址|
 
 
