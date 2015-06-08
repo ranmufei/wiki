@@ -11,8 +11,9 @@ http://www.apps.com/index.php?app=Comtxl&m=MobileApi&a=phoneBook
 
 | 参数名称  |必填|     说明      |
 |------|-----|------|
-| user     | 是 |   用户登录名   |
-| password | 是 |   用户登录密码 |
+| departId     | 否 |   部门id   |
+| p | 否 |   本接口传入此参数表示分页,不传表示默认第一页 |
+| t(暂时未加入) | 是 |   本接口传入此参数表示分页,不传表示默认第一页 |
 
 
 ### **返回结果**
@@ -21,8 +22,10 @@ http://www.apps.com/index.php?app=Comtxl&m=MobileApi&a=phoneBook
 |status     |success/error |string |请求状态         |
 |info       |array         |array  |返回数据 数组    |
 |-----      |-----         |-----  |-----           |
-|errorDesc  |              |String |错误信息         |
-|uid        |              |string |用户id           |
-|cid        |              |String |用户所在的公司id  |
-|domain     |              |String |用户所在的公司网址 |
+|uid        |              |String |员工id  |
+|name       |              |string |员工姓名   |
+|postName   |              |String |员工职位名  |
+|spelling   |              |String |员工姓名拼音全拼(小写) |
+|abbreviation |            |String |员工姓名拼音首字母(大写) |
+|change	(暂时未加入) |      |boolean|true有修改 ，false没有修改 |
 
