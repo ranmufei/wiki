@@ -20,4 +20,6 @@ http://www.apps.com/index.php?app=Wangpan&m=MobileApi&a=delete
 |字段       |值             |类型    |说明        |
 | --------- |--------       |--------|--------    |
 |status     |success/error  |string  |返回状态    |
-|info       |               |array   |提示信息    |
+|info       |               |array   |返回数据 数组    |
+|-----|----|-----|----|
+|info|   |string|提示信息|
