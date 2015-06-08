@@ -20,6 +20,6 @@ get/post
 |-----      |-----         |-----  |-----           |
 |id  |              |String |公告id         |
 |title        |              |string |公告标题           |
-|inputtime        |              |String |公告创建时间  |
-|valid     |              |String |0:过期 1:有效期限 |
+|worktime        |              |String |公告开始时间  |
+|name        |              |String |发布人  |
 
