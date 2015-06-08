@@ -13,7 +13,7 @@ http://www.apps.com/index.php?app=Core&m=Mclient&a=sypLogin
 ### **请求参数**
 
 | 参数名称  |必填|     说明      |
-|:         |----|  :|
+|:-         |----|  -:|
 | user     | 是 |   用户登录名   |
 | password | 是 |   用户登录密码 |
 
