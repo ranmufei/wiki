@@ -17,9 +17,8 @@ get/post
 |status     |success/error |string |请求状态         |
 |info       |array         |array  |返回数据 数组    |
 |-----      |-----         |-----  |-----           |
-|id  |              |String |公告id         |
 |title        |              |string |公告标题           |
-|inputtime     |              |String |创建时间 |
+|worktime     |              |String |开始时间 |
 |outtime     |              |String |过期时间 |
 |content     |              |String |公告详情 |
-|down_id     |              |String |附件id |
+|name     |              |String |发布人 |
