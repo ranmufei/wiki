@@ -20,9 +20,9 @@ http://www.apps.com/index.php?app=Wangpan&m=MobileApi&a=lists
 | --------- |--------      |--------|--------       |
 |info       |array         |array  |返回数据 数组    |
 |-----      |-----         |-----  |-----           |
-|id         |              |int    |员工id  |
-|name       |              |string |员工姓名   |
-|size       |              |String |员工职位名  |
-|inputtime  |              |int    |员工姓名拼音全拼(小写) |
-|file_extension |          |String |员工姓名拼音首字母(大写) |
+|id         |              |int    |文件（夹）唯一ID  |
+|name       |              |string |文件（夹）名称   |
+|size       |              |String |文件大小  |
+|inputtime  |              |int    |文件（夹）创建时间 |
+|file_extension |          |String |文件扩展名 |
 |type       |              |int    |1=文件 2=文件夹 |
