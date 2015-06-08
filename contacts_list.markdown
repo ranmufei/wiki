@@ -1,11 +1,11 @@
 ### **请求接口**
-/index.php?app= Comtxl &m=MobileApi&a=phoneBook
+/index.php?app=Comtxl&m=MobileApi&a=phoneBook
 
 ### **请求方式**
 get
 
 ### **公网测试**
-http://www.apps.com/index.php?app= Comtxl &m=MobileApi&a=phoneBook
+http://www.apps.com/index.php?app=Comtxl&m=MobileApi&a=phoneBook
 
 ### **请求参数**
 
