@@ -1,20 +1,20 @@
 # 用户登录请求
 
->请求接口
+请求接口
 
-> /index.php?app=Core&m=Mclient&a=sypLogin
+ /index.php?app=Core&m=Mclient&a=sypLogin
 
-> 请求方式 
+ 请求方式 
 
-> post
+ post
 
-> 开发测试 
+ 开发测试 
 
-> http://kaifa.linksame.com/index.php?app=Core&m=Mclient&a=sypLogin
+ http://kaifa.linksame.com/index.php?app=Core&m=Mclient&a=sypLogin
 
-> 公网测试  
+ 公网测试  
 
-> http://www.apps.com/index.php?app=Core&m=Mclient&a=sypLogin
+ http://www.apps.com/index.php?app=Core&m=Mclient&a=sypLogin
 
 ## 请求参数
 
