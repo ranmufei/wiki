@@ -18,6 +18,7 @@
 * [文件上传](disc_uploadify)
 * [目录创建](disc_create_folder)
 * [文件（夹）删除](disc_delete)
+* [文件（夹）重命名](disc_rename)
 
 ### 进销存
 * [产品列表](productList)
