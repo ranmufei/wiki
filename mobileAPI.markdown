@@ -14,7 +14,7 @@
 * [公告详情](notice_message)
 
 ### 网盘
-* [网盘列表](urlwajngp)
+* [网盘列表](disc_lists)
 * [网盘下载地址](doabnkoadurl)
 
 
