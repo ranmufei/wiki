@@ -17,6 +17,6 @@ http://www.apps.com/index.php?app=Wangpan&m=MobileApi&a=uploadify
 
 ### **返回结果**
 |字段       |值             |类型    |说明        |
-| --------- |--------       |--------|--------    |
-|status     |success/error  |string  |请求状态    |
+| --------- |--------       |--------|--------   |
+|status     |success/error  |string  |返回状态    |
 |info       |               |string  |提示信息    |
