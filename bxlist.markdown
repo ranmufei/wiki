@@ -1,9 +1,9 @@
 # 报销列表
 ## 请求接口 
 
->  index.php?app=Account&m=ExpenseApi&a=pjlist
+> * index.php?app=Account&m=ExpenseApi&a=pjlist
 
->  method : get/post
+> * method : get/post
 
 > *测试http://www.apps.com/index.php?app=Account&m=ExpenseApi&a=pjlist&uid=1&status=0
 ## 参数
