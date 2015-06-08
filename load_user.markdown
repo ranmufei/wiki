@@ -2,7 +2,7 @@
 
 > 请求接口 
 
-> */index.php?app=Core&m=Mclient&a=sypLogin*
+> /index.php?app=Core&m=Mclient&a=sypLogin
 
 >  *请求方式* post
 
