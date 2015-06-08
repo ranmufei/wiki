@@ -14,9 +14,9 @@
 * [公告详情](notice_message)
 
 ### 网盘
-* [目录列表](disc_lists)
+* [文件夹列表](disc_lists)
 * [文件上传](disc_uploadify)
-* [目录创建](disc_create_folder)
+* [文件夹创建](disc_create_folder)
 * [文件（夹）删除](disc_delete)
 * [文件（夹）重命名](disc_rename)
 
