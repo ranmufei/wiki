@@ -2,10 +2,7 @@
 /index.php?app=Home&m=MobileApi&a=memberInfo
 
 ### **请求方式**
-get
-
-### **公网测试**
-http://www.apps.com/index.php?app=Home&m=MobileApi&a=memberInfo&memberId=
+get/post
 
 ### **请求参数**
 
