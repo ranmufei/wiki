@@ -29,7 +29,7 @@
 |:----|----|----|-----|
 |status| success/error | string| 请求状态 |
 |info|array | array | 返回数据 数组|
-|:----|----|-|----|
+|:||-||
 |errorDesc| |String|错误信息|
 |uid|     |string|用户id|
 |cid|     |String|用户所在的公司id|
