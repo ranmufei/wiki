@@ -19,7 +19,6 @@ get/post
 |-----      |-----         |-----  |-----           |
 |id  |              |String |公告id         |
 |title        |              |string |公告标题           |
-|limits        |              |String |权限范围  |
 |inputtime     |              |String |创建时间 |
 |outtime     |              |String |过期时间 |
 |content     |              |String |公告详情 |
