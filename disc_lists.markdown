@@ -18,7 +18,6 @@ http://www.apps.com/index.php?app=Wangpan&m=MobileApi&a=lists
 ### **返回结果**
 |字段       |值             |类型    |说明           |
 | --------- |--------      |--------|--------       |
-|status     |success/error |string |请求状态         |
 |info       |array         |array  |返回数据 数组    |
 |-----      |-----         |-----  |-----           |
 |id         |              |int    |员工id  |
