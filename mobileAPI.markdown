@@ -2,14 +2,14 @@
 
 >    私有盘的移动端的API接口以后统一放到这里
 
-### [登陆]
+### 登陆
 * [用户登陆](load_user)
 
-### [通讯录]
+### 通讯录
 * [通讯录列表](contacts_list)
 * [通讯录用户详情](contacts_user_message)
 
-### [通知公告]
+### 通知公告
 * [公告列表](notice_list)
 * [公告详情](notice_message)
 
