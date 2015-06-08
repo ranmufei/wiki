@@ -16,7 +16,7 @@
 ### 网盘
 * [目录列表](disc_lists)
 * [文件上传](disc_uploadify)
-
+* [目录创建](disc_create_folder)
 
 ### 进销存
 * [产品列表](productList)
