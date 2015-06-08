@@ -6,7 +6,7 @@
 * [用户登陆](load_user)
 
 ### 通讯录
-* [通讯录列表](一)
+* [通讯录列表](contacts_list)
 * [通讯录用户详情](contacts_user_message)
 
 ### 通知公告
