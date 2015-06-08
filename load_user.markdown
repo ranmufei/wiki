@@ -4,9 +4,6 @@
 ### **请求方式**
 post
 
-### **开发测试**
-http://kaifa.linksame.com/index.php?app=Core&m=Mclient&a=sypLogin
-
 ### **公网测试**
 http://www.apps.com/index.php?app=Core&m=Mclient&a=sypLogin
 
