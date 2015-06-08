@@ -1,6 +1,6 @@
 # 用户登录请求
 
-> 请求接口 // /index.php?app=Core&m=Mclient&a=sypLogin
+> 请求接口 \\ /index.php?app=Core&m=Mclient&a=sypLogin
 
 > 请求方式 
 
