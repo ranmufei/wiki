@@ -11,13 +11,16 @@
 | :-------- | :--------:| :-- |
 |uid| 是|用户id|
 |money |是|金额|
-|file|是||
+|file|是|上传图片的数据|
 |isreceipt| 是|是否是发票，1为是,2为否|
 |documentname| 是|票据名称|
 |cateid|  是|类别名称|
 |projectid|  是|项目名称|
 |docbz|  否|备注|
 
+``` javascript
+<input type="file"  id="file">
+var file = document.getElementById("file").files[0];
 
 ## 返回结果
 |字段 |  值| 类型 | 说明|
