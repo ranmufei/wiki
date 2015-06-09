@@ -19,8 +19,8 @@
 |documentid||string|票据号|
 |money ||string|金额|
 |fileid||string|图片的路径:”./Uploads/2015/0515/17/5555bad8752ce.png”|
-|userid||int|员工|
-|status||int|状态|
+|userid||string|员工|
+|status||string|状态|
 |time  ||string|票据的时间|
 |isreceipt| 是/否 |sring|是否为票据|
 |documentname|  |string|票据名称|
