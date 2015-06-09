@@ -27,7 +27,7 @@
 |cateid|  |string|类别名称|
 |projectid|  |string|项目名称|
 |docbz|  |string|备注|
-|docbz|  |string|审核意见|
+|audityz|  |string|审核意见|
 
 
 ### 实例
