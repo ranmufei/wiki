@@ -15,19 +15,19 @@
 ## 返回结果
 |字段 |  值| 类型 | 说明|
 |:----|----|----|-----|
-|pj|array |array|数组|
-|  yj||int|yj为1时显示yjian这个字段|
-|  statu||int|statu为1时就有审核框和审核意见|
-|  data||array|报销票据的数据（为空就没有数据)|
-|    documentid||string|票据号|
-|    money ||string|金额|
-|    fileid||string|图片的路径:”./Uploads/2015/0515/17/5555bad8752ce.png”|
-|    time  ||string|票据的时间|
-|    isreceipt| 是/否 |sring|是否为票据|
-|    documentname|  |string|票据名称|
-|    cateid|  |string|类别名称|
-|    projectid|  |string|项目名称|
-|    docbz|  |string|备注|
+|一级pj|array |array|数组|
+|二级yj||int|yj为1时显示yjian这个字段|
+|二级statu||int|statu为1时就有审核框和审核意见|
+|二级data||array|报销票据的数据（为空就没有数据)|
+|三级documentid||string|票据号|
+|三级money ||string|金额|
+|三级fileid||string|图片的路径:”./Uploads/2015/0515/17/5555bad8752ce.png”|
+|三级time  ||string|票据的时间|
+|三级isreceipt| 是/否 |sring|是否为票据|
+|三级documentname|  |string|票据名称|
+|三级cateid|  |string|类别名称|
+|三级projectid|  |string|项目名称|
+|三级docbz|  |string|备注|
 
 
 ### 实例
