@@ -1,17 +1,6 @@
 >    这是一个文档系统 以后 可以在这里发布接口 和分享一些有用的技术资料，欢迎大家一起更新
 
 
-### 流程图
-```flow
-st=>start: Start
-e=>end
-op=>operation: My Operation
-cond=>condition: Yes or No?
-
-st->op->cond
-cond(yes)->e
-cond(no)->op
-```
 # 开发帮助
 
 
