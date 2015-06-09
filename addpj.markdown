@@ -1,7 +1,7 @@
 # 新建票据的上传
 ## 请求接口 
 
-> /index.php?app=Account&m=ExpenseApi&a=passbx
+> /index.php?app=Account&m=ExpenseApi&a=addpj
 
 >  method : post
 
