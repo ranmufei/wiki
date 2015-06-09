@@ -9,8 +9,13 @@ HTML中：`<a href="#" ms-widget="upload">上传文件</a>` ,define依赖define(
 |num|int|50|一次上传文件数量|
 |allow|string| 云盘后台设置 |允许的文件类型 如'jpg,jpeg,png'|
 |filesize|int| 云盘后台设置 |允许的单文件最大值 目前只支持bit单位即如果限定1M应是1*1024*1024|
-|onInit|function|  |组件初始化回调|
+|formdata|object||要上传到后台的参数，因为上传服务器地址一般不会用到，所以此参数一般不会用到|
+|serverurl|string|''|上传提交地址(一般网盘可能会用到)|
+|responseMethod|function|null|配合serverurl接口使用,上专成功的回调函数, 参数为response（返回值），false上传失败 否则程序员要返回上传成功后自己要用的数据 |
+|trigger|boolean|true|点击组件element是否弹出上传组件|
+|onInit|function|  |组件初始化回调，|
 |width|int|670|弹出框宽度|
 |height|int|410|弹出框高度|
 |completeMethod|function|  |用户点击完成上传的回调。|
-|globalMethods|function||开发者自定义上传UI的回调,估计现在不会用的，组件已经通过该函数定制了两套Ui，‘simple’及‘image'|
+|globalMethods|function||开发者自定义上传UI的回调,估计现在不会用的，组件已经通过该回调函数定制了两套Ui，‘simple’及‘image'|
+||||
