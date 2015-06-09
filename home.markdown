@@ -71,6 +71,7 @@ cond(no)->op
 |[商品选择控件](choiceProduct)| thinkphp | thinkphp 组件选择进销存产品 |
 |[设置右键](settingmenu)| js | js右键下载 |
 |[下载监听](downloadAddevenlist)| js | 软件下载文件保存地址接口 |
+|[上传组件](upload)|js|以webuploader为核心的上传组件|
 
 
 
