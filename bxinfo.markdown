@@ -36,11 +36,21 @@
 |二级money||string|金额|
 |二级userid||string|申请人|
 |二级estatus||string|状态|
-|二级time||data|票据的时间|
+|二级time||date|票据的时间|
 |二级expensename||string|报销名称|
 |二级bz||string|备注|
-|二级yjian||string审核人意见|
+|二级yjian||string|审核人意见|
 
+|一级history|array |array|记录数组|
+|----|----|----|-----|
+|二级cwu||array |付款记录数组|
+|三级amount|  |string|金额|
+|三级inputtime|  |string|时间|
+|三级username|  |string|操作人|
+|二级his||array|审批记录|
+|三级time|  |string|时间|
+|三级inputtime|  |userid|操作人|
+|三级status|  |string|状态|
 
 ### 实例
 
