@@ -4,7 +4,6 @@
 > /index.php?app=Account&m=ExpenseApi&a=passbx
 
 >  method : post
-> input type='file'  id='file' var file = document.getElementById("file").files[0]
 
 ## 参数
 
