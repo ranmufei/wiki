@@ -6,9 +6,9 @@ HTML中：`<a href="#" ms-widget="upload">上传文件</a>` ,define依赖define(
 | 配制参数 |  类型| 默认值 |  描述  |
 | :-- | :-- | ----:| :--: |
 |`mode`|string|'simple'|上传UI主题,目前默认'simple'及'image'|
-|completeMethod|function|  |用户点击完成上传的回调。|
-|num|int|50|一次上传文件数量|
-|allow|string| 云盘后台设置 |允许的文件类型 如'jpg,jpeg,png'|
+|`completeMethod`|function|  |用户点击完成上传的回调。|
+|`num`|int|50|一次上传文件数量|
+|`allow`|string| 云盘后台设置 |允许的文件类型 如'jpg,jpeg,png'|
 |filesize|int| 云盘后台设置 |允许的单文件最大值 目前只支持bit单位即如果限定1M应是1*1024*1024|
 |formdata|object||要上传到后台的参数，配套serverurl参数使用，否则不意义|
 |serverurl|string|''|上传提交地址(一般网盘可能会用到)|
