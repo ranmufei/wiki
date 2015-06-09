@@ -24,8 +24,8 @@
 |id| |int|报销id|
 |expenseid||string|报销号|
 |money ||string|金额|
-|userid||int|员工|
-|estatus||int|状态|
+|userid||string|员工|
+|estatus||string|状态|
 |time  ||string|报销的时间|
 |expensename|  |string|报销名称|
 
