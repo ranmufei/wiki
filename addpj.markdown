@@ -4,9 +4,10 @@
 > /index.php?app=Account&m=ExpenseApi&a=passbx
 
 >  method : post
+> input type='file'  id='file' var file = document.getElementById("file").files[0]
 
 ## 参数
-> input type='file'  id='file' var file = document.getElementById("file").files[0]
+
 | 参数名称      |    必填 | 说明  |
 | :-------- | :--------:| :-- |
 |uid| 是|用户id|
