@@ -4,7 +4,7 @@
 HTML中：`<a href="#" ms-widget="upload">上传文件</a>` ,define依赖define(['upload/upload'])  
 
 | 配制参数 |  类型| 默认值 |  描述  |
-| :-- | ----:| :--: |
+| :-- | :-- | ----:| :--: |
 |[新建销售订单(avalon)](creatSaleOrder)| avalon | 创建销售订单 Avalon 组件 |
 |[客户选择(avalon)](selcustom) | avalon | avalon组件选择客户 |
 |[选择职员(avalon)](member)   | Avalon | 选择职员 |
