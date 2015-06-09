@@ -20,6 +20,35 @@
 |字段 |  值| 类型 | 说明|
 |:----|----|----|-----|
 |count|  | int| 票据的总数|
+
 |data|array | array | 返回数据 数组|
 |----|----|----|-----|
 |id||int|票据id|
+
+
+### 实例
+
+``` javascript
+{
+count: "1",
+data: [
+{
+id: "106",
+documentsid: "2015060856574957",
+money: "15.00元",
+eid: "0",
+fileid: "2026",
+userid: "庆丰包子",
+cateid: "4",
+projectid: "2",
+status: "已录入",
+time: "2015-06-08 17:42:32",
+isreceipt: "否",
+isdelete: "0",
+documentsname: "测试",
+docbz: "",
+audityz: "",
+default1: "",
+default2: "",
+pc: "水电费+项目2"
+}]
