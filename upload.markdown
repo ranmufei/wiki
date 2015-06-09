@@ -2,6 +2,7 @@
 ### 调用方式  
 调用组件的元素目前只是起一个触发调出上传组件域的功能，所以开发者可以自由设计。  
 HTML中：`<a href="#" ms-widget="upload">上传文件</a>` ,define依赖define(['upload/upload'])  
+
 | 组件名称 |  类型  |  描述  |
 | :-- | ----:| :--: |
 |[新建销售订单(avalon)](creatSaleOrder)| avalon | 创建销售订单 Avalon 组件 |
