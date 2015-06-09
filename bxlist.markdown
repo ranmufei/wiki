@@ -21,12 +21,12 @@
 
 |data|array | array | 返回数据 数组|
 |----|----|----|-----|
-|id|      |int|票据id|
-|documentid| |string|票据号|
-|money |  |string|金额|
-|userid|  |int|员工|
-|status|  |int|状态|
-|time  |    |string|票据的时间|
+|id| |int|票据id|
+|documentid||string|票据号|
+|money ||string|金额|
+|userid||int|员工|
+|status||int|状态|
+|time  ||string|票据的时间|
 |isreceipt| 是/否 |sring|是否为票据|
 |documentname|  |string|票据名称|
 |pc|  |string|类别+票据|
