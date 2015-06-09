@@ -19,8 +19,11 @@
 |docbz|  否|备注|
 
 ``` javascript
+{
 <input type="file"  id="file">
 var file = document.getElementById("file").files[0];
+}
+
 
 ## 返回结果
 |字段 |  值| 类型 | 说明|
