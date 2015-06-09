@@ -18,15 +18,14 @@
 |projectid|  是|项目名称|
 |docbz|  否|备注|
 
-``` javascript
-{
-<input type="file"  id="file">
-var file = document.getElementById("file").files[0];
-}
-
-
 ## 返回结果
 |字段 |  值| 类型 | 说明|
 |:----|----|----|-----|
 |statu|0/1 |int|1表示添加成功，为0表示添加失败|
 |info|  |string|提示信息|
+
+
+``` javascript
+
+<input type="file"  id="file">
+var file = document.getElementById("file").files[0];
