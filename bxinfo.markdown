@@ -1,4 +1,4 @@
-# 报销列表
+# 报销单详情
 ## 请求接口 
 
 > /index.php?app=Account&m=ExpenseApi&a=pjinfo
