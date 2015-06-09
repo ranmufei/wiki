@@ -21,13 +21,13 @@
 
 |data|array | array | 返回数据 数组|
 |----|----|----|-----|
-|id| |int|票据id|
+|id| |int|报销id|
 |expenseid||string|报销号|
 |money ||string|金额|
 |userid||int|员工|
 |estatus||int|状态|
-|time  ||string|票据的时间|
-|expensename|  |string|票据名称|
+|time  ||string|报销的时间|
+|expensename|  |string|报销名称|
 
 
 ### 实例
