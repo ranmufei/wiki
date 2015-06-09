@@ -15,7 +15,7 @@
 ## 返回结果
 |字段 |  值| 类型 | 说明|
 |:----|----|----|-----|
-|一级pj|array |array|数组|
+|一级pj|array |array|票据数组|
 |二级yj||int|yj为1时显示yjian这个字段|
 |二级statu||int|statu为1时就有审核框和审核意见|
 |二级data||array|报销票据的数据（为空就没有数据)|
@@ -28,6 +28,18 @@
 |三级cateid|  |string|类别名称|
 |三级projectid|  |string|项目名称|
 |三级docbz|  |string|备注|
+ 
+|一级bx|array |array|报销详情数组|
+|----|----|----|-----|
+|二级id||int|报销id|
+|二级expenseid||string|报销号|
+|二级money||string|金额|
+|二级userid||string|申请人|
+|二级estatus||string|状态|
+|二级time||data|票据的时间|
+|二级expensename||string|报销名称|
+|二级bz||string|备注|
+|二级yjian||string审核人意见|
 
 
 ### 实例
