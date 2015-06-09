@@ -21,3 +21,44 @@
 |:----|----|----|-----|
 |id||int|要传的值|
 |projectName||string|在页面显示的项目名称|
+
+
+
+### 实例
+
+``` javascript
+
+{
+clist: [
+{
+id: "2",
+cateName: "办公用品",
+isdelete: "0",
+default1: "",
+default2: ""
+},
+{
+id: "31",
+cateName: "231ggg",
+isdelete: "0",
+default1: "",
+default2: ""
+}
+],
+plist: [
+{
+id: "4",
+projectName: "项目2",
+isdelete: "0",
+default1: "",
+default2: ""
+},
+{
+id: "5",
+projectName: "项目w",
+isdelete: "0",
+default1: "",
+default2: ""
+}
+]
+}
