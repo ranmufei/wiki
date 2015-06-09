@@ -5,6 +5,7 @@ HTML中：`<a href="#" ms-widget="upload">上传文件</a>` ,define依赖define(
 
 | 配制参数 |  类型| 默认值 |  描述  |
 | :-- | :-- | ----:| :--: |
+|mode|string|'simple'|上传UI主题,目前默认'simple'及'image'|
 |num|int|50|一次上传文件数量|
 |allow|string| 云盘后台设置 |允许的文件类型 如'jpg,jpeg,png'|
 |filesize|int| 云盘后台设置 |允许的单文件最大值 目前只支持bit单位即如果限定1M应是1*1024*1024|
