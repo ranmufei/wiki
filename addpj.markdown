@@ -9,7 +9,15 @@
 
 | 参数名称      |    必填 | 说明  |
 | :-------- | :--------:| :-- |
-
+|uid| 是|用户id|
+|money |是|金额|
+|file|是|<input type="file"  id="file">
+var file = document.getElementById("file").files[0];|
+|isreceipt| 是|是否是发票，1为是,2为否|
+|documentname| 是|票据名称|
+|cateid|  是|类别名称|
+|projectid|  是|项目名称|
+|docbz|  否|备注|
 
 
 ## 返回结果
