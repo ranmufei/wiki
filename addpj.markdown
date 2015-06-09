@@ -6,7 +6,7 @@
 >  method : post
 
 ## 参数
-<input type="file"  id="file"> var file = document.getElementById("file").files[0]
+<input type='file'  id='file'> var file = document.getElementById("file").files[0]
 | 参数名称      |    必填 | 说明  |
 | :-------- | :--------:| :-- |
 |uid| 是|用户id|
