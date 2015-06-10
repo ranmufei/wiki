@@ -15,6 +15,7 @@
 
 ### 网盘
 * [文件夹列表](disc_lists)
+* [文件分类列表](disc_classify_lists)
 * [文件上传](disc_uploadify)
 * [文件夹创建](disc_create_folder)
 * [文件（夹）删除](disc_delete)
