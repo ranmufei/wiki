@@ -19,6 +19,7 @@
 * [文件夹创建](disc_create_folder)
 * [文件（夹）删除](disc_delete)
 * [文件（夹）重命名](disc_rename)
+* [文件（夹）分享](disc_share)
 
 ### 进销存
 * [产品列表](productList)
