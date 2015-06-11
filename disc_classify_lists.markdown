@@ -12,7 +12,7 @@ http://www.apps.com/index.php?app=Wangpan&m=MobileApi&a=classify_lists
 | 参数名称  |必填|     说明      |
 |------|-----|------|
 | uid     | 是 |   用户id   |
-| classify_id | 否 |   1=图片 2= |
+| classify_id | 否 |   1=图片 2=音乐 3=视频 4=文档 5=文本 |
 | page | 是 |   本接口传入此参数表示分页,不传表示默认第一页 |
 
 ### **返回结果**
