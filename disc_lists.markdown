@@ -26,3 +26,4 @@ http://www.apps.com/index.php?app=Wangpan&m=MobileApi&a=lists
 |inputtime  |              |int    |文件（夹）创建时间 |
 |file_extension |          |String |文件扩展名 |
 |type       |              |int    |1=文件 2=文件夹 |
+|down_id    |   | int   |  下载id |
