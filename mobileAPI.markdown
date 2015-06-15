@@ -17,6 +17,7 @@
 * [文件夹列表](disc_lists)
 * [文件分类列表](disc_classify_lists)
 * [文件上传](disc_uploadify)
+* [文件下载 单个](disc_downloadFile)
 * [文件夹创建](disc_create_folder)
 * [文件（夹）删除](disc_delete)
 * [文件（夹）重命名](disc_rename)
