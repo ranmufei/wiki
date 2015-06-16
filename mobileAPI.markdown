@@ -8,6 +8,7 @@
 ### 通讯录
 * [通讯录列表](contacts_list)
 * [通讯录用户详情](contacts_user_message)
+* [通讯录是否有更新](comtxl_get_status)
 
 ### 通知公告
 * [公告列表](notice_list)
