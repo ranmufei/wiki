@@ -18,6 +18,7 @@
 * [文件分类数量统计](disc_amount)
 * [文件夹列表 （个人：所有）](disc_lists)
 * [文件分类列表 （个人：图片 文档 文本 其它）](disc_classify_lists)
+* [文件分类列表 （共享：图片 文档 文本 其它）](disc_classify_share_lists)
 * [文件上传](disc_uploadify)
 * [文件下载 单个](disc_downloadFile)
 * [文件夹创建](disc_create_folder)
