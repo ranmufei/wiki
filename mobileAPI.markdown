@@ -14,6 +14,7 @@
 * [公告详情](notice_message)
 
 ### 网盘
+* [文件分类数量统计](disc_amount)
 * [文件夹列表](disc_lists)
 * [文件分类列表](disc_classify_lists)
 * [文件上传](disc_uploadify)
