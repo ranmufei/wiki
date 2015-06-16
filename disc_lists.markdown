@@ -18,6 +18,7 @@ http://www.apps.com/index.php?app=Wangpan&m=MobileApi&a=lists
 ### **返回结果**
 |字段       |值             |类型    |说明           |
 | --------- |--------      |--------|--------       |
+| count     |array         |array   |返回统计信息 数组|
 |info       |array         |array  |返回数据 数组    |
 |-----      |-----         |-----  |-----           |
 |id         |              |int    |文件（夹）唯一ID  |
