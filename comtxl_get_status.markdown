@@ -1,6 +1,7 @@
 # 通讯录API: 是否有更新的接口
 ### 请求语法
 GET /index.php?app=Comtxl&m=MobileApi&a=get_status
+
 HOST:  backLinksame
 
 ### 接口参数
