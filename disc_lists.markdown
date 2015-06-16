@@ -25,7 +25,7 @@ http://www.apps.com/index.php?app=Wangpan&m=MobileApi&a=lists
 |size       |              |String |文件大小  |
 |inputtime  |              |int    |文件（夹）创建时间 |
 |file_extension |          |String |文件扩展名 |
-|type       |              |int    |1=文件 2=文件夹 |
+|type       |              |int    |file or folder |
 
 
 ### 实例
@@ -36,9 +36,9 @@ status: "success",
 info: [
 {
 id: "263",
-name: "",
+name: "文件夹",
 inputtime: "2015-06-09 10:20",
-type: 2,
+type: "folder",
 file_extension: "",
 size: "",
 },
@@ -46,7 +46,7 @@ size: "",
 id: "261",
 name: "工作流应用测试模板 (王子超).doc",
 inputtime: "1970-01-01 08:33",
-type: 1,
+type: "file",
 file_extension: "doc",
 size: "167.5 K",
 },
@@ -54,7 +54,7 @@ size: "167.5 K",
 id: "237",
 name: "QQ截图2015050515140'4.png",
 inputtime: "1970-01-01 08:33",
-type: 1,
+type: "file",
 file_extension: "png",
 size: "24.4 K",
 },
@@ -62,7 +62,7 @@ size: "24.4 K",
 id: "234",
 name: "GoAgentCT.rar",
 inputtime: "1970-01-01 08:33",
-type: 1,
+type: "file",
 file_extension: "rar",
 size: "7.4 M",
 }
