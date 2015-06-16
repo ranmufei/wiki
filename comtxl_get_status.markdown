@@ -1,15 +1,16 @@
 # 通讯录API: 是否有更新的接口
 ### 请求语法
-### GET 	/index.php?app= Comtxl &m=MobileApi&a= get_status
-### HOST:  backLinksame
+GET /index.php?app=Comtxl&m=MobileApi&a=get_status
+HOST:  backLinksame
 
-## 接口参数
+### 接口参数
 
 | 参数名称      |    必填 | 说明  |
 | :-------- | --------:| :--: |
 | t  | 是 |  上次请求的时间戳，需要手机端把上次请求的时间戳保存,类型为数字int型，手机端初始值为：18922088    |
 
-## 返回说明
+
+### 返回说明
 | 参数名称  |      值|  类型     |说明     |
 | :--------  |  ------- | ------| -------- |
 |statu     |1/0| int| 接口请求状态码  （需要更新/不需要更新） 请根据状态值  处理返回数据|
