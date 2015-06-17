@@ -71,7 +71,7 @@
 * [易耗品申请操作](consumable_apply)
 * [未出租申租品列表以及详细信息](rent_list)
 * [我的申租品申请列表](rent_Myapply_list)
-* [未出租的申租品详细编号](addbx)
+* [未出租的申租品详细编号](number_not_rent)
 * [申租品申请操作](passbx)
 * [易耗品需要审核列表](addpj)
 * [申租品需要审核列表](pclist)
