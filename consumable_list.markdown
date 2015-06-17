@@ -27,3 +27,6 @@ http://www.apps.com//index.php?app=Asset&m=AssetApi&a=consumable_list
 |price|   -------          |   float |  物品单价    |
 |now_tprice        | -------     | varchar   | 数量*单价后 折旧的价格   |
 |img|  -------         |   varchar  |  物品图片地址    |
+|Smallcat|  -------         |   varchar  |  小分类名称   |
+|cat|  -------         |   varchar  |  小分类id   |
+
