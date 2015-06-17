@@ -75,5 +75,5 @@
 * [申租品申请操作](rent_apply)
 * [易耗品需要审核列表](consumable_check_list)
 * [申租品需要审核列表](rent_check_list)
-* [审核通过操作](pclist)
+* [审核通过操作](pass_save)
 * [审核驳回操作](pclist)
