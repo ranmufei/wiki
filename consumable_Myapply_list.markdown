@@ -10,7 +10,7 @@ http://www.apps.com//index.php?app=Asset&m=AssetApi&a=consumable_Myapply_list
 
 | 参数名称  |必填|     说明      |
 |------|-----|------|
-| uid     | 是 |   用户id   |
+| uid     | 是 |   当前登录用户id   |
 
 
 ### **返回结果**
