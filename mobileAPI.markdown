@@ -73,7 +73,7 @@
 * [我的申租品申请列表](rent_Myapply_list)
 * [未出租的申租品详细编号](number_not_rent)
 * [申租品申请操作](rent_apply)
-* [易耗品需要审核列表](addpj)
+* [易耗品需要审核列表](consumable_check_list)
 * [申租品需要审核列表](pclist)
 * [审核通过操作](pclist)
 * [审核驳回操作](pclist)
