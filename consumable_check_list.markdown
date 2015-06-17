@@ -21,3 +21,17 @@ http://www.apps.com//index.php?app=Asset&m=AssetApi&a=consumable_check_list
 |img|  -------         |   varchar  |  物品图片地址    |
 |state|   -------         |varchar　　|　申请状态 |
 |remark| -------   |int　|　申请备注     |
+### **示例**
+````php
+{
+id: "142",
+number: "yh_20150612104561",
+names: "软件易耗品上传测试2",
+img: "",
+userid: "1",
+applytime: "1434419208",
+cat: "14",
+num: "2",
+state: "审核通过",
+remark: "fbfdgfd"
+},
