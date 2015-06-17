@@ -21,4 +21,4 @@ http://www.apps.com//index.php?app=Asset&m=AssetApi&a=rent_apply
 |字段        |值          |类型    |说明        |
 | ---------  |--------    |-------- |--------  |
 |info|1.申请成功 2.申请失败    |string    |申请状态信息返还   |
-|status| "1":成功 "2":失败    |varchar  |申请状态标识返还      |
+|status| "1":成功 "0":失败    |varchar  |申请状态标识返还      |
