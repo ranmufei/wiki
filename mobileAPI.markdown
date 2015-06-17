@@ -68,7 +68,7 @@
 ### 资产管理
 * [易耗品及详细](consumable_list)
 * [我的申请易耗列表](consumable_Myapply_list)
-* [易耗品申请操作](pjlist)
+* [易耗品申请操作](consumable_apply)
 * [未出租申租品列表以及详细信息](pjinfo)
 * [我的申租品申请列表](userpj)
 * [未出租的申租品详细编号](addbx)
