@@ -13,6 +13,7 @@ http://www.apps.com//index.php?app=Asset&m=AssetApi&a=consumable_check_list
 | ---------  |--------    |-------- |--------  |
 |id          |-------   |int    |物品id   |
 |number      | -------     |varchar  |物品编号      |
+|names      | -------     |varchar  |物品名称      |
 |userid| -------    |varchar  |申请人id     |
 |applytime| -------     |int  |申请时间     |
 |cat|  -------   |varchar     |  分类   |
