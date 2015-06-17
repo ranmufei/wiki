@@ -18,3 +18,17 @@ http://www.apps.com//index.php?app=Asset&m=AssetApi&a=consumable_Myapply_list
 |cat| -------    |varchar  |分类     |
 |state| -------     |int  |审核状态     |
 
+
+
+
+data: [
+{
+id: "142",
+img: "",
+number: "yh_20150612104561",
+names: "软件易耗品上传测试2",
+applytime: "1434419208",
+cat: "14",
+num: "2",
+state: "审核通过"
+},
