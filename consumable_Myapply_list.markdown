@@ -20,7 +20,7 @@ http://www.apps.com//index.php?app=Asset&m=AssetApi&a=consumable_Myapply_list
 
 
 
-
+`php
 data: [
 {
 id: "142",
@@ -32,3 +32,4 @@ cat: "14",
 num: "2",
 state: "审核通过"
 },
+`php
