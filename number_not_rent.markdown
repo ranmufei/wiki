@@ -22,3 +22,22 @@ http://www.apps.com//index.php?app=Asset&m=AssetApi&a=number_not_rent
 |state|-------     |varchar   |出租状态      |
 |is_delete|-------     |varchar   |是否删除状态 1.未删除2.已删除     |
 |goodsid |-------     |varchar   |对应的物品id      |
+
+
+
+
+### **示例**
+
+````php
+{
+id: "63",
+number: "ls_918681340012",
+goodsid: "91",
+cat: null,
+state: "未出租",
+uid: null,
+is_delete: "1",
+one: null,
+two: null,
+three: null
+},
