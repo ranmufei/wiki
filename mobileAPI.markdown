@@ -74,6 +74,6 @@
 * [未出租的申租品详细编号](number_not_rent)
 * [申租品申请操作](rent_apply)
 * [易耗品需要审核列表](consumable_check_list)
-* [申租品需要审核列表](pclist)
+* [申租品需要审核列表](rent_check_list)
 * [审核通过操作](pclist)
 * [审核驳回操作](pclist)
