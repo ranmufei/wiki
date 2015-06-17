@@ -14,4 +14,4 @@ http://www.apps.com//index.php?app=Asset&m=AsserApi&a=consumable_list
 |id          |success/error  |string  |返回状态    |
 |info        |               |array   |返回数据 数组    |
 |-----       |----           |-----   |----        |
-|info|       |string         |         提示信息|
+|info|       |string         |       |  提示信息|
