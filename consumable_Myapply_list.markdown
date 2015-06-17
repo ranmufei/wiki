@@ -14,7 +14,7 @@ http://www.apps.com//index.php?app=Asset&m=AssetApi&a=consumable_Myapply_list
 |id          |-------   |int    |物品id   |
 |number      | -------     |varchar  |物品编号      |
 |names       |-------     |varchar   |物品名称      |
-|applytime|     |         |       |
+|applytime| -------     |   varchar        |  申请时间     |
 |cat| -------    |varchar  |分类     |
 |state| -------     |int  |审核状态     |
 
