@@ -4,7 +4,7 @@
 
 
 ### **公网测试**
-http://www.apps.com//index.php?app=Asset&m=AsserApi&a=consumable_list
+http://www.apps.com//index.php?app=Asset&m=AssetApi&a=consumable_list
 
 
 
