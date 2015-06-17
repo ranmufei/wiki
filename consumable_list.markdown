@@ -19,11 +19,11 @@ http://www.apps.com//index.php?app=Asset&m=AsserApi&a=consumable_list
 |names       |------      |-----   |物品名称          |
 |old         |            |　　　|　折旧率 |
 |is_old|    |　　　|　是否属于折旧     |
-|num |       |       |    string | 物品数量 |
-|remark|    |       |    string   |  备注信息   |
-|gunit|       |      |    string | 物品单位|
-|cateid|      |      |    string  |  大分类（1）易耗品（2）申租品（3）折旧品|
-|buytime|     |      |  string    |  添加时间   |
-|price|       |      |    string |  物品单价    |
-|now_tprice   |      |           | 数量*单价后 折旧的价格   |
+|num |             |    string | 物品数量 |
+|remark|        |    string   |  备注信息   |
+|gunit|           |    string | 物品单位|
+|cateid|          |    string  |  大分类（1）易耗品（2）申租品（3）折旧品|
+|buytime|          |  string    |  添加时间   |
+|price|             |    string |  物品单价    |
+|now_tprice        |      |     | 数量*单价后 折旧的价格   |
 |img|        |       |    string  |  物品图片地址    |
