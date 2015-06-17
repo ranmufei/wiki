@@ -18,7 +18,7 @@ http://www.apps.com//index.php?app=Asset&m=AsserApi&a=consumable_list
 |ntime       |   -----    |varchar     |  购买时间   |
 |names       |------      |varchar   |物品名称          |
 |old         |            |varchar　　|　折旧率 |
-|is_old|    |　　int　|　是否属于折旧     |
+|is_old|    |int　|　是否属于折旧     |
 |num |             |int | 物品数量 |
 |remark|        | varchar   |  备注信息   |
 |gunit|           |  varchar | 物品单位|
