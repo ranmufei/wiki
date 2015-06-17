@@ -26,4 +26,4 @@ http://www.apps.com//index.php?app=Asset&m=AsserApi&a=consumable_list
 |buytime|          |  string    |  添加时间   |
 |price|             |    string |  物品单价    |
 |now_tprice        |      |     | 数量*单价后 折旧的价格   |
-|img|        |       |    string  |  物品图片地址    |
+|img|           |    string  |  物品图片地址    |
