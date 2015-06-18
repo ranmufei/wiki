@@ -22,7 +22,7 @@
 * [文件夹列表 （个人：所有）](disc_lists)
 * [文件分类列表 （图片 文档 文本 其它）](disc_classify_lists)
 * [文件上传](disc_uploadify)
-* [文件下载 单个](disc_downloadFile)
+* [文件下载](disc_downloadFile)
 * [文件夹创建](disc_create_folder)
 * [文件（夹）删除](disc_delete)
 * [文件（夹）重命名](disc_rename)
