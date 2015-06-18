@@ -11,12 +11,12 @@ http://www.apps.com/index.php?app=Wangpan&m=MobileApi&a=downloadFile
 
 | 参数名称   |必填 |     说明   |
 |----------- |-----|------------|
-| id        | 是  |   文件id   |
+| idstr        | 是  |   文件id集合（1,2,3）   |
 
 ### **如果有错误，返回结果 不然直接下载**
 |字段       |值             |类型    |说明        |
 | --------- |--------       |--------|--------   |
-|status     |error  |string  |返回状态    |
+|status     |success|string  |返回状态    |
 |info       |               |array  |    |
 
 ### 实例
