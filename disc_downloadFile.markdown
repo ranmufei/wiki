@@ -19,7 +19,9 @@ http://www.apps.com/index.php?app=Wangpan&m=MobileApi&a=downloadFile
 |status     |error  |string  |返回状态    |
 |info       |               |array  |    |
 
+### 实例
 
+``` javascript
 {
 status: "success",
 info: [
