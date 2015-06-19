@@ -16,7 +16,7 @@ http://www.apps.com//index.php?app=Asset&m=AssetApi&a=goods_history
 ### **返回结果**
 |字段        |值          |类型    |说明        |
 | ---------  |--------    |-------- |--------  |
-|id          |-------   |int    |物品id   |
+|id          |-------   |int    |历史记录id   |
 |userid| -------     |varchar  |申请人姓名    |
 |applyuid|-------     |varchar   |批注人姓名|
 |applytime| -------     |   varchar        |  申请时间     |
