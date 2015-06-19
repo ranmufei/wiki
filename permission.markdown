@@ -16,5 +16,5 @@ http://www.apps.com//index.php?app=Asset&m=AssetApi&a=permission
 ### **返回结果**
 |字段        |值          |类型    |说明        |
 | ---------  |--------    |-------- |--------  |
-| ---------       |0   |int    |无权限   |
-| ---------         |1   |int    |有权限  |
+| status      |0   |int    |无权限   |
+| status         |1   |int    |有权限  |
