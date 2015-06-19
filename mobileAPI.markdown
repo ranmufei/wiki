@@ -78,3 +78,4 @@
 * [申租品需要审核列表](rent_check_list)
 * [审核通过操作](pass_save)
 * [审核驳回操作](save_reject)
+* [物品审核申租品里的详细信息](right_view)
