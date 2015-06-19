@@ -23,7 +23,7 @@ http://www.apps.com//index.php?app=Asset&m=AssetApi&a=right_view
 
 
 
-### **示例**
+### **示例**( 所用的申请id为143)
 ````php
 {
 apply: {
