@@ -12,9 +12,7 @@ http://www.apps.com/index.php?app=Wangpan&m=MobileApi&a=share
 | 参数名称   |必填 |     说明   |
 |----------- |-----|------------|
 | uid        | 是  |   用户id   |
-| file_str   | （二选一）  |   多个：文件集合（1,2,3,4） 单个：1   |
-| folder_str | （二选一）  |   多个：文件夹集合（1,2,3,4） 单个：1  |
-| share_str  | 是   | 分享给多个成员（1,2,3） 单个：1|
+| file_str   | 是（数组）  |   多个：[1,2,3]   |
 | depart_str | 是| 分享到部门|
 
 
