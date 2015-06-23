@@ -20,7 +20,8 @@ http://www.apps.com//index.php?app=Asset&m=AssetApi&a=rent_check_list
 |num|-------     |varchar   |申请数量      |
 |img|  -------         |   varchar  |  物品图片地址    |
 |state|   -------         |varchar　　|　申请状态 |
-|remark| -------   |int　|　申请备注     |
+|remark| -------   |varchar  |　申请备注     |
+|reject| -------   |varchar  　|　驳回备注     |
 ### **示例**
 ````php
 {
