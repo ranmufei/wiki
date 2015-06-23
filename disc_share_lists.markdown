@@ -1,11 +1,11 @@
 ### **请求接口**
-/index.php?app=Wangpan&m=MobileApi&a=lists
+/index.php?app=Wangpan&m=MobileApi&a=share_lists
 
 ### **请求方式**
 get
 
 ### **公网测试**
-http://www.apps.com/index.php?app=Wangpan&m=MobileApi&a=lists
+http://www.apps.com/index.php?app=Wangpan&m=MobileApi&a=share_lists
 
 ### **请求参数**
 
@@ -34,29 +34,15 @@ http://www.apps.com/index.php?app=Wangpan&m=MobileApi&a=lists
 status: "success",
 info: [
 {
-id: "263",
-name: "文件夹",
-inputtime: "2015-06-09 10:20",
-type: "folder",
-file_extension: "",
-size: "",
-},
-{
 id: "261",
 name: "工作流应用测试模板 (王子超).doc",
 inputtime: "1970-01-01 08:33",
 type: "file",
 file_extension: "doc",
 size: "167.5 K",
+downloadUrl: "http://1.03in.com:8082/./Uploads/2015/0528/09/55666f1f26187.jpg",
 },
-{
-id: "237",
-name: "QQ截图2015050515140'4.png",
-inputtime: "1970-01-01 08:33",
-type: "file",
-file_extension: "png",
-size: "24.4 K",
-},
+
 {
 id: "234",
 name: "GoAgentCT.rar",
@@ -64,6 +50,7 @@ inputtime: "1970-01-01 08:33",
 type: "file",
 file_extension: "rar",
 size: "7.4 M",
+downloadUrl: "http://1.03in.com:8082/./Uploads/2015/0528/09/55666f1f26187.jpg",
 }
 ]
 }
