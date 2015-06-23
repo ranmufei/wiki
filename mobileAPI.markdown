@@ -32,7 +32,7 @@
 ##### 共享网盘
 
 * [文件分类列表 （共享：图片 文档 文本 其它）](disc_classify_share_lists)
-
+* [文件分类数量统计](disc_share_amount)
 
 ### 进销存
 * [产品列表](productList)
