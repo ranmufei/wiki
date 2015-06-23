@@ -1,11 +1,11 @@
 ### **请求接口**
-/index.php?app=Wangpan&m=MobileApi&a=share
+/index.php?app=Wangpan&m=MobileApi&a=share_depart
 
 ### **请求方式**
 get
 
 ### **公网测试**
-http://www.apps.com/index.php?app=Wangpan&m=MobileApi&a=share
+http://www.apps.com/index.php?app=Wangpan&m=MobileApi&a=share_depart
 
 ### **请求参数**
 
