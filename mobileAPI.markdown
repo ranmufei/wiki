@@ -26,8 +26,8 @@
 * [文件夹创建](disc_create_folder)
 * [文件（夹）删除](disc_delete)
 * [文件（夹）重命名](disc_rename)
-* [文件分享 部门](disc_share_depart)
-* [文件分享 个人](disc_share)
+* [文件分享 (部门)](disc_share_depart)
+* [文件分享 (个人)](disc_share)
 * [我的分享列表](disc_myself_share)
 
 ##### 共享网盘
