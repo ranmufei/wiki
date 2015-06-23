@@ -29,9 +29,9 @@ http://www.apps.com/index.php?app=Wangpan&m=MobileApi&a=share_amount
 status: "success",
 info: {
 all: "(0)",
-image: "(0)",
-office: "(0)",
-text: "(0)",
+picture: "(0)",
+word: "(0)",
+txt: "(0)",
 other: "(0)"
 }
 }
