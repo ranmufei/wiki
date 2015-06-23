@@ -29,6 +29,8 @@
 * [文件分享 (个人)](disc_share)
 * [文件分享 (部门)](disc_share__depart)
 * [我的分享列表](disc_myself_share)
+* [文件夹列表](disc_folder_lists)
+
 
 ##### 共享网盘
 * [文件夹列表 （所有）](disc_share_lists)
