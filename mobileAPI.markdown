@@ -19,7 +19,7 @@
 ##### 个人网盘
 
 * [文件分类数量统计](disc_amount)
-* [文件夹列表 （个人：所有）](disc_lists)
+* [文件夹列表 （所有）](disc_lists)
 * [文件分类列表 （图片 文档 文本 其它）](disc_classify_lists)
 * [文件上传](disc_uploadify)
 * [文件下载](disc_downloadFile)
@@ -30,7 +30,7 @@
 * [我的分享列表](disc_myself_share)
 
 ##### 共享网盘
-
+* [文件夹列表 （所有）](disc_share_lists)
 * [文件分类列表 （共享：图片 文档 文本 其它）](disc_classify_share_lists)
 * [文件分类数量统计](disc_share_amount)
 
