@@ -32,6 +32,7 @@ all: "(0)",
 image: "(0)",
 office: "(0)",
 text: "(0)",
-other: "(0)"
+other: "(0)",
+share: "(0)",
 }
 }
