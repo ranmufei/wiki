@@ -24,6 +24,9 @@ http://www.apps.com/index.php?app=Wangpan&m=MobileApi&a=folder_lists
 |name       |              |string |文件（夹）名称   |
 
 
+### 实例
+
+``` javascript
 {
 status: "success",
 info: [
