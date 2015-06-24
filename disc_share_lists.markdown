@@ -23,7 +23,7 @@ http://www.apps.com/index.php?app=Wangpan&m=MobileApi&a=share_lists
 |name       |              |string |文件（夹）名称   |
 |size       |              |String |文件大小  |
 |inputtime  |              |int    |文件（夹）创建时间 |
-|file_extension |          |String |文件扩展名 |
+|file_extension |          |String |文件类型id |
 |type       |              |int    |file or folder |
 
 
@@ -38,7 +38,7 @@ id: "261",
 name: "工作流应用测试模板 (王子超).doc",
 inputtime: "1970-01-01 08:33",
 type: "file",
-file_extension: "doc",
+file_extension: "4",
 size: "167.5 K",
 downloadUrl: "http://1.03in.com:8082/./Uploads/2015/0528/09/55666f1f26187.jpg",
 },
@@ -48,7 +48,7 @@ id: "234",
 name: "GoAgentCT.rar",
 inputtime: "1970-01-01 08:33",
 type: "file",
-file_extension: "rar",
+file_extension: "99",
 size: "7.4 M",
 downloadUrl: "http://1.03in.com:8082/./Uploads/2015/0528/09/55666f1f26187.jpg",
 }
