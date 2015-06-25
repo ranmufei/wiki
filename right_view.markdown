@@ -26,20 +26,20 @@ http://www.apps.com//index.php?app=Asset&m=AssetApi&a=right_view
 ### **示例**( 所用的申请id为143)
 ````php
 {
-apply: {
-0: "ls_59150035093",
-1: "ls_59751335092",
-2: "ls_59835335091",
+apply: [
+"ls_59150035093",
+"ls_59751335092",
+"ls_59835335091"
+],
 state: "待审批",
-applymen: "庆丰包子"
-},
+applymen: "庆丰包子",
 goods: {
 id: "59",
 number: "shenzhu_00211",
 names: "电脑",
 type: "",
 num: "3",
-already_num: "0",
+already_num: "2",
 unit: "",
 remark: "电脑",
 gunit: "4",
