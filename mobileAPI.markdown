@@ -83,3 +83,4 @@
 * [审核驳回操作](save_reject)
 * [物品审核申租品里的详细信息](right_view)
 * [验证是否拥有审核权限](permission)
+* [申租品归还操作](state_save)
