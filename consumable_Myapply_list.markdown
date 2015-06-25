@@ -22,6 +22,7 @@ http://www.apps.com//index.php?app=Asset&m=AssetApi&a=consumable_Myapply_list
 |applytime| -------     |   varchar        |  申请时间     |
 |cat| -------    |varchar  |分类     |
 |state| -------     |int  |审核状态     |
+|reject| -------     |int  |驳回备注     |
 
 
 ### **示例**
