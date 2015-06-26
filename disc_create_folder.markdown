@@ -22,4 +22,4 @@ http://www.apps.com/index.php?app=Wangpan&m=MobileApi&a=create_folder
 |status     |success/error  |string  |返回状态    |
 |info       |               |array| 返回数据 数组   |
 |-----      |-----         |-----  |-----           |
-|info  |              |String |提示信息         |
+|tips  |              |String |提示信息         |
