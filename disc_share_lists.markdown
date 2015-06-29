@@ -25,7 +25,7 @@ http://www.apps.com/index.php?app=Wangpan&m=MobileApi&a=share_lists
 |inputtime  |              |int    |文件（夹）创建时间 |
 |file_extension |          |String |文件类型id |
 |type       |              |int    |file or folder |
-
+|share_name|              |string    |分享人 |
 
 ### 实例
 
@@ -41,6 +41,7 @@ type: "file",
 file_extension: "4",
 size: "167.5 K",
 downloadUrl: "http://1.03in.com:8082/./Uploads/2015/0528/09/55666f1f26187.jpg",
+share:"庆丰包子",
 },
 
 {
@@ -51,6 +52,7 @@ type: "file",
 file_extension: "99",
 size: "7.4 M",
 downloadUrl: "http://1.03in.com:8082/./Uploads/2015/0528/09/55666f1f26187.jpg",
+share:"庆丰包子",
 }
 ]
 }
