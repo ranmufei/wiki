@@ -25,3 +25,4 @@ http://www.apps.com/index.php?app=Wangpan&m=MobileApi&a=classify_share_lists
 |size       |              |String |文件大小  |
 |inputtime  |              |int    |文件（夹）创建时间 |
 |file_extension |          |String |文件扩展名 |
+|share_name|          |String |分享人 |
