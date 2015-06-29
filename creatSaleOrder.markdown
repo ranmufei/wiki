@@ -43,6 +43,8 @@ require(['avalon','creatsellorder/creatorder'],function(avalon,creatorder){
 | max  | 否 |  默认销售产品的最大数量  |
 |setprice|否| 是否开启设置自定义价格  默认false 不开启 |
 |price|否| 自定义价格 注意有设置了setprice:true后有效|
+|setcustomval|否|是否开启选择客户组件（默认开启）|
+|customval|否|设置客户id （int）|,
 |onInit()| 否| 应用初始化回调函数 |
 |callbackfun(vmodel , data)|否| 提交成功订单后 回调函数 ，参数vmodel 返回组件视图模型。 data 为提交成功后 返回的数据 ，采购订单id |
 
