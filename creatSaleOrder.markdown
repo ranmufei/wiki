@@ -16,7 +16,8 @@ require(['avalon','creatsellorder/creatorder'],function(avalon,creatorder){
         $id:'creatorder',
         title:'创建订单',
         $opt:{
-
+          setprice:true,  //开启设置设置自定义价格
+          price:1999,  //自定义价格值
           callbackfun:function(a,b){
              avalon.log('a',a);
              avalon.log('b',b);
