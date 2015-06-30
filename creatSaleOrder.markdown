@@ -45,6 +45,7 @@ require(['avalon','creatsellorder/creatorder'],function(avalon,creatorder){
 |price|否| 自定义价格 注意有设置了setprice:true后有效 `2015-06-29增加`|
 |setcustomval|否|是否开启选择客户组件（默认开启）`2015-06-29增加`|
 |customval|否|设置客户id （int）`2015-06-29增加`|,
+|from|否|订单来源 （int） 默认3（来自客户管理） `2015-06-29增加`|,
 |onInit()| 否| 应用初始化回调函数 |
 |callbackfun(vmodel , data)|否| 提交成功订单后 回调函数 ，参数vmodel 返回组件视图模型。 data 为提交成功后 返回的数据 ，采购订单id |
 
