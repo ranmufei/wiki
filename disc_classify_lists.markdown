@@ -24,9 +24,12 @@ http://www.apps.com/index.php?app=Wangpan&m=MobileApi&a=classify_lists
 |name       |              |string |文件（夹）名称   |
 |size       |              |String |文件大小  |
 |inputtime  |              |int    |文件（夹）创建时间 |
-|file_extension |          |String |文件扩展名 |
+|type|          |String |文件类型 |
+|download|          |String |下载地址|
 
-、、、javascript
+### 实例
+
+``` javascript
 {
 status: "success",
 info: [
