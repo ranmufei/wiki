@@ -28,7 +28,6 @@
 * [文件（夹）重命名](disc_rename)
 * [文件分享 (个人)](disc_share)
 * [文件分享 (部门)](disc_share__depart)
-* [我的分享列表](disc_myself_share)
 * [文件夹列表](disc_folder_lists)
 
 
