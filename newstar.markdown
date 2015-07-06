@@ -25,6 +25,8 @@
 
 - 前端插件 OniUI http://192.168.1.241/moban/oniui/#avalon.accordion.doc.html
 
+- 前端弹出层插件资料http://layer.layui.com/ （该插件已经封装进 Avalon 可以在avalonjs中引入模块 layer/layers）
+
 #### 前端注意事项：
 - 禁止写行间样式即 style='.....'
 - 样式用class， js Dom 操作用ID，禁止用ID写样式，同样js中也不要用class操作Dom 
