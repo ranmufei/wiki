@@ -24,7 +24,12 @@ get
 |字段       |值             |类型    |说明           |
 | --------- |--------      |--------|--------       |
 |status     |success/error |string |返回结果         |
-|data       |data: [
+|data       |看下面示例 | array ||
+|info       | '' | string | 接口状态说明  |
+
+``` javascript
+
+[
 {
 day: "今天",
 info: [
@@ -55,6 +60,4 @@ createtime: "15:19"
 }
 ]
 }
-]         || |
-|info       | '' | string | 接口状态说明  |
-
+]
