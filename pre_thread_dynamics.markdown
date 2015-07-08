@@ -12,26 +12,23 @@ get
 /index.php?app=Customer&m=MPrethread&a=view_dynamics&id=
 
 ### **公共参数** 
-无
+`p` `num`
 
 ### **其他参数**
 |字段       |说明            |类型    |必填           |
 | --------- |--------      |--------|--------       |
-|cname     |客户名称 | string | `*`         |
-|contact   |联系人名称|string  | `*` |
-|depart    | 部门 | string | |
-|post      | 职务 | string | |
-|mobile    | 手机 | string | |
+|id     |线索id | string | `*`         |
+
 
 ### **返回结果**
 |字段       |值             |类型    |说明           |
 | --------- |--------      |--------|--------       |
 |status     |success/error |string |返回结果         |
-|data       |array         |array  | |
-|info       | '' | string | 接口状态说明  |
-
->数据结构
+|data       |array         |>数据结构
 >>树
 >>>二叉树
 >>>>平衡二叉树
 >>>>>满二叉树
+  | |
+|info       | '' | string | 接口状态说明  |
+
