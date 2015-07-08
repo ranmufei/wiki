@@ -1,14 +1,15 @@
 ## 获取线索动态列表
 ### **请求接口**
-/index.php?app=Customer&m=MPrethread&a=add_thread
+/index.php?app=Customer&m=MPrethread&a=view_dynamics
 
 ### **接口说明**
+`分页`
 
 ### **请求方式**
-post
+get
 
 ### **浏览器查看**
-无
+/index.php?app=Customer&m=MPrethread&a=view_dynamics&id=
 
 ### **公共参数** 
 无
@@ -29,4 +30,8 @@ post
 |data       |array         |array  | |
 |info       | '' | string | 接口状态说明  |
 
-
+>数据结构
+>>树
+>>>二叉树
+>>>>平衡二叉树
+>>>>>满二叉树
