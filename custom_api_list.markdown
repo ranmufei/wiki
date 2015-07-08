@@ -5,7 +5,7 @@
  * [线索列表(我的)](pre_thread_list)
  * [新增](pre_thread_add)
  * 详细信息
-  ** [线索动态](pre_thread_dynamics)
+  * [线索动态](pre_thread_dynamics)
   * [资料](pre_thread_info)
   * [日程](pre_thread_schedule)
  * [新增线索动态](pre_thread_dynamics_add)
