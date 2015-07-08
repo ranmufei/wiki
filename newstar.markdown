@@ -21,7 +21,9 @@
 - 项目前端框架 基于bootstrap 参考 http://www.zui.sexy/docs/start.html#intro
  （从5月1号开始之后的新应用前端不在基于zui.css 如需使用 请基于bootstrap ，各位同学请注意）
 
-- avalonjs（非常重要必须学习） 参考 http://www.cnblogs.com/rubylouvre/p/3181291.html
+- avalonjs（非常重要必须学习） 参考 http://www.cnblogs.com/rubylouvre/p/3181291.html 
+
+- JavaScript 对象知识  http://www.ruanyifeng.com/blog/javascript/
 
 - 前端插件 OniUI http://192.168.1.241/moban/oniui/#avalon.accordion.doc.html
 
