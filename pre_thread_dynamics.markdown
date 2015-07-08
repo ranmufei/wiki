@@ -24,11 +24,37 @@ get
 |字段       |值             |类型    |说明           |
 | --------- |--------      |--------|--------       |
 |status     |success/error |string |返回结果         |
-|data       |array         |>数据结构
->>树
->>>二叉树
->>>>平衡二叉树
->>>>>满二叉树
-  | |
+|data       |data: [
+{
+day: "今天",
+info: [
+{
+id: "66",
+title: "",
+remark: "我们新",
+origin: "0",
+location: "",
+area: "",
+userid: "庆丰包子",
+createtime: "10:58"
+}
+]
+},
+{
+day: "前天",
+info: [
+{
+id: "60",
+title: "",
+remark: "56251",
+origin: "0",
+location: "",
+area: "",
+userid: "庆丰包子",
+createtime: "15:19"
+}
+]
+}
+]         || |
 |info       | '' | string | 接口状态说明  |
 
