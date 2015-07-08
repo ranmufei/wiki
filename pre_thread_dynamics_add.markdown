@@ -1,4 +1,4 @@
-### **新增线索日程**
+### **新增线索动态**
 ### **请求接口**
 /index.php?app=Customer&m=MPrethread&a=submit_dynamics
 
