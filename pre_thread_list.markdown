@@ -20,7 +20,7 @@ http://www.apps.com/index.php?app=Customer&m=MPrethread&a=lists
 |字段       |值             |类型    |说明           |
 | --------- |--------      |--------|--------       |
 |status     |success/error |string |请求状态         |
-|info       |array         |array  |返回数据 数组    |
+|data       |array         |array  |返回数据 数组    |
 |-----      |-----         |-----  |-----           |
 |uid        |              |String |员工id  |
 |name       |              |string |员工姓名   |
