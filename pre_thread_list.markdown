@@ -20,12 +20,7 @@ http://www.apps.com/index.php?app=Customer&m=MPrethread&a=lists
 |字段       |值             |类型    |说明           |
 | --------- |--------      |--------|--------       |
 |status     |success/error |string |请求状态         |
-|data       |array         |array  |返回数据 数组    |
-|-----      |-----         |-----  |-----           |
-|uid        |              |String |员工id  |
-|name       |              |string |员工姓名   |
-|postName   |              |String |员工职位名  |
-|spelling   |              |String |员工姓名拼音全拼(小写) |
-|abbreviation |            |String |员工姓名拼音首字母(大写) |
-|change	(暂时未加入) |      |boolean|true有修改 ，false没有修改 |
+|data       |array         |array  | cname : 客户名称;<br/> contact：联系人; <br/> state:状态; <br/> createtime:创建时间; <br/> id:ID |
+|info       | '' | string | 接口状态说明  |
+
 
