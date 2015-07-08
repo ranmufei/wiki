@@ -56,6 +56,7 @@
 pj: {
 yj: null,
 statu: 0,
+count:1,
 data: [
 {
 documentsid: "1431594688179669",
@@ -99,6 +100,8 @@ userid: "1",
 username: "庆丰包子"
 }
 ],
+cwucount:22,
+hiscount:2,
 his: [
 {
 userid: "庆丰包子",
