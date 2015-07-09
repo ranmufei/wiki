@@ -24,9 +24,10 @@
 - 数据的输出用 mobileSuccess、mobileError、ajaxReturn 格式{ data : [] , info : '' , status : 'success' }
 
 ### **基类中可用的属性( 调用方式 `$this->xxx` )**
- - $uid - 当前登录者
- - $num - 每页显示数据( 当然前期是 该字段 使用公共参数约定`num` )
- - $page - 当前页
+- $uid - 当前登录者
+- $num - 每页显示数据( 当然前期是 该字段 使用公共参数约定`num` )
+- $page - 当前页
+
 ### **基类中可用的方法**
  - query( $name ) 获取GET参数
  - request( $name ) 获取POST参数
