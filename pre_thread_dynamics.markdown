@@ -34,7 +34,7 @@ get
 id: "66",          //动态ID
 title: "",         //动态标题
 remark: "我们新",  //动态备注 
-origin: "0",       //来源(手机端、pc端)
+origin: "PC端",       //来源(手机端、pc端)
 location: "",      //坐标
 area: "",          //位置      
 userid: "1",       //创建者
