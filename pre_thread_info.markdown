@@ -26,13 +26,25 @@ get
 |info       | '' | string | 接口状态说明  |
 
 ``` javascript
-[
 {
-id: "188",
-rid: "188",
-title: "我们的世界",
-startime: "2015-07-08 20:11",
-uid: "庆丰包子",
-createtime: "2015-07-08 20:21"
+id: "331",
+charge: "庆丰包子",
+cname: "武汉科技大学",
+contact: "江丽",
+state: "已联系",
+sex: "男",
+depart: "信息化研究部",
+post: "经理",
+phone: "3131313131",
+mobile: "1313131313",
+email: "",
+weibo: "",
+area: "",
+address: "",
+code: "",
+source: "",
+remark: "",
+userid: "庆丰包子",
+createtime: "06-26 11:26",
+change: "0"
 }
-]
