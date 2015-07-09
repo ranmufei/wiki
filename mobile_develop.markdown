@@ -20,6 +20,18 @@
   - 全局变量要先声明，如果基类换了，如现在是 MobileAction，我没配制全局变量，你调 自然又完了。
   - `总结 直接去查公共模型吧 ，解决所有兼容问题~V~`
 - `最后 , 大家有什么问题 , 去公共模型里翻吧！！！`
-- 写接口有一些灵活性的，后续再写吧！！
-- 数据的回调用 mobileSuccess、mobileError、ajaxReturn 格式{ data : [] , info : '' , status : 'success' }
+
+- 数据的输出用 mobileSuccess、mobileError、ajaxReturn 格式{ data : [] , info : '' , status : 'success' }
+
+- 基类中可用的属性( 调用方式 `$this->xxx` )
+ - $uid - 当前登录者
+ - $num - 每页显示数据( 当然前期是 该字段 使用公共参数约定`num` )
+ - $page - 当前页
+- 基类中可用的方法
+ - query( $name ) 获取GET参数
+ - request( $name ) 获取POST参数
+ - server( $name ) 获取$_SERVER参数 
+ - mobileResponse( $data , $info='' , $status , $type = 'JSON' )
+ - mobileResponse（$data, $info='' , $type='JSON'）
+ - mobileError( $data , $info='' , $type="JSON" ) 
 
