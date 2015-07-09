@@ -56,7 +56,12 @@
 * [移动考勤](playKa)
 
 ### 工作流
-
+* [我的全部工作流](my_workflow)
+* [我待处理的任务](my_task)
+* [工作流详情](workflow_Info)
+* [审核工作流](workflow_shenhe)
+* [发送催促](workflow_msg)
+* [操作记录](workflow_history)
 ### 客户管理
 
 ### 报销管理
