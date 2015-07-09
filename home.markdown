@@ -17,7 +17,7 @@
 
 
 ### [发行及升级](versionorupdate)
-### [移动端开发](mobile_develop)
+
 ### [移动端文档 ](mobile_document)
 ### [PCD引用Linksame页面](pcdaddls)
 ### **[插件开发](plugindev)**
