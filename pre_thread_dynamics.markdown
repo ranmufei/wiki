@@ -31,33 +31,13 @@ get
 
 [
 {
-day: "今天",
-info: [
-{
-id: "66",
-title: "",
-remark: "我们新",
-origin: "0",
-location: "",
-area: "",
-userid: "庆丰包子",
-createtime: "10:58"
-}
-]
-},
-{
-day: "前天",
-info: [
-{
-id: "60",
-title: "",
-remark: "56251",
-origin: "0",
-location: "",
-area: "",
-userid: "庆丰包子",
-createtime: "15:19"
-}
-]
+id: "66",          //动态ID
+title: "",         //动态标题
+remark: "我们新",  //动态备注 
+origin: "0",       //来源(手机端、pc端)
+location: "",      //坐标
+area: "",          //位置      
+userid: "1",       //创建者
+createtime: "1436324316"  //创建时间
 }
 ]
