@@ -21,4 +21,5 @@
   - `总结 直接去查公共模型吧 ，解决所有兼容问题~V~`
 - `最后 , 大家有什么问题 , 去公共模型里翻吧！！！`
 - 写接口有一些灵活性的，后续再写吧！！
-- 数据的回调用ajaxReturn 格式{ data : [] , info : '' , status : 'success' }
+- 数据的回调用 mobileSuccess、mobileError、ajaxReturn 格式{ data : [] , info : '' , status : 'success' }
+
