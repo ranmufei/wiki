@@ -1,1 +1,1 @@
-### [登录](mobile_document/mobile_login)
+### [登录](mobile_login)
