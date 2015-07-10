@@ -1,11 +1,11 @@
-# 报销列表
+# 我的工作流列表
 ## 请求接口 
 
-> /index.php?app=Workflow&m=Index&a=my_work_1
+> /index.php?app=Workflow&m=IndexApi&a=work_index
 
 >  method : post
 
-> *测试http://www.apps.com/index.php?app=Workflow&m=Index&a=my_work_1
+> *测试http://www.apps.com/index.php?app=Workflow&m=IndexApi&a=work_index
 ## 参数
 
 | 参数名称      |    必填 | 说明  |
