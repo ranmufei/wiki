@@ -27,9 +27,10 @@
 |lcid||int|对应的流程id|
 |uid||int|用户id|
 |workerid ||varchar|工作协同者id|
+|cid|  |int|公司id|
 |endtime|  |int|公司id|
 |status|  |int|工作进行状态（进行中与结束）|
 |time|  |int|工作创建时间|
 |field|  |int|工作审核状态|
-|cz|  |int|操作（数据库中没有该字段）|
+|cz|--|--|操作（数据库中没有该字段）|
 
