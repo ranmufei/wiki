@@ -5,7 +5,7 @@
 
 >  method : post
 
-> *测试http://www.apps.com/index.php?app=Workflow&m=IndexApi&a=work_list&uid=1&id=185
+> *测试http://www.apps.com/index.php?app=Workflow&m=IndexApi&a=work_list&uid=1&id=184
 ## 参数
 
 | 参数名称      |    必填 | 说明  |
@@ -17,22 +17,43 @@
 ## 返回结果
 |字段 |  值| 类型 | 说明|
 |:----|----|----|-----|
-|count|  | int| 工作流的总数|
+|shid|  | int| 最终审核人的id|
+|dshid|  | varchar| 最终审核人的姓名|
+|status|  | int|工作运行的状态（进行或结束）|
+|notice|  | int|判断数组history是否存在（存在为1不存在为0）|
+|field|  | int| 工作的审核状态|
 
-|data|array | array | 返回数据 数组|
+
+|history|array | array | 返回数据 数组|
+|----|----|----|-----|
+|id| |int|工作信息回复id|
+|wk_id||int|对应的工作id|
+|mark||varchar|回复的内容|
+|uid||int|回复人的id|
+|creat_time||int|创建时间|
+
+
+|info|array | array | 返回数据 数组|
 |----|----|----|-----|
 |id| |int|工作id|
 |text_id||int|对应的存储工作内容表id|
 |description||varchar|工作名称|
 |lcid||int|对应的流程id|
-|uid||int|用户id|
+|uid||int|工作发起者id|
 |workerid ||varchar|工作协同者id|
 |cid|  |int|公司id|
 |endtime|  |int|结束时间|
-|status|  |int|工作进行状态（进行中与结束）|
-|time|  |int|工作创建时间|
+|status|  |varchar|工作状态显示|
+|times|  |int|工作创建时间|
 |field|  |int|工作审核状态|
-|cz|--|--|操作（数据库中没有该字段）|
+|userid|  |varchar|工作发起者的姓名|
+
+|map|array | array | 返回数据 数组|
+|----|----|----|-----|
+|cont| |varchar|文本内容|
+|type||int|文本框的类型区分|
+|ziduan||varchar|文本框的字段（name）|
+
 
 
 
@@ -40,27 +61,44 @@
 
 ``` javascript
 {
-shid: "1",
-dshid: "庆丰包子",
-histroy: null,
+shid: "6",
+dshid: "谷歌",
+histroy: [
+{
+id: "382",
+wk_id: "184",
+bz_id: "0",
+mark: "ok",
+uid: "陈丽鹏",
+creat_time: "2015-07-02 15:24:13"
+},
+{
+id: "383",
+wk_id: "184",
+bz_id: "0",
+mark: "ok",
+uid: "clp",
+creat_time: "2015-07-02 15:24:52"
+}
+],
 info: {
-id: "185",
-text_id: "186",
-description: "1",
+id: "184",
+text_id: "185",
+description: "采购",
 lcid: "82",
-uid: "6",
+uid: "1",
 workerid: "279,286",
 cid: "1",
 endtime: "0",
-status: "进行中...等待庆丰包子审核!",
-time: "07-03 14:18",
-field: "0",
-userid: "谷歌",
-times: "2015-07-03 14:18:00"
+status: "进行中...等待谷歌审核!",
+time: "07-02 15:23",
+field: "1",
+userid: "庆丰包子",
+times: "2015-07-02 15:23:04"
 },
 map: {
 0: {
-cont: "6",
+cont: "2",
 type: "1",
 ziduan: 0
 },
@@ -97,11 +135,11 @@ ziduan: 6
 id: "136"
 },
 status: "0",
-notice: "0",
-stamp: "0",
+notice: "1",
+stamp: null,
 workername: [
 "陈丽鹏",
 "clp"
 ],
-field: "0"
+field: "1"
 }
