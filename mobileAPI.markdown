@@ -58,6 +58,7 @@
 ### 工作流
 * [我的全部工作流](my_workflow)
 * [我待处理的任务](my_task)
+* [任务详情](mytask_Info)
 * [工作流详情](workflow_Info)
 * [审核工作流](workflow_shenhe)
 * [发送催促](workflow_msg)
