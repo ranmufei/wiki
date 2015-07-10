@@ -64,7 +64,7 @@
 * [发送催促](workflow_msg)
 * [操作记录](workflow_history)
 
-### 工作流
+### 日程
 * [个人日程](Calendar_index)
 * [受邀日程](Calendar_request)
 * [日程详情](Calendar_Info)
