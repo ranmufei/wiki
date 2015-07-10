@@ -33,3 +33,74 @@
 |time|  |int|工作创建时间|
 |field|  |int|工作审核状态|
 |cz|--|--|操作（数据库中没有该字段）|
+
+
+
+
+
+{
+shid: "1",
+dshid: "庆丰包子",
+histroy: null,
+info: {
+id: "185",
+text_id: "186",
+description: "1",
+lcid: "82",
+uid: "6",
+workerid: "279,286",
+cid: "1",
+endtime: "0",
+status: "进行中...等待庆丰包子审核!",
+time: "07-03 14:18",
+field: "0",
+userid: "谷歌",
+times: "2015-07-03 14:18:00"
+},
+map: {
+0: {
+cont: "6",
+type: "1",
+ziduan: 0
+},
+1: {
+cont: "5",
+type: "2",
+ziduan: 1
+},
+2: {
+cont: "4",
+type: "3",
+ziduan: 2
+},
+3: {
+cont: "3",
+type: "4",
+ziduan: 3
+},
+4: {
+cont: "2",
+type: "5",
+ziduan: 4
+},
+5: {
+cont: "1",
+type: "6",
+ziduan: 5
+},
+6: {
+cont: "0",
+type: "7",
+ziduan: 6
+},
+id: "136"
+},
+status: "0",
+notice: "0",
+stamp: "0",
+workername: [
+"陈丽鹏",
+"clp"
+],
+field: "0"
+}
