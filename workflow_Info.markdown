@@ -24,7 +24,7 @@
 |field|  | int| 工作的审核状态|
 
 
-|history|array | array | 返回数据 数组|
+|history|array | 类型 | 返回数据 数组|
 |----|----|----|-----|
 |id| |int|工作信息回复id|
 |wk_id||int|对应的工作id|
@@ -33,7 +33,7 @@
 |creat_time||int|创建时间|
 
 
-|info|array | array | 返回数据 数组|
+|info|array | 类型 | 返回数据 数组|
 |----|----|----|-----|
 |id| |int|工作id|
 |text_id||int|对应的存储工作内容表id|
@@ -48,7 +48,7 @@
 |field|  |int|工作审核状态|
 |userid|  |varchar|工作发起者的姓名|
 
-|map|array | array | 返回数据 数组|
+|map|array | 类型 | 返回数据 数组|
 |----|----|----|-----|
 |cont| |varchar|文本内容|
 |type||int|文本框的类型区分|
