@@ -20,7 +20,7 @@ http://www.apps.com/index.php?app=Customer&m=MPrethread&a=lists
 |字段       |值             |类型    |说明           |
 | --------- |--------      |--------|--------       |
 |status     |success/error |string |请求状态         |
-|data       |array         |array  | cname : 客户名称;<br/><br/> contact：联系人; <br/> state:状态; <br/> createtime:创建时间; <br/> id:ID |
+|data       |array         |array  | cname : 客户名称; contact：联系人;  state:状态; createtime:创建时间; post:职务 ; id:ID |
 |info       | '' | string | 接口状态说明  |
 
 
