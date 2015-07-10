@@ -28,7 +28,7 @@
 |uid||int|用户id|
 |workerid ||varchar|工作协同者id|
 |cid|  |int|公司id|
-|endtime|  |int|公司id|
+|endtime|  |int|结束时间|
 |status|  |int|工作进行状态（进行中与结束）|
 |time|  |int|工作创建时间|
 |field|  |int|工作审核状态|
