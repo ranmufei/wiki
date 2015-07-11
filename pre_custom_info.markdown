@@ -1,6 +1,6 @@
 ## 客户详情
 ### **请求接口**
-/index.php?app=Customer&m=MPrethread&a=view_info
+/index.php?app=Customer&m=MPrecustom&a=view_info
 
 ### **接口说明**
 
@@ -8,7 +8,7 @@
 get
 
 ### **浏览器查看**
-/index.php?app=Customer&m=MPrethread&a=view_info&id=331
+/index.php?app=Customer&m=MPrecustom&a=view_info&id=277
 
 ### **公共参数** 
 
