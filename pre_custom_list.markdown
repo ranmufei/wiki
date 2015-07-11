@@ -25,23 +25,9 @@ http://www.apps.com/index.php?app=Customer&m=MPrecustom&a=lists&access_token=
 ``` javascript
 data: [
 {
-custom_company: "武汉大学",
-level: "",
-custom_type: "代理商",
-sales: "",
-id: "277"
+custom_company: "武汉大学",    //客户名称
+custom_type: "代理商",        //客户类型
+sales: "",                   //年销售额
+id: "277"                    //客户ID
 },
-{
-custom_company: "qwq",
-level: "",
-custom_type: "代理商",
-sales: "",
-id: "276"
-},
-{
-custom_company: "王琪",
-level: "",
-custom_type: "采购商",
-sales: "",
-id: "275"
-},
+]
