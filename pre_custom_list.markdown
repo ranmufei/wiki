@@ -22,7 +22,7 @@ http://www.apps.com/index.php?app=Customer&m=MPrecustom&a=lists&access_token=
 |data       |array         |array  | count:总数据量 , totalPages:总页数 ， nowPage:当前页 , data:[]数据列表(具体查看以下代码) |
 |info       | '' | string | 接口状态说明  |
 
- javascript
+`` javascript
 data: [
 {
 custom_company: "武汉大学",
