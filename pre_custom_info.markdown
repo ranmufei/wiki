@@ -8,7 +8,7 @@
 get
 
 ### **浏览器查看**
-/index.php?app=Customer&m=MPrecustom&a=view_info&id=277
+/index.php?app=Customer&m=MPrecustom&a=view_info&id=277&access_token=
 
 ### **公共参数** 
 
