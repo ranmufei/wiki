@@ -12,10 +12,10 @@
  - [新增线索日程](pre_thread_schedule_add)
 
 #### 客户管理
- - [线索列表(我的)](pre_custom_list)
+ - [我的客户列表](pre_custom_list)
  - [新增](pre_custom_add)
  - 详细信息
-  - [线索动态](pre_custom_dynamics)
+  - [客户动态](pre_custom_dynamics)
   - [资料](pre_custom_info)
   - [日程](pre_custom_schedule)
  
