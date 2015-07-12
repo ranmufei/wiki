@@ -18,6 +18,8 @@
 
 ### [发行及升级](versionorupdate)
 
+### [云平台PCD通讯设计](pcdtoclouddesign)
+
 ### [移动端文档 ](mobile_document)
 ### [PCD引用Linksame页面](pcdaddls)
 ### **[插件开发](plugindev)**
