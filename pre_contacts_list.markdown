@@ -1,6 +1,6 @@
 ## 客户下联系人列表
 ### **请求接口**
-/index.php?app=Customer&m=MPrecustom&a=contacts_list
+/index.php?app=Customer&m=MPrecontacts&a=lists
 
 ### **接口说明**
 `分页`
@@ -9,15 +9,13 @@
 get
 
 ### **浏览器查看**
-www.apps.com/index.php?app=Customer&m=MPrecustom&a=contacts_list&id=277
+www.apps.com/index.php?app=Customer&m=MPrecontacts&a=lists
 
 ### **公共参数** 
 `p` `num`
 
 ### **其他参数**
-|字段       |说明            |类型    |必填           |
-| --------- |--------      |--------|--------       |
-|id     |客户id | string | `*`         |
+无
 
 
 ### **返回结果**
