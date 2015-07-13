@@ -28,8 +28,10 @@ http://www.apps.com/index.php?app=Customer&m=MPrecustom&a=lists&access_token=
 data: [
 {
 custom_company: "武汉大学",    //客户名称
+level :''                     //重要级别
 custom_type: "代理商",        //客户类型
 sales: "",                   //年销售额
+inputtime ：'2015-07-03 14:56' //创建时间
 id: "277"                    //客户ID
 },
 ]
