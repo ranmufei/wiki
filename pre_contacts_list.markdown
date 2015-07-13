@@ -1,4 +1,4 @@
-## 客户下联系人列表
+## 联系人列表
 ### **请求接口**
 /index.php?app=Customer&m=MPrecontacts&a=lists
 
