@@ -28,3 +28,10 @@
   - [资料](pre_contacts_info)
   - [机会列表](pre_contacts_chance)
   - [日程](pre_contacts_schedule)
+
+#### 机会管理   
+ - [我的机会列表](pre_chance_list)  
+ - [新增机会](pre_chance_add)
+ - 详细信息
+  - [资料](pre_chance_info)
+  - [日程](pre_chance_schedule)
