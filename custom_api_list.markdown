@@ -22,4 +22,9 @@
   - [日程](pre_custom_schedule)
 
 #### 联系人管理   
-  - [我的联系人列表](pre_contacts_list)  
+ - [我的联系人列表](pre_contacts_list)  
+ - [新增联系人](pre_contacts_add)
+ - 详细信息
+  -[资料](pre_contacts_info)
+  -[机会列表](pre_contacts_chance)
+  -[日程](pre_contacts_schedule)
