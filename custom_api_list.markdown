@@ -18,5 +18,6 @@
   - [客户动态](pre_custom_dynamics)
   - [资料](pre_custom_info)
   - [联系人列表](pre_contacts_list)
+  - [机会列表](pre_chance_list)
   - [日程](pre_custom_schedule)
  
