@@ -17,7 +17,7 @@ post
 |字段       |说明            |类型    |必填           |
 | --------- |--------      |--------|--------       |
 |id|关联的数据ID|string| `*` |
-|type|关联的数据模块 'custom'客户动态; 'thread'线索动态 |string|`*`|
+|type|关联的数据模块 '`custom`'客户动态; 'thread'线索动态 |string|`*`|
 |remark      |动态内容 | string | `*`         |
 |location    |坐标|string  | `*` |
 |area        | 地区 | string | `*` |
