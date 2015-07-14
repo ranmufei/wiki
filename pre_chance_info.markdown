@@ -8,7 +8,7 @@
 get
 
 ### **浏览器查看**
-www.apps.com/index.php?app=Customer&m=MPrechance&a=view_info&id=29&access_token=
+http://www.apps.com/index.php?app=Customer&m=MPrechance&a=view_info&id=29&access_token=
 
 ### **公共参数** 
 
