@@ -35,3 +35,6 @@
  - 详细信息
   - [资料](pre_chance_info)
   - [日程](pre_chance_schedule)
+
+#### 动态   
+ - [新增动态(客户、线索)](pre_dynamics_add) 
