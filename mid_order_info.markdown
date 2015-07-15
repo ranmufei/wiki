@@ -15,7 +15,7 @@ http://www.apps.com/index.php?app=Customer&m=MMidOrder&a=info&id=43&access_token
 ### **其他参数**
 |字段       |说明            |类型    |必填           |
 | --------- |--------      |--------|--------       |
-|id     |联系人id | string | `*`         |
+|id     |订单id | string | `*`         |
 
 
 ### **返回结果**
