@@ -40,4 +40,8 @@
 
 ### **售中管理**
 
-#### 订单管理    
+#### 订单管理  
+  - [我的订单列表](mid_order_list)
+  - 详细信息
+   - [资料](mid_order_info)
+   - [支付详情](mid_order_payinfo) 
