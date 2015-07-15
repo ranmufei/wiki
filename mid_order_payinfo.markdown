@@ -27,19 +27,19 @@ http://www.apps.com/index.php?app=Customer&m=MMidOrder&a=pay_info&id=43&access_t
 
 ``` javascript
 {
-amount: "4444.00",
-pay: "289.00",
-remain: "4155.00",
-opt: "0",
-logs: [
+amount: "4444.00",      //总金额
+pay: "289.00",          //已交易
+remain: "4155.00",      //剩下
+opt: "0",               //0收款 1支出 (暂时不需要显示)
+logs: [                 //支付记录列表
 {
-amount: "256.00",
-inputtime: "2015-07-15 11:42",
-userid: "1",
-username: "庆丰包子"
+amount: "256.00",                //金额
+inputtime: "2015-07-15 11:42",   //创建时间
+userid: "1",                     //创建人ID
+username: "庆丰包子"             //创建人改名
 },
 {
-amount: "33.00",
+amount: "33.00",              
 inputtime: "2015-07-03 11:03",
 userid: "1",
 username: "庆丰包子"
