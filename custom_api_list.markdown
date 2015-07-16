@@ -1,7 +1,7 @@
 # 客户管理API接口列表
 
 ### **首页**
- - [客户管理所有日程](index_schedule_list) 
+ - [客户管理今天所有日程](index_schedule_list) 
  
 ### **售前管理**
 #### 线索管理
