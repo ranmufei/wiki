@@ -26,13 +26,16 @@ http://www.apps.com/index.php?app=Customer&m=MPrechance&a=view_schedule&id=29&ac
 |info       | '' | string | 接口状态说明  |
 
 ``` javascript
-[
 {
-id: "188",          //ID
-rid: "188",         //以`id`为准
-title: "我们的世界", //标题
-startime: "2015-07-08 20:11", //开始时间
-uid: "庆丰包子",     //创建人
-createtime: "2015-07-08 20:21"  //创建时间
+ count : 6,
+ data:[
+  {
+  id: "188",          //ID
+  rid: "188",         //以`id`为准
+  title: "我们的世界", //标题
+  startime: "2015-07-08 20:11", //开始时间
+  uid: "庆丰包子",     //创建人
+  createtime: "2015-07-08 20:21"  //创建时间
+  }
+ ]
 }
-]
