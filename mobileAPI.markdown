@@ -69,6 +69,7 @@
 * [受邀日程](Calendar_request)
 * [日程详情](Calendar_Info)
 * [添加日程](Calendar_add)
+* [日程分类](Calendar_category)
 
 
 ### 客户管理
