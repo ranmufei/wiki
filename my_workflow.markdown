@@ -5,13 +5,13 @@
 
 >  method : post
 
-> *测试http://www.apps.com/index.php?app=Workflow&m=IndexApi&a=work_index&uid=1
+> *测试http://www.apps.com/index.php?app=Workflow&m=IndexApi&a=work_index&uid=1&status=2
 ## 参数
 
 | 参数名称      |    必填 | 说明  |
 | :-------- | :--------:| :-- |
 |uid| 是| 用户id  |
-| status| 否 | 工作状态,不传参默认为2，查询的是所有的|
+| status| 是 | 工作状态,不传参默认为2，查询的是所有的|
 
 
 ## 返回结果
