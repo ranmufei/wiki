@@ -1,4 +1,4 @@
-### **新增客户**
+### **新增联系人**
 
 ### **请求接口**
 /index.php?app=Customer&m=MPrecontacts&a=add_contacts
