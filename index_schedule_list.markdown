@@ -8,7 +8,7 @@
 get
 
 ### **浏览器查看**
-/index.php?app=Customer&m=MIndex&a=today_richen&id=277&access_token=
+/index.php?app=Customer&m=MIndex&a=today_richen&access_token=
 
 ### **公共参数** 
 
