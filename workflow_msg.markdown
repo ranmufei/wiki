@@ -18,7 +18,7 @@
 |info|array | array | 返回数据 数组|
 |:----|----|----|-----|
 |info| |string|返回的提示|
-|title||int|返回的状态|
+|statu||int|返回的状态|
 
 
 
