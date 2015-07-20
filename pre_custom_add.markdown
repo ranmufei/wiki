@@ -19,7 +19,7 @@ post
 | --------- |--------      |--------|------- |--------       |
 |custom_company|客户名称   |输入框 | | `*`         |
 |custom_type   |分类 |选择 |[选择客户分类](http://192.168.1.240/ranmufei/apps/wikis/pre_custom_type_list) | `*` |
-|pid       |父客户   |选择 |选项从服务器来 | |
+|pid       |父客户   |选择 |[选择父级客户](http://192.168.1.240/ranmufei/apps/wikis/pre_custom_search_like) | |
 |level     |重要级别   |选项   |1-A(重点客户) 2-B(普通客户) 3-C(非优先客户) ||
 |url       |公司网址   |输入框 | | |
 |company_phone |公司电话  |输入框 | | |
