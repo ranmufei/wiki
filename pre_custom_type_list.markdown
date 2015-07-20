@@ -28,9 +28,9 @@ www.apps.com/index.php?app=Customer&m=MPrecustom&a=get_custom_cat
  count : 6,
  data:[
   {
-   id: "1",
-   name: "代理商",
-   pid: "0",
+   id: "1",         //分类ID
+   name: "代理商",  //分类名称
+   pid: "0",       //分类父级ID
    sort: "0",
    count: 0
   }
