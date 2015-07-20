@@ -24,6 +24,7 @@
   - [日程](pre_custom_schedule)
  - 其他
   - [查询客户](pre_custom_search_like)
+  - [全部客户分类](pre_custom_type_list)
 
 #### 联系人管理   
  - [我的联系人列表](pre_contacts_list)  
