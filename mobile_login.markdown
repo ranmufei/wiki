@@ -1,5 +1,8 @@
 ### 登录
 
+### 登录地址
+http://www.linksame.com/OAuth/MobilePcdGant/authorize
+
 ### 说明
 在浏览器中完成登录 及跳转到云盘地址进行授权，最后返回授权友等信息。
 
