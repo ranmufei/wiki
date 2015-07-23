@@ -24,9 +24,8 @@ www.apps.com/index.php?app=Customer&m=MPrecustom&a=get_custom_cat
 |info       | '' | string | 接口状态说明  |
 
 ``` javascript
-{
- count : 6,
- data:[
+
+[
   {
    id: "1",         //分类ID
    name: "代理商",  //分类名称
@@ -35,4 +34,3 @@ www.apps.com/index.php?app=Customer&m=MPrecustom&a=get_custom_cat
    count: 0
   }
  ]
-}
