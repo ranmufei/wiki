@@ -16,7 +16,7 @@ post
 ### **其他参数**
 |字段       |说明            |类型    |必填           |
 | --------- |--------      |--------|--------       |
-|id         |日程对应的ID|string|    *|
+|id         |客户ID|string|    *|
 |title      |日程标题 | string | `*`         |
 |startime   |开始时间|string  | `*` |
 |tixintime  | 提醒时间 | int | 以分钟计 |
