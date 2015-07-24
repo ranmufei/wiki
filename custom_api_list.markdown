@@ -25,6 +25,7 @@
  - 其他
   - [查询客户](pre_custom_search_like)
   - [全部客户分类](pre_custom_type_list)
+ - [新增客户日程](pre_custom_add_schedule)
 
 #### 联系人管理   
  - [我的联系人列表](pre_contacts_list)  
@@ -33,6 +34,7 @@
   - [资料](pre_contacts_info)
   - [机会列表](pre_contacts_chance)
   - [日程](pre_contacts_schedule)
+ - [新增联系人日程](pre_contacts_add_schedule)
 
 #### 机会管理   
  - [我的机会列表](pre_chance_list)  
@@ -40,6 +42,7 @@
  - 详细信息
   - [资料](pre_chance_info)
   - [日程](pre_chance_schedule)
+ - [新增机会日程](pre_chance_add_schedule)
 
 #### 动态   
  - [新增动态(客户、线索)](pre_dynamics_add) 
