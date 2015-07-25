@@ -1,6 +1,6 @@
 ### **新增机会日程**
 ### **请求接口**
-/index.php?app=Customer&m=Prechance&a=add_schedule
+/index.php?app=Customer&m=MPrechance&a=add_schedule
 
 ### **接口说明**
 
