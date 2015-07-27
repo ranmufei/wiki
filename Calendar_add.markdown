@@ -6,43 +6,34 @@
 >  method : post
 
 > *测试http://www.apps.com/index.php?app=Calendar2&m=CalendarApi&a=Calendar_add
-## 参数
 
-| 参数名称      |    必填 | 说明  |
-| :-------- | :--------:| :-- |
-|uid| 是| 用户uid  |
-|status| 是 |呈现当月（本周，当天）的所有日程|
+### **接口说明**
 
-## 返回结果
+### **请求方式**
+post
 
-|list|array | array | 返回数据 数组|
-|----|----|----|-----|
-如实例
+### **浏览器查看**
+无
 
-###实例
-``` javascript
+### **公共参数** 
+无
 
-{
-count: "1",
-totalPages: 1,
-nowPage: 1,
-data: [
-{
-id: "450",
-uid: "6",
-username: "谷歌",
-cid: "1",
-app: "",
-createtime: "1437978125",
-startime: "1437978180",
-endtime: "1438009860",
-type: "1",
-important: "5",
-title: "ceshi",
-content: "ceshi",
-tixintime: "10",
-status: "1",
-ident: ""
-}
-]
-}
+### **其他参数**
+|字段       |说明            |类型    |必填           |
+| --------- |--------      |--------|--------       |
+|uid         |客户ID|int|    *|
+|type      |日程标题 | int|0个人日程 1 工作日程 2 工作计划|
+|important|日程优先级 | int ||
+|startime   |开始时间|string  | `*` |
+|endtime   |开始时间|string  | `*` |
+|tixintime  | 提醒时间 | int | 以分钟计 |
+|actor      | 参与者(先不写吧) | array | |
+|title      |日程标题 | string | `*`         |
+|content    | 内容 | string | |
+
+### **返回结果**
+|字段       |值             |类型    |说明           |
+| --------- |--------      |--------|--------       |
+|status     |success/error |string |返回结果         |
+|data       |array         |array  | |
+|info       | '' | string | 接口状态说明  |
