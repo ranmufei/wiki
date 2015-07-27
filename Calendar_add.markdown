@@ -21,6 +21,7 @@ post
 ### **其他参数**
 |字段       |说明            |类型    |必填           |
 | --------- |--------      |--------|--------       |
+|status         |判断全天|int|0不是全天 1 是全天|
 |uid         |客户ID|int|    *|
 |cid         |公司ID|int|    *|
 |type      |日程标题 | int|0个人日程 1 工作日程 2 工作计划|
@@ -28,7 +29,7 @@ post
 |startime   |开始时间|string  | `*` |
 |endtime   |结束时间|string  | `*` |
 |tixintime  | 提醒时间 | int | 以分钟计 |
-|actor      | 参与者(先不写吧) | array | |
+|cp_userid      | 参与者(先不写吧) | array | |
 |title      |日程标题 | string | `*`         |
 |content    | 内容 | string | |
 
