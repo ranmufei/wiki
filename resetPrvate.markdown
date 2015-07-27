@@ -11,7 +11,7 @@
 
 ## 恢复出厂重置
 
---asda --
+`重置系统需要配置root密码` 默认没有填写密码 如果重置 要到 重置程序配置文件中填写root密码
 
 - 系统重置 /system//?App&m=Index&a=allreset
 
