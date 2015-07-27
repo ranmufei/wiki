@@ -23,7 +23,7 @@ post
 | --------- |--------      |--------|--------       |
 |uid         |客户ID|int|    *|
 |type      |日程标题 | int|0个人日程 1 工作日程 2 工作计划|
-|important|日程优先级 | int ||
+|important|日程优先级 | int |[选择优先级分类](http://192.168.1.240/ranmufei/apps/wikis/pre_custom_type_list) | `*`|
 |startime   |开始时间|string  | `*` |
 |endtime   |开始时间|string  | `*` |
 |tixintime  | 提醒时间 | int | 以分钟计 |
