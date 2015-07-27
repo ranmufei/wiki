@@ -22,6 +22,7 @@ post
 |字段       |说明            |类型    |必填           |
 | --------- |--------      |--------|--------       |
 |uid         |客户ID|int|    *|
+|cid         |公司ID|int|    *|
 |type      |日程标题 | int|0个人日程 1 工作日程 2 工作计划|
 |important|日程优先级 | int |[选择优先级分类](http://192.168.1.240/ranmufei/apps/wikis/Calendar_category) | `*`|
 |startime   |开始时间|string  | `*` |
