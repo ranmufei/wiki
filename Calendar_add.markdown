@@ -35,6 +35,5 @@ post
 ### **返回结果**
 |字段       |值             |类型    |说明           |
 | --------- |--------      |--------|--------       |
-|status     |success/error |string |返回结果         |
-|data       |array         |array  | |
+|statu    |success/error |string |返回结果         |
 |info       | '' | string | 接口状态说明  |
