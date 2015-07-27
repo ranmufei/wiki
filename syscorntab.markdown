@@ -1,5 +1,8 @@
 # 系统定时任务
 
+`禁止执行wdcp上面的 更新计划任务 否则会删除我配置的定时任务 切忌！！！！`
+
+
 ``` bash
 20 17 * * * /www/wdlinux/wdphp/bin/php /www/wdlinux/wdcp/task/wdcp_mysql_backup.php
 20 18 * * * /www/wdlinux/wdphp/bin/php /www/wdlinux/wdcp/task/wdcp_task.php 10
@@ -7,12 +10,6 @@
 */5 * * * * /www/web/default/nodeim/testNetStatu.sh
 */5 * * * * curl localhost/system/dns/dnns.php?ac=ToDNS
 10 * * * * ntpdate us.pool.ntp.org
-
-
-
-
-
-
 
 ```
 
