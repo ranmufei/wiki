@@ -1,49 +1,82 @@
 # 个人日程列表
 ## 请求接口 
 
-> /index.php?app=Calendar2&m=CalendarApi&a=Calendar_index
+> /index.php?app=Calendar2&m=CalendarApi&a=Calendar_data
 
 >  method : post
 
-> *测试http://www.apps.com/index.php?app=Calendar2&m=CalendarApi&a=Calendar_index&uid=1&start=1435507200&end=1438272000
+> *测试http://www.apps.com/index.php?app=Calendar2&m=CalendarApi&a=Calendar_data&status=1&uid=1
 ## 参数
 
 | 参数名称      |    必填 | 说明  |
 | :-------- | :--------:| :-- |
 |uid| 是| 用户uid  |
-| start| 是 | 查询日程的起始时间|
-| end| 是 | 查询日程的结束时间|
+|status| 是 |呈现当月（本周，当天）的所有日程|
 
 ## 返回结果
 
-|data|array | array | 返回数据 数组|
+|list|array | array | 返回数据 数组|
 |----|----|----|-----|
-|id| |int|日程id|
-|title||string|日程标题|
-|uid||int|用户id|
-|start||string|开始时间|
-|end||string|结束时间|
-|type  ||int|日程类型|
-|tixintime|  |int|提前通知时间|
-|important|  |int|日程的优先级别（对应日程分类表id）|
-|content|  |string|日程内容|
-|color|  |string|日程事件显示的背景颜色|
-|textColor|  |string|日程事件显示的文本颜色|
+如实例
+
 ###实例
 ``` javascript
 
-[
 {
-id: "134",
-title: "456456",
+count: "3",
+totalPages: 1,
+nowPage: 1,
+data: [
+{
+id: "448",
 uid: "1",
-start: "2015-06-29 17:48:00",
+username: "庆丰包子",
+cid: "1",
+app: "",
+createtime: "1437977916",
+startime: "1437977940",
+endtime: "1438009680",
+type: "1",
+important: "2",
+title: "请问",
+content: "12 12",
+tixintime: "10",
+status: "1",
+ident: ""
+},
+{
+id: "449",
+uid: "1",
+username: "庆丰包子",
+cid: "1",
+app: "",
+createtime: "1437978011",
+startime: "1437978060",
+endtime: "1438009740",
+type: "1",
+important: "5",
+title: "测试",
+content: "测试",
+tixintime: "10",
+status: "1",
+ident: ""
+},
+{
+id: "451",
+uid: "1",
+username: "庆丰包子",
+cid: "1",
+app: "",
+createtime: "1437979163",
+startime: "1437978360",
+endtime: "1438151160",
 type: "0",
-tixintime: "5",
-important: "1",
-end: "2015-06-29 17:58:00",
-content: "qweqweqweqwe",
-color: "#c85058",
-textColor: "#ffffff"
+important: "5",
+title: "klbj",
+content: "hbbjjjjjjjjjjjj",
+tixintime: "10",
+status: "0",
+ident: ""
 }
 ]
+}
