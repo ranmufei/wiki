@@ -5,7 +5,7 @@
 
 >  method : post
 
-> *测试http://www.apps.com/index.php?app=Calendar2&m=CalendarApi&a=Calendar_list&uid=1&id=198
+> *测试http://www.apps.com/index.php?app=Calendar2&m=CalendarApi&a=Calendar_list&uid=1&id=
 ## 参数
 
 | 参数名称      |    必填 | 说明  |
