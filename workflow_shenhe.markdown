@@ -47,7 +47,7 @@
 
 
 
-##工作协同不同意审核 请求接口 
+##工作终审同意审核 请求接口 
 
 > /index.php?app=Workflow&m=IndexApi&a=pass_work
 
