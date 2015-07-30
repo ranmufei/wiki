@@ -54,9 +54,18 @@
 |type||int|文本框的类型区分|
 |ziduan||varchar|文本框的字段（name）|
 
+# 结束工作
+## 请求接口 
 
+> /index.php?app=Workflow&m=IndexApi&a=end_work
 
+>  method : post
 
+> *测试http://www.apps.com/index.php?app=Workflow&m=IndexApi&a=end_work
+| 参数名称      |    必填 | 说明  |
+| :-------- | :--------:| :-- |
+|uid| 是| 用户id  |
+|id| 是| 工作id  |
 ### 实例
 
 ``` javascript
