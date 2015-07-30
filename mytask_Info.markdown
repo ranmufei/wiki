@@ -45,7 +45,7 @@
 |endtime|  |int|结束时间|
 |status|  |varchar|工作状态显示|
 |times|  |int|工作创建时间|
-|field|  |int|工作审核状态|
+|field|  |int|工作审核状态   0：未审核 显示工作协同 ，1：协同审核通过 显示终审 ， 2：终审未通过，依旧显示终审 ，3：终审通过 |
 |userid|  |varchar|工作发起者的姓名|
 
 |map|array | 类型 | 返回数据 数组|
