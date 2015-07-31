@@ -6,6 +6,7 @@
 - TP的核心文件引入CronRunBehavior.php ，文件夹位置如下图一
 
 - 在应用的conf文件下，引入tags.php 和 crons.php 2个配置文件
+
  ```` php
 //tags.php文件
 <?php
@@ -15,7 +16,8 @@ return array(
 
 ````
 
- ```` php
+
+```` php
 //crons.php文件
 // myplan文件的地址在 应用下Lib/Cron/myplan.php
 // 这里是一天间隔执行myplan.php中的代码
