@@ -10,6 +10,7 @@
 ### tags.php文件
  ```` php
 //tags.php文件
+// 任何情况出发本应用时，会执行CronRunBehavior.php ，进而执行crons.php
 <?php
 return array(
 'app_begin' => array('CronRun'),
@@ -20,13 +21,15 @@ return array(
 ````php
 //crons.php文件
 // myplan文件的地址在 应用下Lib/Cron/myplan.php
+// runtime目录下会产生~crons.php缓存文件
 // 这里是一天间隔执行myplan.php中的代码
+// 有多个任务，可以接着写数组
 <?php
 return array(
     'cron_1' => array('myplan', 24*60*60),
  );
 ````
---  myplan.php中就可以写你的业务需求了
+###  在myplan.php中就可以写你的业务需求了，这其实是事件不能称为计划任务，但能达到我们的定时任务的目的
 
 ![图一](http://192.168.1.240/uploads/ranmufei/apps/a80e72906c/lename_2.png)
 ![图二](http://192.168.1.240/uploads/ranmufei/apps/c12176ce52/lename_3.png)
