@@ -1,4 +1,4 @@
-==        model('Notify')->addUserNews( $toUid , $title , $link , $content = '' , $d =array( ) ) ==
+== model('Notify')->addUserNews( $toUid , $title , $link , $content = '' , $d =array( ) ) ==
       
         /**
          * 新增 个人消息
