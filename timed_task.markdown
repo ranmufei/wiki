@@ -16,8 +16,8 @@ return array(
 
 ````
 
-
-```` php
+## crons.php文件
+````php
 //crons.php文件
 // myplan文件的地址在 应用下Lib/Cron/myplan.php
 // 这里是一天间隔执行myplan.php中的代码
