@@ -13,7 +13,6 @@
 return array(
 'app_begin' => array('CronRun'),
 );
-
 ````
 
 ## crons.php文件
@@ -25,7 +24,6 @@ return array(
 return array(
     'cron_1' => array('myplan', 24*60*60),
  );
-
 ````
 --  myplan.php中就可以写你的业务需求了
 
