@@ -1,4 +1,4 @@
-# model('Notify')->addUserNews( $toUid , $title , $link , $content = '' , $d =array( ) ) #
+## model('Notify')->addUserNews( $toUid , $title , $link , $content = '' , $d =array( ) ) ##
       
         /**
          * 新增 个人消息
@@ -19,7 +19,7 @@
          */ 
 
 
-==        model('Notify')-> addAppNews( $toApp , $title , $link , $content = '' ,$d =array( ) )==
+## model('Notify')-> addAppNews( $toApp , $title , $link , $content = '' ,$d =array( ) )##
 
         /**
          * 添加 应用消息
