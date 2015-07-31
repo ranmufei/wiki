@@ -74,6 +74,8 @@
 # 应用接口
 - [现金流](app-cws)
 
+- [应用发消息接口](sentmassage)
+
 # 公共函数帮助查询
 
 # [常见问题汇总](questionCollect) 
