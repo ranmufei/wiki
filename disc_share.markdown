@@ -12,8 +12,8 @@ http://www.apps.com/index.php?app=Wangpan&m=MobileApi&a=share
 | 参数名称   |必填 |     说明   |
 |----------- |-----|------------|
 | uid        | 是  |   用户id   |
-| file   | 是（数组）  |   多个文件：[1,2,3]   |
-| share | 是（数组）| 多个员工[1,23,3]|
+| file   | 是string  |   多个文件：1,2,3   |
+| share | 是string| 多个员工1,23,3|
 
 
 ### **返回结果**
