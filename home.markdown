@@ -78,6 +78,10 @@
 
 - [应用发消息接口](sentmassage)
 
+# 应用开发文档
+
+-[进销存](app_jixniao)
+
 # 公共函数帮助查询
 
 # [常见问题汇总](questionCollect) 
