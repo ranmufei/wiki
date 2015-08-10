@@ -16,5 +16,5 @@ define(['member/member'], function(){})
 |itemChange| function| {} | 选中队列发生改变的回调 |
 |getTemplate| function| |修改模板 |
 |<font color="red">以下为api接口</font>|
-|clear(api)|||
+|clear|function||清空选项|
 
