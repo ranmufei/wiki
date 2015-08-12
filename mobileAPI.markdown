@@ -103,3 +103,6 @@
 * [验证是否拥有审核权限](permission)
 * [申租品归还操作](state_save)
 * [物品审核中申租品确认归还操作](sure_return)
+
+### Eboss
+* [考勤前一天情况比例](kaoqin_percent)
