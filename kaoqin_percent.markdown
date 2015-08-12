@@ -11,3 +11,9 @@ http://www.apps.com/index.php?app=Eboss&m=EbossApi&a=last_day_case
 | ---------  |--------    |-------- |--------  |
 |chuqin          |-------   |int    |出勤比例  |
 |weichuqin      | -------     |int    |为出勤比例      |
+### **示例**
+````php
+{
+chuqin: 0,
+weichuqin: 100
+}
