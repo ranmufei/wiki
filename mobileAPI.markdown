@@ -106,3 +106,4 @@
 
 ### Eboss
 * [考勤前一天情况比例](kaoqin_percent)
+* [进销存Eboss数据概况](invoicing_data)
