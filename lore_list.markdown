@@ -29,9 +29,5 @@ http://www.apps.com/index.php?app=Lore&m=LoreApi&a=getStorehouseList
 |comment_count       |int         |int  |评论数    |
 |like_count       |int         |int  |关注数    |
 |down_id       |int         |int  |附件ID    |
-|-----      |-----         |-----  |-----           |
-|errorDesc  |              |String |错误信息         |
-|uid        |              |string |用户id           |
-|cid        |              |String |用户所在的公司id  |
-|domain     |              |String |用户所在的公司网址 |
+
 
