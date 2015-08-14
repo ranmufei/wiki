@@ -19,19 +19,18 @@ http://www.apps.com/index.php?app=Lore&m=LoreApi&a=getStorehouseList
 | --------- |--------      |--------|--------       |
 |id     |int         |int |知识唯一ID         |
 |uid       |string         |str  |知识分享人    |
-|category_id       |array         |array  |返回数据 数组    |
-|add_time       |array         |array  |返回数据 数组    |
-|edit_time       |array         |array  |返回数据 数组    |
-|title       |array         |array  |返回数据 数组    |
-|titlepinyin       |array         |array  |返回数据 数组    |
-|label_id       |array         |array  |返回数据 数组    |
-|nice_count       |array         |array  |返回数据 数组    |
-|comment_count       |array         |array  |返回数据 数组    |
-|like_count       |array         |array  |返回数据 数组    |
-|down_id       |array         |array  |返回数据 数组    |
+|category_id       |int         |int  |知识分类ID    |
+|add_time       |int         |int  |分享知识时间    |
+|edit_time       |int         |int  |知识修改时间    |
+|title       |string         |string  |知识标题    |
+|titlepinyin       |string         |string  |标题拼音码    |
+|label_id       |array         |array  |标签数组集    |
+|nice_count       |int         |int  |点赞数    |
+|comment_count       |int         |int  |评论数    |
+|like_count       |int         |int  |关注数    |
+|down_id       |int         |int  |附件ID    |
 |-----      |-----         |-----  |-----           |
 |errorDesc  |              |String |错误信息         |
-|-----      |-----         |-----  |-----           |
 |uid        |              |string |用户id           |
 |cid        |              |String |用户所在的公司id  |
 |domain     |              |String |用户所在的公司网址 |
