@@ -17,11 +17,23 @@ http://www.apps.com/index.php?app=Lore&m=LoreApi&a=getStorehouseDetailed
 ### **返回结果**
 |字段       |值             |类型    |说明           |
 | --------- |--------      |--------|--------       |
-|status     |success/error |string |请求状态         |
-|info       |array         |array  |返回数据 数组    |
-|-----      |-----         |-----  |-----           |
-|errorDesc  |              |String |错误信息         |
-|uid        |              |string |用户id           |
-|cid        |              |String |用户所在的公司id  |
-|domain     |              |String |用户所在的公司网址 |
+|id     |int |int |知识唯一ID         |
+|uid      |int         |int  |分享人ID    |
+|category_id      |int         |int  |知识分类ID    |
+|add_time      |int         |int  |分享人ID    |
+|edit_time      |int         |int  |分享人ID    |
+|edit_uid      |int         |int  |分享人ID    |
+|share      |int         |int  |分享人ID    |
+|title      |int         |int  |分享人ID    |
+|titlepinying      |int         |int  |分享人ID    |
+|content      |int         |int  |分享人ID    |
+|label_id      |int         |int  |分享人ID    |
+|nice_count      |int         |int  |分享人ID    |
+|comment_count      |int         |int  |分享人ID    |
+|like_count      |int         |int  |分享人ID    |
+|down_id      |int         |int  |分享人ID    |
+|u_name      |int         |int  |分享人ID    |
+|category_name      |int         |int  |分享人ID    |
+| --------- |--------      |--------|--------       |
+|comment      |array         |array  |评论树    |
 
