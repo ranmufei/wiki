@@ -34,125 +34,449 @@ http://www.apps.com/index.php?app=Lore&m=LoreApi&a=getStorehouseList
 ````php
 {
     data: {
-        detailed: {
-            id: "3",
-            uid: "1",
-            category_id: "10",
-            add_time: "07-15 09:04",
-            edit_time: 0,
-            edit_uid: 0,
-            share: "1",
-            title: "12312312312",
-            titlepinyin: "12312312312",
-            content: "123123123123123123123123123123",
-            label_id: [
-                {
-                    id: "2",
-                    label_name: "技术",
-                    label_color: "#428BCA"
-                },
-                {
-                    id: "5",
-                    label_name: "端午策划方案",
-                    label_color: "#5CB85C"
-                }
-            ],
-            nice_count: "0",
-            comment_count: "0",
-            like_count: "0",
-            down_id: "",
-            is_del: "1",
-            u_name: "庆丰包子",
-            category_name: "知识3"
-        },
-        comment: [
-            {
-                id: "10",
-                lore_id: "3",
-                uid: "1",
-                uid_name: "庆丰包子",
-                uid_avatar: "./Uploads/avatar/0/1.jpg",
-                add_time: "06-16 09:09",
-                reply_uid: "0",
-                reply_name: "",
-                parent_id: "0",
-                content: "2222222222222",
-                attr: [
-                    {
-                        id: "34",
-                        lore_id: "3",
-                        uid: "307",
-                        uid_name: "东距",
-                        uid_avatar: "./Uploads/avatar/default.gif",
-                        add_time: "06-26 17:00",
-                        reply_uid: "1",
-                        reply_name: "庆丰包子",
-                        parent_id: "10",
-                        content: "123123123123",
-                        attr: [
-                            
-                        ]
-                    },
-                    {
-                        id: "35",
-                        lore_id: "3",
-                        uid: "307",
-                        uid_name: "东距",
-                        uid_avatar: "./Uploads/avatar/default.gif",
-                        add_time: "06-26 17:00",
-                        reply_uid: "307",
-                        reply_name: "东距",
-                        parent_id: "34",
-                        content: "12312312",
-                        attr: [
-                            
-                        ]
-                    }
-                ]
-            },
+        count: "24",
+        totalPages: 2,
+        nowPage: 1,
+        data: [
             {
                 id: "31",
-                lore_id: "3",
-                uid: "307",
-                uid_name: "东距",
-                uid_avatar: "./Uploads/avatar/default.gif",
-                add_time: "06-26 17:00",
-                reply_uid: null,
-                reply_name: null,
-                parent_id: "0",
-                content: "123123123123",
-                attr: [
+                uid: "庆丰包子",
+                category_id: "3",
+                add_time: "08-12 17:02",
+                edit_time: 0,
+                edit_uid: 0,
+                title: "tu6u",
+                titlepinyin: "tu6u",
+                label_id: [
                     {
-                        id: "33",
-                        lore_id: "3",
-                        uid: "307",
-                        uid_name: "东距",
-                        uid_avatar: "./Uploads/avatar/default.gif",
-                        add_time: "06-26 17:00",
-                        reply_uid: "307",
-                        reply_name: "东距",
-                        parent_id: "31",
-                        content: "123123123",
-                        attr: [
-                            
-                        ]
+                        id: "2",
+                        label_name: "技术",
+                        label_color: "#428BCA"
                     }
-                ]
+                ],
+                nice_count: "0",
+                comment_count: "7",
+                like_count: "0",
+                down_id: 1
             },
             {
-                id: "32",
-                lore_id: "3",
-                uid: "307",
-                uid_name: "东距",
-                uid_avatar: "./Uploads/avatar/default.gif",
-                add_time: "06-26 17:00",
-                reply_uid: null,
-                reply_name: null,
-                parent_id: "0",
-                content: "123123123123",
-                attr: [
-                    
-                ]
+                id: "30",
+                uid: "庆丰包子",
+                category_id: "3",
+                add_time: "08-10 11:24",
+                edit_time: 0,
+                edit_uid: 0,
+                title: "123456789",
+                titlepinyin: "123456789",
+                label_id: [
+                    {
+                        id: "1",
+                        label_name: "工作",
+                        label_color: "#F0AD4E"
+                    }
+                ],
+                nice_count: "0",
+                comment_count: "1",
+                like_count: "0",
+                down_id: 1
+            },
+            {
+                id: "29",
+                uid: "庆丰包子",
+                category_id: "12",
+                add_time: "08-10 10:58",
+                edit_time: 0,
+                edit_uid: 0,
+                title: "武汉",
+                titlepinyin: "WH",
+                label_id: [
+                    {
+                        id: "4",
+                        label_name: "市场",
+                        label_color: "#8E44AD"
+                    }
+                ],
+                nice_count: "1",
+                comment_count: "1",
+                like_count: "0",
+                down_id: 1
+            },
+            {
+                id: "26",
+                uid: "庆丰包子",
+                category_id: "12",
+                add_time: "08-10 10:30",
+                edit_time: 0,
+                edit_uid: 0,
+                title: "测试机",
+                titlepinyin: "CSJ",
+                label_id: [
+                    {
+                        id: "1",
+                        label_name: "工作",
+                        label_color: "#F0AD4E"
+                    },
+                    {
+                        id: "2",
+                        label_name: "技术",
+                        label_color: "#428BCA"
+                    },
+                    {
+                        id: "4",
+                        label_name: "市场",
+                        label_color: "#8E44AD"
+                    },
+                    {
+                        id: "5",
+                        label_name: "端午策划方案",
+                        label_color: "#5CB85C"
+                    },
+                    {
+                        id: "6",
+                        label_name: "10月",
+                        label_color: "#428BCA"
+                    }
+                ],
+                nice_count: "0",
+                comment_count: "1",
+                like_count: "0",
+                down_id: 1
+            },
+            {
+                id: "24",
+                uid: "庆丰包子",
+                category_id: "11",
+                add_time: "07-25 10:45",
+                edit_time: 0,
+                edit_uid: 0,
+                title: "33333333333",
+                titlepinyin: "33333333333",
+                label_id: [
+                    {
+                        id: "4",
+                        label_name: "市场",
+                        label_color: "#8E44AD"
+                    }
+                ],
+                nice_count: "1",
+                comment_count: "0",
+                like_count: "1",
+                down_id: 1
+            },
+            {
+                id: "23",
+                uid: "庆丰包子",
+                category_id: "10",
+                add_time: "07-20 19:08",
+                edit_time: 0,
+                edit_uid: 0,
+                title: "656",
+                titlepinyin: "656",
+                label_id: [
+                    {
+                        id: "2",
+                        label_name: "技术",
+                        label_color: "#428BCA"
+                    }
+                ],
+                nice_count: "1",
+                comment_count: "0",
+                like_count: "0",
+                down_id: 1
+            },
+            {
+                id: "22",
+                uid: "庆丰包子",
+                category_id: "3",
+                add_time: "07-20 18:57",
+                edit_time: 0,
+                edit_uid: 0,
+                title: "5656",
+                titlepinyin: "5656",
+                label_id: [
+                    {
+                        id: "2",
+                        label_name: "技术",
+                        label_color: "#428BCA"
+                    }
+                ],
+                nice_count: "0",
+                comment_count: "0",
+                like_count: "0",
+                down_id: 1
+            },
+            {
+                id: "20",
+                uid: "庆丰包子",
+                category_id: "3",
+                add_time: "07-16 10:07",
+                edit_time: 0,
+                edit_uid: 0,
+                title: "asdasd",
+                titlepinyin: "asdasd",
+                label_id: [
+                    {
+                        id: "5",
+                        label_name: "端午策划方案",
+                        label_color: "#5CB85C"
+                    }
+                ],
+                nice_count: "0",
+                comment_count: "0",
+                like_count: "0",
+                down_id: 1
+            },
+            {
+                id: "18",
+                uid: "庆丰包子",
+                category_id: "1",
+                add_time: "07-15 16:30",
+                edit_time: 0,
+                edit_uid: 0,
+                title: "11111111111",
+                titlepinyin: "11111111111",
+                label_id: [
+                    {
+                        id: "1",
+                        label_name: "工作",
+                        label_color: "#F0AD4E"
+                    }
+                ],
+                nice_count: "1",
+                comment_count: "0",
+                like_count: "1",
+                down_id: 1
+            },
+            {
+                id: "17",
+                uid: "庆丰包子",
+                category_id: "10",
+                add_time: "07-15 11:56",
+                edit_time: 0,
+                edit_uid: 0,
+                title: "jytjtyjty",
+                titlepinyin: "jytjtyjty",
+                label_id: [
+                    {
+                        id: "2",
+                        label_name: "技术",
+                        label_color: "#428BCA"
+                    }
+                ],
+                nice_count: "0",
+                comment_count: "0",
+                like_count: "0",
+                down_id: 1
+            },
+            {
+                id: "16",
+                uid: "庆丰包子",
+                category_id: "1",
+                add_time: "07-15 10:48",
+                edit_time: 0,
+                edit_uid: 0,
+                title: "12312311111",
+                titlepinyin: "12312311111",
+                label_id: [
+                    {
+                        id: "4",
+                        label_name: "市场",
+                        label_color: "#8E44AD"
+                    }
+                ],
+                nice_count: "0",
+                comment_count: "0",
+                like_count: "0",
+                down_id: 1
+            },
+            {
+                id: "15",
+                uid: "庆丰包子",
+                category_id: "10",
+                add_time: "07-15 10:48",
+                edit_time: 0,
+                edit_uid: 0,
+                title: "2222222",
+                titlepinyin: "2222222",
+                label_id: [
+                    {
+                        id: "3",
+                        label_name: "重要",
+                        label_color: "#F0AD4E"
+                    }
+                ],
+                nice_count: "0",
+                comment_count: "0",
+                like_count: "1",
+                down_id: 1
+            },
+            {
+                id: "14",
+                uid: "庆丰包子",
+                category_id: "11",
+                add_time: "07-15 10:10",
+                edit_time: 0,
+                edit_uid: 0,
+                title: "11111222222",
+                titlepinyin: "11111222222",
+                label_id: [
+                    {
+                        id: "5",
+                        label_name: "端午策划方案",
+                        label_color: "#5CB85C"
+                    }
+                ],
+                nice_count: "0",
+                comment_count: "0",
+                like_count: "0",
+                down_id: 1
+            },
+            {
+                id: "13",
+                uid: "庆丰包子",
+                category_id: "11",
+                add_time: "07-15 10:09",
+                edit_time: 0,
+                edit_uid: 0,
+                title: "12312312312",
+                titlepinyin: "12312312312",
+                label_id: [
+                    {
+                        id: "5",
+                        label_name: "端午策划方案",
+                        label_color: "#5CB85C"
+                    }
+                ],
+                nice_count: "0",
+                comment_count: "0",
+                like_count: "0",
+                down_id: 1
+            },
+            {
+                id: "12",
+                uid: "庆丰包子",
+                category_id: "11",
+                add_time: "07-15 10:08",
+                edit_time: 0,
+                edit_uid: 0,
+                title: "213123123",
+                titlepinyin: "",
+                label_id: [
+                    {
+                        id: "4",
+                        label_name: "市场",
+                        label_color: "#8E44AD"
+                    }
+                ],
+                nice_count: "1",
+                comment_count: "0",
+                like_count: "0",
+                down_id: 0
+            },
+            {
+                id: "9",
+                uid: "庆丰包子",
+                category_id: "11",
+                add_time: "07-15 10:06",
+                edit_time: 0,
+                edit_uid: 0,
+                title: "12312311111",
+                titlepinyin: "12312311111",
+                label_id: [
+                    {
+                        id: "4",
+                        label_name: "市场",
+                        label_color: "#8E44AD"
+                    }
+                ],
+                nice_count: "1",
+                comment_count: "0",
+                like_count: "1",
+                down_id: 1
+            },
+            {
+                id: "8",
+                uid: "庆丰包子",
+                category_id: "11",
+                add_time: "07-15 10:06",
+                edit_time: 0,
+                edit_uid: 0,
+                title: "12312312312",
+                titlepinyin: "12312312312",
+                label_id: [
+                    {
+                        id: "3",
+                        label_name: "重要",
+                        label_color: "#F0AD4E"
+                    }
+                ],
+                nice_count: "0",
+                comment_count: "0",
+                like_count: "0",
+                down_id: 1
+            },
+            {
+                id: "7",
+                uid: "庆丰包子",
+                category_id: "11",
+                add_time: "07-15 09:27",
+                edit_time: 0,
+                edit_uid: 0,
+                title: "213123",
+                titlepinyin: "213123",
+                label_id: [
+                    {
+                        id: "2",
+                        label_name: "技术",
+                        label_color: "#428BCA"
+                    }
+                ],
+                nice_count: "0",
+                comment_count: "0",
+                like_count: "0",
+                down_id: 1
+            },
+            {
+                id: "6",
+                uid: "庆丰包子",
+                category_id: "10",
+                add_time: "07-15 09:09",
+                edit_time: 0,
+                edit_uid: 0,
+                title: "11111112222",
+                titlepinyin: "11111112222",
+                label_id: [
+                    {
+                        id: "4",
+                        label_name: "市场",
+                        label_color: "#8E44AD"
+                    }
+                ],
+                nice_count: "0",
+                comment_count: "0",
+                like_count: "0",
+                down_id: 1
+            },
+            {
+                id: "5",
+                uid: "庆丰包子",
+                category_id: "1",
+                add_time: "07-15 09:09",
+                edit_time: 0,
+                edit_uid: 0,
+                title: "3123123",
+                titlepinyin: "3123123",
+                label_id: [
+                    {
+                        id: "3",
+                        label_name: "重要",
+                        label_color: "#F0AD4E"
+                    }
+                ],
+                nice_count: "1",
+                comment_count: "2",
+                like_count: "253",
+                down_id: 1
             }
         ]
     },
