@@ -23,6 +23,6 @@ http://www.apps.com/index.php?app=Lore&m=LoreApi&a=addStorehouse
 ### **返回结果**
 |字段       |值             |类型    |说明           |
 | --------- |--------      |--------|--------       |
-|data     |array |array |成功返回新的知识列表（参考列表接口字段）         |
+|data     |array |array |成功返回新的知识列表（参考知识列表接口字段）         |
 
 
