@@ -19,7 +19,7 @@ http://www.apps.com/index.php?app=Lore&m=LoreApi&a=operateComment
 |字段       |值             |类型    |说明           |
 | --------- |--------      |--------|--------       |
 |id     |int |int |评论唯一ID         |
-|lore_id       |int         |int  知识唯一ID    |
+|lore_id       |int         |int  |知识唯一ID    |
 |uid       |int         |int  | 用户唯一ID    |
 |uid_name       |string         |string  |用户名称    |
 |uid_avatar       |string         |string  |用户头像地址    |
