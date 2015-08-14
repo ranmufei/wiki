@@ -17,8 +17,18 @@ http://www.apps.com/index.php?app=Lore&m=LoreApi&a=getStorehouseList
 ### **返回结果**
 |字段       |值             |类型    |说明           |
 | --------- |--------      |--------|--------       |
-|status     |success/error |string |请求状态         |
-|info       |array         |array  |返回数据 数组    |
+|id     |int         |int |知识唯一ID         |
+|uid       |string         |str  |知识分享人    |
+|category_id       |array         |array  |返回数据 数组    |
+|add_time       |array         |array  |返回数据 数组    |
+|edit_time       |array         |array  |返回数据 数组    |
+|title       |array         |array  |返回数据 数组    |
+|titlepinyin       |array         |array  |返回数据 数组    |
+|label_id       |array         |array  |返回数据 数组    |
+|nice_count       |array         |array  |返回数据 数组    |
+|comment_count       |array         |array  |返回数据 数组    |
+|like_count       |array         |array  |返回数据 数组    |
+|down_id       |array         |array  |返回数据 数组    |
 |-----      |-----         |-----  |-----           |
 |errorDesc  |              |String |错误信息         |
 |uid        |              |string |用户id           |
