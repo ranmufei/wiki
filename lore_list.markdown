@@ -11,7 +11,7 @@ http://www.apps.com/index.php?app=Lore&m=LoreApi&a=getStorehouseList
 
 | 参数名称  |必填|     说明      |
 |------|-----|------|
-| p     | 是 |   用户登录名   |
+| p     | 是 |   当前页数   |
 
 
 ### **返回结果**
