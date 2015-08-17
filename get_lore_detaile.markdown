@@ -41,69 +41,73 @@ http://www.apps.com/index.php?app=Lore&m=LoreApi&a=getStorehouseDetailed
 ````php
 {
     data: {
-        detailed: {
-            id: "21",
-            uid: "1",
-            category_id: "1",
-            add_time: "07-20 18:28",
-            edit_time: 0,
-            edit_uid: 0,
-            share: "0",
-            title: "wang",
-            titlepinyin: "wang",
-            content: "<p> <img src="/Uploads/2015/0720/18/55acd08796404.png" alt="" /> </p> <p> <span style="color: #E53333;"><img src="/Uploads/2015/0720/18/55accd8c368f1.png" alt="" /></span> </p> <p> <span style="color: #E53333;">2222222222222222222222</span> </p>",
-            label_id: [
-                {
-                    id: "2",
-                    label_name: "技术",
-                    label_color: "#428BCA"
-                }
-            ],
-            nice_count: "0",
-            comment_count: "1",
-            like_count: "0",
-            down_id: [
-                {
-                    id: "2761",
-                    attach_type: "Home",
-                    pic_url: "",
-                    userId: "1",
-                    uploadTime: "1437388082",
-                    name: "wang.png",
-                    type: "image/png",
-                    size: "12451",
-                    extension: "png",
-                    hash: "d59401fa05649076fe54e774ed889227",
-                    private: "0",
-                    isDel: "0",
-                    savepath: "2015/0720/18/",
-                    savename: "55accd3217e2c.png",
-                    savedomain: "0",
-                    persistentId: "",
-                    persistentState: "10",
-                    url: "./Uploads/2015/0720/18/55accd3217e2c.png",
-                    download: "http://www.apps.com/index.php?app=Home&m=Visitor&a=download&val=2761"
-                }
-            ],
-            is_del: "1",
-            u_name: "庆丰包子",
-            category_name: "测试分享"
-        },
-        comment: [
+        labels: [
             {
-                id: "49",
-                lore_id: "21",
-                uid: "1",
-                uid_name: "庆丰包子",
-                uid_avatar: "./Uploads/avatar/0/1.jpg",
-                add_time: "07-20 18:43",
-                reply_uid: null,
-                reply_name: null,
-                parent_id: "0",
-                content: "123123123",
-                attr: [
-                    
-                ]
+                id: "1",
+                label_name: "工作",
+                label_color: "#F0AD4E"
+            },
+            {
+                id: "2",
+                label_name: "技术",
+                label_color: "#428BCA"
+            },
+            {
+                id: "3",
+                label_name: "重要",
+                label_color: "#F0AD4E"
+            },
+            {
+                id: "4",
+                label_name: "市场",
+                label_color: "#8E44AD"
+            },
+            {
+                id: "5",
+                label_name: "端午策划方案",
+                label_color: "#5CB85C"
+            },
+            {
+                id: "6",
+                label_name: "10月",
+                label_color: "#428BCA"
+            },
+            {
+                id: "7",
+                label_name: "修改",
+                label_color: "#D9534F"
+            }
+        ],
+        category: [
+            {
+                id: "3",
+                name: "技术部门",
+                sort: "50",
+                category_count: "6"
+            },
+            {
+                id: "10",
+                name: "知识3",
+                sort: "50",
+                category_count: "6"
+            },
+            {
+                id: "11",
+                name: "语言知识",
+                sort: "50",
+                category_count: "9"
+            },
+            {
+                id: "12",
+                name: "历史名著",
+                sort: "50",
+                category_count: "2"
+            },
+            {
+                id: "1",
+                name: "测试分享",
+                sort: "40",
+                category_count: "3"
             }
         ]
     },
