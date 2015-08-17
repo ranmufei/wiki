@@ -41,73 +41,106 @@ http://www.apps.com/index.php?app=Lore&m=LoreApi&a=getStorehouseDetailed
 ````php
 {
     data: {
-        labels: [
-            {
-                id: "1",
-                label_name: "工作",
-                label_color: "#F0AD4E"
-            },
-            {
-                id: "2",
-                label_name: "技术",
-                label_color: "#428BCA"
-            },
-            {
-                id: "3",
-                label_name: "重要",
-                label_color: "#F0AD4E"
-            },
-            {
-                id: "4",
-                label_name: "市场",
-                label_color: "#8E44AD"
-            },
+        detailed: {
+            id: "9",
+            uid: "1",
+            category_id: "11",
+            add_time: "07-15 10:06",
+            edit_time: 0,
+            edit_uid: 0,
+            share: "1",
+            title: "12312311111",
+            titlepinyin: "12312311111",
+            content: "12312312312312312312",
+            label_id: [
+                {
+                    id: "4",
+                    label_name: "市场",
+                    label_color: "#8E44AD"
+                }
+            ],
+            nice_count: "1",
+            comment_count: "0",
+            like_count: "1",
+            down_id: "",
+            is_del: "1",
+            u_name: "庆丰包子",
+            category_name: "语言知识"
+        },
+        comment: [
             {
                 id: "5",
-                label_name: "端午策划方案",
-                label_color: "#5CB85C"
+                lore_id: "9",
+                uid: "1",
+                uid_name: "庆丰包子",
+                uid_avatar: "./Uploads/avatar/0/1.jpg",
+                add_time: "06-15 20:04",
+                reply_uid: "0",
+                reply_name: "",
+                parent_id: "0",
+                content: "评论一个 不错不错",
+                attr: [
+                    {
+                        id: "6",
+                        lore_id: "9",
+                        uid: "1",
+                        uid_name: "庆丰包子",
+                        uid_avatar: "./Uploads/avatar/0/1.jpg",
+                        add_time: "06-15 20:04",
+                        reply_uid: "1",
+                        reply_name: "庆丰包子",
+                        parent_id: "5",
+                        content: "范德萨发范德萨范德萨",
+                        attr: [
+                            
+                        ]
+                    },
+                    {
+                        id: "7",
+                        lore_id: "9",
+                        uid: "1",
+                        uid_name: "庆丰包子",
+                        uid_avatar: "./Uploads/avatar/0/1.jpg",
+                        add_time: "06-15 20:04",
+                        reply_uid: "1",
+                        reply_name: "庆丰包子",
+                        parent_id: "6",
+                        content: "范德萨发的萨芬",
+                        attr: [
+                            
+                        ]
+                    }
+                ]
             },
             {
-                id: "6",
-                label_name: "10月",
-                label_color: "#428BCA"
+                id: "8",
+                lore_id: "9",
+                uid: "1",
+                uid_name: "庆丰包子",
+                uid_avatar: "./Uploads/avatar/0/1.jpg",
+                add_time: "06-15 20:04",
+                reply_uid: "0",
+                reply_name: "",
+                parent_id: "0",
+                content: "范德萨发的萨芬",
+                attr: [
+                    
+                ]
             },
             {
-                id: "7",
-                label_name: "修改",
-                label_color: "#D9534F"
-            }
-        ],
-        category: [
-            {
-                id: "3",
-                name: "技术部门",
-                sort: "50",
-                category_count: "6"
-            },
-            {
-                id: "10",
-                name: "知识3",
-                sort: "50",
-                category_count: "6"
-            },
-            {
-                id: "11",
-                name: "语言知识",
-                sort: "50",
-                category_count: "9"
-            },
-            {
-                id: "12",
-                name: "历史名著",
-                sort: "50",
-                category_count: "2"
-            },
-            {
-                id: "1",
-                name: "测试分享",
-                sort: "40",
-                category_count: "3"
+                id: "9",
+                lore_id: "9",
+                uid: "1",
+                uid_name: "庆丰包子",
+                uid_avatar: "./Uploads/avatar/0/1.jpg",
+                add_time: "06-15 20:05",
+                reply_uid: "0",
+                reply_name: "",
+                parent_id: "0",
+                content: "范德萨范德萨范德萨",
+                attr: [
+                    
+                ]
             }
         ]
     },
