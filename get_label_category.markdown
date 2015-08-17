@@ -1,11 +1,11 @@
 ### **请求接口**
-/index.php?app=Lore&m=LoreApi&a=getStorehouseDetailed
+/index.php?app=Lore&m=LoreApi&a=getLabelsCategory
 
 ### **请求方式**
 post
 
 ### **公网测试**
-http://www.apps.com/index.php?app=Lore&m=LoreApi&a=getStorehouseDetailed
+http://www.apps.com/index.php?app=Lore&m=LoreApi&a=getLabelsCategory
 
 ### **请求参数**
 
