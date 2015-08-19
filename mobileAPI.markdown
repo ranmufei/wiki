@@ -114,3 +114,4 @@
 * [获取知识详细信息](get_lore_detaile)
 * [添加知识评论返回评论树](add_comment_tree)
 * [获取标签和有权限的分类列表](get_label_category)
+* [附件上传接口](set_files)
