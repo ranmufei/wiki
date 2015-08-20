@@ -11,7 +11,7 @@ http://www.apps.com/index.php?app=Lore&m=LoreApi&a=operateComment
 
 | 参数名称  |必填|     说明      |
 |------|-----|------|
-| id     | 是 |   知识唯一ID   |
+| store_id     | 是 |   知识唯一ID   |
 | comment | 是 |   评论内容 |
 
 
