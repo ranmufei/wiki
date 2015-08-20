@@ -115,3 +115,4 @@
 * [添加知识评论返回评论树](add_comment_tree)
 * [获取标签和有权限的分类列表](get_label_category)
 * [附件上传接口](set_files)
+* [回复评论返回评论树](add_reply_comment)
