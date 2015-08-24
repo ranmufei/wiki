@@ -1,10 +1,10 @@
 ### **请求接口**
-/index.php?app=Asset&m=AsserApi&a=goods_history
+/index.php?app=Pmanager&m=Procon&a=index
 
 
 
 ### **公网测试**
-http://www.apps.com//index.php?app=Asset&m=AssetApi&a=goods_history
+http://www.apps.com/index.php?app=Pmanager&m=Procon&a=index&pid=97
 
 ### **请求参数**
 
