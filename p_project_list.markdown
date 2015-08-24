@@ -19,7 +19,7 @@ http://www.apps.com/index.php?app=Pmanager&m=&a=project_list
 |percent|  -------      | varchar   |  项目进度百分比  无‘%’，需要自己加|
 
 
-|is_past| -------     | varchar   | 是否过期true过期  false没有过期   |
+|is_past| -------     | varchar   | 是否过期true过期  false没有过期 |
 |leaderinfo|  -------         |   varchar  |  负责人信息内容    |
 |userinfo|  -------         |   varchar  |  参与人员信息内容   |
 
