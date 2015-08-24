@@ -121,3 +121,4 @@
 * [项目管理动态内容列表](p_notice_list)
 * [项目管理添加动态](p_notice_add)
 * [全部项目列表](p_project_list)
+* [项目详细动态列表](p_project_notice)
