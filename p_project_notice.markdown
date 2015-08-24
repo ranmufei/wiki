@@ -1,10 +1,10 @@
 ### **请求接口**
-/index.php?app=Pmanager&m=Procon&a=index
+/index.php?app=Pmanager&m=PmanegerApi&a=project
 
 
 
 ### **公网测试**
-http://www.apps.com/index.php?app=Pmanager&m=Procon&a=index&pid=97
+http://www.apps.com/index.php?app=Pmanager&m=PmanegerApi&a=project&pid=97
 
 ### **请求参数**
 
