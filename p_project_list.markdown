@@ -7,23 +7,21 @@ http://www.apps.com/index.php?app=Pmanager&m=&a=project_list
 ### **返回结果**
 |字段        |值          |类型    |说明        |
 | ---------  |--------    |-------- |--------  |
-|id          |-------   |int    |物品id   |
-|number      | -------     |varchar  |物品编号      |
-|type        | -------    |varchar  |目前未用      |
-|already_num | -------     |int  |申租品已经借出数量     |
-|ntime       |  -------   |varchar     |  购买时间   |
-|names       |-------     |varchar   |物品名称          |
-|old         |   -------         |varchar　　|　折旧率 |
-|is_old| -------   |int　|　是否属于折旧     |
-|num |    -------         |int | 物品数量 |
-|remark|  -------      | varchar   |  备注信息   |
-|gunit|   -------        |  varchar | 物品单位|
-|cateid|   -------       |  int  |  大分类（1）易耗品（2）申租品（3）折旧品|
-|buytime|  -------        | varchar    |  添加时间   |
-|price|   -------          |   float |  物品单价    |
-|now_tprice        | -------     | varchar   | 数量*单价后 折旧的价格   |
-|img|  -------         |   varchar  |  物品图片地址    |
-|cat|  -------         |   varchar  |  小分类名称   |
+|id          |-------   |int    | 项目id  |
+|uid| -------     |varchar  |用户id      |
+|pro_name| -------    |varchar  |项目名称   |
+|objective| -------     |int  |项目目标    |
+|time|  -------   |varchar     |  创建时间  |
+|end_time|-------     |varchar   |项目结束时间        |
+|leader|   -------         |varchar　　|　项目负责人id |
+|user| -------   |int　|参加项目人员    |
+|display|    -------         |int | 是否是私有项目，0为公开，1位私有|
+|percent|  -------      | varchar   |  项目进度百分比  无‘%’，需要自己加|
+
+
+|is_past| -------     | varchar   | 是否过期true过期  false没有过期   |
+|leaderinfo|  -------         |   varchar  |  负责人信息内容    |
+|userinfo|  -------         |   varchar  |  参与人员信息内容   |
 
 
 ### **示例**
