@@ -1,46 +1,53 @@
 ### **请求接口**
-/index.php?app=Asset&m=AsserApi&a=goods_history
+/index.php?app=Pmanager&m=PmanegerApi&a=project_need
 
 
 
 ### **公网测试**
-http://www.apps.com//index.php?app=Asset&m=AssetApi&a=goods_history
+http://www.apps.com/index.php?app=Pmanager&m=PmanegerApi&a=project_need&pid=97
 
 ### **请求参数**
 
 | 参数名称  |必填|     说明      |
 |------|-----|------|
-| id     | 是 |   物品id   |
+| pid     | 是 |   项目的id   |
 
 
 ### **返回结果**
 |字段        |值          |类型    |说明        |
 | ---------  |--------    |-------- |--------  |
-|id          |-------   |int    |历史记录id   |
+|time|-------   |int    |创建时间   |
 |userid| -------     |varchar  |申请人姓名    |
-|applyuid|-------     |varchar   |批注人姓名|
-|applytime| -------     |   varchar        |  申请时间     |
-|goodsid| -------    |varchar  |物品id|
-|applytime| -------     |int  |申请时间    |
-|num| -------     |int  |申请数量    |
-|is_delete| -------     |int  |是否删除 ‘1’：未删除， ‘0’：已删除   |
-
-
+|profj|-------     |varchar   |附件信息|
+|user_list| -------     |   varchar        |  参与人员id   |
+|userinfo| -------    |varchar  |参与人员详细信息|
+|chatlist| -------     |int  |动态列表   |
+|nid| -------     |int  |需求id    |
+|uid| -------     |int  |用户id  |
+|cid| -------     |int  |公司id  |
+|display| -------     |int  |是否私有0公开  1私有  |
+|time| -------     |int  |发布时间|
+|need_id| -------     |int  |需求id  |
+|pro_id| -------     |int  |所属项目id |
+|img| -------     |int  |所属图片id|
 ### **示例**
 ````php
 {
-id: "96",
-userid: "庆丰包子",
-applyuid: "庆丰包子",
-goodsid: "183",
-cateid: "1",
-borrowtime: "",
-reurntime: "",
-applytime: "2015-06-16 09:06",
-state: "",
-num: "2",
-is_delete: "1",
-one: "",
-two: "",
-three: ""
+nid: "661",
+uid: "庆丰包子",
+cid: "1",
+display: "0",
+notice: "范德萨发大水",
+time: "07-25 16:00",
+need_id: "0",
+home_id: "0",
+pro_id: "创建另一个项目测试",
+test_id: "0",
+server_id: "0",
+task_id: "69",
+top: "0",
+upid: null,
+attic: null,
+img: "./Uploads/avatar/0/1.jpg",
+my: true
 },
