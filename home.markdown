@@ -31,6 +31,7 @@
 ## [公共模型](staticmodel)
 
 * [汉字转拼音PHP](fztopy)
+* [初始化数据写在配置文件中](Initial_config)
 
 
 # 接口
