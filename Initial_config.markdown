@@ -1,8 +1,8 @@
-~ 优势：
-  -- 初始化数据写到应用的配置文件中，不用写到数据库中，方便清空数据库。调用、修改与存数据库一样方便
+## 优势：
+  #### 初始化数据写到应用的配置文件中，不用写到数据库中，方便清空数据库。调用、修改与存数据库一样方便
 
-~ 步骤：
- -- 1. 在应用的config.php中添加你新增的配置文件，注意最后加入到array_merge函数中
+## 步骤：
+ #### 1. 在应用的config.php中添加你新增的配置文件，注意最后加入到array_merge函数中
 ```` php
 <?php
 $config =array(
@@ -18,7 +18,7 @@ return array_merge($sysconfig,$config,$config_shop_set,$config_shop_type_set,$co
 
 ````
 
- -- 2. 新增的配置文件格式如下（返回一个数组）：
+ #### 2. 新增的配置文件格式如下（返回一个数组）：
 ```` php
 <?php 
  return array( 
@@ -51,7 +51,7 @@ return array_merge($sysconfig,$config,$config_shop_set,$config_shop_type_set,$co
 ) 
  );
 ````
--- 3. 使用C('pro_status')就可以调用配置，返回的是一个数组
+#### 3. 使用C('pro_status')就可以调用配置，返回的是一个数组
 ```` php
 array (
     0 => '无货',
@@ -61,7 +61,7 @@ array (
   ),
 ````
 
--- 4. 修改配置文件
+#### 4. 修改配置文件
 ```` php
 //修改配置文件
 //$new_config为数组 , 格式为$new_config['a'] = 123 ;
@@ -111,6 +111,6 @@ public function save_print_page(){
 }
 ````
 
-- 注意事项:
+## 注意事项:
   通过代码该的文件，git是不能进行版本控制的，所以修改后的配置文件时拉取不到最新的！
 调试请通过C函数读取，上传新增的配置后注意不要本地修改后再上传！
