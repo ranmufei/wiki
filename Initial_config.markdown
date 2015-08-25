@@ -2,7 +2,7 @@
 #### 初始化数据写到应用的配置文件中，不用写到数据库中，方便清空数据库。调用、修改与存数据库一样方便
 
 ## 步骤：
- ### 1. 在应用的config.php中添加你新增的配置文件，注意最后加入到array_merge函数中
+#### 1. 在应用的config.php中添加你新增的配置文件，注意最后加入到array_merge函数中
 ```` php
 <?php
 $config =array(
@@ -94,7 +94,7 @@ protected function update_new_config($new_config, $config_file = '' ) {
  
 }
 ````
-在其他的地方通过ajax获取修改的值后调用：
+#### 在其他的地方通过ajax获取修改的值后调用：
 ```` php
 /*打印设置*/
 public function save_print_page(){
