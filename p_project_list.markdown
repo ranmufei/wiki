@@ -1,7 +1,7 @@
 ### **请求接口**
-/index.php?app=Pmanager&m=&a=project_list
+/index.php?app=Pmanager&m=PmanegerApi&a=project_list
 ### **公网测试**
-http://www.apps.com/index.php?app=Pmanager&m=&a=project_list
+http://www.apps.com/index.php?app=Pmanager&m=PmanegerApi&a=project_list
 
 
 ### **返回结果**
