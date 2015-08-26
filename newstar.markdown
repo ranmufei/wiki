@@ -25,7 +25,7 @@
 
 - JavaScript 对象知识  http://www.ruanyifeng.com/blog/javascript/
 
-- 前端插件 OniUI http://192.168.1.241/moban/oniui/#avalon.accordion.doc.html
+- 前端插件 OniUI http://ued.qunar.com/oniui/index.html#!/apis  内部备份 http://192.168.1.241/moban/oniui/#avalon.accordion.doc.html
 
 - 前端弹出层插件资料http://layer.layui.com/ （该插件已经封装进 Avalon 可以在avalonjs中引入模块 layer/layers）
 
