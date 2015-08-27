@@ -54,3 +54,9 @@
   - 详细信息
    - [资料](mid_order_info)
    - [支付详情](mid_order_payinfo) 
+
+### **报表**
+  - [销售机会阶段](report_chance_state)
+  - [客户类型](report_custom_all)
+  - [订单时段](report_order_time)
+  - [新增客户](report_add_custom)
