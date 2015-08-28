@@ -83,6 +83,8 @@
 
 -[进销存](app_jixniao)
 
+- [应用配置说明](appinforead) `20150828`
+
 # 公共函数帮助查询
 
 # [常见问题汇总](questionCollect) 
