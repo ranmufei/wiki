@@ -9,7 +9,7 @@
 
 <?php
     return array(
-       /* 'INVOIV_ceshi1df'=>array(
+       'INVOIV_ceshi1df'=>array(
                 'name'=>'进入进销存',
                 'nodeType'=>'c',
                 'nodes'=>array('Invoicimg.Index.index')
@@ -17,8 +17,10 @@
         'INVOIV_ceshi1'=>array(
                 'name'=>'产品管理',
                 'nodeType'=>'c',
-                'nodes'=>array('Invoicimg.Product.addproduct_object','Invoicimg.Index.add','Invoicimg.Product.editproduct','Invoicimg.Product.updataFormat')
+                'nodes'=>array('Invoicimg.Product.editproduct','Invoicimg.Product.updataFormat')
         ),
+
+)
 
 ```
 
