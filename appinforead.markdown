@@ -29,3 +29,24 @@
 
 
 ```` 
+
+
+-  initTable.php
+
+>  初始化应用数据专用  ，请在此配置中 填写可以被清空表的名称，特别注意的是 如果自己的表中有初始化数据的 请别添加否则会被清空的
+
+
+```` php
+   <?php
+/**
+ * 这里填写可以被清空的表，
+ * 注意 如果有初始化数据的表 切忌不要填写
+ */
+    return array(
+            'oa_jinxiao_gm_content',
+            'oa_jinxiao_gm_order',
+            'oa_jinxiao_ordersetting',
+    );
+
+
+````
