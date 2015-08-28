@@ -5,6 +5,22 @@
 >    权限配置应用  切忌不能和别人的应用有重复 ，但复制别人的应用 来创建自己的应用的时候 切忌不能吧node.php配置也给复制
 
 
+``` php
+
+<?php
+    return array(
+       /* 'INVOIV_ceshi1df'=>array(
+                'name'=>'进入进销存',
+                'nodeType'=>'c',
+                'nodes'=>array('Invoicimg.Index.index')
+        ),
+        'INVOIV_ceshi1'=>array(
+                'name'=>'产品管理',
+                'nodeType'=>'c',
+                'nodes'=>array('Invoicimg.Product.addproduct_object','Invoicimg.Index.add','Invoicimg.Product.editproduct','Invoicimg.Product.updataFormat')
+        ),
+
+```
 
 - info.php
 
