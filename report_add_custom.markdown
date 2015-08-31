@@ -3,7 +3,6 @@
 /index.php?app=Customer&m=Mreport&a=new_custom
 
 ### **接口说明**
-`分页`
 
 ### **请求方式**
 get
