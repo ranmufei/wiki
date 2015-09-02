@@ -4,7 +4,9 @@
 # 开发帮助
 
 
-* [内部测试环境帮助说明](devHelp)
+* [内部开发环境帮助说明](devHelp)
+
+* [内部测试环境](serviertest)
 
 * [私有盘系统开发说明](privateDev)
 
