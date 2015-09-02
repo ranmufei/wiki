@@ -8,20 +8,11 @@
       
 ## 内部测试新主机
 
->   测试主机 账号 appstest  密码 feifei
-
->     www.appstest.com 请做hosts  192.168.1.90      www.appstest.com
-
->    内部测试环境 模拟的新独立主机
-       
-# 内部正式环境测试主机信息
-
-> ip 192.168.1.253
-> 账号 testcompany1 psw : feifei
-
 
 # 内部开发超级管理员站好
 
 > 账号 sving
 
 > 密码 58456qwe
+
+
