@@ -9,6 +9,7 @@
 - 加密`Addons`及`App`文件夹下文件 (其中 `应用/Common/common.php`、`应用/Conf/config.php` `不可加密`)
 - 哪些应用是要单独做升级处理,不能使用到发行版的
 - `授权地址` 及 `升级包下载地址`是否已改成网络的
+- `mobile 端`测试账号清除 Home/Lib/Action/MobileauthAction.class.php 
 
 ## 制作`升级包` 注意事项
 - 有些文件不可直接覆盖（ThinkPHP/appconfig.php/ExternalApp.php）
@@ -19,5 +20,6 @@
 - 版信息的更正(`upgrade/config.php`)
 - 是直接压缩`utf-8这个文件夹`成`zip`格式,压缩文件名称是否正确(`patch_上次日期_本次升级日期.zip`)
 - 类似字段还有`ttf`、`.svg`、`eot`、`woff`等格式 用工作搜索时别忘记设置
+- `mobile 端`测试账号清除 Home/Lib/Action/MobileauthAction.class.php 
 
 
