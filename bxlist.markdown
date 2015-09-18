@@ -38,21 +38,11 @@ count: "1",
 data: [
 {
 id: "106",
-documentsid: "2015060856574957",
+expenseid: "2015060856574957",
 money: "15.00元",
-eid: "0",
-fileid: "2026",
 userid: "庆丰包子",
-cateid: "4",
-projectid: "2",
-status: "已录入",
+estatus: "审核中",
 time: "2015-06-08 17:42:32",
-isreceipt: "否",
-isdelete: "0",
-documentsname: "测试",
-docbz: "",
-audityz: "",
-default1: "",
-default2: "",
-pc: "水电费+项目2"
+expensename: "测试",
+
 }]
