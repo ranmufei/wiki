@@ -54,36 +54,37 @@
 ``` javascript
 {
 pj: {
-yj: null,
-statu: 0,
+selfbh: 1,//为1就显示删除
+statu: 1,//为1就显示审核框和审核意见
 count:1,
 data: [
 {
-documentsid: "1431594688179669",
-money: "1212.00",
-fileid: "./Uploads/2015/0514/17/555466c0a4778.png",
-cateid: "差旅费",
-projectid: "项目3",
-time: "2015-05-14 17:11:28",
-isreceipt: "是",
-documentsname: "阿什顿",
-docbz: "无"
+cateid: "餐费"
+docbz: "伽师瓜"
+documentsid: "2015091610053979"
+documentsname: "手工"
+fileid: "./Uploads/2015/0916/10/55f8d4d85a807.png"
+isreceipt: "否"
+money: "200.00"
+projectid: "项目"
+time: "2015-09-16 10:33:01"
 }
 ]
 },
 bx: {
-id: "58",
-userid: "庆丰包子",
-expenseid: "2015051598564850",
-time: "2015-05-15 15:02:19",
-estatus: "已报销",
-isdelete: "0",
-expensename: "十大",
-bz: "阿什顿",
-yjian: "",
-default1: "",
-default2: "",
-money: 1212
+audit: "342"
+audits: "张非"//audits不为空就显示  :等待张非审核
+bz: "fsdf"
+default2: ""
+estatus: "审核中"
+expenseid: "2015091752549797"
+expensename: "sdfsdf"
+id: "3"
+isdelete: "0"
+money: 1111
+time: "2015-09-17 10:30:12"
+userid: "谷歌"
+yjian: "sad"
 },
 history: {
 cwu: [
