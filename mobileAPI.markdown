@@ -86,6 +86,7 @@
 * [报销审核](passbx)
 * [新建票据的上传接口](addpj)
 * [类别、项目列表](pclist)
+* [报销选人（只显示有权限的）](selectaudit)
 
 ### 资产管理
 * [易耗品及详细](consumable_list)
