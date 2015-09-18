@@ -14,6 +14,7 @@ http://www.apps.com/index.php?app=Wangpan&m=MobileApi&a=lists
 | uid     | 是 |   用户id   |
 | folder_id | 否 |   本接口传入此参数表示目录下的文件(夹)列表,不传表示顶级根目录下的文件(夹)列表 |
 | p | 是 |   本接口传入此参数表示分页,不传表示默认第一页 |
+| isshareing | 是 | 区分是个人文件夹点击还是共享文件夹点击 |
 
 ### **返回结果**
 |字段       |值             |类型    |说明           |
