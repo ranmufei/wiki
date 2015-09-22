@@ -78,6 +78,7 @@ protected function update_new_config($new_config, $config_file = '' ) {
                   $text = "<?php \n" . "return \n  " .stripslashes(var_export($config, true)) . ";"  ;
  
                 file_put_contents($config_file, $text , LOCK_EX);
+               @unlink('Cache/runtime/Shouyin1/~runtime.php'); //删除缓存文件，防止读取旧的配置
                 return true;
                 } else {
                 return false;
@@ -90,6 +91,7 @@ protected function update_new_config($new_config, $config_file = '' ) {
             fopen($config_file , "a") ;
             $text = "<?php \n" . "return   \n  " .stripslashes(var_export($config, true)) . ";"  ;
             file_put_contents($config_file, $text , LOCK_EX);
+@unlink('Cache/runtime/Shouyin1/~runtime.php'); //删除缓存文件，防止读取旧的配置
             return true ;
         }
  
