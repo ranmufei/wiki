@@ -54,6 +54,7 @@
 ### 考勤管理
 * [公司考勤时间](companySett)
 * [移动考勤](playKa)
+* [移动考勤状态](MyKaoqin)
 
 ### 工作流
 * [工作流思维流程](my_luoji)
