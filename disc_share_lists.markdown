@@ -26,7 +26,8 @@ http://www.apps.com/index.php?app=Wangpan&m=MobileApi&a=share_lists
 |file_extension |          |String |文件类型id |
 |type       |              |string |file or folder |
 |share_name|              |string    |分享人 |
-
+|file_type|              |int |文件类型（文本、图片） |
+|downloadUrl  | string | 文件下载链接 |
 ### 实例
 
 ``` javascript
