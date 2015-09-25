@@ -24,7 +24,7 @@ http://www.apps.com/index.php?app=Wangpan&m=MobileApi&a=share_lists
 |size       |              |String |文件大小  |
 |inputtime  |              |int    |文件（夹）创建时间 |
 |file_extension |          |String |文件类型id |
-|type       |              |int    |file or folder |
+|type       |              |string |file or folder |
 |share_name|              |string    |分享人 |
 
 ### 实例
