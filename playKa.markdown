@@ -4,21 +4,23 @@
 
 ## 请求接口 
 
->  *index.php?app=Home&m=KaoQingApi&a=daKa*
+>  *index.php?app=Kaoqin&m=KaoqinApi&a=daKa*
 
 >  method : get/`post`
 
-> *测试http://www.apps.com/index.php?app=Home&m=KaoQingApi&a=daKa&uid=1&tag=4&address=%E4%B8%8A%E6%B5%B7&cid=1*
+> *测试http://www.apps.com/index.php?app=Kaoqin&m=KaoqinApi&a=daKa&uid=1&tag=4&address=%E4%B8%8A%E6%B5%B7&cid=1*
 
 ## 请求参数
 
 | 参数名称      |    必填 | 说明  |
 | :-------- | :--------:| :-- |
+| access_token | 是 |   验证token   |
 | uid | 是 |   当前用户uid   |
 | cid | 是 |   当前用户cid  公司id  |
-| tag | 否 |   打卡点 1：早上上班；2：早上下班；3 下午上班 ；4 下午下班  |
-| address | 是 |   用户地点字符串   |
-
+| address| 是 |   打卡地址  |
+| longitude | 否 |   打卡经度  |
+| latitude | 否 |   打卡维度  |
+| phone_type| 否 |   手机型号  |
 
 
 
