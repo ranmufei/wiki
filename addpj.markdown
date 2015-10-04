@@ -27,5 +27,5 @@
 
 ``` javascript
 
-html：<input type="file"  id="file">
+html：<input type="file"  name="file" id="file">
 js：var file = document.getElementById("file").files[0];
