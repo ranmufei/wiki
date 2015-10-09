@@ -55,6 +55,9 @@
 * [公司考勤时间](companySett)
 * [移动考勤](playKa)
 * [移动考勤状态](MyKaoqin)
+* [查看提交给自己的考勤申请列表](get_shenh_list)
+* [提交给下一个人审核](shenh_check_next)
+* [考勤直接审核](shenh_check)
 
 ### 工作流
 * [工作流思维流程](my_luoji)
