@@ -12,6 +12,7 @@ get/post
 | cid     | 是 |   公司id   |
 | next_uid | 是 |   提交给下一个人审核的员工的id   |
 | jilu_id | 是 |   该条审核记录的id   |
+| replay_text | 否 |   该条审核记录的审批意见   |
 
 
 ### **返回结果**
