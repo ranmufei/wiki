@@ -47,6 +47,7 @@
 |三级username|  |string|操作人|
 |二级his||array|审批记录|
 |三级time|  |string|时间|
+|三级def|  |string|意见|
 |三级inputtime|  |string|操作人|
 |三级status|  |string|状态|
 
