@@ -64,6 +64,7 @@
 |[新建销售订单(avalon)](creatSaleOrder)| avalon | 创建销售订单 Avalon 组件  `2015-06-29更新`|
 |[客户选择(avalon)](selcustom) | avalon | avalon组件选择客户 |
 |[选择职员(avalon)](member)   | Avalon | 选择职员 |
+|[物流发货(avalon)](logistics)   | Avalon | 物流发货 |
 |[查询条件构造器(avalon)](fieldsearch)| Avalon | 查询条件构造器 |
 |[框架公共数据(avalon)](apppublic)| Avalon | 框架公共数据 |
 |[选择发货地址](choiceAddressWidgit)| thinkphp | thinkphp 组件选择发货地址 |
