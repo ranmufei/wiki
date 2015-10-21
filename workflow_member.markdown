@@ -12,6 +12,6 @@ get/post
 ### **返回结果**
 |list|array | array | 返回数据 数组|
 |----|----|----|-----|
-||data|array|员工列表|
+|data||array|员工列表|
 |count||int|员工总条数|
 
