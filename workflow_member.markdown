@@ -1,5 +1,5 @@
 ### **请求接口**
-/index.php?app=Kaoqin&m=KaoqinApi&a=shenh_check_next
+*测试http://www.apps.com/index.php?app=Workflow&m=IndexApi&getmember
 
 ### **请求方式**
 get/post
