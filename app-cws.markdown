@@ -4,6 +4,8 @@
   - 在线报销付款 createExpensePay()
   - 样品出借收款 createSampleLoan()
   - 连锁收银收款 createSyCollect()
+  - 销售管理收款 createSalesCollect()
+  - 销售管理付款 createSalesPay()
 - 通过第一步的现金流规格对象调用统一的接口实现现金流的各种操作
 
 新增 现金流
