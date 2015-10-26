@@ -1,9 +1,9 @@
 现金流 对 其他应用 提供现金交易 及 订单 审核 的功能接口。
 ### _分为两步_：
 - 创建对应来源的现金流规格对象( model('CashFlow') )
-  -- 在线报销付款 createExpensePay()
-  -- 样品出借收款 createSampleLoan()
-  -- 连锁收银收款 createSyCollect()
+  - 在线报销付款 createExpensePay()
+  - 样品出借收款 createSampleLoan()
+  - 连锁收银收款 createSyCollect()
 - 通过第一步的现金流规格对象调用统一的接口实现现金流的各种操作
 
 新增 现金流
