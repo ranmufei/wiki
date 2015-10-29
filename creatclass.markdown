@@ -63,24 +63,6 @@ require(['avalon','creatclass/creatclass','domReady!'],function(avalon){
 |callbackfun()|否| 分类修改 删除 增加后  自动回调函数  |
 
 
-## 回调函数说明
-
-onInit()
-
-
-callbackfun(a,b)
-
-
-```` javascript
-
-data: {orderid: 112, settstatu: 1}
-orderid: 112
-settstatu: 1
-info: "订单提交成功"
-statu: 1
-
-````
 
 
 
-## 返回说明
