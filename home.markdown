@@ -61,7 +61,7 @@
 
 | 组件名称 |  类型  |  描述  |
 | :-- | ----:| :--: |
-|[新建进销存分类(avalon)](creatclass) ``新` | avalon | 新建分类 Avalon 组件  `2015-10-29更新` |
+|[新建进销存分类(avalon)](creatclass) `新` | avalon | 新建分类 Avalon 组件  `2015-10-29更新` |
 |[新建销售订单(avalon)](creatSaleOrder)| avalon | 创建销售订单 Avalon 组件  `2015-06-29更新`|
 |[客户选择(avalon)](selcustom) | avalon | avalon组件选择客户 |
 |[选择职员(avalon)](member)   | Avalon | 选择职员 |
