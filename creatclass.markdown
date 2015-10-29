@@ -60,8 +60,6 @@ require(['avalon','creatclass/creatclass','domReady!'],function(avalon){
 
 | 参数名称      |    必填 | 说明  |
 | :-------- | --------:| :--: |
-
-
 |callbackfun()|否| 分类修改 删除 增加后  自动回调函数  |
 
 
