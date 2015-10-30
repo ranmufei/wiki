@@ -10,10 +10,10 @@ http://www.apps.com//index.php?app=Asset&m=AssetApi&a=goods_next_check
 
 | 参数名称  |必填|     说明      |
 |------|-----|------|
-| apply_id| 是 |   审核表的id   |
-| word| 是 |   审核表的id   |
-| status| 是 |   审核表的id   |
-| uid| 是 |   审核表的id   |
+| apply_id| 是 |   本条信息的id  |
+| word| 是 |   备注内容  |
+| status| 是 | 提交审批人的id    |
+| uid| 是 |   操作人uid  |
 
 
 
