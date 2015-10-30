@@ -12,6 +12,7 @@ http://www.apps.com//index.php?app=Asset&m=AssetApi&a=consumable_apply
 |------|-----|------|
 | id     | 是 |   所申请的物品id   |
 | num    | 是 |   申请物品的数量   |
+| apply_people| 是 |   选择审批人的id   |
 ### **返回结果**
 |字段        |值          |类型    |说明        |
 | ---------  |--------   |-------- |--------  |
