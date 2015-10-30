@@ -1,5 +1,5 @@
 ### **请求接口**
-/index.php?app=Asset&m=AsserApi&a=goods_next_check
+/index.php?app=Asset&m=AssetApi&a=goods_next_check
 
 
 
