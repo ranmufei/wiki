@@ -63,6 +63,7 @@
 
 | 组件名称 |  类型  |  描述  |
 | :-- | ----:| :--: |
+|[增加产品(avalon)](avalonCreateproduct) `新` | avalon | 增加次哦 Avalon 组件  `2015-12-2更新` |
 |[单位管理(avalon)](avalonUnit) `新` | avalon | 单位管理 Avalon 组件  `2015-10-30更新` |
 |[仓库管理(avalon)](avalonWarehouse) `新` | avalon | 仓库管理 Avalon 组件  `2015-10-30更新` |
 |[新建进销存分类(avalon)](creatclass) `新` | avalon | 新建分类 Avalon 组件  `2015-10-29更新` |
