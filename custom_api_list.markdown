@@ -11,6 +11,7 @@
   - [线索动态](pre_thread_dynamics)
   - [资料](pre_thread_info)
   - [日程](pre_thread_schedule)
+  - [转为客户](pre_thread_convert)
  - [新增线索日程](pre_thread_schedule_add)
 
 #### 客户管理
