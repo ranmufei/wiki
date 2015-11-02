@@ -18,7 +18,7 @@ post
 | --------- |--------      |--------|--------       |
 |id         |线索ID|string|    *|
 |custom_company     |客户名称 | string | `*`         |
-|custom_type |客户分类|string  | 选择 | * |
+|custom_type |[选择客户分类](http://192.168.1.240/ranmufei/apps/wikis/pre_custom_type_list)|string  | 选择 | * |
 |trend  | 值=1 将动态也转给客户 | boolean | 默认选择 |
 
 
