@@ -16,6 +16,8 @@
 
 * [新人快速入门](newstar)
 
+* [avalon 组件开发模板参考](avalon_widget_create)
+
 
 
 ### [发行及升级](versionorupdate)
