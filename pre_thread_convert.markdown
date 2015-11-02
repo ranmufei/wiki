@@ -1,6 +1,6 @@
 ### **转为客户**
 ### **请求接口**
-/index.php?app=Customer&m=MPrethread&a=submit_schedule
+/index.php?app=Customer&m=MPrethread&a=convert
 
 ### **接口说明**
 
