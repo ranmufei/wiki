@@ -63,6 +63,7 @@
 
 | 组件名称 |  类型  |  描述  |
 | :-- | ----:| :--: |
+|[选择产品组件(avalon)](avalonChoiceProduct) `新` | avalon | 选择进销存产品 Avalon 组件  `2015-12-4更新` |
 |[产品规格管理(avalon)](avalonFormat) `新` | avalon | 增加规格管理 Avalon 组件  `2015-12-3更新` |
 |[增加产品(avalon)](avalonCreateproduct) `新` | avalon | 增加产品 Avalon 组件  `2015-12-2更新` |
 |[单位管理(avalon)](avalonUnit) `新` | avalon | 单位管理 Avalon 组件  `2015-10-30更新` |
