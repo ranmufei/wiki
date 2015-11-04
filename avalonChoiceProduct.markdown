@@ -4,6 +4,49 @@
 
   > 供全局调用 选择进销存产品
 
+
+
+## 配置参数说明
+        width:'500px', 
+        height:'300px',
+        title:'仓库管理',
+        callbackfun:avalon.noop //回调函数Init
+
+## 基本属性配置
+
+| 参数名称      |    必填 | 说明  |
+| :-------- | --------:| :--: |
+| width  | 否 |  默认组件宽度  |
+| height |否| 默认高度 |
+|title|否| 默认表题 |
+
+##  接口方法
+
+| 参数名称      |    必填 | 说明  |
+| :-------- | --------:| :--: |
+|callbackfun()|否| 点击确定按钮后  自动回调函数  |
+|getSelected()|否| 获取选择的产品接口  |
+
+
+
+## 案例html 
+
+
+```
+
+<script src="/App/Invoicimg/AvalonAction/avalon_test.js"></script>
+<div ms-controller="root">
+
+
+  <div ms-widget="choiceproduct,choiceproduct,$choiceproductopt"> + 选择产品</div>
+
+
+</div>
+
+
+```
+
+
 ## 使用方法
 
   > 引入 Avalon组件地址 choiceproduct/choiceproduct
@@ -84,47 +127,4 @@ require(['avalon','creatclass/creatclass','unit/unit','choiceproduct/choiceprodu
 })
 
 ```
-
-## 配置参数说明
-        width:'500px', 
-        height:'300px',
-        title:'仓库管理',
-        callbackfun:avalon.noop //回调函数Init
-
-## 基本属性配置
-
-| 参数名称      |    必填 | 说明  |
-| :-------- | --------:| :--: |
-| width  | 否 |  默认组件宽度  |
-| height |否| 默认高度 |
-|title|否| 默认表题 |
-
-##  接口方法
-
-| 参数名称      |    必填 | 说明  |
-| :-------- | --------:| :--: |
-|callbackfun()|否| 点击确定按钮后  自动回调函数  |
-|getSelected()|否| 获取选择的产品接口  |
-
-
-
-## 案例html 
-
-
-```
-
-<script src="/App/Invoicimg/AvalonAction/avalon_test.js"></script>
-<div ms-controller="root">
-
-
-  <div ms-widget="choiceproduct,choiceproduct,$choiceproductopt"> + 选择产品</div>
-
-
-</div>
-
-
-```
-
-
-
 
