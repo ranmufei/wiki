@@ -1,5 +1,5 @@
 ### **请求接口**
-/index.php?app=Cws&m=MApi&a=cashflowReport
+/index.php?app=Cws&m=MApi&a=getCashflowReport
 
 ### **接口说明**
 
@@ -7,7 +7,7 @@
 post
 
 ### **浏览器查看**
-http://www.apps.com/index.php?app=Cws&m=MApi&a=cashflowReport
+http://www.apps.com/index.php?app=Cws&m=MApi&a=getCashflowReport
 
 ### **公共参数** 
 
