@@ -17,9 +17,6 @@ http://www.apps.com/index.php?app=Pmanager&m=PmanegerApi&a=project_need&pid=97&c
 ### **返回结果**
 |字段        |值          |类型    |说明        |
 | ---------  |--------    |-------- |--------  |
-
-
-
 |nid|-------   |int    |需求id   |
 |cid| -------     |varchar  |公司id   |
 |display|-------     |varchar   |是否私有 0不是 1是的|
