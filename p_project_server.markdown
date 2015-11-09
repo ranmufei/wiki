@@ -1,10 +1,10 @@
 ### **请求接口**
-/index.php?app=Pmanager&m=PmanegerApi&a=project_test_list
+/index.php?app=Pmanager&m=PmanegerApi&a=project_serve_list
 
 
 
 ### **公网测试**
-http://www.apps.com/index.php?app=Pmanager&m=PmanegerApi&a=project_test_list&pid=120&uid=1&cid=1
+http://www.apps.com/index.php?app=Pmanager&m=PmanegerApi&a=project_serve_list&pid=120&uid=1&cid=1
 
 ### **请求参数**
 
