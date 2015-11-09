@@ -12,7 +12,11 @@ http://www.apps.com/index.php?app=Cws&m=MApi&a=cashflowReport
 ### **公共参数** 
 
 ### **其他参数**
-
+### **其他参数**
+|字段       |说明            |类型    |必填           |
+| --------- |--------      |--------|--------       |
+|timetype   |时间段类型  本周: thisweek(默认值)、本月：thismonth、上月：lastmonth、今年：thisyear、去年：lastyear、custom：自定义时间段 |    string|
+|custom_company     |客户名称 | string |          |
 
 ### **返回结果**
 |字段       |值             |类型    |说明           |
