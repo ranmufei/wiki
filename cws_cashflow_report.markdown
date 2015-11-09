@@ -23,6 +23,78 @@ http://www.apps.com/index.php?app=Cws&m=MApi&a=getCashflowReport
 |字段       |值             |类型    |说明           |
 | --------- |--------      |--------|--------       |
 |status     |success/error |string |请求状态         |
-|data       |array         |array  | cname : 客户名称; contact：联系人;  state:状态; createtime:创建时间; post:职务 ; id:ID |
+|data       |array         |array  |请看下面代码 |
 |info       | '' | string | 接口状态说明  |
 
+
+``` javascript
+data: {
+collect: {          //收入
+sum: "1233.00",
+info: [             //收入名细
+{
+name: "客户管理订单",
+count: 0,
+percent: "0.00"
+},
+{
+name: "进销存收款",
+count: 0,
+percent: "0.00"
+},
+{
+name: "销售订单收款",
+count: "1233.00",
+percent: "100.00"
+},
+{
+name: "样品出借",
+count: 0,
+percent: "0.00"
+},
+{
+name: "连锁收银收款",
+count: 0,
+percent: "0.00"
+}
+],
+percent: "100.00"
+},
+pay: {        //支出
+sum: "0.00",
+info: [      //支出名细
+{
+name: "固定资产采购",
+count: 0,
+percent: "0.00"
+},
+{
+name: "固定资产维修",
+count: 0,
+percent: "0.00"
+},
+{
+name: "进销存付款",
+count: 0,
+percent: "0.00"
+},
+{
+name: "销售订单付款",
+count: 0,
+percent: "0.00"
+},
+{
+name: "连锁收银付款",
+count: 0,
+percent: "0.00"
+},
+{
+name: "在线报销",
+count: 0,
+percent: "0.00"
+}
+],
+percent: "0.00"
+},
+margin: "1233.00"
+},
