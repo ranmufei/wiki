@@ -7,6 +7,9 @@
 
 ### 客户管理
 * [接口列表](custom_api_list)
+### 现金流接口
+* [现金流报表](cws_cashflow_report)
+* [经营业绩报表](cws_achieve_report)
 
 ### 通讯录
 * [通讯录列表](contacts_list)
@@ -81,9 +84,6 @@
 * [日程分类](Calendar_category)
 * [日程回复](Calendar_answer)
 
-
-### 客户管理
-
 ### 报销管理
 * [报销列表](bxlist)
 * [报销单详情](bxinfo)
@@ -135,4 +135,3 @@
 * [项目详细动态列表](p_project_notice)
 * [项目里需求动态](p_project_need)
 * [任务列表](p_project_task)
-* [测试列表](p_project_test)
