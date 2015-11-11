@@ -140,3 +140,4 @@
 * [测试列表](p_project_test)
 * [服务列表](p_project_server)
 * [创建项目](creatProject)
+* [删除项目](delete_pro)
