@@ -17,7 +17,7 @@ http://www.apps.com/index.php?app=Pmanager&m=PmanegerApi&a=creatProject
 | objective | 是 |   项目目标 |
 | display | 否 |   是否是私有项目。0是公开。1是私有 |
 | end_time| 是 |   结束时间（时间戳） |
-| user| 是 |  项目参加人的id  |
+| user| 是 |  项目参加人的id  格式为“,60,55,78,79,136,134,82,34,24,1,6”|
 
 
 ### **返回结果**
