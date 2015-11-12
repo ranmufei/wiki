@@ -17,6 +17,8 @@ http://www.apps.com/index.php?app=Pmanager&m=PmanegerApi&a=uploads_call
 |attid| -------     |int  |  附件存放表id    |
 |info| -------    |varchar  |附件上传路径   |
 |name| -------     |varchar  |缩略文件名   |
+|status| -------     |int | 1、上传成功。2、上传失败。3、没有上传文件   |
+|massage| -------     |varchar  |上传之后显示的信息   |
 
 
 
