@@ -12,6 +12,7 @@ http://www.apps.com/index.php?app=Pmanager&m=PmanegerApi&a=project_need&pid=97&c
 |------|-----|------|
 | cid     | 是 |   所在公司id   |
 | pid| 是 |  项目的id   |
+| type| 是 | 如果type=1则是谈论结果。如果不给就是全部   |
 
 
 ### **返回结果**
