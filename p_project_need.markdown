@@ -26,6 +26,7 @@ http://www.apps.com/index.php?app=Pmanager&m=PmanegerApi&a=project_need&pid=97&c
 |task_id| -------     |int  |任务id   |
 |img| -------     |int  |用户图像   |
 |my| -------     |int  |是否属于自己发的消息true是  false不是   |
+|top| -------     |int  |是否是谈论结果0不是讨论结果1是谈论结果  |
 
 
 ### **示例**
