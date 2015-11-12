@@ -142,3 +142,5 @@
 * [创建项目](creatProject)
 * [删除项目](delete_pro)
 * [编辑项目提交参数](edit_proing)
+* [附件上传接口](fj_upload)
+* [附件取消接口](fj_remove)
