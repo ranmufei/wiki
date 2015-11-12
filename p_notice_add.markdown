@@ -15,6 +15,7 @@ http://www.apps.com/index.php?app=Barcode&m=PmanegerApi&a=addnotice
 | notice| 是 |   动态信息  |
 | type| 是 |动态内容---- 1:主页动态 2：需求动态给need_id（必须） 3：项目动态 4 测试动态给test_id（必须） 5 服务动态server_id（必须） 6任务动态给server_id（必须）    |
 | returntime| 是 |   归还时间   |
+| chk| 是 |   上传附件的数组（array）   |
 
 ### **返回结果**
 |字段        |值          |类型    |说明        |
