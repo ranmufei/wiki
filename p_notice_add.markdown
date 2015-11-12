@@ -1,10 +1,10 @@
 ### **请求接口**
-/index.php?app=Barcode&m=PmanegerApi&a=addnotice
+/index.php?app=Pmanager&m=PmanegerApi&a=addnotice
 
 
 
 ### **公网测试**
-http://www.apps.com/index.php?app=Barcode&m=PmanegerApi&a=addnotice
+http://www.apps.com/index.php?app=Pmanager&m=PmanegerApi&a=addnotice
 
 ### **请求参数**
 
