@@ -18,8 +18,8 @@ http://www.apps.com/index.php?app=Pmanager&m=PmanegerApi&a=addnotice
 | chk| 是 |   上传附件的数组（array）   |
 | need_id| 否 |   需求的id（如果type==2）   |
 | testid| 否 |   测试的id（如果type==4）   |
-| sid| 否 |   服务的id（如果type==2）   |
-| taskid| 否 |   任务的id（如果type==2）   |
+| sid| 否 |   服务的id（如果type==5）   |
+| taskid| 否 |   任务的id（如果type==4）   |
 ### **返回结果**
 |字段        |值          |类型    |说明        |
 | ---------  |--------    |-------- |--------  |
