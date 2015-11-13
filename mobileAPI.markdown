@@ -144,3 +144,4 @@
 * [编辑项目提交参数](edit_proing)
 * [附件上传接口](fj_upload)
 * [附件取消接口](fj_remove)
+* [团队成员删除操作](delete_user)
