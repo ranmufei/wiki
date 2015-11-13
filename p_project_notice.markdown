@@ -21,7 +21,8 @@ http://www.apps.com/index.php?app=Pmanager&m=PmanegerApi&a=project&pid=97
 |display|-------     |varchar   |是否私有 0不是 1是的|
 |notice| -------     |   varchar        |  动态内容    |
 |time| -------    |varchar  |发布时间|
-|pro_id| -------     |int  |所属项目名称|
+|pro_id| -------     |int  |所属项目id|
+|pro_name| -------     |int  |所属项目名称|
 |task_id| -------     |int  |任务id   |
 |img| -------     |int  |用户图像   |
 |my| -------     |int  |是否属于自己发的消息true是  false不是   |
