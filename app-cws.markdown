@@ -9,6 +9,7 @@
   - 销售管理付款 createSalesPay()
   - 固定资产采购 createAssetsBuy()
   - 固定资产维修 createAssetsService()
+  - 售后管理收款 createSaleafter()
 - 通过第一步的现金流规格对象调用统一的接口实现现金流的各种操作
 
 - 如果不需要财务进入审核流程 可调用接口setCheckSkip()
