@@ -17,6 +17,12 @@ http://www.apps.com/index.php?app=Pmanager&m=PmanegerApi&a=my_task_list&pid=120&
 ### **返回结果**
 |字段        |值          |类型    |说明        |
 | ---------  |--------    |-------- |--------  |
+|tid|-------   |int    | 任务id |
+|title|-------   |int    | 任务标题  |
+|content|-------   |int    | 内容 |
+|display|-------   |int    | 是否私有|
+|endtime|-------   |int    | 结束时间|
+|content|-------   |int    | 内容 |
 |uid|-------   |int    | 发布人的id  |
 |title| -------     |varchar  |项目名称   |
 |endtime|-------     |varchar   |结束时间|
