@@ -4,6 +4,7 @@
 
   > 供全局调用 选择进销存产品
 
+## 2015-11-19 增加可选择批次
 
 
 ## 配置参数说明
@@ -127,4 +128,12 @@ require(['avalon','creatclass/creatclass','unit/unit','choiceproduct/choiceprodu
 })
 
 ```
+
+
+## 选择批次 返回的数据结构说明
+
+
+
+![111110](http://192.168.1.240/uploads/ranmufei/apps/38c6dc2974/111110.png)
+
 
