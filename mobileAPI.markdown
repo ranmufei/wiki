@@ -146,3 +146,6 @@
 * [附件取消接口](fj_remove)
 * [团队成员删除操作](delete_user)
 * [项目添加团队成员操作](add_user)
+* [我的任务列表](my_task_list)
+* [我的测试列表](my_test_list)
+* [我的服务列表](my_serve_list)
