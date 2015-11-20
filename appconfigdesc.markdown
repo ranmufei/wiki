@@ -5,7 +5,7 @@
 - use    ：应用分类 c:公司应用 u个人应用
 - prop   : 应用属性 (vocational:业务与生产; administration:行政与人力; public:公共与财物; marketing:智能营销; community:社区与分享;
            supplychain:智能供应链)
-- relyon : 用户关联列表(如:'Order,Yuanliao,Storehouse')  
+- relyon : 应用依赖列表(如:'Order,Yuanliao,Storehouse')  
 - is_hide: 是否隐藏应用(0不隐藏 1隐藏)  
 - url    : 应用链接地址
 - version: 版本号
@@ -14,4 +14,6 @@
 - description ：应用描述
 
 ### 关于应用关联 relyon 参数的配制说明：
+功能说明：一个应用如果使用上对其他应用有依赖，则应该将其依赖的应用写到依赖列表上，当该应用从`关闭状态`调解成`开启状态`时,系统会去检测他所依赖的应用是否开启，若没开启则会开启该应用。
+应用的依赖配制应该是独立的，即一系统的应用应该对每个应用进行配制依赖列表。因为如果应用都是关闭状态，你不能确认用户点击的是你配制了依赖的应用。
 
