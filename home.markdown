@@ -22,6 +22,8 @@
 
 ### [发行及升级](versionorupdate)
 
+### [应用配制](appconfigdesc)
+
 ### [云平台PCD通讯设计](pcdtoclouddesign)
 
 ### [移动端文档 ](mobile_document)
