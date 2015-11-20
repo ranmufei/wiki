@@ -13,5 +13,5 @@
 - author : 作者
 - description ：应用描述
 
-## 关于应用关联 relyon 参数的配制说明：
+### 关于应用关联 relyon 参数的配制说明：
 
