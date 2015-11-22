@@ -1,5 +1,6 @@
 |student_id	|student_no	|student_name	|login_name	|password|	permit_login|	endschooltime|	gender|	birthday|	national	|native_place	|photo_url	|political_identity 党团0 团1	|join_part_time	|graduated_academy	|specialty	|education	|degree	|foreign_language|	start_work_time	|company|	current_position|	company_tel	|company_postalcode|	current_position_time|	resume|	home_address|	home_tel|	memo|	delete_flag|	prepare1|	prepare2|	useable|	points|	catid |catid|	jibie 级别	|last_login_time|	last_edit_time|	login_status|
 | :--| :--| :--| :-- | :-- | :--|  :--| :--|  :--| :--| :-- | :-- | :--| :-- |  :--|  :--| :--| :--|  :--|  :--| :--| :--| :-- | :-- | :-- | :-- | :-- |  :--| :-- | :--| :--| :-- | :--| :--| :--| :--| :--| :--| :--|
+
 |11406|6139|李开广| | |'0| |'0| |1| | |'0| | | |1|1| | |34|副局长| | | | | | | |'0|'0| |'0|'0|7|10|NULL|1447221086|'0|
 |11405|63711|胡义华| | |'0| |'0| |'0| | |'0| | | |1|1| | |287|副经理| | | |NULL| | | |'0|'0| |'0|'0|'0|'0|NULL|'0|'0
 |11404|48731|刘汉坤| | |'0| |'0| |'0| | |'0| | | |1|1| | |287|副经理| | | |NULL| | | |'0|'0| |'0|'0|'0|'0|NULL|'0|'0
