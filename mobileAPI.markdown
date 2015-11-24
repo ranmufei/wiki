@@ -119,6 +119,7 @@
 ### Eboss
 * [考勤前一天情况比例](kaoqin_percent)
 * [进销存Eboss数据概况](invoicing_data)
+* [Eboss的权限接口](promisson_eboss)
 
 ### 知识分享
 * [所有知识分页列表](lore_list)
