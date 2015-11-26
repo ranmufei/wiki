@@ -9,6 +9,7 @@ http://www.apps.com/index.php?app=Pmanager&m=PmanegerApi&a=add_user_project
 |user|-------   |array| 参与项目的人员  |
 |proid|-------   |int    | 项目id  |
 |cid|-------   |int    |公司id  |
+|uid|-------   |int    |登录人的id  |
 ### **返回结果**
 |字段        |值          |类型    |说明        |
 | ---------  |--------    |-------- |--------  |
