@@ -26,13 +26,14 @@ http://www.apps.com/index.php?app=Customer&m=MPrethread&a=lists
 ``` javascript
 [
 {
-id: "66",          //动态ID
-title: "",         //动态标题
-remark: "我们新",  //动态备注 
-origin: "PC端",       //来源(手机端、pc端)
-location: "",      //坐标
-area: "",          //位置      
-userid: "1",       //创建者
-createtime: "1436324316"  //创建时间
-}
+cname: "saDSA",
+contact: "ASDASd",
+mobile: "122345662144",
+phone: "1232131231",
+post: "",
+state: "",
+createtime: "11-12 17:16",
+id: "453"
+},
+……
 ]
