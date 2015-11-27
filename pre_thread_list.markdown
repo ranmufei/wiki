@@ -23,7 +23,7 @@ http://www.apps.com/index.php?app=Customer&m=MPrethread&a=lists
 |data       |array         |array  | cname : 客户名称; contact：联系人;  state:状态; createtime:创建时间; post:职务 ; id:ID |
 |info       | '' | string | 接口状态说明  |
 
-
+``` javascript
 [
 {
 id: "66",          //动态ID
