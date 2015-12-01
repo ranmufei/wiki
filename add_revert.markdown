@@ -16,3 +16,4 @@ http://www.apps.com/index.php?app=Pmanager&m=PmanegerApi&a=add_revert
 | ---------  |--------    |-------- |--------  |
 |status          |-------   |int    |1.回复成功，2.回复失败  |
 |info| -------     |varchar  |1.回复成功，2.回复失败      |
+|data| -------     |varchar  |  返回的回复信息   |
