@@ -11,6 +11,7 @@ http://www.apps.com/index.php?app=Wangpan&m=MobileApi&a=xxxxx
 
 | 参数名称  |必填|     说明      |
 |------|-----|------|
+| uid  |  是 |   用户id   |
 | folder_id     | 是 |   目录id   |
 | p | 是 |   本接口传入此参数表示分页 |
 
