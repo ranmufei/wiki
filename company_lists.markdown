@@ -30,4 +30,8 @@ http://www.apps.com/index.php?app=Wangpan&m=MobileApi&a=xxxxx
 
 ``` javascript
 folder_id = 0
-{id: "1", name: "管理1", inputtime: "2015-11-28 16:27:49", folder_node_id: "1", file_type: "folder"}
+0：{id: "1", name: "管理1", inputtime: "2015-11-28 16:27:49", folder_node_id: "1", file_type: "folder"}
+
+folder_id > 0
+0: {id: "3", name: "管理员1", inputtime: "2015-12-01 10:46:56", file_type: "folder"}
+1: {id: "2", name: "55822356.jpg", inputtime: "2015-11-28 17:47:48", file_type: "file", is_image: "1", name: "55822356.jpg"}
