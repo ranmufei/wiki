@@ -23,7 +23,8 @@ http://www.apps.com/index.php?app=Wangpan&m=MobileApi&a=xxxxx
 |name       |              |string |文件（夹）名称   |
 |file_type  |              |string |folder=文件夹 file=文件   |
 |inputtime  |              |int    |创建时间   |
-|isAdministrator  |        |int    |是否为管理员（1=是 2=否）   |
+|isAdministrator  |        |int    |是否为管理员（1=是 2=否）\\ 当folder_id=0,isCreater可以进行创建目录 删除等操作   |
+|isCreater  |              |int    |是否为创建人（1=是 2=否）   |
 ### 实例
 
 ``` javascript
