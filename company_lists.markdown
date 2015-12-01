@@ -29,4 +29,5 @@ http://www.apps.com/index.php?app=Wangpan&m=MobileApi&a=xxxxx
 ### 实例
 
 ``` javascript
+folder_id = 0
 {id: "1", name: "管理1", inputtime: "2015-11-28 16:27:49", folder_node_id: "1", file_type: "folder"}
