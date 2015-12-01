@@ -21,7 +21,9 @@ http://www.apps.com/index.php?app=Wangpan&m=MobileApi&a=xxxxx
 |-----      |-----         |-----  |-----           |
 |id         |              |int    |文件（夹）唯一ID  |
 |name       |              |string |文件（夹）名称   |
-
+|file_type  |              |string |folder=文件夹 file=文件   |
+|inputtime  |              |int    |创建时间   |
+|isAdministrator  |        |int    |是否为管理员   |
 ### 实例
 
 ``` javascript
