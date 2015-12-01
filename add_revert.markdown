@@ -9,6 +9,7 @@ http://www.apps.com/index.php?app=Pmanager&m=PmanegerApi&a=add_revert
 | give_uid     | 是 |  回复给人员的id  |
 | nid| 是 | 动态的id  |
 | uid| 是 |  当前使用人的id   |
+| notice| 是 |  回复的内容   |
 
 ### **返回结果**
 |字段        |值          |类型    |说明        |
