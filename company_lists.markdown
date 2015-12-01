@@ -25,7 +25,9 @@ http://www.apps.com/index.php?app=Wangpan&m=MobileApi&a=xxxxx
 |inputtime  |              |int    |创建时间   |
 |isAdministrator  |        |int    |是否为管理员（1=是 2=否）当folder_id=0,isCreater可以进行创建目录 删除等操作 不可上传文件 当folder_id > 0,isAdministrator可以进行创建目录 删除 上传等操作   |
 |isCreater  |              |int    |是否为创建人（1=是 2=否）   |
-|file_extension|           |string |文件扩展名
+|file_extension|           |string |文件扩展名|
+|is_image   |              |int    |是否为图片（1=是 2=否）|
+|downloadUrl|              |string |下载链接|
 ### 实例
 
 ``` javascript
