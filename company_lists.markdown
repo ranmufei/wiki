@@ -32,9 +32,8 @@ http://www.apps.com/index.php?app=Wangpan&m=MobileApi&a=xxxxx
 ### 实例
 
 ``` javascript
-folder_id = 0
+folder_id > 0
 {"data":[{"id":"3","name":"\u7ba1\u7406\u54581","inputtime":"2015-12-01 10:46:56","file_type":"folder"},{"id":"2","name":"55822356.jpg","inputtime":"2015-11-28 17:47:48","file_type":"file","is_image":"1","file_extension":"jpg"}],"info":"{\"isCreater\":0,\"isAdministartor\":1}","status":"success"}
 
-folder_id > 0
-0: {id: "3", name: "管理员1", inputtime: "2015-12-01 10:46:56", file_type: "folder"}
-1: {id: "2", name: "55822356.jpg", inputtime: "2015-11-28 17:47:48", file_type: "file", is_image: "1", name: "55822356.jpg"}
+folder_id = 0
+{"data":[{"id":"1","name":"\u7ba1\u74061","inputtime":"2015-11-28 16:27:49","file_type":"folder"}],"info":"{\"isCreater\":0,\"isAdministartor\":0}","status":"success"}
