@@ -65,6 +65,7 @@
 
 | 组件名称 |  类型  |  描述  |
 | :-- | ----:| :--: |
+|[批次选择组件(avalon)](choicebatch) `新` | avalon | 选择产品规格批次 Avalon 组件  `2015-12-2更新` |
 |[序列号查看选择组件(avalon)](choiceSerial) `新` | avalon | 查看/选择 产品序列号 Avalon 组件  `2015-12-2更新` |
 |[批次/序列号管理组件(avalon)](avalon_batch) `新` | avalon | 管理批次/序列号的 Avalon 组件  `2015-11-19更新` |
 |[选择产品组件(avalon)](avalonChoiceProduct) `新` | avalon | 选择进销存产品 Avalon 组件  `2015-11-19更新` |
