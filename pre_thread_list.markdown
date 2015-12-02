@@ -23,4 +23,17 @@ http://www.apps.com/index.php?app=Customer&m=MPrethread&a=lists
 |data       |array         |array  | cname : 客户名称; contact：联系人;  state:状态; createtime:创建时间; post:职务 ; id:ID |
 |info       | '' | string | 接口状态说明  |
 
-
+``` javascript
+[
+{
+cname: "saDSA",
+contact: "ASDASd",
+mobile: "122345662144",
+phone: "1232131231",
+post: "",
+state: "",
+createtime: "11-12 17:16",
+id: "453"
+},
+……
+]

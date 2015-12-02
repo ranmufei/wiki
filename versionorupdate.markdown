@@ -21,5 +21,6 @@
 - 是直接压缩`utf-8这个文件夹`成`zip`格式,压缩文件名称是否正确(`patch_上次日期_本次升级日期.zip`)
 - 类似字段还有`ttf`、`.svg`、`eot`、`woff`等格式 用工作搜索时别忘记设置
 - `mobile 端`测试账号清除 Home/Lib/Action/MobileauthAction.class.php 
+- `数据表升级检测,是否导入了测试数据,自增是否从1开始`
 
 

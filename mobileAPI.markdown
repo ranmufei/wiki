@@ -43,6 +43,9 @@
 * [文件分类列表 （共享：图片 文档 文本 其它）](disc_classify_share_lists)
 * [文件分类数量统计](disc_share_amount)
 
+##### 公司网盘
+* [文件(夹)列表](company_lists)
+
 ### 进销存
 * [产品列表](productList)
 * [产品具体详情](productInfo)
@@ -119,6 +122,7 @@
 ### Eboss
 * [考勤前一天情况比例](kaoqin_percent)
 * [进销存Eboss数据概况](invoicing_data)
+* [Eboss的权限接口](promisson_eboss)
 
 ### 知识分享
 * [所有知识分页列表](lore_list)
@@ -149,3 +153,6 @@
 * [我的任务列表](my_task_list)
 * [我的测试列表](my_test_list)
 * [我的服务列表](my_serve_list)
+* [创建开启需求](creatneed)
+* [获取项目参与人员](get_project_user)
+* [回复动态的接口](add_revert)

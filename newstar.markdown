@@ -18,8 +18,7 @@
 
 - bootstrap 参考：http://www.bootcss.com/
 
-- 项目前端框架 基于bootstrap 参考 http://www.zui.sexy/docs/start.html#intro
- （从5月1号开始之后的新应用前端不在基于zui.css 如需使用 请基于bootstrap ，各位同学请注意）
+
 
 - avalonjs（非常重要必须学习） 参考 http://www.cnblogs.com/rubylouvre/p/3181291.html 
 
@@ -31,10 +30,8 @@
 
 #### 前端注意事项：
 - 禁止写行间样式即 style='.....'
-- 样式用class， js Dom 操作用ID，禁止用ID写样式，同样js中也不要用class操作Dom 
 - 禁止用！important
 - 前端样式只要-webkit  内核中跑，不许要写兼容，css3样式的话也只需写-webkit兼容，所以调试时请用chrome
-- 为避免冲突class 取名冲突 ，写程序时需要写样式请加前缀，目前是以自己的姓的首字母为前缀 ，例如王严 他的前缀是 W- 
 
 
 ### php框架
