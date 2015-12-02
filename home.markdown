@@ -62,7 +62,7 @@
 
 # 私有盘控件
 
-## [部分Avalon组件在线预览 案例](http://www.apps.com/index.php?app=Invoicimg&m=TestApi&a=widget) 
+*** - [部分Avalon组件在线预览 案例](http://www.apps.com/index.php?app=Invoicimg&m=TestApi&a=widget) 
 
 | 组件名称 |  类型  |  描述  |
 | :-- | ----:| :--: |
