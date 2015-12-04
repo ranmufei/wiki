@@ -118,6 +118,7 @@
 * [申租品归还操作](state_save)
 * [物品审核中申租品确认归还操作](sure_return)
 * [提交下一步审核](goods_next_check)
+* [易耗品确认申领操作](easy_sure)
 
 ### Eboss
 * [考勤前一天情况比例](kaoqin_percent)
