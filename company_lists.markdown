@@ -18,7 +18,7 @@ http://www.apps.com/index.php?app=Wangpan&m=MobileApi&a=xxxxx
 ### **返回结果**
 |字段       |值             |类型    |说明           |
 | --------- |--------      |--------|--------       |
-|info       |array         |array  |返回数据 数组    |
+|data       |array         |array  |返回数据 数组    |
 |-----      |-----         |-----  |-----           |
 |id         |              |int    |文件（夹）唯一ID  |
 |name       |              |string |文件（夹）名称   |
