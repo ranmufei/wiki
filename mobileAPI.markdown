@@ -99,7 +99,7 @@
 * [新建票据的上传接口](addpj)
 * [类别、项目列表](pclist)
 * [报销选人（只显示有权限的）](selectaudit)
-* [获取项目管理列表]（get_pmanager_list）
+* [获取项目管理列表](get_pmanager_list)
 
 ### 资产管理
 * [易耗品及详细](consumable_list)
