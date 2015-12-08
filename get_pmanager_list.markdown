@@ -12,7 +12,7 @@
 |字段 |  值| 类型 | 说明|
 |:----|----|----|-----|
 
-||array |array |类别列表|
+|data|array |array |类别列表|
 |:----|----|----|-----|
 |pro_name||string|项目名称|
 |percent||string|项目进度|
