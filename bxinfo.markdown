@@ -24,7 +24,7 @@
 |二级isreceipt| 是/否 |sring|是否为票据|
 |二级cumentname|  |string|票据名称|
 |二级cateid|  |string|类别名称|
-|二级projectid|  |string|来源名称|
+|二级projectid|  |string|来源|
 |二级docbz|  |string|备注|
  
 |一级bx|array |array|报销详情数组|
