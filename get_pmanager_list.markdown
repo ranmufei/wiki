@@ -1,12 +1,15 @@
-# 类别、项目列表
+# 项目管理列表
 ## 请求接口 
 
 > /index.php?app=Account&m=ExpenseApi&a=pclist
 
 >  method : get
->  *测试http://www.apps.com/index.php?app=Account&m=ExpenseApi&a=pclist
-
-## 参数（无须传参）
+>  *测试http://www.apps.com/index.php?app=Account&m=ExpenseApi&a=get_pmanager_list&access_token=255f44d883c50dc0ef190c2ed51a31&p=1
+## 参数
+|data|array |array |类别列表|
+|:----|----|----|-----|
+|uid||int|当前登陆者的id|
+|p||int|当前页码|
 
 ## 返回结果
 |字段 |  值| 类型 | 说明|
