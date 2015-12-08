@@ -1,3 +1,6 @@
+## **获取所有客户**
+可根据 姓名/首字母/全拼 作模糊查询
+
 ### **请求接口**
 /index.php?app=Customer&m=MIndex&a=custom_list
 
