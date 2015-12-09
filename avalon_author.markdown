@@ -48,7 +48,7 @@
 * 
 */
 require(['avalon','creatclass/creatclass','unit/unit','warehouse/warehouse','createproduct/createproduct','format/format','domReady!'],function(avalon){
-   var classmodel=null;
+   var accModel=null;
    var model=avalon.define({ 
         $id:'root',
           ,$accessOpt:{
