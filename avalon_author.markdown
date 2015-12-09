@@ -33,7 +33,7 @@
 
 | 参数名称      |    必填 | 说明  |
 | :-------- | --------:| :--: |
-|callbackfun()|否| 分类修改 删除 增加后  自动回调函数  |
+|callbackfun()|否|  自动回调函数  |
 |show(uid)|必须| 打开弹出应用权限管理层  参数 uid （int） 如果给用户的uid 默认显示该用户的权限 |
 
 
@@ -48,10 +48,13 @@
 * 
 */
 require(['avalon','creatclass/creatclass','unit/unit','warehouse/warehouse','createproduct/createproduct','format/format','domReady!'],function(avalon){
-   var classmodel=null;
+   var accModel=null;
    var model=avalon.define({ 
         $id:'root',
           ,$accessOpt:{
+               title:'产品权限管理',
+               width:'800px',
+               height:'500px',
                onInit:function(model){
                   accModel=model;
                }
