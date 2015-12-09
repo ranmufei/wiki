@@ -52,6 +52,9 @@ require(['avalon','creatclass/creatclass','unit/unit','warehouse/warehouse','cre
    var model=avalon.define({ 
         $id:'root',
           ,$accessOpt:{
+               title:'产品权限管理',
+               width:'800px',
+               height:'500px',
                onInit:function(model){
                   accModel=model;
                }
