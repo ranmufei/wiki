@@ -15,7 +15,10 @@
 |isreceipt| 是|是否是发票，1为是,2为否|
 |documentsname| 是|票据名称|
 |cateid|  是|类别名称|
-|projectid|  是|项目名称|
+|default1|  是|来源   0报销项目,1客户,2项目管理|
+|projectid|  是|  报销项目的id|
+|customval|  是|  客户的id|
+|pmanagerid|  是| 项目管理的id|
 |docbz|  否|备注|
 
 ## 返回结果

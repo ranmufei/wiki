@@ -99,6 +99,7 @@
 * [新建票据的上传接口](addpj)
 * [类别、项目列表](pclist)
 * [报销选人（只显示有权限的）](selectaudit)
+* [获取项目管理列表](get_pmanager_list)
 
 ### 资产管理
 * [易耗品及详细](consumable_list)
@@ -118,6 +119,7 @@
 * [申租品归还操作](state_save)
 * [物品审核中申租品确认归还操作](sure_return)
 * [提交下一步审核](goods_next_check)
+* [易耗品确认申领操作](easy_sure)
 
 ### Eboss
 * [考勤前一天情况比例](kaoqin_percent)
@@ -156,3 +158,4 @@
 * [创建开启需求](creatneed)
 * [获取项目参与人员](get_project_user)
 * [回复动态的接口](add_revert)
+* [设为讨论结果](set_zj)

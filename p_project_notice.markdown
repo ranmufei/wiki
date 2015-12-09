@@ -10,7 +10,8 @@ http://www.apps.com/index.php?app=Pmanager&m=PmanegerApi&a=project&pid=97
 
 | 参数名称  |必填|     说明      |
 |------|-----|------|
-| id     | 是 |   物品id   |
+| pid     | 是 |   物品id   |
+| cid     | 是 |   公司id   |
 
 
 ### **返回结果**

@@ -18,13 +18,13 @@ http://www.apps.com/index.php?app=Wangpan&m=MobileApi&a=xxxxx
 ### **返回结果**
 |字段       |值             |类型    |说明           |
 | --------- |--------      |--------|--------       |
-|info       |array         |array  |返回数据 数组    |
+|data       |array         |array  |返回数据 数组    |
 |-----      |-----         |-----  |-----           |
 |id         |              |int    |文件（夹）唯一ID  |
 |name       |              |string |文件（夹）名称   |
 |file_type  |              |string |folder=文件夹 file=文件   |
 |inputtime  |              |string |创建时间   |
-|isAdministrator  |        |int    |是否为管理员（1=是 2=否）当folder_id=0,isCreater可以进行创建目录 删除等操作 不可上传文件 当folder_id > 0,isAdministrator可以进行创建目录 删除 上传等操作   |
+|isAdministrator  |        |int    |是否为管理员（1=是 2=否）当folder_id=0,isCreater可以进行创建目录 删除等操作 不可上传文件 当folder_id > 0,isAdministrator可以进行创建目录 删除 上传等操作 isCreater是isAdministrator的上级 拥有isAdministrator的所有权限  |
 |isCreater  |              |int    |是否为创建人（1=是 2=否）   |
 |file_extension|           |string |文件扩展名|
 |is_image   |              |int    |是否为图片（1=是 2=否）|
