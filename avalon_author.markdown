@@ -42,13 +42,35 @@
 |callbackfun()|否|  自动回调函数  |
 |show(uid)|必须| 打开弹出应用权限管理层  参数 uid （int） 如果给用户的uid 默认显示该用户的权限 |
 
-## 应用开发设置
+## 应用开发者 设置 说明
 
-  > - 
+  > - 为同一界面 集中按照如下说明来配置 menu.html
+
+  ``` html
+
+      {
+          id: "9",
+          name: "权限设置",
+          hide: '<?php echo !access_r($userInfo["uid"],"Admin","Sett","changeauthor");?>', //集中使用系统的权限配置 来开启/关闭 菜单。也就是说只要有系统中的应用权限配置 就可以使用本组件
+          lock: false,
+          icon:'icon-bar-chart', 
+          url: "/index.php?app=InvoicimgWarehouse&m=Index&a=authorSetting", //自己的控制器路径
+          title: "权限设置",
+          frame: {
+            name: 'admin_user_goout_setting'
+          }
+          
+        },
 
 
 
-## 案例html 
+  ```
+
+
+
+
+
+## Avalon 部门 案例html  
 
 
 ``` javascript
@@ -57,7 +79,7 @@
 * test
 * 
 */
-require(['avalon','creatclass/creatclass','unit/unit','warehouse/warehouse','createproduct/createproduct','format/format','domReady!'],function(avalon){
+require(['avalon','author/author','domReady!'],function(avalon){
    var accModel=null;
    var model=avalon.define({ 
         $id:'root',
@@ -81,6 +103,7 @@ require(['avalon','creatclass/creatclass','unit/unit','warehouse/warehouse','cre
 
 ```
 
+## 界面部分参考
 
 ```
 <div class="col-md-4">
