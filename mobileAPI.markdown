@@ -159,3 +159,4 @@
 * [获取项目参与人员](get_project_user)
 * [回复动态的接口](add_revert)
 * [设为讨论结果](set_zj)
+* [编辑讨论](need_editing)
