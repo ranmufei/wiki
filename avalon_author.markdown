@@ -44,7 +44,7 @@
 
 ## 应用开发者 设置 说明
 
-  > - 为同一界面 集中按照如下说明来配置 menu.html
+  > - 为统一界面 集中按照如下说明来配置 menu.html 
 
   ``` html
 
@@ -70,7 +70,7 @@
 
 
 
-## Avalon 部门 案例html  
+## Avalon  案例
 
 
 ``` javascript
@@ -94,6 +94,10 @@ require(['avalon','author/author','domReady!'],function(avalon){
             }
             ,accshow:function(){
                accModel.show();
+            },accshow2:function(){
+              // 如果想单独指定 某个人的权限  可以给show()方法传uid参数 会默认显示用户
+               var uid=1001
+               accModel.show(uid);
             }
    })
    avalon.scan();
