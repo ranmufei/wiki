@@ -75,53 +75,71 @@
 
 
 ``` javascript
-
 /**
-* test
-* 
+* 批次管理
 */
-require(['avalon','author/author','domReady!'],function(avalon){
-   var accModel=null;
-   var model=avalon.define({ 
-        $id:'root',
-          ,$accessOpt:{
-               title:'产品权限管理',
-               width:'800px',
-               height:'500px',
+require([
+  'avalon',
+  'apppublic/apppublic',
+  'author/author',
+  'layer/layer',  
+  'domReady!'],function(avalon,apppublic){  
+   var authorModel=null;
+   var model=avalon.define({
+      $id:'authroot',
+      $accessOpt:{
+           title:'仓库管理权限设置',
                onInit:function(model){
-                  accModel=model;
+                  authorModel=model;
                }
-               ,key:'InvoicimgProduct'
-            }
-            ,accshow:function(){
-               accModel.show();
-            },accshow2:function(){
-              // 如果想单独指定 某个人的权限  可以给show()方法传uid参数 会默认显示用户
-               var uid=1001
-               accModel.show(uid);
-            }
+               ,key:'InvoicimgWarehouse'
+        }
+        ,show:function(){
+             //avalon.log('public:',apppublic);
+               authorModel.show();
+        }
    })
+
    avalon.scan();
 
 
-})
+}) // end 
 
 ```
 
 ## 界面部分参考
 
 ```
-<div class="col-md-4">
-<div class="panel panel-success">
-      <div class="panel-heading">
-        <h3 class="panel-title">查应用权限</h3>
-      </div>
-      <div class="panel-body">
+<layout name="layout" />
+<script  src="/App/InvoicimgWarehouse/AvalonAction/avalon_authorSetting.js"></script>
 
-  <div ms-widget="author,choiceSerialsdasddsds,$accessOpt"> </div>
-   <span ms-on-click="accshow" class="btn">产品应用权限</span>
+<script>
+  $(function ($) {
+    // $("#formatbuttom").addClass('btn btn-lg btn-primary');
+    $("#formatbuttom").addClass('guige_style');
+  });
+</script>
+
+<div class="m-top-menu">
+    <span class="list-name">权限设置</span>
 </div>
-</div>
+   <!--/顶部菜单-->
+
+
+<div class="table_header_1" ms-controller="authroot">
+
+
+  <div class="guige_body">
+    <div>
+
+      <button class="fenlie_style fenlie_style2" ms-click="show" type="button"></button>
+      <p>权限设置</p>
+
+      <div ms-widget="author,dddasdas,$accessOpt" class="sp_fl_dialog"></div>
+
+    </div>
+    
+  </div>
 </div>
 
 
