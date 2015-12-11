@@ -160,3 +160,6 @@
 * [回复动态的接口](add_revert)
 * [设为讨论结果](set_zj)
 * [编辑讨论](need_editing)
+* [发送任务](creatTask)
+* [发送测试](creattest)
+* [发送服务](creatserver)
