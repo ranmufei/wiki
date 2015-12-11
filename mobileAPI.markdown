@@ -166,3 +166,4 @@
 * [任务点击详细](taskview)
 * [测试点击详细](testview)
 * [服务点击详细](serveview)
+* [总数](get_all_count)
