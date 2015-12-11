@@ -167,3 +167,5 @@
 * [测试点击详细](testview)
 * [服务点击详细](serveview)
 * [总数](get_all_count)
+* [开启讨论](set_need_on)
+* [关闭讨论](set_need_off)
