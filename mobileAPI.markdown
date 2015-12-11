@@ -163,3 +163,6 @@
 * [发送任务](creatTask)
 * [发送测试](creattest)
 * [发送服务](creatserver)
+* [任务点击详细](taskview)
+* [测试点击详细](testview)
+* [服务点击详细](serveview)
