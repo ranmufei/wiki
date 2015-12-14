@@ -8,6 +8,10 @@
 ### 客户管理
 * [接口列表](custom_api_list)
 
+### 进销存
+* [产品列表](Invoicimg_api_productlist)
+* [产品详情](Invoicimg_api_details)
+
 ### 现金流接口
 * [现金流报表](cws_cashflow_report)
 * [经营业绩报表](cws_achieve_report)
