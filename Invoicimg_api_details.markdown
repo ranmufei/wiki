@@ -1,67 +1,62 @@
-# 任务详情（与工作详情共用）
-## 请求接口 
+### **请求接口**
+/index.php?app=Invoicimg&m=ProductApi&a=getProductInfo
 
-> /index.php?app=Workflow&m=IndexApi&a=work_list
 
->  method : post
+### **请求方式**
+get
 
-> *测试http://www.apps.com/index.php?app=Workflow&m=IndexApi&a=work_list&uid=1&id=185
-## 参数
+### **浏览器查看**
+http://www.apps.com/index.php?app=Invoicimg&m=ProductApi&a=getProductInfo
 
-| 参数名称      |    必填 | 说明  |
-| :-------- | :--------:| :-- |
-|uid| 是| 用户id  |
-|id| 是| 工作id  |
+### **参数**
+id // 产品id
+
+
+
 
 
 ## 返回结果
-|字段 |  值| 类型 | 说明|
-|:----|----|----|-----|
-|shid|  | int| 最终审核人的id|
-|dshid|  | varchar| 最终审核人的姓名|
-|status|  | int|工作运行的状态（进行或结束）|
-|notice|  | int|判断数组history是否存在（存在为1不存在为0）|
-|field|  | int| 工作的审核状态|
-|stamp|  | int| 判断终审和协同 0（终审） 1（协同）|
-|agree|  | int| 判断协同者对工作是否同意 0（未同意） 1（已同意）|
-
-## 回复审核记录数据
-|history|array | 类型 | 返回数据 数组|
-|----|----|----|-----|
-|id| |int|工作信息回复id|
-|wk_id||int|对应的工作id|
-|mark||varchar|回复的内容|
-|uid||int|回复人的id|
-|creat_time||int|创建时间|
-
-
-## 详细信息数据
+##产品详情
 |info|array | 类型 | 返回数据 数组|
 |----|----|----|-----|
-|id| |int|工作id|
-|text_id||int|对应的存储工作内容表id|
-|description||varchar|工作名称|
-|lcid||int|对应的流程id|
-|uid||int|工作发起者id|
-|workerid ||varchar|工作协同者id|
-|cid|  |int|公司id|
-|endtime|  |int|结束时间|
-|status|  |varchar|工作状态显示|
-|times|  |int|工作创建时间|
-|field|  |int|工作审核状态   0：未审核 显示工作协同 ，1：协同审核通过 显示终审 ， 2：终审未通过，依旧显示终审 ，3：终审通过 |
-|userid|  |varchar|工作发起者的姓名|
+|id| |int|产品id|
+|brand||string|品牌|
+|code||string|编码|
+|time||varchar|创建时间|
+|countNum||varchar|库存总数|
+|cate_name||varchar|分类名|
+|custom_name||varchar|供应商|
+|dw||varchar|单位|
 
-
-## 表单数据
-|map|array | 类型 | 返回数据 数组|
+## 规格库存
+|proList|array | 类型 | 返回数据 数组|
 |----|----|----|-----|
-|cont| |varchar|文本内容|
-|type||int|文本框的类型区分|
-|ziduan||varchar|文本框的字段（name）|
+|id| |int|规格id|
+|purchasePrice||string|采购价|
+|stornPrice||string|库存成本|
+|sellPrice||varchar|销售价|
+|barcode||varchar|条码|
+|stornNum||varchar|库存数量|
+|param0||varchar|规格一|（有则显示）
+|param1||varchar|规格二|（有则显示）
 
 
 
+## 销售记录
+|SaleProice|string| | 最小-最大 |
 
-### 实例
+## 采购记录
+|PurchaseProice|string| | 最小-最大 |
 
-``` javascript
+
+##产品详情
+|storn|array | 类型 | 返回数据 数组|
+|----|----|----|-----|
+|stornName| |varchar|仓库名|
+|storn|array | | 产品规格数组|
+|param0| |varchar|产品规格一|(有则显示)
+|param1| |varchar|产品规格二|(有则显示)
+|formatNum| |varchar|库存数量|
+|formaname| |varchar|规格名|
+
+
