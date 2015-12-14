@@ -22,7 +22,7 @@ http://www.apps.com/index.php?app=Invoicimg&m=ProductApi&a=productList
 ### **返回结果**
 |字段       |值             |类型    |说明           |
 | --------- |--------      |--------|--------       |
-|data     | |         | array |返回数组 |
+|data      |         | array |返回数组 |
 |count      |         | int | 总数 |
 
 ``` javascript
