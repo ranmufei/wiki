@@ -41,19 +41,6 @@ id // 产品id
 |param1||varchar|规格二|（有则显示）
 
 
-
-## 产品详情
-|SaleProice|string| | 最小-最大 |
-|----|----|----|-----|
-|id| |int|产品id|
-|brand||string|品牌|
-|code||string|编码|
-|time||varchar|创建时间|
-|countNum||varchar|库存总数|
-|cate_name||varchar|分类名|
-|custom_name||varchar|供应商|
-|dw||varchar|单位|
-
 ## 销售记录
 |SaleProice|string| | 最小-最大 |
 
@@ -61,7 +48,7 @@ id // 产品id
 |PurchaseProice|string| | 最小-最大 |
 
 
-## 产品详情
+## 库存详情
 |storn|array | 类型 | 返回数据 数组|
 |----|----|----|-----|
 |stornName| |varchar|仓库名|
