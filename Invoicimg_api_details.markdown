@@ -42,6 +42,18 @@ id // 产品id
 
 
 
+##产品详情
+|SaleProice|string| | 最小-最大 |
+|----|----|----|-----|
+|id| |int|产品id|
+|brand||string|品牌|
+|code||string|编码|
+|time||varchar|创建时间|
+|countNum||varchar|库存总数|
+|cate_name||varchar|分类名|
+|custom_name||varchar|供应商|
+|dw||varchar|单位|
+
 ## 销售记录
 |SaleProice|string| | 最小-最大 |
 
