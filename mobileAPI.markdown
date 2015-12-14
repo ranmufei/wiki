@@ -173,3 +173,4 @@
 * [总数](get_all_count)
 * [开启讨论](set_need_on)
 * [关闭讨论](set_need_off)
+* [发测试里的任务列表](fromtest)
