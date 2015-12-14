@@ -1,16 +1,16 @@
 ### **请求接口**
-/index.php?app=Pmanager&m=PmanegerApi&a=project_need
+/index.php?app=Asset&m=AssetApi&a=goods_history
 
 
 
 ### **公网测试**
-http://www.apps.com/index.php?app=Pmanager&m=PmanegerApi&a=project_need&pid=97
+http://www.apps.com//index.php?app=Asset&m=AssetApi&a=goods_history
 
 ### **请求参数**
 
 | 参数名称  |必填|     说明      |
 |------|-----|------|
-| pid     | 是 |   项目的id   |
+| id     | 是 |   项目的id   |
 
 
 ### **返回结果**
