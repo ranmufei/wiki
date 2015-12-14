@@ -11,6 +11,7 @@
 ### 进销存
 * [产品列表](Invoicimg_api_productlist)
 * [产品详情](Invoicimg_api_details)
+* [分类列表](Invoicimg_api_cate)
 
 ### 现金流接口
 * [现金流报表](cws_cashflow_report)
