@@ -1,5 +1,7 @@
 # 私有盘系统开发 版本说明
 
+## dnspod域名检查 修改  为token 验证，原理：dnspod后台生成 授权 token ; pcd 程序 dnspod 登录调用 这个token,这个token放在远程的 www.linksame.com/token.txt 下， 以后只需要维护好这个文件的token即可。
+
 ## vision6.4 
 
 系统初始化程序刷机到 6.0.9 版本 7-25
