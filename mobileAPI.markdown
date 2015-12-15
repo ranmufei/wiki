@@ -9,7 +9,7 @@
 * [接口列表](custom_api_list)
 
 ### 进销存
-* [接口列表](Invoicimg_api_product)
+* [产品管理](Invoicimg_api_product)
 * [产品列表](Invoicimg_api_productlist)
 * [产品详情](Invoicimg_api_details)
 * [分类列表](Invoicimg_api_cate)
