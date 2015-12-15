@@ -37,8 +37,8 @@ id // 产品id
 |sellPrice||varchar|销售价|
 |barcode||varchar|条码|
 |stornNum||varchar|库存数量|
-|param0||varchar|规格一|（有则显示）
-|param1||varchar|规格二|（有则显示）
+|param0||varchar|规格一（有则显示）|
+|param1||varchar|规格二（有则显示）|
 
 
 ## 销售记录
@@ -53,8 +53,8 @@ id // 产品id
 |----|----|----|-----|
 |stornName| |varchar|仓库名|
 |storn|array | | 产品规格数组|
-|param0| |varchar|产品规格一|(有则显示)
-|param1| |varchar|产品规格二|(有则显示)
+|param0| |varchar|产品规格一(有则显示)|
+|param1| |varchar|产品规格二(有则显示)|
 |formatNum| |varchar|库存数量|
 |formaname| |varchar|规格名|
 
@@ -63,6 +63,6 @@ id // 产品id
 |tableHeader|array | 类型 | 返回数据 数组|
 |----|----|----|-----|
 |key| |varchar|序号|
-|param0| |varchar|产品规格一|(有则显示)
-|param1| |varchar|产品规格二|(有则显示)
+|param0| |varchar|产品规格一(有则显示)|
+|param1| |varchar|产品规格二(有则显示)|
 |stornNum| |varchar|库存 |
