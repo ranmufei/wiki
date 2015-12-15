@@ -59,3 +59,10 @@ id // 产品id
 |formaname| |varchar|规格名|
 
 
+## 库存表格头部信息
+|tableHeader|array | 类型 | 返回数据 数组|
+|----|----|----|-----|
+|key| |varchar|序号|
+|param0| |varchar|产品规格一|(有则显示)
+|param1| |varchar|产品规格二|(有则显示)
+|stornNum| |varchar|库存 |
