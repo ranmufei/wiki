@@ -10,7 +10,7 @@
 
 ### 进销存
 * [产品管理](Invoicimg_api_product)
-
+* [采购管理](Invoicimg_api_Purchase)
 
 ### 现金流接口
 * [现金流报表](cws_cashflow_report)
