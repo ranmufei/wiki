@@ -10,6 +10,12 @@
 
 # 二.  云应用授权SDK使用步骤
 
-  1. 将pcd复制到程序目录；
+  1. 将pcd的sdk复制到程序目录(已复制的请忽略)；
  
-  2.  
+  2. 在需要的控制器中加入如下代码
+
+'''' php
+       require_once "Linksame-sdk-pcd/PcdClient.php";	
+      $PcdClient = new PcdClient();
+      $this->PcdClient = $PcdClient ;
+''''
