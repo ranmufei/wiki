@@ -39,7 +39,7 @@
 
 * [汉字转拼音PHP](fztopy)
 * [初始化数据写在配置文件中](Initial_config)
-* [云应用授权SDK文档](云应用授权SDK文档)
+* [云应用授权SDK文档](sdk)
 
 
 # 接口
