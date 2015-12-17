@@ -16,6 +16,7 @@
   - [日程](pre_thread_schedule)
   - [转为客户](pre_thread_convert)
  - [新增线索日程](pre_thread_schedule_add)
+ - [修改](pre_thread_edit)
 
 #### 客户管理
  - [我的客户列表](pre_custom_list)
