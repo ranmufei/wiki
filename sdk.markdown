@@ -14,9 +14,9 @@
  
   2. 在需要的控制器中加入如下代码
 
-'''php
+```` php
 
        require_once "Linksame-sdk-pcd/PcdClient.php";	
       $PcdClient = new PcdClient();
       $this->PcdClient = $PcdClient ;
-'''
+````
