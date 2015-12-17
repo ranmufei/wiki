@@ -36,6 +36,7 @@
  - [我的联系人列表](pre_contacts_list)  
  - [新增联系人](pre_contacts_add)
  - 详细信息
+  - [客户动态](pre_contacts_dynamics)
   - [资料](pre_contacts_info)
   - [机会列表](pre_contacts_chance)
   - [日程](pre_contacts_schedule)
@@ -45,6 +46,7 @@
  - [我的机会列表](pre_chance_list)  
  - [新增机会](pre_chance_add)
  - 详细信息
+  - [客户动态](pre_chance_dynamics)
   - [资料](pre_chance_info)
   - [日程](pre_chance_schedule)
  - [新增机会日程](pre_chance_add_schedule)
