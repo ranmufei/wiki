@@ -18,7 +18,7 @@ post
 |字段       |说明            |表单类型|表单补充    |必填           |
 | --------- |--------      |--------|------- |--------       |
 |name      |姓名   |输入框 | | `*`         |
-|custom_id |所属客户 |选择 |[查询客户](http://192.168.1.240/ranmufei/apps/wikis/pre_custom_search_like) | `*` |
+|custom_id |所属客户 |选择 |[查询客户](http://192.168.1.240/ranmufei/apps/wikis/pre_custom_search_like) |（不能修改） |
 |sex       |性别     |选项 |1-男 2-女 | |
 |post      |职位     |输入框 |||
 |depart    |部门     |输入框 | | |
