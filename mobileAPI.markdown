@@ -176,3 +176,4 @@
 * [发测试里的任务列表](fromtest)
 * [反馈至任务的测试](returntotask)
 * [测试组处理意见](task_solve)
+* [根据id来查询项目详细内容](project_info)
