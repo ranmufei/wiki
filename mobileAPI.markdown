@@ -91,6 +91,7 @@
 * [添加日程](Calendar_add)
 * [日程分类](Calendar_category)
 * [日程回复](Calendar_answer)
+* [日程新界面](Calendar_list)
 
 ### 报销管理
 * [报销列表](bxlist)
