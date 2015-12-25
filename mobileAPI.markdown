@@ -127,6 +127,8 @@
 * [易耗品确认申领操作](easy_sure)
 * [易耗品分类](easy_cat)
 * [申租品分类](rent_cat)
+* [易耗品搜索](easy_serch)
+* [申租品搜索](rent_serch)
 
 ### Eboss
 * [考勤前一天情况比例](kaoqin_percent)
