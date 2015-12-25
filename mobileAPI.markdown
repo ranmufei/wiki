@@ -128,6 +128,7 @@
 * [易耗品分类](easy_cat)
 * [申租品分类](rent_cat)
 * [搜索](easy_serch)
+* [数量](asset_num)
 
 
 ### Eboss
