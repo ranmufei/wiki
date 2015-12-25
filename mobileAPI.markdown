@@ -129,7 +129,8 @@
 * [申租品分类](rent_cat)
 * [搜索](easy_serch)
 * [数量](asset_num)
-
+* [我的审核--易耗品（待审批/审批）](consumable_check_list_part)
+* [我的审核--申租品（待审批/审批）](rent_check_list_part)
 
 ### Eboss
 * [考勤前一天情况比例](kaoqin_percent)
