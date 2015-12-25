@@ -125,7 +125,8 @@
 * [物品审核中申租品确认归还操作](sure_return)
 * [提交下一步审核](goods_next_check)
 * [易耗品确认申领操作](easy_sure)
-
+* [易耗品分类](easy_cat)
+* [申租品分类](rent_cat)
 ### Eboss
 * [考勤前一天情况比例](kaoqin_percent)
 * [进销存Eboss数据概况](invoicing_data)
