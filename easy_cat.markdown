@@ -11,10 +11,10 @@ http://www.apps.com//index.php?app=Asset&m=AssetApi&a=easy_cat
 ### **返回结果**
 |字段        |值          |类型    |说明        |
 | ---------  |--------    |-------- |--------  |
-|id          |-------   |int    |物品id   |
-|number      | -------     |varchar  |物品编号      |
-|type        | -------    |varchar  |目前未用      |
-|already_num | -------     |int  |申租品已经借出数量     |
+|id          |-------   |int    |分类id   |
+|pid      | -------     |int  |分类的父级id      |
+|name| -------    |varchar  |分类的名称      |
+
 ### **示例**
 ````php
 [
