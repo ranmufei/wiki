@@ -43,6 +43,12 @@
 * [初始化数据写在配置文件中](Initial_config)
 * [云应用授权SDK文档](sdk)
 
+# 与linksame官网通信接口
+
+- SnsApi::cApi('Company/userList',$oauthArr);
+
+>  请求接口 SnsApi::cApi('接口地址','数组参数')
+ 
 
 # 接口
 ## [移动端API列表](mobileAPI)
