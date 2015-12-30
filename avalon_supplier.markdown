@@ -1,4 +1,4 @@
-# 选择发货地址组件 supplier/avalon.supplier
+# 选择供应商组件 supplier/avalon.supplier
 
 ## 说明
 
