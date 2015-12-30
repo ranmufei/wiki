@@ -18,6 +18,8 @@
 
 * [avalon 组件开发模板参考](avalon_widget_create)
 
+* [git 密钥生成参考](http://blog.csdn.net/wfdtxz/article/details/8678982)
+
 
 
 ### [发行及升级](versionorupdate)
