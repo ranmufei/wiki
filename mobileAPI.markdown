@@ -132,6 +132,7 @@
 * [我的审核--易耗品（待审批/审批）](consumable_check_list_part)
 * [我的审核--申租品（待审批/审批）](rent_check_list_part)
 * [易耗品分类的相关数据](easy_cat_data)
+* [申租品分类的相关数据](rent_cat_data)
 
 ### Eboss
 * [考勤前一天情况比例](kaoqin_percent)
