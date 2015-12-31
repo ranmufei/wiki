@@ -1,10 +1,10 @@
 ### **请求接口**
-/index.php?app=Asset&m=AssetApi&a=consumable_check_list_part
+/index.php?app=Asset&m=AssetApi&a=check_list_part
 
 
 
 ### **公网测试**
-http://www.apps.com//index.php?app=Asset&m=AssetApi&a=consumable_check_list_part
+http://www.apps.com//index.php?app=Asset&m=AssetApi&a=check_list_part
 
 ### **请求参数**
 
