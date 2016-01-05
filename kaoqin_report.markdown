@@ -1,4 +1,4 @@
-#查看当前所有人的考勤记录
+# 查看当前所有人的考勤记录
 ### **请求接口**
 /index.php?app=Kaoqin&m=KaoqinReportApi&a=report
 
