@@ -74,6 +74,7 @@
 * [查看本人的考勤记录](kaoqin_history)
 * [接收提交的考勤申请数据（非补卡申请）](add_kaoqin_record)
 * [接收提交的补卡申请数据](add_qiandao_record)
+* [获取当前这个人的考勤设置](get_my_set)
 
 ### 工作流
 * [工作流思维流程](my_luoji)
