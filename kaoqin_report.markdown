@@ -1,3 +1,4 @@
+#查看当前所有人的考勤记录
 ### **请求接口**
 /index.php?app=Kaoqin&m=KaoqinReportApi&a=report
 
@@ -24,7 +25,7 @@ get/post
 |-----      |-----         |-----  |-----           |
 
 
-### **has_qd/not_qd字段说明**
+### **上面的has_qd/not_qd字段说明**
 |字段       |值             |类型    |说明           |
 | --------- |--------      |--------|--------       |
 |qd_result     | 未签到/ok/迟到/旷工/早退 |string | 签到状态  |
