@@ -70,6 +70,8 @@
 * [提交给下一个人审核](shenh_check_next)
 * [考勤直接审核](shenh_check)
 * [审核的人权限判断](shenh_power)
+* [查看当前所有人的考勤记录](kaoqin_report)
+* [查看本人的考勤记录](kaoqin_history)
 
 ### 工作流
 * [工作流思维流程](my_luoji)
