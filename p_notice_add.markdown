@@ -21,6 +21,7 @@ http://www.apps.com/index.php?app=Pmanager&m=PmanegerApi&a=addnotice
 | sid| 否 |   服务的id（如果type==5）   |
 | taskid| 否 |   任务的id（如果type==6）   |
 | pro_id| 是 |  项目的id   |
+| upid| 是 |  附件的id   |
 ### **返回结果**
 |字段        |值          |类型    |说明        |
 | ---------  |--------    |-------- |--------  |
