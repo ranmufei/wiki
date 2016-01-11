@@ -192,3 +192,4 @@
 * [根据id来查询项目详细内容](project_info)
 * [获取项目附件的接口](getNewfj)
 * [刚进入项目时候的判断](get_all_judge)
+* [删除任务接口](delete_task)
