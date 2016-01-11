@@ -11,8 +11,8 @@ post
 |------|-----|------|
 | uid | 是 |   员工id   |
 | cid     | 是 |   公司id   |
-| go_time     | 是 |   开始时间   |
-| to_time     | 是 |   结束时间   |
+| go_time | 是 |   结束时间   |
+| to_time          | 是 |   开始时间   |
 | grade_id     | 是 |   审核人uid|
 | jilu_cate     | 是 |   申请类型   |
 | qj_cate     | 是 |   请假类型   |
