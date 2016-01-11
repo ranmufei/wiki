@@ -7,7 +7,7 @@ http://www.apps.com/index.php?app=Pmanager&m=PmanegerApi&a=delete_test
 | 参数名称  |必填|     说明      |
 |------|-----|------|
 | cid     | 是 |   所在公司id   |
-| testid| 是 | 测试的id   |
+| tid| 是 | 测试的id   |
 
 
 
