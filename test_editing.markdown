@@ -18,4 +18,4 @@ http://www.apps.com/index.php?app=Pmanager&m=PmanegerApi&a=test_editing
 |字段        |值          |类型    |说明        |
 | ---------  |--------    |-------- |--------  |
 |status|-------   |int    |1.编辑成功。0.编辑失败  |
-|test_open| -------     |varchar  |1.编辑成功。0.编辑失败   |
+|info| -------     |varchar  |1.编辑成功。0.编辑失败   |
