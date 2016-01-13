@@ -6,7 +6,7 @@ http://www.apps.com/index.php?app=Pmanager&m=PmanegerApi&a=need_editing
 
 | 参数名称  |必填|     说明      |
 |------|-----|------|
-| nid| 是 |  动态的id |
+| nid| 是 |  需求的id |
 | pid| 是 |项目的id |
 | content| 是 |  编辑的具体内容   |
 | display| 是 |  是否私有  |
