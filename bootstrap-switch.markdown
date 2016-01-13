@@ -2,8 +2,10 @@
 
 ## 说明
   > 1，使用效果可以查看这里(http://www.bootcss.com/p/bootstrap-switch)
-  > 2，在html中引用 <div  ms-widget="bootstrap-swtich,$,$bootstrapSwtich"> </div>
-
+  > 2，在html中引用 
+```html
+<div  ms-widget="bootstrap-swtich,$,$bootstrapSwtich"> </div>
+```
 
 
 ## 配置参数说明
