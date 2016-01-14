@@ -34,8 +34,8 @@
 | :-------- | --------:| :--: |
 |onInit()|否| 组件初始化  |
 |onSwitchChange()|是| 点击后的回调，event是事件，state是返回的状态， true为开，false为关  |
-
-
+#### 通过 avalon.vmodels[id].setState(true) 可以改变为开的状态
+#### 通过 avalon.vmodels[id].setState(true) 可以改变为关的状态
 
 
 
