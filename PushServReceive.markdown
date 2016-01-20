@@ -1,11 +1,11 @@
 # PushServReceive（PUSH）组件 WebSocket/WebSocket
 
 ## 说明
-#### 1, 使用前先咨询作者：BaoDongXing
+#### 1. 使用前先咨询作者：BaoDongXing
 
-#### 2, 在html中引用
+#### 2. 在html中引用
 ```html
-<div  ms-widget="WebSocket,$test,$testOpts"> </div>
+<div  ms-widget="WebSocket,$test,$testOpts"></div>
 ```
 
 
