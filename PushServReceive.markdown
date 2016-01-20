@@ -19,23 +19,24 @@
                             number:3,
                             time:3,
                         },
+                        //准备开始连接 PushServ 的回调，可以加上动画（在wsOpen之前）
                         showLoading: function(){
-
                         },
+                        //成功连接 或 连接失败 PushServ 的回调，可以加上动画（在wsClose同时）
                         hideLoading: function(){
-
                         },
+                        //成功连接 PushServ 的回调
                         wsOpen: function(evt){
-
                         },
+                        //关闭连接 PushServ 的回调
                         wsClose: function(evt){
-
                         },
+                        //连接 PushServ 出错的回调（如果是服务器断掉连接，那么会先触发 wsError 后触发 wsClose）
                         wsError: function(evt){
-
                         },
+                        //当 PushServ 服务器发送信息过来，触发的回调
                         wsMessage: function(evt){
-
+                            console.log("回调的连接对象",evt.data)
                         },
                     },
 
