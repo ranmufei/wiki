@@ -75,7 +75,7 @@
 
 | 组件名称 |  类型  |  描述  |
 | :-- | ----:| :--: |
-|[PushReceive组件(avalon)](PushReceive) `新` | avalon | PushReceive用于连接Push服务器，接收消息 (优化WebSocket API)  `2016-01-20更新` |
+|[PushReceive组件(avalon)](PushServReceive) `新` | avalon | PushReceive用于连接Push服务器，接收消息 (优化WebSocket API)  `2016-01-20更新` |
 |[bootstrap开关(avalon)](bootstrap-switch) `新` | avalon | avalon集成Bootstrap 开关（switch）控件  `2016-01-13更新` |
 |[进销存选择供应商(avalon)](avalon_supplier) `新` | avalon | 查看所有供应商，根据分类查看供应商，根据产品查看供应商  `2015-12-30更新` |
 |[选择发货地址(avalon)](avalon_address) `新` | avalon | 选择客户之后选择客户对应的发货地址  `2015-12-15更新` |
