@@ -48,15 +48,14 @@
 
 | 参数名称      |    必填 | 说明  |
 | :-------- | --------:| :--: |
-|UserAuthorize|是| 当前组件的PushServ 注册信息  |
+|UserAuthorize|是是| 当前组件的PushServ 注册信息  |
 |resetWs|否| 组件重启配置，如不写，将用默认配置（number:5,time:3）  |
 |showLoading()|否| 准备开始连接 PushServ 的回调  |
 |hideLoading()|否| 成功连接 或 连接失败 PushServ 的回调  |
 |wsOpen()|否| 成功连接 PushServ 的回调  |
 |wsClose()|否| 关闭连接 PushServ 的回调  |
 |wsError()|否| 连接 PushServ 出错的回调  |
-|wsMessage()|是| 当 PushServ 服务器发送信息过来，触发的回调  |
-#### 通过 avalon.vmodels[id].setState(true) 可以改变为开的状态
-#### 通过 avalon.vmodels[id].setState(true) 可以改变为关的状态
+|wsMessage()|是是| 当 PushServ 服务器发送信息过来，触发的回调  |
+
 
 
