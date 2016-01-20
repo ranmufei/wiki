@@ -16,14 +16,14 @@ http://www.apps.com/index.php?app=Customer&m=MLegwork&a=add_legwork&access_token
 
 
 ### **添加字段**
-|字段       |值             |类型     |说明       |
+|字段       |必填            |类型     |说明       |
 | --------- |--------      |-------- |--------   |   
 |gsy_id     |              |int      | 客户id    |
 |contacts_id|              | int     | 联系人id   |
-|address    |              | int     | 签到的地址 |
-|lng        |              | string  |经度       |
-|lat       |               | string  | 维度      |
-|mark      |               | string  | 备注      |
+|address    |  *           | int     | 签到的地址 |
+|lng        |  *           | string  |经度       |
+|lat        |  *           | string  | 维度      |
+|mark       |              | string  | 备注      |
 
 
 ### **添加字段**
