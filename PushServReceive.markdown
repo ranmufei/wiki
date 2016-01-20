@@ -11,10 +11,13 @@
 
 ## 配置参数说明
                     $testOpts: {
+                        //注册PushServ的身份信息：uid:为自己的用户UID,
+                        //style:为连接PushServ类型（2.为首页，3.为应用头部），值都必须为integer类型
                         UserAuthorize:{
                             uid:1,
                             style:3,
                         },
+                        //重启PushServ连接，number:重启连接的最大次数，time:重启间隔时间单位为秒，值都必须为integer类型
                         resetWs:{
                             number:3,
                             time:3,
