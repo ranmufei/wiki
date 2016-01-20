@@ -7,7 +7,7 @@
 `分页`
 
 ### **请求方式**
-get
+post
 
 ### **浏览器查看**
 http://www.apps.com/index.php?app=Customer&m=MLegwork&a=add_legwork&access_token=
@@ -17,8 +17,7 @@ http://www.apps.com/index.php?app=Customer&m=MLegwork&a=add_legwork&access_token
 
 ### **添加字段**
 |字段       |值             |类型     |说明       |
-| --------- |--------      |-------- |--------   | 
-|userid     |              |int      |创建人id   |    
+| --------- |--------      |-------- |--------   |   
 |gsy_id     |              |int      | 客户id    |
 |contacts_id|              | int     | 联系人id   |
 |address    |              | int     | 签到的地址 |
