@@ -57,7 +57,7 @@
 |wsError()|否| 连接 PushServ 出错的回调  |
 |wsMessage()|是是| 当 PushServ 服务器发送信息过来，触发的回调  |
 
-## PHP端PushPortService
+## PHP端 Send Method:详细请见公共模型里的（PushServModel.class.php）
 
 * [PushMessage 普通消息Push服务类型为 (1)]
 * @param [int   ] $Suid    [发送消息者UID]
