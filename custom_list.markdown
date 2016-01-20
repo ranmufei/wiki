@@ -28,16 +28,13 @@ lng(签到的经度)lat(签到的维度)
 {
 data: {
      count: "3",
-     totalPages: 1,
-     nowPage: 1,
      data: [
        {
-         custom_company: "uuuuu",
-         level: "A(重点客户)",
-         custom_type: "代理商",
-         sales: "",
-         inputtime: "2016-01-06 15:30",
-         id: "386"
+             id: "386",
+             custom_company: "uuuuu",
+             lng: "114.279249",
+             lat: "30.563056",
+             custom_address: "湖北省 武汉市 汉阳区 龟山北路 8号"
        }
     ]
 },
