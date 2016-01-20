@@ -75,6 +75,7 @@
 
 | 组件名称 |  类型  |  描述  |
 | :-- | ----:| :--: |
+|[asda开关(avalon)](ielsdas) `新` | avalon | avalon集成Bootstrap 开关（switch）控件  `2016-01-13更新` |
 |[bootstrap开关(avalon)](bootstrap-switch) `新` | avalon | avalon集成Bootstrap 开关（switch）控件  `2016-01-13更新` |
 |[进销存选择供应商(avalon)](avalon_supplier) `新` | avalon | 查看所有供应商，根据分类查看供应商，根据产品查看供应商  `2015-12-30更新` |
 |[选择发货地址(avalon)](avalon_address) `新` | avalon | 选择客户之后选择客户对应的发货地址  `2015-12-15更新` |
