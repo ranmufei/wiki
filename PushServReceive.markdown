@@ -48,8 +48,14 @@
 
 | 参数名称      |    必填 | 说明  |
 | :-------- | --------:| :--: |
-|onInit()|否| 组件初始化  |
-|onSwitchChange()|是| 点击后的回调，event是事件，state是返回的状态， true为开，false为关  |
+|UserAuthorize|是| 组件初始化  |
+|resetWs|否| 点击后的回调，event是事件，state是返回的状态， true为开，false为关  |
+|showLoading|否| 组件初始化  |
+|hideLoading|否| 组件初始化  |
+|wsOpen|否| 组件初始化  |
+|wsClose|否| 组件初始化  |
+|wsError|否| 组件初始化  |
+|wsMessage|是| 组件初始化  |
 #### 通过 avalon.vmodels[id].setState(true) 可以改变为开的状态
 #### 通过 avalon.vmodels[id].setState(true) 可以改变为关的状态
 
