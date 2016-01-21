@@ -8,13 +8,13 @@
 get
 
 ### **浏览器查看**
-http://www.apps.com/index.php?app=Customer&m=MPrethread&a=lists
+http://www.apps.com/index.php?app=Customer&m=MPrethread&a=lists&sta=1
 
 ### **公共参数** 
 `num`、`p`
 
 ### **其他参数**
-无
+sta  默认不传，当值为1是查询我下属的线索
 
 ### **返回结果**
 |字段       |值             |类型    |说明           |
