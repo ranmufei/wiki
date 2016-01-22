@@ -19,6 +19,7 @@ http://www.apps.com/index.php?app=Pmanager&m=PmanegerApi&a=creattest
 | content| 是 |测试内容 |
 | title| 是 | 测试名称 |
 | taskid| 是 | 任务的id |
+| leader| 是 | 项目负责人的id |
 
 ### **返回结果**
 |字段        |值          |类型    |说明        |
