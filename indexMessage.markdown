@@ -80,4 +80,25 @@
         $data['next_check_name'] = $arr['next_check_name'] ;   //审核的按钮的名称，默认：提交下一步审核	
         
         	
-```` 
+````
+
+## 审核和驳回php处理后返回的格式(包含提交下一步审核后再次点击审核的操作)： 
+```` php
+/** 审核成功
+* @return 返回格式
+*/ 
+
+ $result['status'] = 1 ; 
+ $result['info'] = "Success" ;  //可以填您处理程序的结果，会在首页显示 
+    
+````
+
+```` php
+/** 驳回
+* @return 返回格式
+*/ 
+
+ $result['status'] = 0 ; 
+ $result['info'] = "Error" ;  //可以填您处理程序的结果，会在首页显示 
+    
+````
