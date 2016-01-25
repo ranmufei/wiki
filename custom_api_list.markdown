@@ -29,8 +29,8 @@
   - [机会列表](pre_custom_chance_list)
   - [日程](pre_custom_schedule)
   - [收货地址](pre_custom_address)
-  - [联合跟进人](pre_custom_share)(new)
-  - [选择已有联系人、机会关联联系人](pre_custom_lxr_add)(new)
+  - [联合跟进人列表](pre_custom_share)(new 三个接口)
+  - [选择已有联系人、机会关联联系人](pre_custom_lxr_add)(new 两个接口)
  - 其他
   - [查询客户](pre_custom_search_like)
   - [全部客户分类](pre_custom_type_list)
