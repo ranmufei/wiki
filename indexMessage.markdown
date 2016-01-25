@@ -22,11 +22,11 @@
 /** 
 * 提交的$data 格式  
 */
-        $data['title'] = $arr['title'];  
-        $data['content'] = $arr['content'];
-        $data['link'] = $arr['link'];
+         $data['title'] = $arr['title'];       // 标题说明
+        $data['content'] = $arr['content'];  // 大概内容描述
+        $data['link'] = $arr['link'];       //查看详情跳转地址
         $data['menu_id'] = 0 ;  // menu.html中左侧菜单对应的id ;
-        $data['type'] = 1; 
+        $data['type'] = 1;     //类型必须为1
 ```` 
 
 ###  2.有操作的消息（协同，只有一个确定按钮）
@@ -36,16 +36,19 @@
 * 提交的$data 格式  
 */
         // 必填
-        $data['title'] = $arr['title'];  
-        $data['content'] = $arr['content'];
-        $data['link'] = $arr['link'];
+        $data['title'] = $arr['title'];       // 标题说明
+        $data['content'] = $arr['content'];  // 大概内容描述
+        $data['link'] = $arr['link'];       //查看详情跳转地址
         $data['type'] = 3 ; 
-        $data['check_url'] = $arr['check_url'] ; 
+        $data['check_url'] = $arr['check_url'] ;    // 点击确定的php处理地址
         $data['is_reject'] = 0 ;   //没有取消 
         $data['menu_id'] = 0 ;  // menu.html中左侧菜单对应的id ;
        
        // 获取历史记录地址， 格式index.php?app=Kaoqin&m=Index&test ，地址返回json格式 
-       $data['check_history_url'] = $arr['check_history_url'] ;	
+       $data['check_history_url'] = $arr['check_history_url'] ;
+
+       // 选填	
+       $data['check_name'] = $arr['check_name'] ;   //审核的按钮的名称，默认：审核
 ```` 
 
 ###  3.有操作的消息（业务审批($type = 2)/办公审批($type = 3) ）
@@ -55,9 +58,9 @@
 * 提交的$data 格式  
 */
         // 必填
-        $data['title'] = $arr['title'];  
-        $data['content'] = $arr['content'];
-        $data['link'] = $arr['link'];
+        $data['title'] = $arr['title'];       // 标题说明
+        $data['content'] = $arr['content'];  // 大概内容描述
+        $data['link'] = $arr['link'];       //查看详情跳转地址
         $data['type'] = 2或者3 ;  //业务审批($type = 2) ; 办公审批($type = 3) 
         $data['check_url'] = $arr['check_url'] ;  //点击审核操作php处理地址
         $data['reject_url'] = $arr['reject_url'] ;   //点击驳回操作php处理地址
