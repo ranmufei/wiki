@@ -6,6 +6,11 @@
 /index.php?app=Customer&m=MPrecustom&a=giveto
 
 
+/index.php?app=Customer&m=MPrecontacts&a=giveto
+
+
+/index.php?app=Customer&m=MPrechance&a=giveto
+
 ### **请求方式**
 post
 
