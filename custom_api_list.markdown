@@ -16,7 +16,7 @@
   - [日程](pre_thread_schedule)
   - [转为客户](pre_thread_convert)
  - [新增线索日程](pre_thread_schedule_add)
- - [转移给他人](pre_thread_giveto)
+ - [转移给他人](pre_thread_giveto)(NEW 四个接口线索、客户、联系人、机会)
  - [修改](pre_thread_edit)
 
 #### 客户管理
