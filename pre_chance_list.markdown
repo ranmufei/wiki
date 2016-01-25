@@ -42,3 +42,15 @@ id: "29"                   //ID
 },
 ]
 },
+
+
+状态为5的data.data
+
+id: "181",
+name: "5353",                   //机会名称
+custom_id: "uuuuu",              //客户名称
+stage: "需求确定",               //销售阶段
+auditor: "庆丰包子",             //审核人
+createtime: "01-15 11:13",          //创建时间
+auditor_status: "战败申请审核中",         //审核状态
+lose_reason: ""                           //战败主要原因
