@@ -22,5 +22,4 @@
         $data['content'] = $arr['content'];
         $data['link'] = $arr['link'];
         $data['type'] = $arr['type']; 
-
 ````
