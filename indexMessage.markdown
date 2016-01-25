@@ -16,6 +16,7 @@
 
 ### data的格式如下 ， 请选择对应的类型
 1. 提交只查看的消息（无任何操作）
+
 ```` php
 /** 
 * 提交的$data 格式  
@@ -24,4 +25,4 @@
         $data['content'] = $arr['content'];
         $data['link'] = $arr['link'];
         $data['type'] = $arr['type']; 
-````
+```` 
