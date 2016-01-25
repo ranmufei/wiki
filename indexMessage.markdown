@@ -4,7 +4,7 @@
 ```` php
 /**
 * @param $data为添加的数据数组
-* 返回格式如下
+* @return 返回格式如下
 * $result['status'] = 1 ; 
 * $result['info'] = "Success" ; 
 */ 
