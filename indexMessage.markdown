@@ -89,7 +89,7 @@
 */ 
 
  $result['status'] = 1 ; 
- $result['info'] = "Success" ;  //可以填您处理程序的结果，会在首页显示 
+ $result['info'] = "Success" ;  //可以填您处理程序的结果的文字，会在首页显示 
     
 ````
 
@@ -99,6 +99,6 @@
 */ 
 
  $result['status'] = 0 ; 
- $result['info'] = "Error" ;  //可以填您处理程序的结果，会在首页显示 
+ $result['info'] = "Error" ;  //可以填您处理程序的结果的文字，会在首页显示 
     
 ````
