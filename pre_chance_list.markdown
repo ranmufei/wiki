@@ -15,7 +15,8 @@ http://www.apps.com/index.php?app=Customer&m=MPrechance&a=lists&id=29sta=1&acces
 `p` `num`
 
 ### **其他参数**
-sta  (1为我参与的，2为我下属的)
+sta  (1为我参与的，2为我下属的，3为机会提醒（今天），4为机会提醒（逾期），5为战败审核)
+timeType（在机会提醒时才会有，0到6）
 
 
 ### **返回结果**
