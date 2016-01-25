@@ -47,6 +47,8 @@
   - [日程](pre_contacts_schedule)
  - [新增联系人日程](pre_contacts_add_schedule)
  - [修改](pre_contacts_edit)
+ - [取消关联客户](pre_contacts_del_relate)
+ - [关联客户](pre_contacts_relate)
 
 #### 机会管理   
  - [我的机会列表](pre_chance_list)  
