@@ -2,12 +2,15 @@
 
 ### php后台添加消息接口调用方式：
 ```` php
- // $data为添加的数据数组
-    $result = model('Notify')->add_notify($data); 
-/** 返回格式如下
+/**
+* @param $data为添加的数据数组
+* 返回格式如下
 $result['status'] = 1 ; 
 $result['info'] = "Success" ; 
 */ 
+
+    $result = model('Notify')->add_notify($data);
+ 
 ````
 
 
