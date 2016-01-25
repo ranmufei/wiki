@@ -1,7 +1,7 @@
 ## 转移给他人列表
 ### **请求接口**
 /index.php?app=Customer&m=MPrethread&a=giveto
-
+/index.php?app=Customer&m=MPrecustom&a=giveto
 
 
 ### **请求方式**
@@ -17,6 +17,5 @@ post
 ### **返回结果**
 |字段       |值                          |类型     |说明           |
 | --------- |--------                    |--------|--------       |
-|status     |success/error               |string  |返回结果         |
-|data       |''                          | array  |               |
+|statu      |1/0                         |int     |返回结果         |
 |info       |分派客户成功/分派客户失败     | string | 接口状态说明  |
