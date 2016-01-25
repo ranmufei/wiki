@@ -30,6 +30,7 @@
   - [日程](pre_custom_schedule)
   - [收货地址](pre_custom_address)
   - [联合跟进人](pre_custom_share)(new)
+  - [选择已有联系人](pre_custom_lxr_add)(new)
  - 其他
   - [查询客户](pre_custom_search_like)
   - [全部客户分类](pre_custom_type_list)
