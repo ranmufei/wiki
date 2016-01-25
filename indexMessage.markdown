@@ -22,7 +22,7 @@
 /** 
 * 提交的$data 格式  
 */
-         $data['title'] = $arr['title'];       // 标题说明
+        $data['title'] = $arr['title'];       // 标题说明
         $data['content'] = $arr['content'];  // 大概内容描述
         $data['link'] = $arr['link'];       //查看详情跳转地址
         $data['menu_id'] = 0 ;  // menu.html中左侧菜单对应的id ;
@@ -45,10 +45,10 @@
         $data['menu_id'] = 0 ;  // menu.html中左侧菜单对应的id ;
        
        // 获取历史记录地址， 格式index.php?app=Kaoqin&m=Index&test ，地址返回json格式 
-       $data['check_history_url'] = $arr['check_history_url'] ;
+        $data['check_history_url'] = $arr['check_history_url'] ;
 
        // 选填	
-       $data['check_name'] = $arr['check_name'] ;   //审核的按钮的名称，默认：审核
+        $data['check_name'] = $arr['check_name'] ;   //审核的按钮的名称，默认：审核
 ```` 
 
 ###  3.有操作的消息（业务审批($type = 2)/办公审批($type = 3) ）
@@ -69,7 +69,7 @@
         $data['menu_id'] = 0 ;  // menu.html中左侧菜单对应的id ;
 
         // 获取历史记录地址， 格式index.php?app=Kaoqin&m=Index&test ，地址返回json格式 
-       $data['check_history_url'] = $arr['check_history_url'] ;	
+        $data['check_history_url'] = $arr['check_history_url'] ;	
 
 
         // 选填
