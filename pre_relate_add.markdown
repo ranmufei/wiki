@@ -13,13 +13,13 @@ post
 ### **其他参数**
  themeid     //关联的id
  relateid    //选择人id
-//客户的
+客户的
     [type] => 2
     [cate] => 2
-//联系人的
+联系人的
     [type] => 3
     [cate] => 1
-//机会的
+机会的
     [type] => 4
     [cate] => 2
 
