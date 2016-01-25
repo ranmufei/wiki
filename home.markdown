@@ -44,6 +44,10 @@
 * [云应用授权SDK文档](sdk)
 * [首页消息接口说明](indexMessage)
 
+## [首页消息接口](indexMessageApi)
+
+* [首页消息接口说明](indexMessage)
+
 # 与linksame官网通信接口
 
 - SnsApi::cApi('Company/userList',$oauthArr);
