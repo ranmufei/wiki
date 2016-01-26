@@ -26,8 +26,13 @@
         $data['title'] = $arr['title'];       // 标题说明
         $data['content'] = $arr['content'];  // 大概内容描述
         $data['link'] = $arr['link'];       //查看详情跳转地址
+        $data['receive'] = $arr['receive'];       //接受者uid
         $data['menu_id'] = 0 ;  // menu.html中左侧菜单对应的id ;
         $data['type'] = 1;     //类型必须为1
+
+        // 获取审核详情地址，具体说明见下面五
+        $data['detail_url'] = $arr['detail_url'];   
+
 ```` 
 
 ###  2.有操作的消息（协同，只有一个确定按钮）
@@ -43,10 +48,14 @@
         $data['type'] = 3 ; 
         $data['check_url'] = $arr['check_url'] ;    // 点击确定的php处理地址
         $data['is_reject'] = 0 ;   //没有取消 
+        $data['receive'] = $arr['receive'];       //接受者uid
         $data['menu_id'] = 0 ;  // menu.html中左侧菜单对应的id ;
        
        // 获取历史记录地址， 格式index.php?app=Kaoqin&m=Index&test ，地址返回json格式 
         $data['check_history_url'] = $arr['check_history_url'] ;
+
+       // 获取审核详情地址，具体说明见下面五
+        $data['detail_url'] = $arr['detail_url'];   
 
        // 选填	
         $data['check_name'] = $arr['check_name'] ;   //审核的按钮的名称，默认：审核
@@ -62,15 +71,19 @@
         $data['title'] = $arr['title'];       // 标题说明
         $data['content'] = $arr['content'];  // 大概内容描述
         $data['link'] = $arr['link'];       //查看详情跳转地址
+        $data['receive'] = $arr['receive'];       //接受者uid
         $data['type'] = 2或者3 ;  //业务审批($type = 2) ; 办公审批($type = 3) 
         $data['check_url'] = $arr['check_url'] ;  //点击审核操作php处理地址
         $data['reject_url'] = $arr['reject_url'] ;   //点击驳回操作php处理地址
         $data['next_check_url'] = $arr['next_check_url'] ;   //点击提交下一个人审核的php处理地址
-
+   
         $data['menu_id'] = 0 ;  // menu.html中左侧菜单对应的id ;
 
         // 获取历史记录地址， 格式index.php?app=Kaoqin&m=Index&test ，地址返回json格式 
         $data['check_history_url'] = $arr['check_history_url'] ;	
+        
+        // 获取审核详情地址，具体说明见下面五
+        $data['detail_url'] = $arr['detail_url'];   
 
 
         // 选填
@@ -120,3 +133,6 @@
  $result['img'] = "";  //上一个发起人的头像
     
 ````
+
+##  五. 审核详情说明： 
+   审核详情的url打开是个完整的页面，可供首页调用，url里面的参数决定详情的不同
