@@ -21,7 +21,7 @@
          * @author wang
          * @version $time 2016/01/26 
          *  
-         * 成功：{ result:'success',  }
+         * 成功：{ result:'success', file_id:'', file_name:'', file_size:'', file_path:'' }
          *
          * 失败：{ result:'error', info:'失败原因' }
          */
