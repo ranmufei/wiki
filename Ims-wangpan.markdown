@@ -21,6 +21,6 @@
          *  
          */
 
-成功：{ result:'success',  } 
+成功：{ result:'success',  } #
 失败：{ result:'error', info:'失败原因' }
         
