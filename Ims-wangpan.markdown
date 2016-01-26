@@ -19,8 +19,11 @@
          * @author wang
          * @version $time 2016/01/26 
          *  
+         * 成功：{ result:'success',  }
+         *
+         * 失败：{ result:'error', info:'失败原因' }
          */
 
-成功：{ result:'success',  }#
-失败：{ result:'error', info:'失败原因' }
+
+
         
