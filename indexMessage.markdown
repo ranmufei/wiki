@@ -97,9 +97,23 @@
 ````
 
 ## 三. 审核和驳回php处理后返回的格式(包含提交下一步审核后再次点击审核的操作)： 
+
+```` php
+/** 点击审核/不通过按钮   首页给应用的参数通过get方式
+* @return 传输格式
+*  status  状态  1同意  0驳回  2提交给下一个人
+*  reply_text   审批意见
+*  next_uid  下一个人的 next_uid  
+*/ 
+  index.php?app=Kaoqin&m=Index&a=ce&status=1&reply=我同意了&next_uid=6
+
+    
+````
+
 ```` php
 /** 审核成功
 * @return 返回格式
+* 
 */ 
 
  $result['status'] = 1 ; 
