@@ -15,6 +15,7 @@ p、chance（为机会id）
 
 add
 客户的   themeid为客户的id，ids为一维数组，chanceid为0
+
 机会的   themeid为0，ids为一维数组，chanceid为机会id
 
 ### **返回结果**
