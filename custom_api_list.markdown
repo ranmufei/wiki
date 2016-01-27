@@ -57,7 +57,7 @@
   - [客户动态](pre_chance_dynamics)
   - [资料](pre_chance_info)
   - [日程](pre_chance_schedule)
-  - [跟进记录]（pre_chance_record_list）
+  - [跟进记录](pre_chance_record_list）
  - [新增机会日程](pre_chance_add_schedule)
  - [修改](pre_chance_edit)
 
