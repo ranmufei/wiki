@@ -11,6 +11,9 @@ get
 ### **浏览器查看**
 http://www.apps.com/index.php?app=Customer&m=MPrechance&a=lists&id=29sta=1&access_token=
 
+最近7天的跟进计划（无参数）
+http://www.apps.com/index.php?app=Customer&m=MPrechance&a=getChanceRemind&access_token=
+
 ### **公共参数** 
 `p` `num`
 
@@ -54,3 +57,48 @@ auditor: "庆丰包子",             //审核人
 createtime: "01-15 11:13",          //创建时间
 auditor_status: "战败申请审核中",         //审核状态
 lose_reason: ""                           //战败主要原因
+
+
+
+最近7天的跟进计划（无参数）
+{
+data: [
+{
+count: "0",
+type: 0,
+day: "2016-01-27"
+},
+{
+count: "0",
+type: 1,
+day: "2016-01-28"
+},
+{
+count: "6",
+type: 2,
+day: "2016-01-29"
+},
+{
+count: "0",
+type: 3,
+day: "2016-01-30"
+},
+{
+count: "0",
+type: 4,
+day: "2016-01-31"
+},
+{
+count: "0",
+type: 5,
+day: "2016-02-01"
+},
+{
+count: "0",
+type: 6,
+day: "2016-02-02"
+}
+],
+info: "",
+status: "success"
+}
