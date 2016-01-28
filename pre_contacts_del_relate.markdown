@@ -25,7 +25,7 @@
 
 
 {
-data: ""
+
 info: "修改成功"
 status: "success"
 }
