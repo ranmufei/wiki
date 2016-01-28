@@ -51,7 +51,7 @@ Array
 {
 
 info: "操作成功!"
-status: "success"
+status: 1
 }
 
 Array ( [0] => 220 [1] => 205 )
