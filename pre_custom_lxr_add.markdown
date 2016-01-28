@@ -49,7 +49,7 @@ Array
 )
 
 {
-data: ""
+
 info: "操作成功!"
 status: "success"
 }
