@@ -60,6 +60,7 @@
   - [跟进记录](pre_chance_record_list)
  - [新增机会日程](pre_chance_add_schedule)
  - [修改](pre_chance_edit)
+ - [机会通过、驳回、赢单、战败申请操作](pre_chance_operate)
 
 
 #### 动态   
