@@ -42,6 +42,8 @@ custom_id: "武汉大学",     //所属客户
 stage: "初步接洽",         //阶段
 createtime: "07-13 17:18", //创建时间
 id: "29"                   //ID
+is_leave: "1", （new）         //是否离职  ，1为离职（wangyan（离职））,0为（wangyan）
+charge: "wangyan", （new）     //负责人
 },
 ]
 },
