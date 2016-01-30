@@ -40,18 +40,18 @@ source: "",            //机会来源
 userid: "庆丰包子",    //创建人
 createtime: "07-13 17:18" //创建时间
 
-
-
-auditor: "free style",    //审核人
-fail_remark: "",          //无用字段
+auditor: "free style",    //审核人     
 opertime: "2016-01-27",   //最近操作时间
 follow_rank: "A(2日内跟进)",    //跟进级别
-follow_rank_time: "172800",    //无用字段
+auditor_status: "战败申请审核中"   //状态说明    
 lose_reason: "质量原因",       //战败主要原因
-py: "",                       //无用字段
-py_a: "",                      //无用字段
 lose_remark: "",                //战败原因 
-auditor_status: "战败申请审核中"   //状态说明
+fail_remark: "",    
+follow_rank_time: "172800",
+py: "",                      
+py_a: "",                      
+
+
 
 
 
