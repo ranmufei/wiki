@@ -1,3 +1,4 @@
+choicecity/choicecity
 `<input type="text" ms-widget="area" ms-duplex="areaval" />`
 
 选择地区组件可以使用duplex双关绑定。
