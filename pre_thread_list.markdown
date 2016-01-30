@@ -34,8 +34,8 @@ post: "",
 state: "",
 createtime: "11-12 17:16",
 id: "453",
-is_leave: "1",       //是否离职  ，1为离职（wangyan（离职））,0为（wangyan）
-charge: "wangyan",   //负责人
+is_leave: "1", （new）         //是否离职  ，1为离职（wangyan（离职））,0为（wangyan）
+charge: "wangyan", （new）     //负责人
 },
 ……
 ]
