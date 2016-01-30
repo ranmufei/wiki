@@ -44,6 +44,7 @@ createtime: "07-13 17:18", //创建时间
 id: "29"                   //ID
 is_leave: "1", （new）         //是否离职  ，1为离职（wangyan（离职））,0为（wangyan）
 charge: "wangyan", （new）     //负责人
+is_xs: "1"                        //为1就不显示
 },
 ]
 },
@@ -61,6 +62,7 @@ auditor_status: "战败申请审核中",         //审核状态
 lose_reason: ""                           //战败主要原因
 is_leave: "1", （new）         //是否离职  ，1为离职（wangyan（离职））,0为（wangyan）
 charge: "wangyan", （new）     //负责人
+is_xs: "1"                        //不显示
 
 
 最近7天的跟进计划（无参数）
