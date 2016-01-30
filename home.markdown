@@ -81,6 +81,7 @@
 
 | 组件名称 |  类型  |  描述  |
 | :-- | ----:| :--: |
+|[downLoad服务组件](downLoad) `新` | avalon | downLoad组件用来优化当前客户端软件<a></a>标签下载文件事件  `2016-01-30更新` |
 |[PushReceive服务组件](PushReceive) `新` | avalon | PushReceive用于连接Push服务器，接收消息 和 PHP端的Push描述. (优化WebSocket API)  `2016-01-20更新` |
 |[bootstrap开关(avalon)](bootstrap-switch) `新` | avalon | avalon集成Bootstrap 开关（switch）控件  `2016-01-13更新` |
 |[进销存选择供应商(avalon)](avalon_supplier) `新` | avalon | 查看所有供应商，根据分类查看供应商，根据产品查看供应商  `2015-12-30更新` |
