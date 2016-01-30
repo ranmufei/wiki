@@ -14,6 +14,7 @@
                mix:1,//单选，2多选
                owner:true,//是否查看所有
                // isparent:1 //1 判断添加产品供应商根据分类获取 ，0 采购选择供应商根据产品获取
+               isShow: true,  //判断是否只呈现线上供应商
                onInit:function(vm){
                   SupplierVM=vm;
                },
