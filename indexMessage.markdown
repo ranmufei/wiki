@@ -50,6 +50,7 @@
         $data['is_reject'] = 0 ;   //没有取消 
         $data['receive'] = $arr['receive'];       //接受者uid
         $data['menu_id'] = 0 ;  // menu.html中左侧菜单对应的id ;
+        $data['con_id'] = 0 ;  //数据ID，用于驳回同意操作时的识别 ， 2016-01-31新加
        
        // 获取历史记录地址， 格式index.php?app=Kaoqin&m=Index&test ，地址返回json格式 
         $data['check_history_url'] = $arr['check_history_url'] ;
@@ -76,7 +77,9 @@
         $data['check_url'] = $arr['check_url'] ;  //点击审核操作php处理地址
         $data['reject_url'] = $arr['reject_url'] ;   //点击驳回操作php处理地址
         $data['next_check_url'] = $arr['next_check_url'] ;   //点击提交下一个人审核的php处理地址
-   
+
+        $data['con_id'] = 0 ;  //数据ID，用于驳回同意操作时的识别 ， 2016-01-31新加
+
         $data['menu_id'] = 0 ;  // menu.html中左侧菜单对应的id ;
 
         // 获取历史记录地址， 格式index.php?app=Kaoqin&m=Index&test ，地址返回json格式 
