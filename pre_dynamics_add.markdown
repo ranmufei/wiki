@@ -7,6 +7,7 @@
 
 /index.php?app=Customer&m=MDynamic&a=del_schedule&id=(只需id 、get)(日程的删除)
 
+/index.php?app=Customer&m=MDynamic&a=share_del&id=(只需id 、get)(详情页中删除共享记录和联合跟进人)
 
 ### **接口说明**
 
