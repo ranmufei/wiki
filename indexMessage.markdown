@@ -36,7 +36,7 @@
 
 ```` 
 
-###  2.有操作的消息（协同，只有一个确定按钮）
+###  2.有操作的消息（协同 $type=4）
 
 ```` php
 /** 
@@ -46,7 +46,7 @@
         $data['title'] = $arr['title'];       // 标题说明
         $data['content'] = $arr['content'];  // 大概内容描述
         $data['link'] = $arr['link'];       //查看详情跳转地址
-        $data['type'] = 3 ; 
+        $data['type'] = 4 ; 
         $data['check_url'] = $arr['check_url'] ;    // 点击确定的php处理地址
         $data['is_reject'] = 0 ;   //没有取消 
         $data['receive'] = $arr['receive'];       //接受者uid
