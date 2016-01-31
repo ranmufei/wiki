@@ -65,7 +65,7 @@
  - [继续跟进的添加](pre_chance_follow_add)
 
 #### 动态   
- - [新增、删除动态(客户、线索)](pre_dynamics_add) （new）
+ - [新增、删除动态(客户、线索)、删除日程](pre_dynamics_add) （new）
 
 #### 添加   
  - [关联(联系人的共享联系人、客户的联合跟进人、机会的联合跟进人)](pre_relate_add)
