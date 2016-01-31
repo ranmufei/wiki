@@ -109,7 +109,7 @@
 *  reply_text   审批意见
 *  next_uid  下一个人的 next_uid  
 */ 
-post url :Aquarius:   index.php?app=Kaoqin&m=Index&a=ce
+post url : index.php?app=Kaoqin&m=Index&a=ce
 post data : {status=1&reply_text=我同意了&next_uid=6}
 
 
