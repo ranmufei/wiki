@@ -2,6 +2,9 @@
 ### **请求接口**
 /index.php?app=Customer&m=MDynamic&a=add
 
+/index.php?app=Customer&m=MDynamic&a=del&id=
+(只需id 、get)
+
 ### **接口说明**
 
 ### **请求方式**
