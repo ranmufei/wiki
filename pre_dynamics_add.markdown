@@ -5,6 +5,9 @@
 /index.php?app=Customer&m=MDynamic&a=del&id=
 (只需id 、get)
 
+/index.php?app=Customer&m=MDynamic&a=del_schedule&id=(只需id 、get)(日程的删除)
+
+
 ### **接口说明**
 
 ### **请求方式**
