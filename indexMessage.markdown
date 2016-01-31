@@ -109,7 +109,9 @@
 *  reply_text   审批意见
 *  next_uid  下一个人的 next_uid  
 */ 
-  index.php?app=Kaoqin&m=Index&a=ce&status=1&reply_text=我同意了&next_uid=6
+post url :Aquarius:   index.php?app=Kaoqin&m=Index&a=ce
+post data : {status=1&reply_text=我同意了&next_uid=6}
+
 
     
 ````
@@ -156,4 +158,3 @@
 
 ##  五. 审核详情说明： 
    审核详情的url打开是个完整的页面，可供首页调用，url里面的参数决定详情的不同
-
