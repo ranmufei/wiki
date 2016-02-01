@@ -149,7 +149,7 @@ post data : {status=1&reply_text=我同意了&next_uid=6}
  $result['grade_name'] =  "" ;   //审核人的名字
  $result['inserttime'] = "2015-12-19 12:00:00" ;  //处理时间  ，用友好时间处理过的 
  $result['status'] = 0或者1 、2;  //1 已审核 0待处理   2驳回
- $result['replay_text'] = "处理意见";  //填写处理意见
+ $result['reply_text'] = "处理意见";  //填写处理意见
  $result['apply_uid'] = 0;  //上一个发起人的uid ，最近的是谁提交的
  $result['apply_name'] = "";  //上一个发起人的名字 
  $result['img'] = "";  //上一个发起人的头像
