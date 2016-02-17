@@ -1,5 +1,6 @@
 `<div ms-widget="choiceuser"  ></div>`
-不建议使用duplex 双绑，
+可以使用duplex双绑， 不建议使用duplex 双绑，建议用getChoiceData（）获取现在的员工;
+ require(["member/avalon.choiceuser"], function() {});
 
 | 参数名称  |     类型|  默认值  |说明     |
 | :--------  |  ------- | ------| -------- |
