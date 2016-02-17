@@ -107,10 +107,10 @@
 * @return 传输格式
 *  status  状态  1同意  0驳回  2提交给下一个人
 *  reply_text   审批意见
-*  next_uid  下一个人的 next_uid  
+*  next_uid  下一个人的 next_uid  ， 没有默认为0
 */ 
 post url : index.php?app=Kaoqin&m=Index&a=ce
-post data : {status=1&reply_text=我同意了&next_uid=6}
+post data : {id=数据的ID&reply_text=我同意了&next_uid=6}
 
 
     
