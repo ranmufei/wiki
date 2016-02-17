@@ -9,7 +9,7 @@
 |placeholder|string|"输入同事或部门名称"|搜索表单显示的文本|
 |privilege| boolean|false |是否选择有权限的员工 |
 |privilegeList| array|[]| 使用 privilegeList 前提 privilege必须为true;传人有权限员工的uid（目前只能传人uid）|
-|open| function| {} | 打开选择员工下拉框 |
+|open| function|  | 打开选择员工下拉框 |
 |getChoiceData| function| |获取选择的员工 |
 
 
