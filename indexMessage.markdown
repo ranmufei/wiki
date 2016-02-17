@@ -53,7 +53,7 @@
         $data['menu_id'] = 0 ;  // menu.html中左侧菜单对应的id ;
         $data['con_id'] = 数据id ;  //数据ID，用于驳回同意操作时的识别 ， 2016-01-31新加
        
-       // 获取历史记录地址， 格式index.php?app=Kaoqin&m=Index&test ，地址返回json格式 
+       // 获取历史记录地址， 格式index.php?app=Kaoqin&m=Index&test ，地址返回json格式  , 注意不用在后面带id参数
         $data['check_history_url'] = $arr['check_history_url'] ;
 
        // 获取审核详情地址，具体说明见下面五
@@ -83,7 +83,7 @@
 
         $data['menu_id'] = 0 ;  // menu.html中左侧菜单对应的id ;
 
-        // 获取历史记录地址， 格式index.php?app=Kaoqin&m=Index&test ，地址返回json格式 
+        // 获取历史记录地址， 格式index.php?app=Kaoqin&m=Index&test ，地址返回json格式   , 注意不用在后面带id参数
         $data['check_history_url'] = $arr['check_history_url'] ;	
         
         // 获取审核详情地址，具体说明见下面五
