@@ -1,7 +1,7 @@
 ### **请求接口**
-/index.php?app=Pmanager&m=PmanegerApi&a=fromtest
+/index.php?app=Pmanager&m=PmanegerApi&a=returntotask
 ### **公网测试**
-http://www.apps.com/index.php?app=Pmanager&m=PmanegerApi&a=fromtest
+http://www.apps.com/index.php?app=Pmanager&m=PmanegerApi&a=returntotask
 
 ### **请求参数**
 

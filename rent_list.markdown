@@ -1,12 +1,15 @@
 ### **请求接口**
-/index.php?app=Asset&m=AsserApi&a=rent_list
+/index.php?app=Asset&m=AssetApi&a=rent_list
 
 
 
 ### **公网测试**
 http://www.apps.com//index.php?app=Asset&m=AssetApi&a=rent_list
 
-
+### **请求字段**
+|字段        |值          |类型    |说明        |
+| ---------  |--------    |-------- |--------  |
+|type          |-------   |int    |type为空所有列表  为1时为搜索需要字段 data（搜索的类容） 为2时候为根据分类id来查下面的类容 需要字段 id  |
 
 ### **返回结果**
 |字段        |值          |类型    |说明        |

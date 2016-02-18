@@ -17,7 +17,8 @@ www.apps.com/index.php?app=Customer&m=MPrecustom&a=contacts_list&id=277
 ### **其他参数**
 |字段       |说明            |类型    |必填           |
 | --------- |--------      |--------|--------       |
-|id     |客户id | string | `*`         |
+|id     |客户、机会id | string | `*`         |
+|chance |  值为1，表示机会下的联系人 |       |          |
 
 
 ### **返回结果**

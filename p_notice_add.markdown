@@ -13,7 +13,7 @@ http://www.apps.com/index.php?app=Pmanager&m=PmanegerApi&a=addnotice
 | uid| 是 |   用户id  |
 | cid| 是 | 用户公司id  |
 | notice| 是 |   动态信息  |
-| type| 是 |动态内容---- 1:主页动态 2：需求动态给need_id（必须） 3：项目动态 4 测试动态给test_id（必须） 5 服务动态server_id（必须） 6任务动态给server_id（必须）    |
+| type| 是 |动态内容---- 1:主页动态 2：需求动态给need_id（必须） 3：项目动态 4 测试动态给test_id（必须） 5 服务动态server_id（必须） 6任务动态给task_id（必须）    |
 | display| 是 |   是否是私有。1、是私有。2、不是私有   |
 | chk| 是 |   上传附件的数组（array）   |
 | need_id| 否 |   需求的id（如果type==2）   |
@@ -21,6 +21,7 @@ http://www.apps.com/index.php?app=Pmanager&m=PmanegerApi&a=addnotice
 | sid| 否 |   服务的id（如果type==5）   |
 | taskid| 否 |   任务的id（如果type==6）   |
 | pro_id| 是 |  项目的id   |
+| upid| 是 |  附件的id   |
 ### **返回结果**
 |字段        |值          |类型    |说明        |
 | ---------  |--------    |-------- |--------  |

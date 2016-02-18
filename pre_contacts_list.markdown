@@ -9,13 +9,13 @@
 get
 
 ### **浏览器查看**
-www.apps.com/index.php?app=Customer&m=MPrecontacts&a=lists
+www.apps.com/index.php?app=Customer&m=MPrecontacts&a=lists&sta=1
 
 ### **公共参数** 
 `p` `num`
 
 ### **其他参数**
-无
+sta  (1为分享给我的联系人，2为我下属的联系人  )
 
 
 ### **返回结果**

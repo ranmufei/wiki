@@ -10,12 +10,12 @@
 get
 
 ### **浏览器查看**
-http://www.apps.com/index.php?app=Customer&m=MPrecustom&a=lists&access_token=
+http://www.apps.com/index.php?app=Customer&m=MPrecustom&a=lists&sta=1&access_token=
 ### **公共参数** 
 `num`、`p`
 
 ### **其他参数**
-无
+sta 默认不传（1为我参与的，2为我下属的）
 
 ### **返回结果**
 |字段       |值             |类型    |说明           |
@@ -33,5 +33,7 @@ custom_type: "代理商",        //客户类型
 sales: "",                   //年销售额
 inputtime ：'2015-07-03 14:56' //创建时间
 id: "277"                    //客户ID
+is_leave: "0"                //是否离职  ，1为离职（庆丰包子（离职））,0为（庆丰包子）   
+apportion_id: "庆丰包子"      //负责人
 },
 ]

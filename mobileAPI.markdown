@@ -70,6 +70,11 @@
 * [提交给下一个人审核](shenh_check_next)
 * [考勤直接审核](shenh_check)
 * [审核的人权限判断](shenh_power)
+* [查看当前所有人的考勤记录](kaoqin_report)
+* [查看本人的考勤记录](kaoqin_history)
+* [接收提交的考勤申请数据（非补卡申请）](add_kaoqin_record)
+* [接收提交的补卡申请数据](add_qiandao_record)
+* [获取当前这个人的考勤设置](get_my_set)
 
 ### 工作流
 * [工作流思维流程](my_luoji)
@@ -91,6 +96,7 @@
 * [添加日程](Calendar_add)
 * [日程分类](Calendar_category)
 * [日程回复](Calendar_answer)
+* [日程新界面](Calendar_list)
 
 ### 报销管理
 * [报销列表](bxlist)
@@ -124,6 +130,13 @@
 * [物品审核中申租品确认归还操作](sure_return)
 * [提交下一步审核](goods_next_check)
 * [易耗品确认申领操作](easy_sure)
+* [易耗品分类](easy_cat)
+* [申租品分类](rent_cat)
+* [搜索](easy_serch)
+* [数量](asset_num)
+* [我的审核（待审批/审批）](consumable_check_list_part)
+* [易耗品分类的相关数据](easy_cat_data)
+* [申租品分类的相关数据](rent_cat_data)
 
 ### Eboss
 * [考勤前一天情况比例](kaoqin_percent)
@@ -177,3 +190,9 @@
 * [反馈至任务的测试](returntotask)
 * [测试组处理意见](task_solve)
 * [根据id来查询项目详细内容](project_info)
+* [获取项目附件的接口](getNewfj)
+* [刚进入项目时候的判断](get_all_judge)
+* [删除任务接口](delete_task)
+* [删除测试接口](delete_test)
+* [编辑测试](test_editing)
+* [编辑任务](task_editing)

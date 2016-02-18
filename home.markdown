@@ -18,6 +18,8 @@
 
 * [avalon 组件开发模板参考](avalon_widget_create)
 
+* [git 密钥生成参考](http://blog.csdn.net/wfdtxz/article/details/8678982)
+
 
 
 ### [发行及升级](versionorupdate)
@@ -25,6 +27,8 @@
 ### [应用配制](appconfigdesc)
 
 ### [云平台PCD通讯设计](pcdtoclouddesign)
+
+### [无需登录控制器基类](nopowercontrollerbaseAction)
 
 ### [移动端文档 ](mobile_document)
 ### [PCD引用Linksame页面](pcdaddls)
@@ -41,6 +45,16 @@
 * [初始化数据写在配置文件中](Initial_config)
 * [云应用授权SDK文档](sdk)
 
+## [首页消息接口列表](indexMessageApi)
+
+* [首页消息接口说明](indexMessage)
+
+# 与linksame官网通信接口
+
+- SnsApi::cApi('Company/userList',$oauthArr);
+
+>  请求接口 SnsApi::cApi('接口地址','数组参数')
+ 
 
 # 接口
 ## [移动端API列表](mobileAPI)
@@ -67,6 +81,11 @@
 
 | 组件名称 |  类型  |  描述  |
 | :-- | ----:| :--: |
+|[downLoad服务组件](downLoad) `新` | avalon | downLoad 组件用来优化当前客户端软件 ‘A’ 标签下载文件事件  `2016-01-30更新` |
+|[PushReceive服务组件](PushReceive) `新` | avalon | PushReceive用于连接Push服务器，接收消息 和 PHP端的Push描述. (优化WebSocket API)  `2016-01-20更新` |
+|[bootstrap开关(avalon)](bootstrap-switch) `新` | avalon | avalon集成Bootstrap 开关（switch）控件  `2016-01-13更新` |
+|[进销存选择供应商(avalon)](avalon_supplier) `新` | avalon | 查看所有供应商，根据分类查看供应商，根据产品查看供应商  `2015-12-30更新` |
+|[选择发货地址(avalon)](avalon_address) `新` | avalon | 选择客户之后选择客户对应的发货地址  `2015-12-15更新` |
 |[应用权限独立配置组件(avalon)](avalon_author) `新` | avalon | 可独立的管理单个应用的节点权限  `2015-12-9更新` |
 |[产品规格批次选择组件(avalon)](choicebatch) `新` | avalon | 选择产品规格批次 Avalon 组件  `2015-12-2更新` |
 |[序列号查看选择组件(avalon)](choiceSerial) `新` | avalon | 查看/选择 产品序列号 Avalon 组件  `2015-12-2更新` |
@@ -90,6 +109,8 @@
 |[下载监听](downloadAddevenlist)| js | 软件下载文件保存地址接口 |
 |[上传组件](upload)|js|以webuploader为核心的上传组件|
 |[商品添加保修期(avalon)](maintenance)   | Avalon | 商品添加保修期|
+|[选择地区](chicecity_widget)|Avalon|选择地址组件,可以配合地区ID在公共模型查地区坐标|
+|[选择员工新组件(avalon)](choiceuser)   | Avalon | 选择员工 |
 
 
 
@@ -100,6 +121,7 @@
 - [现金流](app-cws)
 - [连锁管理](sygl)
 - [应用发消息接口](sentmassage)
+- [Ims网盘接口](Ims-wangpan)
 
 # 应用开发文档
 

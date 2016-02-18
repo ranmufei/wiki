@@ -33,10 +33,29 @@ custom_id: "武汉大学",  //所属客户
 charge: "庆丰包子",     //负责人
 count: "3420000.00",    //销售金额
 stage: "初步接洽",      //销售阶段
-endtime: "",           //结束时间
+endtime: "",           //计划时间
 remark: "",            //备注
 type: "",              //机会类型
 source: "",            //机会来源
 userid: "庆丰包子",    //创建人
 createtime: "07-13 17:18" //创建时间
+
+auditor: "free style",    //审核人     
+opertime: "2016-01-27",   //最近操作时间
+follow_rank: "A(2日内跟进)",    //跟进级别
+auditor_status: "战败申请审核中"   //状态说明    
+lose_reason: "质量原因",       //战败主要原因
+lose_remark: "",                //战败原因 
+fail_remark: "",    
+follow_rank_time: "172800",
+py: "",                      
+py_a: "",                      
+
+
+
+
+
+
+
+
 },

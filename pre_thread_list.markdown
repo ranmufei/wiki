@@ -8,13 +8,13 @@
 get
 
 ### **浏览器查看**
-http://www.apps.com/index.php?app=Customer&m=MPrethread&a=lists
+http://www.apps.com/index.php?app=Customer&m=MPrethread&a=lists&sta=1
 
 ### **公共参数** 
 `num`、`p`
 
 ### **其他参数**
-无
+sta  默认不传，当值为1是查询我下属的线索
 
 ### **返回结果**
 |字段       |值             |类型    |说明           |
@@ -33,7 +33,9 @@ phone: "1232131231",
 post: "",
 state: "",
 createtime: "11-12 17:16",
-id: "453"
+id: "453",
+is_leave: "1", （new）         //是否离职  ，1为离职（wangyan（离职））,0为（wangyan）
+charge: "wangyan", （new）     //负责人
 },
 ……
 ]

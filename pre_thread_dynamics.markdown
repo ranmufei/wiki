@@ -38,6 +38,7 @@ origin: "PC端",       //来源(手机端、pc端)
 location: "",      //坐标
 area: "",          //位置      
 userid: "1",       //创建者
-createtime: "1436324316"  //创建时间
+createtime: "1436324316",  //创建时间
+isdelete: 1                     //1表示可删，0表示不能删除
 }
 ]
