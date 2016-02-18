@@ -5,7 +5,7 @@
   > 该组件提供接口 开发者可以吧 有需要分享到微圈的的信息 发布到微圈中去。
 
   > 应用场景例如： 各种需要发通知的信息都可以抄送 到微圈  ；
-  
+
   > 该组件最大的特点 就是要指定消息的抄送范围
 
 
@@ -45,8 +45,8 @@
 * test
 * 
 */
-require(['avalon','creatclass/creatclass','unit/unit','warehouse/warehouse','createproduct/createproduct','format/format','domReady!'],function(avalon){
-   var classmodel=null;
+require(['avalon','twitterCopy/twitterCopy','domReady!'],function(avalon){
+   var cpmodel=null;
    var model=avalon.define({ 
         $id:'root',
          $copy:{
