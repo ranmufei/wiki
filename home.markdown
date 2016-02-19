@@ -81,6 +81,8 @@
 
 | 组件名称 |  类型  |  描述  |
 | :-- | ----:| :--: |
+|[选择表情组件(avalon)](face)   | Avalon | 选择表情组件 |
+|[选择员工新组件(avalon)](choiceuser)   | Avalon | 选择员工 |
 |[分享到企业微圈组件](copytwitter) `新` | avalon | 该组件提供接口 开发者可以吧 有需要分享到微圈的的信息 发布  `2016-02-18更新` |
 |[downLoad服务组件](downLoad) `新` | avalon | downLoad 组件用来优化当前客户端软件 ‘A’ 标签下载文件事件  `2016-01-30更新` |
 |[PushReceive服务组件](PushReceive) `新` | avalon | PushReceive用于连接Push服务器，接收消息 和 PHP端的Push描述. (优化WebSocket API)  `2016-01-20更新` |
@@ -111,7 +113,7 @@
 |[上传组件](upload)|js|以webuploader为核心的上传组件|
 |[商品添加保修期(avalon)](maintenance)   | Avalon | 商品添加保修期|
 |[选择地区](chicecity_widget)|Avalon|选择地址组件,可以配合地区ID在公共模型查地区坐标|
-|[选择员工新组件(avalon)](choiceuser)   | Avalon | 选择员工 |
+
 
 
 
