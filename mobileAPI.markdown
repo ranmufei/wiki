@@ -25,6 +25,11 @@
 * [公告列表](notice_list)
 * [公告详情](notice_message)
 
+### 首页审核/消息
+* [审核列表](audit_list)
+* [审核历史记录](audit_history)
+* [审核详情](audit_detail)
+
 ### 网盘
 
 ##### 个人网盘
