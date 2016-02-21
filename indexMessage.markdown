@@ -23,14 +23,15 @@
 /** 
 * 提交的$data 格式  
 */
-        $data['title'] = $arr['title'];       // 标题说明
+        $data['title'] = $arr['title'];       // 标题说明 
         $data['content'] = $arr['content'];  // 大概内容描述
+        $data['from'] = ""   ,   //应用的key值 ，注意拆分的应用必填，一定要填写拆分后的应用的key ，非拆分的应用可自动获取key  20160221新增
         $data['link'] = $arr['link'];       //查看详情跳转地址
         $data['receive'] = $arr['receive'];       //接受者uid
         $data['menu_id'] = 0 ;  // menu.html中左侧菜单对应的id ;
         $data['type'] = 1;     //类型必须为1
 
-       $data['con_id'] = 数据id ;  //数据ID，用于后续数据分析用 ， 2016-01-31新加
+        $data['con_id'] = 数据id ;  //数据ID，用于后续数据分析用 ， 2016-01-31新加
         // 获取审核详情地址，具体说明见下面五
         $data['detail_url'] = $arr['detail_url'];   
 
@@ -45,6 +46,7 @@
         // 必填
         $data['title'] = $arr['title'];       // 标题说明
         $data['content'] = $arr['content'];  // 大概内容描述
+        $data['from'] = ""   ,   //应用的key值 ，注意拆分的应用必填，一定要填写拆分后的应用的key ，非拆分的应用可自动获取key  20160221新增
         $data['link'] = $arr['link'];       //查看详情跳转地址
         $data['type'] = 4 ; 
         $data['check_url'] = $arr['check_url'] ;    // 点击确定的php处理地址
@@ -72,6 +74,7 @@
         // 必填
         $data['title'] = $arr['title'];       // 标题说明
         $data['content'] = $arr['content'];  // 大概内容描述
+        $data['from'] = ""   ,   //应用的key值 ，注意拆分的应用必填，一定要填写拆分后的应用的key ，非拆分的应用可自动获取key  20160221新增
         $data['link'] = $arr['link'];       //查看详情跳转地址
         $data['receive'] = $arr['receive'];       //接受者uid
         $data['type'] = 2或者3 ;  //业务审批($type = 2) ; 办公审批($type = 3) 
