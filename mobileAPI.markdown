@@ -28,8 +28,7 @@
 ### 首页审核/消息
 * [审核列表](audit_list)
 * [审核新消息](audit_new)
-* [审核历史记录](audit_history)
-* [审核详情](audit_detail)
+
 
 ### 网盘
 
