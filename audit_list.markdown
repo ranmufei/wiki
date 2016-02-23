@@ -49,3 +49,23 @@ post
 |checkInfo     | array | 如果是有操作的审核，这里放审核的操作相关数据  |
 
 
+
+## checkInfo里面的字段类型说明
+|字段       |值             |类型    |说明           |
+| --------- |--------      |--------|--------       |
+|check_history_url     | string | 获取审核历史记录  |
+|check_url     | string | 点击审核同意的post地址  |
+|reject_url     | string | 点击驳回同意的post地址  |
+|next_check_url     | string | 点击提交下一步审核的post地址  |
+|check_history_url     | string | 获取审核历史记录  |
+|check_name     | string | 审核按钮的名称 ，默认为“审核”  |
+
+|reject_name     | string | 驳回按钮的名称 ，默认为“驳回”  |
+
+|next_check_name     | string | 提交下一步按钮的名称 ，默认为“提交下一步”  |
+
+|is_reject     | string | 是否有驳回按钮，0代表没有 ， 1代表有  |
+
+|is_next_check     | string | 是否有提交下一步按钮，0代表没有 ， 1代表有  |
+
+|id     | string | 当前记录的id  |
