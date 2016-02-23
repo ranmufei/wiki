@@ -59,13 +59,8 @@ post
 |next_check_url     | string | 点击提交下一步审核的post地址  |
 |check_history_url     | string | 获取审核历史记录  |
 |check_name     | string | 审核按钮的名称 ，默认为“审核”  |
-
 |reject_name     | string | 驳回按钮的名称 ，默认为“驳回”  |
-
 |next_check_name     | string | 提交下一步按钮的名称 ，默认为“提交下一步”  |
-
 |is_reject     | string | 是否有驳回按钮，0代表没有 ， 1代表有  |
-
 |is_next_check     | string | 是否有提交下一步按钮，0代表没有 ， 1代表有  |
-
 |id     | string | 当前记录的id  |
