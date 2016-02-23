@@ -30,7 +30,8 @@
 * [审核新消息](audit_new)
 * [审核操作、历史记录、详情](audit_other)
 * [日程新消息数据](audit_rc)
-* [更改消息状态](audit_status)
+* [更改1条消息状态](audit_status)
+* [更改多条消息状态](audit_status_mulit)
 
 
 ### 网盘
