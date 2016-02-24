@@ -20,7 +20,7 @@
 
 * [git 密钥生成参考](http://blog.csdn.net/wfdtxz/article/details/8678982)
 
-* [linksame 文档](linksame document)
+* [linksame 文档](linksame_document)
 
 
 
