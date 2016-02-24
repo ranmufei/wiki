@@ -18,4 +18,4 @@ get
 | is_read     | 是 |   消息状态 ( 0未读 ，1已读 ，2已审核  |
 
 
-返回   true成功   false失败
+返回   true或者1成功   false或者0失败
