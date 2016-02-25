@@ -147,8 +147,8 @@ post data : {id=数据的ID&reply_text=我同意了&next_uid=6}
 ## 四. 历史记录的地址返回的数据格式： 
 
 
- 方式 : post
-post data : { id: id} 
+- 方式 : post
+- post data : { id: id} 
 
 ```` php
 /** 驳回
@@ -175,4 +175,5 @@ $mystatus = 0或1、2        // 0没有审核   1审核同意 2 审核没同意 
    方式 : post
    post data : { id: id} 
      
-   新加一个返回字段 :　audit_status  ,  当前审核的状态，如 “报销中，待审核，已审核，已驳回，待确认，带归还 ， 已作废 ，已报销 ， ......”
+  - 新加一个返回字段 :　audit_status  ,  当前审核的状态，如 “报销中，待审核，已审核，已驳回，待确认，带归还 ， 已作废 ，已报销 ， ......”
+-  audit_status  与data 是平级的关系
