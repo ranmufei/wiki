@@ -153,16 +153,19 @@ post data : {id=数据的ID&reply_text=我同意了&next_uid=6}
 ```` php
 /** 
 * @return 返回格式
+* $result['data']     返回的数据 格式为数组
+* $result['status']   返回状态 1正常  0没有或者失败
+* $result['info']   返回状态的文字说明
 */ 
 
- $result['grade_uid'] =  0 ;   //审核人的uid 
- $result['grade_name'] =  "" ;   //审核人的名字
- $result['inserttime'] = "2015-12-19 12:00:00" ;  //处理时间  ，用友好时间处理过的 
- $result['status'] = 0或者1 、2;  //1 已审核 0待处理   2驳回
- $result['reply_text'] = "处理意见";  //填写处理意见
- $result['apply_uid'] = 0;  //上一个发起人的uid ，最近的是谁提交的
- $result['apply_name'] = "";  //上一个发起人的名字 
- $result['img'] = "";  //上一个发起人的头像
+ $result['data'][0]['grade_uid'] =  0 ;   //审核人的uid 
+ $result['data'][0]['grade_name'] =  "" ;   //审核人的名字
+ $result['data'][0]['inserttime'] = "2015-12-19 12:00:00" ;  //处理时间  ，用友好时间处理过的 
+ $result['data'][0]['status'] = 0或者1 、2;  //1 已审核 0待处理   2驳回
+ $result['data'][0]['reply_text'] = "处理意见";  //填写处理意见
+ $result['data'][0]['apply_uid'] = 0;  //上一个发起人的uid ，最近的是谁提交的
+ $result['data'][0]['apply_name'] = "";  //上一个发起人的名字 
+ $result['data'][0]['img'] = "";  //上一个发起人的头像
     
 
 //注意：工作流协同额外加了2个字段，与data平级
