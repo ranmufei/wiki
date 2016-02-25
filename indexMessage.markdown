@@ -176,4 +176,4 @@ $mystatus = 0或1、2        // 0没有审核   1审核同意 2 审核没同意 
    post data : { id: id} 
      
   - 新加一个返回字段 :　audit_status  ,  当前审核的状态，如 “报销中，待审核，已审核，已驳回，待确认，带归还 ， 已作废 ，已报销 ， ......”
--  audit_status  与data 是平级的关系
+  - audit_status  与data 是平级的关系
