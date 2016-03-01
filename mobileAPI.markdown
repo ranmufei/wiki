@@ -32,6 +32,7 @@
 * [日程新消息数据](audit_rc)
 * [更改1条消息状态](audit_status)
 * [更改多条消息状态](audit_status_mulit)
+* [发送回执](audit_twitter)
 
 
 ### 网盘
