@@ -13,12 +13,11 @@ post
 | title     | 是 |  消息标题  |
 | content     | 是 |   消息内容 |
 | is_back     | 是 |   0不需要/1需要 是否需要回执 |
-| info     | 是 |   @param $info:{
-     *             	uid:[],  //用户uid 数组
-     *             	jid:[],  // 部门jid  数组
-     *             	zid:[],  // 职位zid 数组
-     *             	all:0   // 全公司
-     *             } |
+| info     | 是 |   @param $info:{uid:[],  //用户uid 数组
+                 	jid:[],  // 部门jid  数组
+                 	zid:[],  // 职位zid 数组
+                 	all:0   // 全公司
+                } |
 
 
 
