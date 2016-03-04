@@ -83,6 +83,7 @@
 
 | 组件名称 |  类型  |  描述  |
 | :-- | ----:| :--: |
+|[选择客户(avalon)](choicecustom)   | Avalon | 选择选择客户插件 |
 |[选择表情组件(avalon)](face)   | Avalon | 选择表情组件 |
 |[选择员工新组件(avalon)](choiceuser)   | Avalon | 选择员工 |
 |[分享到企业微圈组件](copytwitter) `新` | avalon | 该组件提供接口 开发者可以吧 有需要分享到微圈的的信息 发布  `2016-03-1更新 可设置组件提示文字` |
