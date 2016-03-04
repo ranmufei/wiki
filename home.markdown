@@ -83,9 +83,9 @@
 
 | 组件名称 |  类型  |  描述  |
 | :-- | ----:| :--: |
-|[选择客户(avalon)](choicecustom)   | Avalon | 选择选择客户插件 |
+|[选择客户(avalon)`新`](choicecustom)   | Avalon | 选择选择客户插件 |
 |[选择表情组件(avalon)](face)   | Avalon | 选择表情组件 |
-|[选择员工新组件(avalon)](choiceuser)   | Avalon | 选择员工 |
+|[选择员工新组件(avalon)`新`](choiceuser)   | Avalon | 选择员工 |
 |[分享到企业微圈组件](copytwitter) `新` | avalon | 该组件提供接口 开发者可以吧 有需要分享到微圈的的信息 发布  `2016-03-1更新 可设置组件提示文字` |
 |[downLoad服务组件](downLoad) `新` | avalon | downLoad 组件用来优化当前客户端软件 ‘A’ 标签下载文件事件  `2016-01-30更新` |
 |[PushReceive服务组件](PushReceive) `新` | avalon | PushReceive用于连接Push服务器，接收消息 和 PHP端的Push描述. (优化WebSocket API)  `2016-01-20更新` |
