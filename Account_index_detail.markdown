@@ -36,7 +36,7 @@ img: "./Uploads/avatar/0/1.jpg",        //报销人头像
 money: "2000.00"                                 //金额
 }
 },
-audit_status: "报销中",
+audit_status: "报销中",                  //报销单状态
 status: 1,
 info: "查询成功"
 }
