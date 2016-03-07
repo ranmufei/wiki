@@ -11,6 +11,7 @@
         width:'500px', 
         height:'300px',
         title:'仓库管理',
+        isMyself:1, //产品过滤（自产）
         callbackfun:avalon.noop //回调函数Init
 
 ## 基本属性配置
