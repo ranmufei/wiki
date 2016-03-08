@@ -7,3 +7,5 @@
 ### [考勤首页详情字段说明](kaoqin_index_detail)
 
 ### [报销首页详情字段说明](Account_index_detail)
+
+### [客户机会首页详情字段说明](Customer_index_detail)
