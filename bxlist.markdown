@@ -3,7 +3,7 @@
 
 > /index.php?app=Account&m=ExpenseApi&a=bxlist
 
->  method : get/post
+>  method : post
 
 > *测试http://www.apps.com/index.php?app=Account&m=ExpenseApi&a=bxlist&uid=1&status=1
 ## 参数
