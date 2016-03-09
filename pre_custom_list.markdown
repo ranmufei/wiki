@@ -18,6 +18,7 @@ http://www.apps.com/index.php?app=Customer&m=MPrecustom&a=lists&sta=1&access_tok
 sta 默认不传（1为我参与的，2为我下属的） get
 
 condition(数组)     post
+
   custom_company   客户名称
 
 ### **返回结果**
