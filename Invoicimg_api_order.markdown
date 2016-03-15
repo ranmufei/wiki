@@ -10,6 +10,8 @@ post
 ### **浏览器查看**
 http://www.apps.com/index.php?app=Invoicimg&m=ProductApi&a=getOrderlist
 
+退货
+http://www.apps.com/index.php?app=Invoicimg&m=ProductApi&a=getOrderList&cg=4&paystatu=1&ordertype=1&p=undefined&cate_id=undefined&str=undefined&perPages=10
 ### **需要的参数** 
 |字段       |值             |类型    |说明           |
 | --------- |--------      |--------|--------       |
