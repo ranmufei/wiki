@@ -25,3 +25,36 @@ post
 |data      |         | array |返回数组 |
 |count      |         | int | 总数 |
 
+{
+id: "157",
+uid: "1",
+cid: "1",
+cate_id: "83",
+name: "萨达萨达啊",//产品名
+code: "SDSDA",
+formatType: "1",
+brand: "456",
+SupplierId: "2",
+unitInfo: "0",
+shelfLife: "0",
+isDelete: "0",
+b_no: null,
+xinhao: null,
+h_id: null,
+unit: "",
+price: "0.00",
+count_price: "0.00",
+time: "1457942089",
+num: "100.00",//库存数量
+max_limit: "0",
+min_limit: "0",
+mark: "456",
+status: "0",
+sns_id: null,
+default2: "0",
+default1: "0",
+form: "0",
+productName: "萨达萨达啊",
+produckID: "157",
+ckID: 0
+},
