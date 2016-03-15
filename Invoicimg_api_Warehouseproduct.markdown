@@ -25,6 +25,7 @@ post
 |data      |         | array |返回数组 |
 |count      |         | int | 总数 |
 
+``` javascript
 {
 id: "157",
 uid: "1",
