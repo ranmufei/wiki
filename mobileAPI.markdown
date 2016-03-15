@@ -11,6 +11,7 @@
 ### 进销存
 * [产品管理](Invoicimg_api_product)
 * [采购管理](Invoicimg_api_Purchase)
+* [库存管理](Invoicimg_api_Instock)
 
 ### 现金流接口
 * [现金流报表](cws_cashflow_report)
