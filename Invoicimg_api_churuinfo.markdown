@@ -25,7 +25,6 @@ post
 | --------- |--------      |--------|--------       |
 |info   |         | object |订单基本信息|
 |info['list']   |     | array |订单产品信息|
-
 |log|         | array | 操作日志 |
 |storn|       | array | 仓库详细 |
 |batchlist|       | array | 入库批次 |
