@@ -23,10 +23,10 @@ post
 ### **返回结果**
 |字段       |值             |类型    |说明           |
 | --------- |--------      |--------|--------       |
-|proList    |         | array |基本信息数组 |
-|tableHeader|         | object | 产品规格 |
-|infos|         | object | 产品/仓库 |
-|log|         | array | 产品出入库流水 |
+|info   |         | object |订单基本信息|
+|info['list']   |     | array |订单产品信息|
+
+|log|         | array | 操作日志 |
 |storn|       | array | 仓库详细 |
 |batchlist|       | array | 入库批次 |
 ``` javascript
