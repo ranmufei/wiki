@@ -26,33 +26,26 @@ http://www.apps.com/index.php?app=Invoicimg&m=InstockApi&a=instock_order&status=
 |count|         | object | 总数 |
 
 ``` javascript
-proList: [
+count: "261",
+totalPages: 11,
+nowPage: 1,
+data: [
 {
-ckID: "*",
-subTypeId: "278",
-maxhidden: false,
-minhidden: false,
-param0: "大",
-param1: "10",
-num: "90.00",
-format: "FG_-D-10_0"
-},
-{
-ckID: "*",
-subTypeId: "279",
-maxhidden: false,
-minhidden: false,
-param0: "小",
-param1: "10",
-num: "81.00",
-format: "FG_-X-10_1"
-}
-],
-tableHeader: {
-param0: "包装",
-param1: "长度"
-},
-infos: {
-ckname: "全部仓库",
-productName: "分割"
+id: "1488",
+uid: "1",
+order_num: "XS2016031449519810",
+gys_id: "422",
+creat_time: "1457926529",
+count_price: "48000.00",
+num: "160",
+orderstatu: "0",
+ordertype: "2",
+to_address: null,
+ckid_1: "0",
+ckid_2: "0",
+is_pd: "0",
+type: "0",
+default6: "0",
+line_status: "0",
+is_bigorder: "0"
 },
