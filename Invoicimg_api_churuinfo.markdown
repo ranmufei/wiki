@@ -26,6 +26,7 @@ post
 |info   |         | object |订单基本信息|
 |info['list']   |     | array |订单产品信息|
 |log|         | array | 操作日志 |
-|storn|       | array | 仓库详细 |
-|batchlist|       | array | 入库批次 |
+|batchlist|       | array | 批次记录 |
+|batchSarial|       | array | 序列号记录 |
+|outStronOrder|       | array |出库单记录 |
 ``` javascript
