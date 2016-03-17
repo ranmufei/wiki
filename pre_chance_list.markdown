@@ -14,6 +14,10 @@ http://www.apps.com/index.php?app=Customer&m=MPrechance&a=lists&id=29sta=1&acces
 最近7天的跟进计划（无参数）
 http://www.apps.com/index.php?app=Customer&m=MPrechance&a=getChanceRemind&access_token=
 
+
+我请求的战败(get)（status不传参表示查所有，1表示审核中，2表示通过，3表示驳回）
+http://www.apps.com/index.php?app=Customer&m=MPrechance&a=applied&access_token=62ce654626ed3e2194de04d77ff892&status=1
+
 ### **公共参数** 
 `p` `num`
 
