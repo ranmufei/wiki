@@ -34,6 +34,7 @@
 * [更改1条消息状态](audit_status)
 * [更改多条消息状态](audit_status_mulit)
 * [发送回执](audit_twitter)
+* [我发起的审核](my_audit)
 
 
 ### 网盘
