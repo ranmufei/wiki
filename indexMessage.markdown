@@ -183,3 +183,9 @@ $mystatus = 0或1、2        // 0没有审核   1审核同意 2 审核没同意 
      
   - 新加一个返回字段 :　audit_status  ,  当前审核的状态，如 “报销中，待审核，已通过，已驳回，待确认，带归还 ， 已作废 ，已报销 ， ......”
   - audit_status  与data 是平级的关系
+
+
+##  六. PHP更改消息状态接口
+  注意：在已审核情况下才能用
+   model('Notify')->changeStatus(I('notify_id')) ;
+返回true false
