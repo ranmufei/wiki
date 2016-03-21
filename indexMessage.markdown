@@ -130,6 +130,7 @@ post data : {id=数据的ID&reply_text=我同意了&next_uid=6}
 
  $result['status'] = 1 ; 
  $result['info'] = "Success" ;  //可以填您处理程序的结果的文字，会在首页显示 
+ $result['mystatus'] = 0或1、2        // 0没有审核   1审核同意 2 审核没同意  ,用于判断应用里面审核了，首页再次操作审核
     
 ````
 
@@ -140,6 +141,7 @@ post data : {id=数据的ID&reply_text=我同意了&next_uid=6}
 
  $result['status'] = 0 ; 
  $result['info'] = "Error" ;  //可以填您处理程序的结果的文字，会在首页显示 
+$result['mystatus'] = 0或1、2        // 0没有审核   1审核同意 2 审核没同意  ,用于判断应用里面审核了，首页再次操作审核
     
 ````
 
