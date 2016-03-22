@@ -7,6 +7,7 @@
 
 ### **浏览器查看**
 获取仓库列表 /http://www.apps.com/index.php?app=Invoicimg&m=InstockApi&a=get_storn_list&access_token=
+
 获取仓库列表 /http://www.apps.com/index.php?app=Invoicimg&m=InstockApi&a=get_storage_list&ckid=1&access_token=
 ### **公共参数** 
 |字段       |值             |类型    |说明           |
