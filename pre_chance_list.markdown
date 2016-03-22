@@ -19,6 +19,14 @@ http://www.apps.com/index.php?app=Customer&m=MPrechance&a=getChanceRemind&access
 
 http://www.apps.com/index.php?app=Customer&m=MPrechance&a=applied&access_token=62ce654626ed3e2194de04d77ff892&status=1
 
+
+
+战败审核(NEW)(GET)
+http://www.apps.com/index.php?app=Customer&m=MPrechance&a=non_checked&p=0&num=15&status=1&access_token=
+
+
+
+
 ### **公共参数** 
 `p` `num`
 
