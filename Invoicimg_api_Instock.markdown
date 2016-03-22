@@ -12,3 +12,4 @@
 * [库存调拨](Invoicimg_api_diaobo)
 * [库存盘点](Invoicimg_api_pandian)
 * [出库订单](Invoicimg_api_outorder)
+* [出库订单详情](Invoicimg_api_outorder_info)
