@@ -24,7 +24,7 @@ http://www.apps.com/index.php?app=Customer&m=MPrechance&a=applied&access_token=6
 
 
 战败审核(NEW)(GET)(status为0是未审核,1为已审核)
-http://www.apps.com/index.php?app=Customer&m=MPrechance&a=non_checked&p=0&num=15&status=1&access_token=
+http://www.apps.com/index.php?app=Customer&m=MPrechance&a=non_checked&p=1&status=1&access_token=
 
 
 
