@@ -15,3 +15,5 @@ http://www.apps.com/index.php?app=Invoicimg&m=ProductApi&a=get_caigou_list
 | --------- |--------      |--------|--------       |
 |ordertype|  0/1            |int|0       |
 |cg|              |int    | 4  |
+|uid|              |int    | 登录者的uid  |
+
