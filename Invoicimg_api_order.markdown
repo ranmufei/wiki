@@ -12,6 +12,7 @@ http://www.apps.com/index.php?app=Invoicimg&m=ProductApi&a=getOrderlist
 
 退货
 http://www.apps.com/index.php?app=Invoicimg&m=ProductApi&a=getOrderList&cg=4&paystatu=1&ordertype=1&p=undefined&cate_id=undefined&str=undefined&perPages=10
+
 搜索
 http://www.apps.com/index.php?app=Invoicimg&m=Supply&a=getOrderList&ordertype=0&cg=4&p=0&cate_id=0&str=搜索内容&perPages=10
 
