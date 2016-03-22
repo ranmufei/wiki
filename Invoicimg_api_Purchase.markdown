@@ -6,6 +6,7 @@
 * [查询子订单](son_order)
 * [审核通过操作](checkOrder)
 * [审核驳回操作](check_reject)
+* [我的采购审批](my_check)
 
 * [--采购退货列表](Invoicimg_api_productlist)（共用接口）
 * [--订单详情](Invoicimg_api_details)
