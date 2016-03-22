@@ -3,7 +3,8 @@
 
 * [采购列表](Invoicimg_api_order)（共用接口）
 * [采购详细](Invoicimg_api_detail)
-* [审核操作](checkOrder)
+* [查询子订单](son_order)
+* [审核通过操作](checkOrder)
 
 * [--采购退货列表](Invoicimg_api_productlist)（共用接口）
 * [--订单详情](Invoicimg_api_details)
