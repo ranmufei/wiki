@@ -8,7 +8,7 @@
 post
 
 ### **浏览器查看**
-http://www.apps.com/index.php?app=Invoicimg&m=InstockApi&a=get_outorder_info&access_token=e133ac84d35628422ca6c2c408667a
+http://www.apps.com/index.php?app=Invoicimg&m=InstockApi&a=get_outorder_info&access_token=e133ac84d35628422ca6c2c408667a&id=32
 
 ### **公共参数** 
 |字段       |值             |类型    |说明           |
