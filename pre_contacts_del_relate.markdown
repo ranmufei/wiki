@@ -26,5 +26,6 @@
 {
 
 info: "修改成功"
-status: 1
+status: "success"   success/error
+data:''
 }
