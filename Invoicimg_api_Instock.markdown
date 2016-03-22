@@ -4,6 +4,7 @@
 * [库存列表](Invoicimg_api_Warehouseproduct)
 * [库存产品详细](Invoicimg_api_Warehouseproduct_info)
 * [仓库管理](Invoicimg_api_Warehouse)
+* [仓库详情](Invoicimg_api_Warehouse_info)
 * [出库管理](Invoicimg_api_chuku)
 * [入库管理](Invoicimg_api_ruku)
 * [出入库订单详情](Invoicimg_api_churuinfo)
