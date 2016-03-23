@@ -59,7 +59,7 @@ maxhidden: false,
 minhidden: false,
 param0: "大",
 param1: "10",
-num: "90.00",
+num: "60.00",
 format: "FG_-D-10_0"
 },
 {
@@ -69,7 +69,7 @@ maxhidden: false,
 minhidden: false,
 param0: "小",
 param1: "10",
-num: "81.00",
+num: "76.00",
 format: "FG_-X-10_1"
 }
 ],
@@ -81,3 +81,92 @@ infos: {
 ckname: "全部仓库",
 productName: "分割"
 },
+log: [
+{
+id: "863",
+orderid: "1545",
+proid: "135",
+subid: "279",
+num: "1",
+adminUid: "1",
+c_time: "1458288050",
+stornhouseid: "2",
+type: "订单入库",
+from: "0",
+mark: "sf",
+default1: "0",
+default: "0",
+f3f66: "sdsdas",
+param0: "小",
+param1: "10",
+ggNum: 2,
+tag: "+",
+froms: "订单操作",
+price: "23.00",
+format: "FG_-X-10_1",
+admin: "庆丰包子",
+time: "2016-03-18 16:00"
+},
+``` javascript
+{
+storn: [
+{
+id: "1",
+storehouse: "武汉仓库(默认仓库)",
+default1: "0",
+defaultStore: "1",
+warehouse: [
+{
+id: "27",
+storehouse: "库位C(默认库位)",
+default1: "1",
+defaultStore: "1",
+product: [
+{
+param0: "大",
+param1: "10",
+formatNum: 60,
+formaname: "FG_-D-10_0"
+},
+{
+param0: "小",
+param1: "10",
+formatNum: 73,
+formaname: "FG_-X-10_1"
+}
+]
+}
+]
+},
+{
+id: "2",
+storehouse: "北京仓库",
+default1: "0",
+defaultStore: "0",
+warehouse: null,
+product: [
+{
+param0: "小",
+param1: "10",
+formatNum: 2,
+formaname: "FG_-X-10_1"
+}
+]
+},
+{
+id: "31",
+storehouse: "测试仓库",
+default1: "0",
+defaultStore: "0",
+warehouse: null,
+product: [
+{
+param0: "小",
+param1: "10",
+formatNum: 1,
+formaname: "FG_-X-10_1"
+}
+]
+}
+]
+}
