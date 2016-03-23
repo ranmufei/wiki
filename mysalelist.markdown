@@ -7,8 +7,17 @@
 ### **请求方式**
 get/post
 
-### **浏览器查看**
+### **浏览器查看（我的销售订单）**
 http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=mysaleList&status=1&access_token=
+
+### **浏览器查看（我的退货订单）**
+http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=mysalethList&status=1&access_token=
+
+### **浏览器查看（销售订单）**
+http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=saleList&status=1&access_token=
+
+### **浏览器查看（退货订单）**
+http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=salethList&status=1&access_token=
 
 ### **公共参数** 
 `num`、`p`
@@ -18,7 +27,7 @@ status     默认不传查是有的
 str        搜索单号或者客户
 timestart  筛选的开始时间
 timeend    筛选的结束时间 
-
+userid     筛选的员工 （销售订单、退货订单有）
 
 
 ### **返回结果**
