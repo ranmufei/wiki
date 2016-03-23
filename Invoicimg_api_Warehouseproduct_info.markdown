@@ -7,13 +7,6 @@
 ### **请求方式**
 get
 
-### **浏览器查看**
-产品基本信息出入库信息 http://www.apps.com/index.php?app=Invoicimg&m=InstockApi&a=instock_product_info&productid=135&access_token=e133ac84d35628422ca6c2c408667a&p=1
-
-
-全部仓库信息 http://www.apps.com/index.php?app=Invoicimg&m=InstockApi&a=instock_prock_info&productid=135&access_token=e133ac84d35628422ca6c2c408667a
-
-批次信息 http://www.apps.com/index.php?app=Invoicimg&m=InstockApi&a=instock_probatchlist_info&productid=135&access_token=e133ac84d35628422ca6c2c408667a
 ### **公共参数** 
 |字段       |值             |类型    |说明           |
 | --------- |--------      |--------|--------       |
@@ -22,6 +15,9 @@ get
 |productid  |              |string |产品id|
 ### **其他参数**
 无
+### **浏览器查看**
+产品基本信息出入库信息 http://www.apps.com/index.php?app=Invoicimg&m=InstockApi&a=instock_product_info&productid=135&access_token=e133ac84d35628422ca6c2c408667a&p=1
+
 
 ### **返回结果**
 |字段       |值             |类型    |说明           |
@@ -30,8 +26,30 @@ get
 |tableHeader|         | object | 产品规格 |
 |infos|         | object | 产品/仓库 |
 |log|         | array | 产品出入库流水 |
+
+
+### **浏览器查看**
+全部仓库信息 http://www.apps.com/index.php?app=Invoicimg&m=InstockApi&a=instock_prock_info&productid=135&access_token=e133ac84d35628422ca6c2c408667a
+
+
+### **返回结果**
+|字段       |值             |类型    |说明           |
+| --------- |--------      |--------|--------       |
 |storn|       | array | 仓库详细 |
-|batchlist|       | array | 入库批次 |
+
+
+### **浏览器查看**
+批次信息 http://www.apps.com/index.php?app=Invoicimg&m=InstockApi&a=instock_probatchlist_info&productid=135&access_token=e133ac84d35628422ca6c2c408667a
+
+
+### **返回结果**
+|字段       |值             |类型    |说明           |
+| --------- |--------      |--------|--------       |
+|data|       | array | 入库批次数组 |
+|count|       | string | 条数 |
+
+
+
 ``` javascript
 proList: [
 {
