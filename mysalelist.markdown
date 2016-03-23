@@ -34,7 +34,7 @@ userid     筛选的员工 （销售订单、退货订单有）
 |字段       |值             |类型    |说明           |
 | --------- |--------|--------|--------       |
 |statu| |||
-|data |array  |array  | order_num: 销售单号; gys_name：客户; creat_time:创建时间;count_price:订单金额; num:数量; stornstatu:出库状态; paystatu:收款状态; from:订单来源 |
+|data |array  |array  | order_num: 销售单号; gys_name：客户; creat_time:创建时间;count_price:订单金额; num:数量; stornstatu:（出库状态/入库状态）; paystatu:（收款状态/退款状态）; from:订单来源（只有我的销售订单和销售订单显示） |
 |info| '' | |   |
 
 ``` javascript
