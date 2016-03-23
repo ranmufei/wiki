@@ -8,16 +8,18 @@
 get
 
 ### **浏览器查看**
-http://www.apps.com/index.php?app=Invoicimg&m=InstockApi&a=instock_product_info&productid=135&access_token=e133ac84d35628422ca6c2c408667a&p=1
+产品基本信息出入库信息 http://www.apps.com/index.php?app=Invoicimg&m=InstockApi&a=instock_product_info&productid=135&access_token=e133ac84d35628422ca6c2c408667a&p=1
 
 
-产品基本信息 http://www.apps.com/index.php?app=Invoicimg&m=InstockApi&a=instock_basic_info&productid=135&access_token=e133ac84d35628422ca6c2c408667a
+全部仓库信息 http://www.apps.com/index.php?app=Invoicimg&m=InstockApi&a=instock_prock_info&productid=135&access_token=e133ac84d35628422ca6c2c408667a
+
+批次信息 http://www.apps.com/index.php?app=Invoicimg&m=InstockApi&a=instock_probatchlist_info&productid=135&access_token=e133ac84d35628422ca6c2c408667a
 ### **公共参数** 
 |字段       |值             |类型    |说明           |
 | --------- |--------      |--------|--------       |
 |p          |              |string |分页         |
 |ckid       |              |string |仓库id|
-|productid  |              |string | 检索字段  |
+|productid  |              |string |产品id|
 ### **其他参数**
 无
 
