@@ -39,7 +39,7 @@ get
 
 
 ### **浏览器查看**
-批次信息 http://www.apps.com/index.php?app=Invoicimg&m=InstockApi&a=instock_probatchlist_info&productid=135&access_token=e133ac84d35628422ca6c2c408667a
+批次信息 http://www.apps.com/index.php?app=Invoicimg&m=InstockApi&a=instock_probatchlist_info&productid=135&ckid=1&access_token=e133ac84d35628422ca6c2c408667a
 
 
 ### **返回结果**
