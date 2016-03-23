@@ -13,11 +13,6 @@ http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=mysalebills&p=1&acces
 ### **浏览器查看（对账单）**
 http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=salebills&p=1&access_token=
 
-### **浏览器查看（我的对账单详情列表）**
-http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=mygysbill&p=1&access_token=
-
-### **浏览器查看（对账单详情列表）**
-http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=gysbill&p=1&access_token=
 
 ### **公共参数** 
 `num`、`p`
