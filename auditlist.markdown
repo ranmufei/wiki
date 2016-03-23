@@ -16,7 +16,7 @@ http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=auditlist&p=1&status=
 
 ### **其他参数**
 status     状态（未审核1，已审核2）
-str        搜索客户
+str        搜索单号或者客户
 timestart  筛选的开始时间
 timeend    筛选的结束时间 
 userid     筛选的员工 
