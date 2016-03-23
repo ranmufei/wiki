@@ -17,7 +17,7 @@ http://www.apps.com/index.php?app=Invoicimg&m=ProductApi&a=checkOrder
 |o_type|              |int    | 判断是否为网络订单审核  0是本地订单审核  1为网络订单审核 |
 |orderid|              |int    | 需要审核订单的id |
 |revent|              |int    | 备注 |
- |uid|              |int    | 当前登录人id |
+ |cid|               |int    | 当前登录人公司id |
 
 ### **其他参数**
 无
