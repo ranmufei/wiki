@@ -28,8 +28,6 @@ get
 |log|         | array | 产品出入库流水 |
 
 
-/*### **浏览器查看**
-全部仓库信息 http://www.apps.com/index.php?app=Invoicimg&m=InstockApi&a=instock_prock_info&productid=135&access_token=e133ac84d35628422ca6c2c408667a*/
 
 
 ### **返回结果**
