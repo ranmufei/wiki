@@ -4,12 +4,9 @@
 
 ## 公司基础数据
 
-|-- heki--|-- heki--|-- heki--|-- heki--|
-|-- heki--|-- heki--|-- heki--|-- heki--|
-|-- heki--|-- heki--|-- heki--|-- heki--|
-|-- heki--|-- heki--|-- heki--|-- heki--|
+| 接口名称 |  接口  |  接口描述  |
+| :-- | ----:| :--: |
+| 公司信息 | [/v1/company/info](/v1/company/info)  | 公司基本信息 |
+| 公司员工 | [/v1/user/list](/v1/user/list)  | 公司员工列表  |
 
 
--  [/v1/company/info](/v1/company/info) 
-
-- [/v1/user/list](/v1/user/list)
