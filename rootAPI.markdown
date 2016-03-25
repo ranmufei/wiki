@@ -13,20 +13,3 @@
 |d| [公司部门详细](department_info) | [v1/department/info](department_info) |公司某部门详细|
 
 
-<table width="300" class="table table-bordered table-striped table-condensed">
-   <tbody><tr>
-      <th width="25%">时间</th>
-      <th width="25%">地点</th>
-      <th width="50%">人物</th>
-   </tr>
-   <tr>
-      <td>3月5日</td>
-      <td>北京</td>
-      <td>姚明</td>
-   </tr>
-   <tr>
-      <td>3月7日</td>
-      <td>上海</td>
-      <td>韩寒</td>
-   </tr>
-</tbody></table>
