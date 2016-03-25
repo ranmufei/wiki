@@ -13,8 +13,8 @@
 | |[公司部门详细](department_info) | [v1/department/info](department_info) |公司某部门详细|
 
 
-````html
-<table border=1 >
+
+  <table border=1 >
 <tbody>
  <tr>
   <td>2</td>
@@ -35,4 +35,3 @@
  </tr>
 </tbody>
 </table>
-````
