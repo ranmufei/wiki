@@ -4,8 +4,8 @@
 
 ## 公司基础数据
 
-| 接口名称 |  接口  |  接口描述  |
-| :-- | ----:| :--: |
+| info | 接口名称 |  接口  |  接口描述  |
+<th colspan="5">内容</th> | :-- | ----:| :--: |
 | [公司信息](company_info) | [/v1/company/info](company_info)  | 公司基本信息 |
 | [公司员工列表](user_list)| [/v1/user/list](user_list)  | 公司员工列表  |
 | [公司员工详细信息](user_userinfo) | [/v1/user/userinfo/12](user_userinfo)  | 公司员工具体信息  |
