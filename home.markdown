@@ -34,13 +34,14 @@
 
 ### [移动端文档 ](mobile_document)
 ### [PCD引用Linksame页面](pcdaddls)
+
 ### **[插件开发](plugindev)**
 ### **[附件地址 ](attach_address)**
 
 # 私有盘硬件文档
  
    - [技嘉主板 centos 系统无法启动处理](centosDoc)
-
+## [招聘技术提问](ask)
 ## [公共模型](staticmodel)
 
 * [汉字转拼音PHP](fztopy)
@@ -59,10 +60,10 @@
  
 
 # 接口
-## [元数据接口整理](rootAPI)
-## [移动端API列表](mobileAPI)
-## [移动端需求列表](mobileDemand)
-## [招聘技术提问](ask)
+## - [元数据接口整理](rootAPI)
+## - [移动端API列表](mobileAPI)
+## - [移动端需求列表](mobileDemand)
+
 # 辅助开发说明
 * [私有盘模板在线查阅](http://192.168.1.241/moban/matrix-admin00/)
 
