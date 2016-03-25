@@ -14,7 +14,8 @@
 
 
 
-<table border=1>
+<table border=1 >
+<tbody>
  <tr>
   <td>2</td>
   <td>3</td>
@@ -32,4 +33,5 @@
   <td>3</td>
   <td>4</td> 
  </tr>
+</tbody>
 </table>
