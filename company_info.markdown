@@ -1,12 +1,12 @@
-# users/show
+# company/info
 ----
-根据用户ID获取用户信息
+获取公司基本信息
 ## URL
 ----
-https://api.weibo.com/2/users/show.json
+https://1.03in.com/api/v1/company/info
 ## 支持格式
 ----
-*JSON
+* JSON
 ## HTTP请求方式
 ----
 GET
@@ -28,7 +28,7 @@ GET
 |:---|:--|:--|:--|
 |access_token	|true|	string	|采用OAuth授权方式为必填参数，OAuth授权后获得。|
 |uid	|false|	int64|	需要查询的用户ID。|
-|screen_name	|false	|string|	需要查询的用户昵称。|
+|XXX	|false	|string|	需要查询的用户昵称。|
 
 ## 注意事项
 ----
@@ -49,14 +49,13 @@ API测试工具
 
 |返回值字段 |	字段类型	| 字段说明|
 |:--|:------|:------------------------:|
-|id	|	int64	用户UID|	
-|idstr	|	string|		字符串型的用户UID|	
-|screen_name|		string|		用户昵称|	
-|name	|	string	|	友好显示名称|	
-|province|		int|		用户所在省级ID|	
-|city|		int|		用户所在城市ID|	
-|location|		string|		用户所在地|	
-|description|		string|		用户个人描述|	
-|url|		string|		用户博客地址|	
-|profile_image_url|		string	用户头像地址（中图），50×50像素|	
+|cid	|	int64|	公司cID|	
+|companyname|	string|	公司名称|	
+|company_log|		string|		公司log|	
+|company_info	|	string	|	公司简介|	
+|company_phone|		int|		公司电话|	
+|create_uid|		int|		创认识uid|	
+|hanye|		string|		行业|	
+|location|		string|		公司地址|	
+
 
