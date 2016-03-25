@@ -12,33 +12,3 @@
 |d| [公司部门列表](department_list) | [v1/department/list](department_list) |公司部门列表|
 | |[公司部门详细](department_info) | [v1/department/info](department_info) |公司某部门详细|
 
-
-----
-
-<table border=1 >
-<tbody>
- <tr>
-  <td>2</td>
-  <td>3</td>
-  <td>4</td> 
- </tr>
-
-<tr>
-  <td>2</td>
-  <td>3</td>
-  <td>4</td> 
- </tr>
-
-<tr>
-  <td>2</td>
-  <td>3</td>
-  <td>4</td> 
- </tr>
-</tbody>
-</table>
-
-----
-
-    <input type="text" name="sss"/>
-
-
