@@ -30,7 +30,7 @@ GET
 |uid	|false|	int64|	需要查询的用户ID。|
 |screen_name	|false	|string|	需要查询的用户昵称。|
 
-##注意事项
+## 注意事项
 ----
 参数uid与screen_name二者必选其一，且只能选其一；
 
@@ -42,3 +42,20 @@ GET
 API测试工具
 
 返回结果
+----
+
+## 返回字段说明
+----
+
+|返回值字段 |	字段类型	| 字段说明|
+|id	|	int64	用户UID|	
+|idstr	|	string|		字符串型的用户UID|	
+|screen_name|		string|		用户昵称|	
+|name	|	string	|	友好显示名称|	
+|province|		int|		用户所在省级ID|	
+|city|		int|		用户所在城市ID|	
+|location|		string|		用户所在地|	
+|description|		string|		用户个人描述|	
+|url|		string|		用户博客地址|	
+|profile_image_url|		string	用户头像地址（中图），50×50像素|	
+
