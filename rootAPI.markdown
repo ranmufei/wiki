@@ -14,7 +14,11 @@
 
 
 
-|| *Year* || *Temperature (low)* || *Temperature (high)* ||
-|| 1900 || -10 || 25 ||
-|| 1910 || -15 || 30 ||
-|| 1920 || -10 || 32 ||
+<table>
+ <tr>
+  <td>2</td>
+  <td>3</td>
+  <td>4</td>
+ 
+ </tr>
+</table>
