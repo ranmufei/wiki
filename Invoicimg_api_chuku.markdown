@@ -25,7 +25,8 @@ post
 |字段       |值             |类型    |说明           |
 | --------- |--------      |--------|--------       |
 |id       |    |总单id |出库|
-子单查询  http://www.apps.com/index.php?app=Invoicimg&m=InstockApi&a=get_z_order&id=1573&access_token=e133ac84d35628422ca6c2c408667a
+|type=2       |    |默认2 |出库判断|
+子单查询  http://www.apps.com/index.php?app=Invoicimg&m=InstockApi&a=get_z_order&id=1573&type=2&access_token=e133ac84d35628422ca6c2c408667a
 
 
 
