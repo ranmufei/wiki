@@ -31,7 +31,9 @@ GET
 |o_id|false|	varchar|	 订单单号|
 |c_name|false|	varchar|	 客户名|
 
-
+## 注意事项
+----
+参数id ,f_id ,o_id,c_name 必填一个
 
 
 
