@@ -26,3 +26,11 @@
 |读| [科目详情](treasurer_cate_detail)|[Treasurer/getSubjectDetail](treasurer_cate_detail)| 通过科目编码或科目名称获取科目详情信息  |
 |读| [辅助核算列表](treasurer_accounting)|[Treasurer/getSubjectAccounting](treasurer_accounting)| 辅助核算列表信息 |
 |读| [辅助核算详情信息](treasurer_accounting_detail)|[Treasurer/getSubjectAccountingDetail](treasurer_accounting_detail)| 辅助核算详情信息 |
+
+
+## 产品基础数据
+| 权限 | 接口名称 |  接口  |  接口描述  |
+|:-- | :-- | ----:| :--: |
+|读| [产品列表](api_pro_list)|PublicProduct/get_pro_list| 产品列表 |
+|读| [产品详情](custom_info)|PublicCustom/getInfo | 通过产品id获取产品详情  |
+|读| [产品规格列表](api_custom_list)|PublicCustomid/custom_list  | 产品规格列表 |
