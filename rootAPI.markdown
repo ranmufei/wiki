@@ -12,3 +12,9 @@
 |读| [公司部门列表](department_list) | [v1/department/list](department_list) |公司部门列表|
 | 读|[公司部门详细](department_info) | [v1/department/info](department_info) |公司某部门详细|
 
+## 客户基础数据
+| 权限 | 接口名称 |  接口  |  接口描述  |
+|:-- | :-- | ----:| :--: |
+|读| [客户名称](custom_name)|Custom/get_custom_name| 通过客户id获取客户名称 |
+|读| [客户资料](custom_info)|PublicCustom/getInfo | 通过客户id获取客户资料  |
+|读| [客户列表](custom_list)|PublicCustomid/custom_list  | 客户列表 |
