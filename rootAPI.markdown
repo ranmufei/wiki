@@ -19,7 +19,7 @@
 |读| [客户资料](custom_info)|PublicCustom/getInfo | 通过客户id获取客户资料  |
 |读| [客户列表](api_custom_list)|PublicCustomid/custom_list  | 客户列表 |
 
-## 科目基础数据
+## 在线会计--科目--基础数据
 | 权限 | 接口名称 |  接口  |  接口描述  |
 |:-- | :-- | ----:| :--: |
 |读| [科目列表](treasurer_cate)|[Treasurer/getSubjectList](treasurer_cate)| 获取科目列表信息 |
