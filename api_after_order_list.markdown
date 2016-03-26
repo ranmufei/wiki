@@ -27,6 +27,9 @@ GET
 || 	必选	|类型及范围	|说明|
 |:---|:--|:--|:--|
 |id|false|	int|	返修单id|
+|f_id|false|	varchar|	返修单号|
+|o_id|false|	varchar|	 订单单号|
+|c_name|false|	varchar|	 客户名|
 
 
 
