@@ -1,6 +1,6 @@
 # PublicCustomid/custom_list
 ----
-获取公司基本信息
+获取客户列表信息
 ## URL
 ----
 https://www.apps.com/index.php?app=Customer&m=Precustom&a=cshi
