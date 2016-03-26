@@ -26,12 +26,14 @@ GET
 ----
 || 	必选	|类型及范围	|说明|
 |:---|:--|:--|:--|
-|catestate  |false|	int|	需要查询的科目类别， 0代表资产类 1代表负债类 2代表权益类 3代表成本类 4代表损益类。|
-|state	|false	|int|	需要查询的科目是否启用的状态。|
+|id	|false| 	int|	        维修单id|	
+|r_id   |false|        varchar|	        维修单号|
+|fid	|false| 	int|	        返修单id|	
+|f_id   |false|	    varchar|	        返修单单号|
 
 ## 注意事项
 ----
-参数catestate与state二者必选其一；
+参数id ,r_id ,fid,f_id 必填一个
 
 
 
