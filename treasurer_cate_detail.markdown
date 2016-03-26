@@ -1,6 +1,6 @@
 # company/info
 ----
-获取科目列表信息
+获取科目详情信息
 ## URL
 ----
 https://1.03in.com/api/v1/company/info
