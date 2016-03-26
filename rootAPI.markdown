@@ -22,10 +22,10 @@
 ## 在线会计--科目--基础数据
 | 权限 | 接口名称 |  接口  |  接口描述  |
 |:-- | :-- | ----:| :--: |
-|读| [科目列表](treasurer_cate)|[Treasurer/getSubjectList](treasurer_cate)| 获取科目列表信息 |
-|读| [科目详情](treasurer_cate_detail)|[Treasurer/getSubjectDetail](treasurer_cate_detail)| 通过科目编码或科目名称获取科目详情信息  |
-|读| [辅助核算列表](treasurer_accounting)|[Treasurer/getSubjectAccounting](treasurer_accounting)| 辅助核算列表信息 |
-|读| [辅助核算详情信息](treasurer_accounting_detail)|[Treasurer/getSubjectAccountingDetail](treasurer_accounting_detail)| 辅助核算详情信息 |
+|读| [科目列表](treasurer_cate)|[PublicTreasurer/getSubjectList](treasurer_cate)| 获取科目列表信息 |
+|读| [科目详情](treasurer_cate_detail)|[PublicTreasurer/getSubjectDetail](treasurer_cate_detail)| 通过科目编码或科目名称获取科目详情信息  |
+|读| [辅助核算列表](treasurer_accounting)|[PublicTreasurer/getSubjectAccounting](treasurer_accounting)| 辅助核算列表信息 |
+|读| [辅助核算详情信息](treasurer_accounting_detail)|[PublicTreasurer/getSubjectAccountingDetail](treasurer_accounting_detail)| 辅助核算详情信息 |
 
 
 ## 产品基础数据
