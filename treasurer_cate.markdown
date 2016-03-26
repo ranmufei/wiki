@@ -1,4 +1,4 @@
-# company/info
+# treasurer/info
 ----
 获取科目列表信息
 ## URL
