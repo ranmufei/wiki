@@ -40,3 +40,4 @@
 | 权限 | 接口名称 |  接口  |  接口描述  |
 |:-- | :-- | ----:| :--: |
 |读| [订单列表](api_after_order_list)|PublicAfterOrder/get_order_list| 订单列表 |
+|读| [维修单列表](api_after_r_order_list)|PublicAfterOrder/get_r_order_list| 维修单列表 |
