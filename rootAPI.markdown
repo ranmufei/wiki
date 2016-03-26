@@ -31,6 +31,6 @@
 ## 产品基础数据
 | 权限 | 接口名称 |  接口  |  接口描述  |
 |:-- | :-- | ----:| :--: |
-|读| [产品列表](api_pro_list)|PublicProduct/get_pro_list| 产品列表 |
-|读| [产品详情](custom_info)|PublicCustom/getInfo | 通过产品id获取产品详情  |
-|读| [产品规格列表](api_custom_list)|PublicCustomid/custom_list  | 产品规格列表 |
+|读| [产品列表](get_pro_list)|PublicProduct/get_pro_list| 产品列表 |
+|读| [产品详情](pro_info)|PublicProduct/pro_info| 通过产品id获取产品详情  |
+|读| [产品规格列表](get_procontent_list  )|PublicProduct/get_procontent_list  | 产品规格列表 |
