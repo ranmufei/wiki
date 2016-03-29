@@ -21,6 +21,10 @@ post
 ### **浏览器查看**
 总单列表  http://www.apps.com/index.php?app=Invoicimg&m=InstockApi&a=instock_order&status=2&type=2&access_token=e133ac84d35628422ca6c2c408667a&p=1
 
+### **orderstatu==0 都显示**
+### **default6 !=0 || ordertype!=2 || is_bigorder==0 显示出库状态**
+### **default6 ==0 显示收款状态**
+
 ### **公共参数** 
 |字段       |值             |类型    |说明           |
 | --------- |--------      |--------|--------       |
