@@ -37,6 +37,10 @@ post
 |data    |         | array |数组 |
 |count|         | object | 总数 |
 
+
+ordertype!=6 && ordertype!=27 && ordertype!=28 && default6==0 显示付款状态
+
+
 ``` javascript
 count: "261",
 totalPages: 11,
