@@ -19,6 +19,10 @@ post
 | --------- |--------      |--------|--------       |
 |is_xs=1  |          |string | 有子单  |
 
+### **orderstatu==0 都显示**
+### **default6 !=0 || ordertype!=2 || is_bigorder==0 显示出库状态**
+### **default6 ==0 显示收款状态**
+
 ### **浏览器查看**
 
 总单列表 http://www.apps.com/index.php?app=Invoicimg&m=InstockApi&a=instock_order&status=2&type=1&access_token=e133ac84d35628422ca6c2c408667a&p=1
