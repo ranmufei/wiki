@@ -1,4 +1,4 @@
-# PushReceive（WebSocket）组件 PushReceive/PushReceive
+# PushReceive（WebSocket）组件 pushReceive/pushReceive
 
 ## 说明
 #### 1. 使用前先咨询作者：BaoDongXing
