@@ -38,7 +38,7 @@ post
 |count|         | object | 总数 |
 
 
-ordertype!=6 && ordertype!=27 && ordertype!=28 && default6==0 显示付款状态
+### **ordertype!=6 && ordertype!=27 && ordertype!=28 && default6==0 显示付款状态**
 
 
 ``` javascript
