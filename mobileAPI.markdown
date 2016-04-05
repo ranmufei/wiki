@@ -16,6 +16,13 @@
 * [采购管理](Invoicimg_api_Purchase)
 * [库存管理](Invoicimg_api_Instock)
 
+
+### 生产ERP
+* [原料管理](Invoicimgs_api_product)
+* [原料采购](Invoicimgs_api_Purchase)
+* [原料库存](Invoicimgs_api_Instock)
+
+
 ### 现金流接口
 * [现金流报表](cws_cashflow_report)
 * [经营业绩报表](cws_achieve_report)
