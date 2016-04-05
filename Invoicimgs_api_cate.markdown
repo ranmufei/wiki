@@ -21,6 +21,14 @@ http://www.apps.com/index.php?app=Invoicimg_Suppliers&m=ProductApi&a=getCate&acc
 
 ``` javascript
 {
-id: "1"  //分类id   查询分类产品时必要的参数
-name: "数码545"  //分类名
+data: [
+{
+id: "1",//分类id
+name: "原料" //分类名
 },
+{
+id: "3",
+name: "辅料"
+}
+]
+}
