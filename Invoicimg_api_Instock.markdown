@@ -1,6 +1,6 @@
 # 库存管理API接口列表
 
-
+* [权限判断](Invoicimg_api_powers)
 * [库存列表](Invoicimg_api_Warehouseproduct)
 * [库存产品详细](Invoicimg_api_Warehouseproduct_info)
 * [仓库管理](Invoicimg_api_Warehouse)
