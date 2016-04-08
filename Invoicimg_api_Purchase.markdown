@@ -8,6 +8,7 @@
 * [审核驳回操作](check_reject)
 * [我的采购审批](my_check)
 * [提交下步审批](nextCheck)
+* [判断是否有进入采购管理的权限](permission_caigou)
 
 * [--采购退货列表](Invoicimg_api_productlist)（共用接口）
 * [--订单详情](Invoicimg_api_details)
