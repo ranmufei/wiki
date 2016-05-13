@@ -3,6 +3,8 @@
 ### 后端调用：model('StaticData')->getInfo()
 ### 前端调用：模块 globalinfo/globalinfo
 
+
+####前后端数据格式相同
 |字段  |类型  |说明  |
 |--------|--------|------- |
 |page  | array|分页|
