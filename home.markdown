@@ -30,6 +30,8 @@
 
 ### [云平台PCD通讯设计](pcdtoclouddesign)
 
+### [系统设置的全局数据调用](pcd_system_to_globaldata)
+
 ### [无需登录控制器基类](nopowercontrollerbaseAction)
 
 ### [移动端文档 ](mobile_document)
