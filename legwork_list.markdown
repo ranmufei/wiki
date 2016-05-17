@@ -10,7 +10,7 @@
 get
 
 ### **浏览器查看**
-http://www.apps.com/index.php?app=Customer&m=MLegwork&a=lists&sta=1&access_token=
+http://www.apps.com/index.php?app=Customer&m=MLegwork&a=lists&sta=1&myself=0&access_token=
 ### **公共参数** 
 `num`、`p`
 
