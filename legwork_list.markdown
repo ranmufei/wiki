@@ -16,6 +16,7 @@ http://www.apps.com/index.php?app=Customer&m=MLegwork&a=lists&sta=1&myself=0&acc
 
 ### **其他参数**
 `sta`（1外勤签到详单,2客户拜访统计,3效能统计）
+myself 1为自己0为下属
 
 ### **返回结果**
 |字段       |值             |类型    |说明           |
