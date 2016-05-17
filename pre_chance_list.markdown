@@ -60,6 +60,7 @@ id: "29"                   //ID
 is_leave: "1", （new）         //是否离职  ，1为离职（wangyan（离职））,0为（wangyan）
 charge: "wangyan", （new）     //负责人
 is_xs: "1"                        //为1就不显示
+is_customer: "1"                 //1为线索，0为客户
 },
 ]
 },
