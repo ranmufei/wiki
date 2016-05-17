@@ -20,6 +20,7 @@
 |customval|  是|  客户的id|
 |pmanagerid|  是| 项目管理的id|
 |docbz|  否|备注|
+|is_customer|  是|0为客户1，为线索|
 
 ## 返回结果
 |字段 |  值| 类型 | 说明|
