@@ -17,6 +17,7 @@
 |id||int|要传的值|
 |cateName||string|在页面显示的类别名称|
 |isedit||int|等于1时只能看不能选  |
+|count||int|0表示顶级，1表示第二级，以此类推  |
 
 |plist| array |array |项目列表|
 |:----|----|----|-----|
@@ -32,15 +33,25 @@
 {
 clist: [
 {
-id: "2",
-cateName: "办公用品",
-isedit:"1"   //只能看不能选
+{
+id: "1",
+pid: "0",
+cateName: "333",
+isedit: "0",
+default2: "0",
+data_edit: "0",
+bpath: "0-1",
+count: 0
 
 },
 {
 id: "31",
 cateName: "231ggg",
 isedit:"0"
+default2: "0",
+data_edit: "0",
+bpath: "0-1",
+count:1
 }
 ],
 plist: [
