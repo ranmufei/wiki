@@ -34,16 +34,13 @@ clist: [
 {
 id: "2",
 cateName: "办公用品",
-isdelete: "0",
-default1: "",
-default2: ""
+isedit:"1"   //只能看不能选
+
 },
 {
 id: "31",
 cateName: "231ggg",
-isdelete: "0",
-default1: "",
-default2: ""
+isedit:"0"
 }
 ],
 plist: [
