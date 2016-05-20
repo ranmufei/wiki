@@ -158,6 +158,7 @@ $result['mystatus'] = 0或1、2        // 0没有审核   1审核同意 2 审核
 * $result['data']     返回的数据 格式为数组
 * $result['status']   返回状态 1正常  0没有或者失败
 * $result['info']   返回状态的文字说明
+* $result['mystatus'] = 0或1、2        // 0没有审核   1审核同意 2 审核没同意
 */ 
 
  $result['data'][0]['grade_uid'] =  0 ;   //审核人的uid 
