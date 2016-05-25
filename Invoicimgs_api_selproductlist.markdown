@@ -27,15 +27,27 @@ http://www.apps.com/index.php?app=Invoicimg_Suppliers&m=ProductApi&a=getProConte
 
 ``` javascript
 {
-count: "26",
-totalPages: 2,
+count: "132",
+totalPages: 6,
 nowPage: 1,
 data: [
 {
-id: "60",
-name: "sad",  //商品名
-cate_id: "1",
-brand: "",  //品牌
-shelfLife: "0",  // 0表示没有保释期，1表示有保质期
-cate_name: "数码545"  //分类名
+id: "146", //原料id
+name: "JXLQ",// 原料编码
+class_id: "1",
+y_code: "JXLQ", //原料编码
+cat_id: "132", 
+purchasePrice: "45.00", //采购价
+cate_name: "原料", //分类名
+supname: "机箱里卡", // 原料名
+num: "571.00", // 库存数量
+unitarr: [
+{
+id: "140", //单位id
+unitid: "43", 
+relation: "1", // 换算关系
+unitname: "毫米" //单位名称
+}
+],
+intonum: 1
 },
