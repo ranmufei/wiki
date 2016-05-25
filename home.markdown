@@ -53,6 +53,7 @@
 ## [首页消息接口列表](indexMessageApi)
 
 * [首页消息接口说明](indexMessage)
+* [应用消息接口说明](appMessage)
 
 # 与linksame官网通信接口
 
