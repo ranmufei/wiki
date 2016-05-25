@@ -26,15 +26,11 @@ http://www.apps.com/index.php?app=Invoicimg_Suppliers&m=ProductApi&a=getProSuppl
 
 ``` javascript
 {
-count: "26",
-totalPages: 2,
+count: "24",
+totalPages: 1,
 nowPage: 1,
 data: [
 {
-id: "60",
-name: "sad",  //商品名
-cate_id: "1",
-brand: "",  //品牌
-shelfLife: "0",  // 0表示没有保释期，1表示有保质期
-cate_name: "数码545"  //分类名
+id: "24",//供应商id
+sup_company: "武汉在线科技" //供应商名字
 },
