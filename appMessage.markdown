@@ -6,7 +6,7 @@
 
 >  method : get/post
 
-> *测试http://www.apps.com/index.php?app=Account&m=ExpenseApi&a=pjinfo&id=1
+> *测试http://www.apps.com/index.php?app=Home&m=Audit&a=getNew&from=Account
 ## 参数
 
 | 参数名称      |    必填 | 说明  |
