@@ -193,3 +193,11 @@ $mystatus = 0或1、2        // 0没有审核   1审核同意 2 审核没同意 
 
 · 20160520新增：
   电脑端审核通过后，手机端在查看审核详情时，需要通过判断历史记录接口返回的mystatus字段，当mystatus>=1时，通过接口更改这条信息的状态为已审核并且不能操作了
+
+
+##  七. 在应用中审核后调用接口
+  注意：在已审核情况下才能用
+   model('Notify')->changeNotifyStatus($con_id) ;
+    $con_id ： 发送通知的数据id，为你的应用审核表的主键
+返回成功  array("status"=>"修改状态成功！" ,'notify_id'=>$id) ;
+返回失败  array("status"=>"修改状态失败！" ,'notify_id'=>$id) ;
