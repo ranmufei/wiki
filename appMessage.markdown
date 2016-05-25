@@ -18,7 +18,7 @@
 |:----|----|----|-----|
 |from| |string|应用名称|
 |count||int|新消息的数量|
-|menu_id||int|左侧菜单对应的id|
+|menu_id||int/false|左侧菜单对应的id/没有就为false|
 
 
 ##  说明：
