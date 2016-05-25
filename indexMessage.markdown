@@ -196,8 +196,16 @@ $mystatus = 0或1、2        // 0没有审核   1审核同意 2 审核没同意 
 
 
 ##  七. 在应用中审核后调用接口
-  注意：在已审核情况下才能用
+ > 注意：在已审核情况下才能用
+```` php
+   # $con_id ： 发送通知的数据id，为你的应用审核表的主键
    model('Notify')->changeNotifyStatus($con_id) ;
-    $con_id ： 发送通知的数据id，为你的应用审核表的主键
-返回成功  array("status"=>"修改状态成功！" ,'notify_id'=>$id) ;
-返回失败  array("status"=>"修改状态失败！" ,'notify_id'=>$id) ;
+````
+返回成功 :+1: 
+```` php
+ array("status"=>"修改状态成功！" ,'notify_id'=>$id) ;
+````
+返回失败 :+1: 
+```` php
+ array("status"=>"修改状态失败！" ,'notify_id'=>$id) ;
+````
