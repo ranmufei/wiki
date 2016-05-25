@@ -1,5 +1,5 @@
 ### **请求接口**
-/index.php?app=Invoicimg_Suppliers&m=ProductApi&a=productList
+/index.php?app=Invoicimg_Suppliers&m=ProductApi&a=getProContentList
 
 ### **接口说明**
 `分页`
@@ -8,7 +8,7 @@
 post
 
 ### **浏览器查看**
-http://www.apps.com/index.php?app=Invoicimg_Suppliers&m=ProductApi&a=productList&access_token=dda0439fd69c3ad9316f6c2f2a0c36
+http://www.apps.com/index.php?app=Invoicimg_Suppliers&m=ProductApi&a=getProContentList&access_token=dda0439fd69c3ad9316f6c2f2a0c36
 
 ### **公共参数** 
 |字段       |值             |类型    |说明           |
