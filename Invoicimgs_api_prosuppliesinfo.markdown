@@ -8,7 +8,7 @@
 post
 
 ### **浏览器查看**
-http://www.apps.com/index.php?app=Invoicimg_Suppliers&m=ProductApi&a=get_Supplies_Info&access_token=dda0439fd69c3ad9316f6c2f2a0c36
+http://www.apps.com/index.php?app=Invoicimg_Suppliers&m=ProductApi&a=get_Supplies_Info&access_token=dda0439fd69c3ad9316f6c2f2a0c36&id=1
 
 ### **公共参数** 
 |字段       |值             |类型    |说明           |
