@@ -12,5 +12,5 @@ apppublic/apppublic
 |login(`不建议使用`)| object || 登录者信息 |
 |company`不建议使用`| object || 公司信息 |
 |pages`不建议使用`|object|| 分页信息 |
-|others`不建议使用`|object||预留接口|
+|others|object||预留接口|
 
