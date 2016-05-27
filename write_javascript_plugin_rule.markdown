@@ -9,7 +9,7 @@
 
 - 不要使用选择器获取DOM节点
  - 一个页面有多个插件实例时，用选择器不能准确获取插件实例对应的dom节点。
- - - 用变量保存模板生成的DOM节点,在该dom节点范围find你要的节点。
+ - - 用变量保存模板生成的DOM容器,在该DOM容器范围find你要的节点。
 
 - 不要在模板中出现ms-controller明确的VM名称
  - "&lt;div ms-controller="product"&gt;"
