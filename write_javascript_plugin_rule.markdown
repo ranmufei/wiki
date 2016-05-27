@@ -7,4 +7,4 @@
  - 为了避免全局变量错误，可以用严格模式(use strict)写插件。
 
 - 不要使用选择器获取DOM节点
- - 一个页面有多个插件实例时，用选择器不能准确获取插件实例对应的dom节点。(如 var $dom = $('<div class="myclass"></div>').appendTo(elements)和 $dom=$('.myclass') )
+ - 一个页面有多个插件实例时，用选择器不能准确获取插件实例对应的dom节点。(如 var $dom = $('&lt;div class="myclass"&gt;').appendTo(elements)和 $dom=$('.myclass') )
