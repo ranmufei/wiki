@@ -88,6 +88,7 @@
 
 | 组件名称 |  类型  |  描述  |
 | :-- | ----:| :--: |
+|[二维码组件(avalon)](qrcode) `新`  | Avalon | 二维码组件 |
 |[选择客户(avalon)](choicecustom) `新`  | Avalon | 选择选择客户插件 |
 |[选择表情组件(avalon)](face)   | Avalon | 选择表情组件 |
 |[选择员工新组件(avalon)](choiceuser)  `新` | Avalon | 选择员工 |
