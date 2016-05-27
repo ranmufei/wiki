@@ -10,7 +10,7 @@
  - 一个页面有多个插件实例时，用选择器不能准确获取插件实例对应的dom节点。
  - - 用变量保存模板生成的DOM节点,在该dom节点范围find你要的节点。
 
--不要在模板中出现ms-controller明确的VM名称
+- 不要在模板中出现ms-controller明确的VM名称
  - "&lt;div ms-controller="product"&gt;"
  - 原因一与上面一点类似
  - 如果一写要明确指定VM,至少要加上前缀吧，类似'product'的名字影响当前页面的可能性很大
