@@ -12,9 +12,10 @@
 | 23| Invalid Access Token | 授权码验证失败 |可能是授权码过期或有其他手机登录了该帐号。程序可能重新登录解决问题|
 
 错误返回格式：
-<javascript>
+``` javascript
+{
 status: "error",
 errorCode: 23,
 errorDesc: "Invalid Access Token",
 info: ""
-</javascript>
+}
