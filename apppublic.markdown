@@ -3,7 +3,7 @@ apppublic/apppublic
 
 **`本 模块文件 和应用父窗体的公共布局文件耦合`**
 
-**20160527 to see [系统设置的全局数据调用](pcd_system_to_globaldata)** 
+**@version 20160527 建议使用 [系统设置的全局数据调用](pcd_system_to_globaldata)** 
 
 | 接口名称  | 类型 | 参数  |说明     |
 | :--------  |  ------- | ------| -------- |
