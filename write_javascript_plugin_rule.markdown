@@ -13,7 +13,7 @@
 
 - 不要在模板中出现ms-controller明确的VM名称
  - "&lt;div ms-controller="product"&gt;"
- - 如果一定要明确指定VM名字,至少要加上前缀吧，类似'product'的VM名字覆盖掉使用者的VM可能性很大
+ - 如果一定要在模板中明确指定VM名字,至少要加上前缀吧，类似'product'的VM名字覆盖掉其他VM可能性很大
 
 - 为你的css类名加上前缀
  - 为了不与其他组件样式冲突,这是基本规则。
