@@ -12,7 +12,7 @@
  - - 用变量保存模板生成的DOM容器,在该DOM容器范围find你要的节点。
 
 - 不要在模板中出现ms-controller明确的VM名称
- - "&lt;div ms-controller="product"&gt;"
+ - 不要类似"&lt;div ms-controller="product"&gt;"
  - 如果一定要在模板中明确指定VM名字,至少要加上前缀吧，类似'product'的VM名字覆盖掉其他VM可能性很大
 
 - 为你的css类名加上前缀
