@@ -34,6 +34,8 @@
 
 ### [无需登录控制器基类](nopowercontrollerbaseAction)
 
+### [写javascript插件的一些基本规则](write_javascript_plugin_rule )
+
 ### [移动端文档 ](mobile_document)
 ### [PCD引用Linksame页面](pcdaddls)
 
