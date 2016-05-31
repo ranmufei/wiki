@@ -41,11 +41,13 @@ form_vm.createForm();
 ````
 3. 保存提交的的表单信息
 ````js
+
 form_vm.saveFormInfo();
 
 ````
 4. 查看表单信息
 ````js
+
 form_vm.info_id = 你数据库存的的万能表单的数据ID ; 
 form_vm.readFormInfo(form_vm.set_id,form_vm.info_id); 
 
