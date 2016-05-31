@@ -39,12 +39,14 @@ form_vm.addForm()
 form_vm.createForm();
 
 ````
+
 3. 保存提交的的表单信息
 ````js
 
 form_vm.saveFormInfo();
 
 ````
+
 4. 查看表单信息
 ````js
 
