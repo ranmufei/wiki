@@ -12,11 +12,11 @@
 
 一. 引入
 ````js
-##js引入方式
+//js引入方式
    require(['form/avalon.form'])
 ````
 ````html
-##html引入
+//html引入
       <div ms-widget="form,$,$form"></div>
 ````
 #### 配置方式：
