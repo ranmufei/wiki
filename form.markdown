@@ -23,6 +23,8 @@
 ````js
 // 在定义avalon模板前 
  var form_vm ;
+
+//组件配置
    $form:{
      set_id: 0 ,
      info_id:0 , 
