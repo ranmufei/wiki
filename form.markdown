@@ -37,8 +37,8 @@ form_vm.addForm()
 2. 查看生成的表单字段
 ````js
 form_vm.createForm();
-
 ````
+
 3. 保存提交的的表单信息
 ````js
 
