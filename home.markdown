@@ -90,6 +90,7 @@
 
 | 组件名称 |  类型  |  描述  |
 | :-- | ----:| :--: |
+|[万能表单组件(avalon)](form) `新`  | Avalon | 二维码组件 `2016-05-31`|
 |[二维码组件(avalon)](qrcode) `新`  | Avalon | 二维码组件 `2016-05-27`|
 |[选择客户(avalon)](choicecustom) `新`  | Avalon | 选择选择客户插件 |
 |[选择表情组件(avalon)](face)   | Avalon | 选择表情组件 |
