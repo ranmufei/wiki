@@ -6,12 +6,17 @@
 
   > 应用场景例如： 只需存储info_id , 就可以读取表单内容  ；
 
-  > 引入方式：require(['form/avalon.form'])
+  > js引入方式：require(['form/avalon.form'])
 
 ## 具体使用
 
 一. 引入
-````php
+````js
+##js引入方式
+   require(['form/avalon.form'])
+````
+````html
+##html引入
       <div ms-widget="form,$,$form"></div>
 ````
 #### 配置方式：
