@@ -29,8 +29,21 @@
 ````
 #### 接口调用:
 
---1. 添加表单字段
+1. 添加、编辑表单字段
 ````js
 form_vm.addForm() 
 
+````
+2. 查看生成的表单字段
+````js
+form_vm.createForm();
+````
+3. 保存提交的的表单信息
+````js
+form_vm.saveFormInfo();
+````
+4. 查看表单信息
+````js
+form_vm.info_id = 你数据库存的的万能表单的数据ID ; 
+form_vm.readFormInfo(form_vm.set_id,form_vm.info_id); 
 ````
