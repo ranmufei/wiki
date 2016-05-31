@@ -16,7 +16,7 @@
    require(['form/avalon.form'])
 ````
 ````html
-//html引入
+<!-- html引入-->
       <div ms-widget="form,$,$form"></div>
 ````
 #### 配置方式：
