@@ -61,6 +61,6 @@ form_vm.readFormInfo(form_vm.set_id,form_vm.info_id);
 ````
 
 ##  注意：
-  ### 保存表单 ， 需要把form_vm.addForm() 返回的 set_id 存到你自己的表中  ，下次就读这个set_id
+### 保存表单 ， 需要把form_vm.addForm() 返回的 set_id 存到你自己的表中  ，下次就读这个set_id
 
- ###  保存数据 ， 需要把 form_vm.saveFormInfo() 返回的set_id 和info_id 存入到你自己的表中，读取数据需要用到这2个字段
+###  保存数据 ， 需要把 form_vm.saveFormInfo() 返回的set_id 和info_id 存入到你自己的表中，读取数据需要用到这2个字段
