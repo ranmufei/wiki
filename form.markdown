@@ -28,6 +28,8 @@
    $form:{
      set_id: 0 ,
      info_id:0 , 
+     form_show_className : '' ,  //显示表单时的类
+     form_info_className : '' ,  // 显示数据时的类
      onInit: function(vmodel){
          form_vm = vmodel ;
 
