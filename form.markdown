@@ -48,7 +48,12 @@ form_vm.addForm()
 ## 2. 保存提交的的表单信息
 ````js
 
-form_vm.saveFormInfo();
+form_vm.saveFormInfo().done(function(data){
+                      console.log("继续执行其他字段的保存" , data)
+          }).fail(function(e){
+                      console.log("ajax无返回" ,e) 
+         })
+
 
 ````
 
