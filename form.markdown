@@ -26,9 +26,9 @@
 
 //组件配置
    $form:{
+     set_name :你的app_name加上id , //你的app_name加上id , id从0开始，注意不能重复，一旦定义后不能修改
      set_id: 0 ,
      info_id:0 , 
-     set_name :你的app_name加上id , //--注意不能重复，一旦定义后不能修改--
      form_show_className : '' ,  //显示表单时的类
      form_info_className : '' ,  // 显示数据时的类
      onInit: function(vmodel){
