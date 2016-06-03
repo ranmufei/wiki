@@ -27,8 +27,6 @@
 //组件配置
    $form:{
      set_name :你的app_name加上id , //你的app_name加上id , id从0开始，注意不能重复，一旦定义后不能修改
-     set_id: 0 ,
-     info_id:0 , 
      form_show_className : '' ,  //显示表单时的类
      form_info_className : '' ,  // 显示数据时的类
      onInit: function(vmodel){
@@ -61,8 +59,7 @@ form_vm.saveFormInfo().done(function(data){
 ## 3. 查看表单信息
 ````js
 
-form_vm.info_id = 你数据库存的的万能表单的数据ID ; 
-form_vm.readFormInfo(form_vm.set_id,form_vm.info_id); 
+form_vm.ShowformData(set_id,info_id )// set_id为你数据库存的的万能表单的表单的id ， info_id为数据的id ; 
 
 ````
 
