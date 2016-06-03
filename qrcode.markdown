@@ -1,4 +1,5 @@
 `<div ms-widget="qrcode"  ></div>`   
+widget 中间的id不要给'$id'，直接给id或者'$'
 
  require(['qrcode/qrcode'], function() {});
 
