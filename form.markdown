@@ -39,20 +39,20 @@
 
 ## 1. 添加、编辑表单字段
 ````js
-form_vm.change_weidget_type("add_form") 
+form_vm.change_widget_type("add_form") 
 
 ````
 
 ## 2. 查看表单字段 ，添加信息时
 ````js
-form_vm.change_weidget_type("show_form") 
+form_vm.change_widget_type("show_form") 
 
 ````
 
 ## 3. 保存提交的的表单信息
 ````js
 
-form_vm.change_weidget_type("save_form").done(function(data){
+form_vm.change_widget_type("save_form").done(function(data){
                       console.log("继续执行其他字段的保存" , data)
           }).fail(function(e){
                       console.log("ajax无返回" ,e) 
@@ -64,14 +64,14 @@ form_vm.change_weidget_type("save_form").done(function(data){
 ## 4. 展示数据
 ````js
 
-form_vm.ShowformData("show_info",set_id,info_id )// set_id为你数据库存的的万能表单的表单的id ， info_id为数据的id ; 
+form_vm.change_widget_type("show_info",set_id,info_id )// set_id为你数据库存的的万能表单的表单的id ， info_id为数据的id ; 
 
 ````
 
 ## 5. 编辑数据
 ````js
 
-form_vm.editFormInfo("edit_info" ,set_id , info_id )// set_id为你数据库存的的万能表单的表单的id ， info_id为数据的id ; 
+form_vm.change_widget_type("edit_info" ,set_id , info_id )// set_id为你数据库存的的万能表单的表单的id ， info_id为数据的id ; 
 
 ````
 ##  注意：
