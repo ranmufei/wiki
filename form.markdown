@@ -76,4 +76,4 @@ form_vm.change_widget_type("edit_info" ,set_id , info_id )// set_id为你数据�
 ````
 ##  注意：
 
-###  保存数据 ， 需要把 form_vm.change_weidget_type("save_form") 返回的set_id 和info_id 存入到你自己的表中，展示数据需要用到这2个字段
+###  保存数据 ， 需要把 form_vm.change_widget_type("save_form") 返回的set_id 和info_id 存入到你自己的表中，展示数据需要用到这2个字段
