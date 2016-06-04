@@ -39,15 +39,20 @@
 
 ## 1. 添加、编辑表单字段
 ````js
-form_vm.addForm() 
+form_vm.change_weidget_type("add_form") 
 
 ````
 
+## 2. 查看表单字段 ，添加信息时
+````js
+form_vm.change_weidget_type("show_form") 
 
-## 2. 保存提交的的表单信息
+````
+
+## 3. 保存提交的的表单信息
 ````js
 
-form_vm.saveFormInfo().done(function(data){
+form_vm.change_weidget_type("save_form").done(function(data){
                       console.log("继续执行其他字段的保存" , data)
           }).fail(function(e){
                       console.log("ajax无返回" ,e) 
@@ -56,20 +61,19 @@ form_vm.saveFormInfo().done(function(data){
 
 ````
 
-## 3. 查看表单信息
+## 4. 展示数据
 ````js
 
-form_vm.ShowformData(set_id,info_id )// set_id为你数据库存的的万能表单的表单的id ， info_id为数据的id ; 
+form_vm.ShowformData("show_info",set_id,info_id )// set_id为你数据库存的的万能表单的表单的id ， info_id为数据的id ; 
 
 ````
 
-## 4. 编辑表单的数据
+## 5. 编辑数据
 ````js
 
-form_vm.editFormInfo(set_id , info_id )// set_id为你数据库存的的万能表单的表单的id ， info_id为数据的id ; 
+form_vm.editFormInfo("edit_info" ,set_id , info_id )// set_id为你数据库存的的万能表单的表单的id ， info_id为数据的id ; 
 
 ````
 ##  注意：
-### 保存表单 ， 需要把form_vm.addForm() 返回的 set_id 存到你自己的表中  ，下次就读这个set_id
 
-###  保存数据 ， 需要把 form_vm.saveFormInfo() 返回的set_id 和info_id 存入到你自己的表中，读取数据需要用到这2个字段
+###  保存数据 ， 需要把 form_vm.change_weidget_type("save_form") 返回的set_id 和info_id 存入到你自己的表中，展示数据需要用到这2个字段
