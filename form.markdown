@@ -39,14 +39,21 @@
 
 ## 1. 添加、编辑表单字段
 ````js
-form_vm.change_widget_type("add_form") 
+//添加产品时调用
+//class_id  新增产品时产品分类及父级分类的集合，用作取公共字段用的 ,类型为数组，为空就不填写
+form_vm.change_widget_type("add_form",-1, 0 , class_id) 
 
+//编辑产品时调用
+form_vm.change_widget_type("add_form") 
 ````
 
 ## 2. 查看表单字段 ，添加信息时
 ````js
-form_vm.change_widget_type("show_form") 
+//添加产品时调用
+form_vm.change_widget_type("show_form"  , -1) 
 
+//编辑产品时调用
+form_vm.change_widget_type("show_form") 
 ````
 
 ## 3. 保存提交的的表单信息
