@@ -88,6 +88,14 @@ form_vm.change_widget_type("edit_info" ,set_id , info_id )// set_id为你数据�
 form_vm.change_widget_type("add_form_class" ,-1 ,0 ,"" ,class_id) ; //添加当前分类的的id ; 
 
 ````
+
+## 6. 清空自定义字段（layer打开或者关闭时执行）
+````js
+
+form_vm._clear_data() ;  ; 
+
+````
+
 ##  注意：
 
 ###  保存数据 ， 需要把 form_vm.change_widget_type("save_form") 返回的set_id 和info_id 存入到你自己的表中，展示数据需要用到这2个字段
