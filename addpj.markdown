@@ -17,7 +17,6 @@
 |cateid|  是|类别名称|
 |default1|  是|来源   0报销项目,1客户,2项目管理|
 |projectid|  是|  报销项目的id\ 客户的id\项目管理的id|
-
 |docbz|  否|备注|
 |is_customer|  是|0为客户1，为线索|
 
