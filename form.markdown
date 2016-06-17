@@ -49,8 +49,8 @@ form_vm.change_widget_type("add_form")
 
 ## 2. 查看表单字段 ，添加信息时
 ````js
-//添加产品时调用
-form_vm.change_widget_type("show_form"  , -1) 
+//添加产品时调用  , class_ids为当前的分类与父级分类的一维数组 ,class_id为当前的分类ID
+form_vm.change_widget_type("show_form"  , -1 ,0 ,class_ids , class_id) 
 
 //编辑产品时调用
 form_vm.change_widget_type("show_form") 
