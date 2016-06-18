@@ -49,7 +49,7 @@ form_vm.change_widget_type("add_form" , set_id , $info_id , class_ids , class_id
 //class_ids为当前的分类与父级分类的一维数组 ,class_id为当前的分类ID
 ````
 
-## 2. 查看表单字段 ，添加信息时 （注意，在新增产品时时调用！！！！）
+## 2. 查看表单字段 ，添加信息时 （注意，在新增产品时才调用！！！！）
 ````js
 //添加产品时调用  , class_ids为当前的分类与父级分类的一维数组 ,class_id为当前的分类ID
 form_vm.change_widget_type("show_form"  , -1 ,0 ,class_ids , class_id) 
