@@ -37,26 +37,28 @@
 ````
 #### 接口调用:
 
-## 1. 添加、编辑表单字段
+## 1. 添加、编辑表单字段(  +自定义字段  触发)
 ````js
 //添加产品时调用
 //class_id  新增产品时产品分类及父级分类的集合，用作取公共字段用的 ,类型为数组，为空就不填写
-form_vm.change_widget_type("add_form",-1, 0 , class_id) 
+form_vm.change_widget_type("add_form",-1, 0 , class_ids) 
 
 //编辑产品时调用
-form_vm.change_widget_type("add_form") 
+form_vm.change_widget_type("add_form" , set_id , $info_id , class_ids , class_id) 
+// set_id为你数据库存的的万能表单的表单的id ， info_id为数据的id ;  @all 
+//class_ids为当前的分类与父级分类的一维数组 ,class_id为当前的分类ID
 ````
 
-## 2. 查看表单字段 ，添加信息时
+## 2. 查看表单字段 ，添加信息时 （注意，在新增产品时时调用！！！！）
 ````js
 //添加产品时调用  , class_ids为当前的分类与父级分类的一维数组 ,class_id为当前的分类ID
 form_vm.change_widget_type("show_form"  , -1 ,0 ,class_ids , class_id) 
 
-//编辑产品时调用 ,set_id表单id  , info_id , 信息id  , class_ids为当前的分类与父级分类的一维数组 ,class_id为当前的分类ID
-form_vm.change_widget_type("show_form",set_id,info_id,class_ids , class_id) 
+
+form_vm.change_widget_type("show_form") 
 ````
 
-## 3. 保存提交的的表单信息
+## 3. 保存提交的的表单信息 （保存自定义字段后返回set_id, info_id给你）
 ````js
 
 form_vm.change_widget_type("save_form").done(function(data){
@@ -68,14 +70,14 @@ form_vm.change_widget_type("save_form").done(function(data){
 
 ````
 
-## 4. 展示数据
+## 4. 展示数据  （详情中查看自定义字段的信息）
 ````js
 
 form_vm.change_widget_type("show_info",set_id,info_id )// set_id为你数据库存的的万能表单的表单的id ， info_id为数据的id ; 
 
 ````
 
-## 5. 编辑数据
+## 5. 编辑数据  (你在修改产品时，我给你返回我这边的字段及值)
 ````js
 
 form_vm.change_widget_type("edit_info" ,set_id , info_id ,class_ids , class_id)
