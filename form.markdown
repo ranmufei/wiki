@@ -52,8 +52,8 @@ form_vm.change_widget_type("add_form")
 //添加产品时调用  , class_ids为当前的分类与父级分类的一维数组 ,class_id为当前的分类ID
 form_vm.change_widget_type("show_form"  , -1 ,0 ,class_ids , class_id) 
 
-//编辑产品时调用
-form_vm.change_widget_type("show_form") 
+//编辑产品时调用 ,set_id表单id  , info_id , 信息id  , class_ids为当前的分类与父级分类的一维数组 ,class_id为当前的分类ID
+form_vm.change_widget_type("show_form",set_id,info_id,class_ids , class_id) 
 ````
 
 ## 3. 保存提交的的表单信息
@@ -78,8 +78,9 @@ form_vm.change_widget_type("show_info",set_id,info_id )// set_id为你数据库�
 ## 5. 编辑数据
 ````js
 
-form_vm.change_widget_type("edit_info" ,set_id , info_id )// set_id为你数据库存的的万能表单的表单的id ， info_id为数据的id ; 
-
+form_vm.change_widget_type("edit_info" ,set_id , info_id ,class_ids , class_id)
+// set_id为你数据库存的的万能表单的表单的id ， info_id为数据的id ; 
+// class_ids为当前的分类与父级分类的一维数组 ,class_id为当前的分类ID
 ````
 
 ## 6. 编辑分类自定义字段
@@ -89,7 +90,7 @@ form_vm.change_widget_type("add_form_class" ,-1 ,0 ,"" ,class_id) ; //添加当�
 
 ````
 
-## 6. 清空自定义字段（layer打开或者关闭时执行）
+## 7. 清空自定义字段（layer打开或者关闭时执行）
 ````js
 
 form_vm._clear_data() ;  ; 
