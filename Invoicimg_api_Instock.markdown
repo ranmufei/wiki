@@ -14,3 +14,4 @@
 * [库存调拨盘点详情](Invoicimg_api_pandian_info)
 * [出库订单](Invoicimg_api_outorder)
 * [出库订单详情](Invoicimg_api_outorder_info)
+* [二维码扫描信息](Invoicimg_api_Dimension)
