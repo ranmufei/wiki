@@ -13,7 +13,7 @@ http://www.apps.com/index.php?app=Invoicimg&m=ProductApi&a=getOrderInfoByDimensi
 ### **公共参数** 
 |字段       |值             |类型    |说明           |
 | --------- |--------      |--------|--------       |
-|id|              |string | 出库订单id  |
+|dimension|              |string |扫描二维码或者条码返回的信息  |
 ### **其他参数**
 无
 
