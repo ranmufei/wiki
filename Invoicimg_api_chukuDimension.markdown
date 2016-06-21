@@ -11,9 +11,7 @@ post
 http://www.apps.com/index.php?app=Invoicimg&m=InstockApi&a=getStrorageList&access_token=e133ac84d35628422ca6c2c408667a
 
 ### **公共参数** 
-|字段       |值             |类型    |说明           |
-| --------- |--------      |--------|--------       |
-|dimension|              |string |扫描二维码或者条码返回的信息  |
+无
 ### **其他参数**
 无
 
