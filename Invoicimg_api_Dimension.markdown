@@ -14,17 +14,38 @@ http://www.apps.com/index.php?app=Invoicimg&m=ProductApi&a=getOrderInfoByDimensi
 |字段       |值             |类型    |说明           |
 | --------- |--------      |--------|--------       |
 |dimension|              |string |扫描二维码或者条码返回的信息  |
+|ckid|              |string |选中仓库时必须带仓库id  |
 ### **其他参数**
 无
 
-### **返回结果**
-|字段       |值             |类型    |说明           |
-| --------- |--------      |--------|--------       |
-|orderinfo|         | object|订单基本信息 |
-|list|         | array| 产品信息|
-|wuliudetail|         | array | 物流订单信息 |
-|wuliudetail[0][wl_dynamic]|         | array | 物流动态|
-|piciInfo|         | array | 批次记录 |
-|xulieInfo|       | array | 序列号记录 |
+
 
 ``` javascript
+{
+info: [
+{
+id: "4554",
+order_id: "2874", //订单id
+pro_id: "382", //产品id
+xinhao: "1051", // 规格id
+unit: "335",
+price: "60.00", //单价
+num: "2.00",  //出入库的数量
+intoStoreNum: "0.00", // 已近出入库的数量
+stornNum: 0, // 对应仓库的库存数量
+ckid: "2" // 出库的仓库id
+},
+{
+id: "4555",
+order_id: "2874",
+pro_id: "382",
+xinhao: "1052",
+unit: "335",
+price: "30.00",
+num: "3.00",
+intoStoreNum: "0.00",
+stornNum: 0,
+ckid: "2"
+}
+]
+}
