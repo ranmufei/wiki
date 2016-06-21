@@ -26,4 +26,4 @@ http://www.apps.com/index.php?app=Invoicimg&m=ProductApi&a=getProductSarinal&acc
 |xuliehao|              |string |序列号  |
 |stornhouse|              |string |仓库名称  |
 |product|              |string |产品名|
-|stronNum|              |string |库存剩余量  |
+
