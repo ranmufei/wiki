@@ -14,7 +14,9 @@
 * [库存调拨盘点详情](Invoicimg_api_pandian_info)
 * [出库订单](Invoicimg_api_outorder)
 * [出库订单详情](Invoicimg_api_outorder_info)
-* [二维码扫描信息](Invoicimg_api_Dimension)
+* [二维码扫描产品信息](Invoicimg_api_Dimension)
+* [二维码扫描订单信息](Invoicimg_api_orderDimension)
 * [二维码选择仓库列表](Invoicimg_api_chukuDimension)
 * [二维码出库选择批次](Invoicimg_api_piciDimension)
 * [二维码出库选择序列号](Invoicimg_api_SarinalDimension)
+
