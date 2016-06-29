@@ -1,0 +1,16 @@
+# 原料库存API接口列表
+
+* [权限判断](InvoicimgSupplies_api_powers)
+* [库存列表](InvoicimgSupplies_api_Warehouseproduct)
+* [库存产品详细](InvoicimgSupplies_api_Warehouseproduct_info)
+* [仓库管理](InvoicimgSupplies_api_Warehouse)
+* [仓库详情](InvoicimgSupplies_api_Warehouse_info)
+* [仓库流水](InvoicimgSupplies_api_Warehouse_inout_info)
+* [出库管理](InvoicimgSupplies_api_chuku)
+* [入库管理](InvoicimgSupplies_api_ruku)
+* [出入库订单详情](InvoicimgSupplies_api_churuinfo)
+* [库存调拨](InvoicimgSupplies_api_diaobo)
+* [库存盘点](InvoicimgSupplies_api_pandian)
+* [库存调拨盘点详情](InvoicimgSupplies_api_pandian_info)
+* [出库订单](InvoicimgSupplies_api_outorder)
+* [出库订单详情](InvoicimgSupplies_api_outorder_info)
