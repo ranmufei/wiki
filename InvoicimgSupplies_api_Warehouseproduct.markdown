@@ -26,3 +26,25 @@ post
 |count      |         | int | 总数 |
 
 ``` javascript
+data:[
+{
+id: "92", //原料id
+name: "34343", //原料名
+ckID: 0,  //仓库id
+num: "899.00" // 仓库数量
+},
+{
+id: "91",
+name: "新建物料",
+ckID: 0,
+num: "1000.00"
+},
+{
+id: "90",
+name: "测试测试",
+ckID: 0,
+num: "1000.00"
+}
+],
+count: 66,
+totalPages: 3
