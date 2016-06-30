@@ -1,5 +1,5 @@
 ### **请求接口**
-/index.php?app=Invoicimg&m=InstockApi&a=get_storage_info
+/index.php?app=Invoicimg_Suppliers&m=InstockApi&a=get_storage_info
 
 ### **接口说明**
 `分页`
@@ -8,7 +8,7 @@
 post
 
 ### **浏览器查看**
-http://www.apps.com/index.php?app=Invoicimg&m=InstockApi&a=get_storage_info&ckid=1&access_token=e133ac84d35628422ca6c2c408667a
+http://www.apps.com/index.php?app=Invoicimg_Suppliers&m=InstockApi&a=get_storage_info&ckid=1&access_token=e133ac84d35628422ca6c2c408667a
 
 ### **公共参数** 
 |字段       |值             |类型    |说明           |
