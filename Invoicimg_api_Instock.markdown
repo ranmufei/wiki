@@ -19,4 +19,4 @@
 * [二维码选择仓库列表](Invoicimg_api_chukuDimension)
 * [二维码出库选择批次](Invoicimg_api_piciDimension)
 * [二维码出库选择序列号](Invoicimg_api_SarinalDimension)
-
+* [二维码出库接口](Invoicimg_api_outStron)
