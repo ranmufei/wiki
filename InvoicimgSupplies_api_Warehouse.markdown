@@ -5,7 +5,7 @@
 `有分页`
 
 ### **浏览器查看**
-获取仓库列表 /http://www.apps.com/index.php?app=Invoicimg_Suppliers&m=InstockApi&a=getStornList&access_token=
+获取仓库列表 /http://www.apps.com/index.php?app=Invoicimg_Suppliers&m=InstockApi&a=getStronList&access_token=
 ### **公共参数** 
 |字段       |值             |类型    |说明           |
 | --------- |--------      |--------|--------       |
