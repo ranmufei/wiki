@@ -2,8 +2,7 @@
 /index.php?app=Invoicimg_Suppliers&m=InstockApi&a=get_storn_list
 
 ### **接口说明**
-`无分页`
-
+`有分页`
 
 ### **浏览器查看**
 获取仓库列表 /http://www.apps.com/index.php?app=Invoicimg_Suppliers&m=InstockApi&a=getStornList&access_token=
@@ -13,6 +12,8 @@
 |p|         | int| 分页 |
 
 
+### **接口说明**
+`无分页`
 
 ### **浏览器查看**
 获取仓库列表 /http://www.apps.com/index.php?app=Invoicimg_Suppliers&m=InstockApi&a=get_storn_list&access_token=
