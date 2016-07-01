@@ -32,7 +32,7 @@ get
 
 
 ### **浏览器查看**
-批次信息 http://www.apps.com/index.php?app=Invoicimg_Suppliers&m=InstockApi&a=supplies_stron_outin&productid=135&ckid=1&access_token=e133ac84d35628422ca6c2c408667a&p=1
+产品出入库流水 http://www.apps.com/index.php?app=Invoicimg_Suppliers&m=InstockApi&a=supplies_stron_outin&productid=132&access_token=b97c4b2f541b4dbf485ead62553844&p=1&ckid=0
 
 ### **返回结果**
 |字段       |值             |类型    |说明           |
