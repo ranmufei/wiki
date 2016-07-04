@@ -1,5 +1,5 @@
 ### **请求接口**
-/index.php?app=Invoicimg&m=InstockApi&a=instock_order
+/index.php?app=Invoicimg_Suppliers&m=InstockApi&a=instock_order
 
 ### **接口说明**
 `分页`
@@ -19,7 +19,7 @@ post
 | --------- |--------      |--------|--------       |
 |is_xs=1       |    | |有子单|
 ### **浏览器查看**
-总单列表  http://www.apps.com/index.php?app=Invoicimg&m=InstockApi&a=instock_order&status=2&type=2&access_token=e133ac84d35628422ca6c2c408667a&p=1
+总单列表  http://www.apps.com/index.php?app=Invoicimg_Suppliers&m=InstockApi&a=instock_order&status=2&type=2&access_token=e133ac84d35628422ca6c2c408667a&p=1
 
 ### **orderstatu==0 都显示**
 ### **default6 !=0 || ordertype!=2 || is_bigorder==0 显示出库状态**
@@ -30,7 +30,7 @@ post
 | --------- |--------      |--------|--------       |
 |id       |    |总单id |出库|
 |type=2       |    |默认2 |出库判断|
-子单查询  http://www.apps.com/index.php?app=Invoicimg&m=InstockApi&a=get_z_order&id=1573&type=2&access_token=e133ac84d35628422ca6c2c408667a
+子单查询  http://www.apps.com/index.php?app=Invoicimg&m=Invoicimg_Suppliers&a=get_z_order&id=1573&type=2&access_token=e133ac84d35628422ca6c2c408667a
 
 
 
