@@ -25,7 +25,11 @@ post
 
 总单列表 http://www.apps.com/index.php?app=Invoicimg_Suppliers&m=InstockApi&a=instock_order&status=2&type=1&access_token=e133ac84d35628422ca6c2c408667a&p=1
 
-
+### **返回结果**
+|字段       |值             |类型    |说明           |
+| --------- |--------      |--------|--------       |
+|data    |         | array |数组 |
+|count|         | object | 总数 |
 ### **浏览器查看**
 
 |字段       |值             |类型    |说明           |
@@ -33,11 +37,7 @@ post
 |id  |          |string | 总单id|
 |type  |          |默认1 | 入库判断|
 子单列表 http://www.apps.com/index.php?app=Invoicimg_Suppliers&m=InstockApi&a=get_z_order&id=1633&type=1&access_token=e133ac84d35628422ca6c2c408667a&p=1
-### **返回结果**
-|字段       |值             |类型    |说明           |
-| --------- |--------      |--------|--------       |
-|data    |         | array |数组 |
-|count|         | object | 总数 |
+
 
 ### **orderstatu==0都显示**
 ### **ordertype!=6 && ordertype!=27 && ordertype!=28 && default6==0 显示付款状态**
