@@ -218,3 +218,15 @@
 * [删除测试接口](delete_test)
 * [编辑测试](test_editing)
 * [编辑任务](task_editing)
+
+### 询盘报价管理
+* [项目管理动态内容列表](p_notice_list)
+* [项目管理添加动态](p_notice_add)
+* [全部项目列表](p_project_list)
+* [我的项目列表](p_project_list_my)
+* [项目详细动态列表](p_project_notice)
+* [项目里需求动态](p_project_need)
+* [任务列表](p_project_task)
+* [测试列表](p_project_test)
+* [服务列表](p_project_server)
+* [创建项目](creatProject)
