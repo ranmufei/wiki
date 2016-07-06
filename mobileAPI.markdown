@@ -221,8 +221,8 @@
 
 ### 询盘报价管理
 * [需求报价/获取所有需求报价列表](IndexMobile_getDataLists)
-* [需求报价/查看需求详情](IndexMobile_getDataLists)
-* [需求报价/查看版本基本物料](IndexMobile_getDataLists)
+* [需求报价/查看需求详情](VersionMobile_getDetailes)
+* [需求报价/查看版本基本物料](VersionMobile_getVersionBasicMaterial)
 * [技术核价/获取所有版本列表](TechnologyMobile_getDataLists)
 * [技术核价/获取版本详情](TechnologyMobile_getDetailes)
 * [技术核价/获取基本物料数据](TechnologyMobile_getVersionBasicMaterial)
@@ -235,8 +235,8 @@
 * [产品定型/获取所有版本列表](ProductApprovalMobile_getDataLists)
 * [产品定型/获取版本详情](ProductApprovalMobile_getDetailes)
 * [产品定型/获取基本物料数据](TechnologyMobile_getVersionBasicMaterial)
-* [产品定型/获取规格物料数据](TechnologyMobile_getVersionBasicMaterial)
+* [产品定型/获取规格物料数据](TechnologyMobile_getVersionBasicMaterial2)
 * [订单管理/获取所有订单列表](OrderManageMobile_getDatasList)
 * [订单管理/获取订单详情](OrderManageMobile_getDetailes)
-* [订单管理/获取子订单列表](IndexMobile_getDataLists)
+* [订单管理/获取子订单列表](OrderManageMobile_getChildOrderDatasList)
 * [订单管理/订单审核操作](OrderManageMobile_shStatusOpt)
