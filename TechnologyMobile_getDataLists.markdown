@@ -15,5 +15,5 @@ get
 | p     | 是 |   当前页   |
 | type| 是 |   版本状态 (1:全部 , 2:未操作 , 3: 已操作)  |
 | enter_type| 是 |   'index' (必须带,固定死) |
-| model_name     | 是 |   index'(技术核价) , 'need'(需求核价) , 'sure'(报价审核) |
+| model_name     | 是 |   'index'(技术核价) , 'need'(需求核价) , 'sure'(报价审核) |
 
