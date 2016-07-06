@@ -1,4 +1,4 @@
-### **请求接口**
+### **需求报价/获取所有需求报价列表**
 index.php?app=InquiryManageClothing&m=IndexMobile&a=getDataLists
 
 ### **公网测试**
