@@ -1,1 +1,1 @@
-Inquriry
+InquiryManageClothing/IndexMobile/getDataLists
