@@ -16,7 +16,7 @@ post
 | sid| 是 | int|规格sid|
 | price| 是 | int|版本价格列表|
 
-   price :  array 版本价格表
+     price :  array 版本价格表
                 price[material_price]     // 物料总成本
                 price[wastage_price]      // 损耗总成本
                 price[other_price]        // 其他价格
