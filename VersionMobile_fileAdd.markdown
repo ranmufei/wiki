@@ -13,7 +13,8 @@ get
 |------|-----|------|------|
 | vid| 是 | int|版本vid|
 | data| 是 | array|附件数据|
-data :  array 附件数据 
+
+   data :  array 附件数据 
                       [0][id]          // 索引id
                       [0][name]        // 附件名
                       [0][file]        // 附件地址
