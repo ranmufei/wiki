@@ -11,11 +11,18 @@ post
 ### **参数**
 | 参数名称  |必填|     类型     | 说明 |
 |------|-----|------|------|
-| data| 是 | array  |{ //添加的数据  
-                                    rnumber: '',  //  需求号 必须
-                                    name: '',     //  需求名 必须
-                                    cid: 0,       //  客户cid 必须 
-                                    data: '',     //  内容   
-                                    remark: '',   //  备注
-                                    unit_id:0,    //  单位id  (系统单位id)
-                                }|
+| rnumber| 是 | string| 需求号 |
+| name| 是 | string| 需求名|
+| cid| 是 | int| 客户cid|
+| data| 否 | string| 内容|
+| remark| 否 | string| 备注|
+| unit_id| 是 | int| 单位id  (系统单位id)|
+
+ data { //添加的数据  
+             rnumber: '', 
+             name: '',    
+             cid: 0,      
+             data: '',    
+             remark: '',  
+             unit_id:0,   
+        }
