@@ -8,7 +8,8 @@ http://www.apps.com/index.php?app=InquiryManageClothing&m=VersionMobile&a=requir
 post
 
 
-### **参数**
+
+### **参数   组成 data (array) **
 | 参数名称  |必填|     类型     | 说明 |
 |------|-----|------|------|
 | rnumber| 是 | string| 需求号 |
@@ -18,11 +19,3 @@ post
 | remark| 否 | string| 备注|
 | unit_id| 是 | int| 单位id  (系统单位id)|
 
- data { //添加的数据  
-             rnumber: '', 
-             name: '',    
-             cid: 0,      
-             data: '',    
-             remark: '',  
-             unit_id:0,   
-        }
