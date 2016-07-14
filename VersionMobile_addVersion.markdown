@@ -16,7 +16,7 @@ get
 | parentStruct| 是 | array|Bom 结构|
 | supDatas| 是 | array|物料|
 
- version      :   (array)新增数据 
+       version   :   array 新增数据 
                                     rid    : 0,     //需求rid
                                     rname  : '',    //需求名
                                     rnumber: '',    //需求号
