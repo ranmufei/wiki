@@ -16,8 +16,7 @@ get
 | parentStruct| 是 | array|Bom 结构|
 | supDatas| 是 | array|物料|
 
- version : (array)新增数据 
-                               { //添加的数据
+ version      :   (array)新增数据 
                                     rid    : 0,     //需求rid
                                     rname  : '',    //需求名
                                     rnumber: '',    //需求号
@@ -32,7 +31,7 @@ get
                                                                  [0][downurl]    // 下载id  
                                     parentVersionNumber:'',  // 父版本名
                                     p_vid :0,                // 父版本id
-                                },
+                                
 
         parentStruct : array Bom 结构 [0][id]            // id
                                       [0][name] 
