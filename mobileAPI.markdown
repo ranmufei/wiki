@@ -253,3 +253,4 @@
 * [订单管理/获取订单详情](OrderManageMobile_getDetailes)
 * [订单管理/获取子订单列表](OrderManageMobile_getChildOrderDatasList)
 * [订单管理/订单审核操作](OrderManageMobile_shStatusOpt)
+* [订单管理/订单操作历史记录](OrderManageMobile_getLogList)
