@@ -28,6 +28,8 @@
 
 ### [应用配制](appconfigdesc)
 
+### [应用初始化功能](appinitguopong)
+
 ### [云平台PCD通讯设计](pcdtoclouddesign)
 
 ### [系统设置的全局数据调用](pcd_system_to_globaldata)
