@@ -5,7 +5,10 @@
 ``` html
 <body>
 <…>
-<?php echo doAction('/index.php?app=Product&m=Index&a=init'); ?>
+使用php模板引擎:
+{:doAction('应用初始化地址')}
+使用原生php语法：
+<?php echo doAction('应用初始化地址'); ?>
 <…>
 
 </body>
