@@ -10,6 +10,7 @@
 * [入库管理](InvoicimgSupplies_api_ruku)
 * [出入库订单详情](InvoicimgSupplies_api_churuinfo)
 * [入库批次](InvoimgSupplies_api_rukupici)
+* [入库批次详情](InvoimgSupplies_api_rukupici_info)
 * [库存调拨](InvoicimgSupplies_api_diaobo)
 * [库存盘点](InvoicimgSupplies_api_pandian)
 * [库存调拨盘点详情](InvoicimgSupplies_api_pandian_info)
