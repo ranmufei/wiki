@@ -4,6 +4,7 @@
 * [库存列表](InvoicimgSupplies_api_Warehouseproduct)
 * [库存产品详细](InvoicimgSupplies_api_Warehouseproduct_info)
 * [仓库管理](InvoicimgSupplies_api_Warehouse)
+* [仓库添加修改删除](InvoicimgSupplies_api_Warehouse_edit)
 * [仓库详情](InvoicimgSupplies_api_Warehouse_info)
 * [仓库流水](InvoicimgSupplies_api_Warehouse_inout_info)
 * [出库管理](InvoicimgSupplies_api_chuku)
