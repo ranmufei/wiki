@@ -15,7 +15,7 @@ post,get都可以
 
 
 
-### **浏览器查看**  http://www.apps.com/index.php?app=Invoicimg_Suppliers&m=InstockApi&a=pandianList&access_token=e133ac84d35628422ca6c2c408667a
+### **浏览器查看**  http://www.apps.com/index.php?app=Invoicimg_Suppliers&m=InstockApi&a=pandianList&access_token=040f9a3ee6d55950800c7527f2f08d&type=8
 
 
 
