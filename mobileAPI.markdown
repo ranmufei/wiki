@@ -258,3 +258,5 @@
 ### 汽车4S店客户管理
 * [跟进提醒（销售顾问）/获取七天跟进客户](TrackMobile_Select)
 * [跟进提醒（销售顾问）/获取跟进客户列表](TrackMobile_record)
+* [回访提醒（销售顾问）/获取七天回访客户](VisitMobile_Select)
+* [回访提醒（销售顾问）/获取回访客户列表](VisitMobile_record)
