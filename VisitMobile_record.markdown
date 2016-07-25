@@ -22,11 +22,10 @@ get
 |number|-------   |int  |客户数量  |
 |count| -------     |int    |客户总数     |
 |client_id| -------     |int    |客户id     |
-|client_level| -------     |string   |客户级别    |
+|content| -------     |string   |回访内容   |
 |name| -------     |string    |客户姓名     |
 |orginal_status| -------     |int    |客户状态     |
-|status| -------     |string    |客户状态对应的值     |
 |phone| -------     |string    |手机号码     |
 |plan_date| -------     |string   |计划回访日期     |
-|source| -------     |string   |客户来源     |
-|track_reason| -------     |string   |跟进理由    |
+|deal_date| -------     |string   |成交日期    |
+|pcarry_date| -------     |string   |计划提车日期   |
