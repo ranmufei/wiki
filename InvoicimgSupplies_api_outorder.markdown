@@ -46,3 +46,7 @@ custom: "--",
 num: 1,
 stroname: "武汉仓库--库位C"
 },
+
+### **删除订单**
+
+http://www.apps.com/index.php?app=Invoicimg_Suppliers&m=InstockApi&a=outorder_del&id=1 access_token=e133ac84d35628422ca6c2c408667a
