@@ -10,6 +10,12 @@ post
 ### **浏览器查看**
 http://www.apps.com/index.php?app=Invoicimg_Suppliers&m=InstockApi&a=get_out_order_list&access_token=e133ac84d35628422ca6c2c408667a&p=1
 
+
+
+### **删除订单**
+
+http://www.apps.com/index.php?app=Invoicimg_Suppliers&m=InstockApi&a=outorder_del&id=1 access_token=e133ac84d35628422ca6c2c408667a
+
 ### **公共参数** 
 |字段       |值             |类型    |说明           |
 | --------- |--------      |--------|--------       |
@@ -46,7 +52,3 @@ custom: "--",
 num: 1,
 stroname: "武汉仓库--库位C"
 },
-
-### **删除订单**
-
-http://www.apps.com/index.php?app=Invoicimg_Suppliers&m=InstockApi&a=outorder_del&id=1 access_token=e133ac84d35628422ca6c2c408667a
