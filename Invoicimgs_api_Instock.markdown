@@ -17,3 +17,5 @@
 * [库存调拨盘点详情](InvoicimgSupplies_api_pandian_info)
 * [出库订单](InvoicimgSupplies_api_outorder)
 * [出库订单详情](InvoicimgSupplies_api_outorder_info)
+* [盘点调拨订单删除](InvoicimgSupplies_api_delete)
+
