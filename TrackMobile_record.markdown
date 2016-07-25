@@ -29,4 +29,4 @@ get
 |phone| -------     |string    |手机号码     |
 |plan_date| -------     |string   |计划跟进日期     |
 |source| -------     |string   |客户来源     |
-|track_reason| -------     |string   |客户理由    |
+|track_reason| -------     |string   |跟进理由    |
