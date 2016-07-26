@@ -19,6 +19,11 @@ get
 ### **返回结果**
 |字段        |值          |类型    |说明        |
 | ---------  |--------    |-------- |--------  |
-|ctime|-------   |string   |日期  |
-|number| -------     |int    |客户数量     |
-|qday| -------     |int    |与今日相差天数     |
+|carowner|-------   |array  |车主信息  |
+|clients|-------   |array  |客户信息  |
+|needcar|-------   |array  |车主需求  |
+|ownercar|-------   |array  |车主车辆  |
+|reception|-------   |array  |接待信息  |
+|tableHeader|-------   |array  |表格头部信息  |
+|track|-------   |array  |跟进信息  |
+|visit|-------   |array  |回访信息  |
