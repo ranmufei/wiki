@@ -260,5 +260,6 @@
 * [跟进提醒（销售顾问）/获取跟进客户列表](TrackMobile_record)
 * [回访提醒（销售顾问）/获取七天回访客户](VisitMobile_Select)
 * [回访提醒（销售顾问）/获取回访客户列表](VisitMobile_record)
+* [战败请求（销售顾问）/获取战败列表](DefeatMobile_record)
 * [获取客户详情](TrackMobile_info)
 * [获取订单信息](OrderMobile_getAduit)
