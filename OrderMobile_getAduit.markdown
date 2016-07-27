@@ -18,14 +18,16 @@ post
 ### **返回结果**
 |字段        |值          |类型    |说明        |
 | ---------  |--------    |-------- |--------  |
-|number|-------   |int  |客户数量  |
-|count| -------     |int    |客户总数     |
-|client_id| -------     |int    |客户id     |
-|client_level| -------     |string   |客户级别    |
-|name| -------     |string    |客户姓名     |
-|orginal_status| -------     |int    |客户状态     |
-|status| -------     |string    |客户状态对应的值     |
-|phone| -------     |string    |手机号码     |
-|plan_date| -------     |string   |计划跟进日期     |
-|source| -------     |string   |客户来源     |
-|track_reason| -------     |string   |跟进理由    |
+|name|-------   |string  |客户姓名  |
+|certificatetype| -------     |string    |证件类型     |
+|orginal_status| -------     |string    |客户信息状态     |
+|certificate_code| -------     |string   |客户编号    |
+|number| -------     |string    |订单编号    |
+|status| -------     |string    |订单状态     |
+|type| -------     |string    |订单类型    |
+|nsale_id| -------     |string   |销售顾问     |
+|createtime| -------     |string   |创建时间    |
+|order_contacts| -------     |string   |订单联系人    |
+|contacts| -------     |string   |提车联系人    |
+|car_contacts| -------     |string   |预计提车时间   |
+|earnest_money| -------     |float   |订金  |
