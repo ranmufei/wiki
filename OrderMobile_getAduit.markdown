@@ -23,6 +23,7 @@ post
 |certificate_type|-------   |array  |证件类型  |
 | ---------  |--------    |-------- |--------  |
 |data|-------   |array  |订单信息：具体参数如下  |
+| ---------  |--------    |-------- |--------  |
 |name|-------   |string  |客户姓名  |
 |certificatetype| -------     |string    |证件类型     |
 |orginal_status| -------     |string    |客户信息状态     |
