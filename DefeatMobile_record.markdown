@@ -26,4 +26,4 @@ get
 |reason| -------     |string    |主要原因     |
 |sstatus| -------     |string    |处理动作     |
 |process_opinion| -------     |string    |处理意见     |
-|process_time| -------     |string   |申请时间    |
+|apply_time_time| -------     |string   |申请时间    |
