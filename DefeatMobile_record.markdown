@@ -1,10 +1,10 @@
 ### **请求接口**
-index.php?app=Car&m=DefetMobile&a=record
+index.php?app=Car&m=DefeatMobile&a=record
 
 
 
 ### **公网测试**
-http://www.apps.com/index.php?app=Car&m=DefetMobile&a=record
+http://www.apps.com/index.php?app=Car&m=DefeatMobile&a=record
 
 ### **请求方式**
 get
