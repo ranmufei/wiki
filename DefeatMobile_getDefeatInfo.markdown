@@ -22,11 +22,9 @@ get
 |number|-------   |int  |客户数量  |
 |count| -------     |int    |客户总数     |
 |client_id| -------     |int    |客户id     |
-|client_level| -------     |string   |客户级别    |
+|clientlevel| -------     |string   |客户级别    |
 |name| -------     |string    |客户姓名     |
-|orginal_status| -------     |int    |客户状态     |
-|status| -------     |string    |客户状态对应的值     |
-|phone| -------     |string    |手机号码     |
-|plan_date| -------     |string   |计划跟进日期     |
-|source| -------     |string   |客户来源     |
-|track_reason| -------     |string   |跟进理由    |
+|reason| -------     |string    |主要原因     |
+|sstatus| -------     |string    |处理动作     |
+|process_opinion| -------     |string    |处理意见     |
+|apply_time_time| -------     |string   |申请时间    |
