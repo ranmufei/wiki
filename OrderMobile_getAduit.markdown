@@ -18,6 +18,11 @@ post
 ### **返回结果**
 |字段        |值          |类型    |说明        |
 | ---------  |--------    |-------- |--------  |
+|brandArray|-------   |array  |汽车品牌  |
+|car_contacts|-------   |array  |预计提车时间  |
+|certificate_type|-------   |array  |证件类型  |
+| ---------  |--------    |-------- |--------  |
+|data|-------   |array  |订单信息：具体参数如下  |
 |name|-------   |string  |客户姓名  |
 |certificatetype| -------     |string    |证件类型     |
 |orginal_status| -------     |string    |客户信息状态     |
