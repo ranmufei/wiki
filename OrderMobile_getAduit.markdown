@@ -7,7 +7,7 @@ index.php?app=Car&m=OrderMobile&a=getAduit
 http://www.apps.com/index.php?app=Car&m=OrderMobile&a=getAduit
 
 ### **请求方式**
-post
+get
 
 
 ### **参数**
