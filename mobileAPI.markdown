@@ -278,3 +278,5 @@
 * [获取战败明细](DefeatMobile_getDefeatInfo)
 * [获取客户详情](TrackMobile_info)
 * [获取订单信息](OrderMobile_getAduit)
+* [获取跟进信息](TrackMobile_getChanceInfo)
+* [修改跟进信息](TrackMobile_editTrack)
