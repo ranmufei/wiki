@@ -17,6 +17,3 @@ post
 
      getSelect  array 筛选数据
             deal_status   int  处理状态
-            
-
-     return  0 添加失败      1 添加成功
