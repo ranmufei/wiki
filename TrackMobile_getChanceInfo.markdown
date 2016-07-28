@@ -1,10 +1,10 @@
 ### **请求接口**
-index.php?app=Car&m=OrderMobile&a=getAduit
+index.php?app=Car&m=TrackMobile&a=getChanceInfo
 
 
 
 ### **公网测试**
-http://www.apps.com/index.php?app=Car&m=OrderMobile&a=getAduit
+http://www.apps.com/index.php?app=Car&m=TrackMobile&a=getChanceInfo
 
 ### **请求方式**
 get
@@ -13,27 +13,23 @@ get
 ### **参数**
 | 参数名称  |必填|     说明      |
 |------|-----|------|
-| id| 是 |   订单id|
+| orginal_status| 是 |   客户状态|
 | client_id     | 是 |   客户id   |
 ### **返回结果**
 |字段        |值          |类型    |说明        |
 | ---------  |--------    |-------- |--------  |
-|brandArray|-------   |array  |汽车品牌  |
-|car_contacts|-------   |array  |预计提车时间  |
-|certificate_type|-------   |array  |证件类型  |
+|aim|-------   |array  |跟进目的  |
+|level|-------   |array  |客户级别  |
+|method|-------   |array  |跟进方式  |
+|track_result|-------   |array  |跟进结果  |
 | ---------  |--------    |-------- |--------  |
-|data|-------   |array  |订单信息：具体参数如下  |
+|track|-------   |array  |本次跟进信息：具体参数如下  |
 | ---------  |--------    |-------- |--------  |
-|name|-------   |string  |客户姓名  |
-|certificatetype| -------     |string    |证件类型     |
-|orginal_status| -------     |string    |客户信息状态     |
-|certificate_code| -------     |string   |客户编号    |
-|number| -------     |string    |订单编号    |
-|status| -------     |string    |订单状态     |
-|type| -------     |string    |订单类型    |
-|nsale_id| -------     |string   |销售顾问     |
-|createtime| -------     |string   |创建时间    |
-|order_contacts| -------     |string   |订单联系人    |
-|contacts| -------     |string   |提车联系人    |
-|car_contacts| -------     |string   |预计提车时间   |
-|earnest_money| -------     |float   |订金  |
+|plan_date|-------   |string  |计划时间  |
+|date|-------   |string  |跟进时间  |
+|track_aim|-------   |int  |跟进目的  |
+|track_method|-------   |int  |跟进方式  |
+|track_result|-------   |int  |跟进结果  |
+|old_level|-------   |int  |客户级别  |
+|id|-------   |int  |跟进表id  |
+|track_result|-------   |string  |跟进结果  |
