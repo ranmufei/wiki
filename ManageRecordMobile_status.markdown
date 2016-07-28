@@ -16,10 +16,10 @@ get
 ### **返回结果**
 |字段        |值          |类型    |说明        |
 | ---------  |--------    |-------- |--------  |
-|data|-------   |array  |原因列表  |
+|data|-------   |array  |状态列表  |
 
-      data：array  原因列表
+      data：array  状态列表
             
-           data[deal_status]  处理状态
+           data['deal_status']  处理状态  array
                   id             int
                   deal_status    string
