@@ -275,6 +275,7 @@
 * [专营店客户查询（经理）/订单管理列表](ManageOrderMobile_record)
 * [专营店客户查询（经理）/退换车列表](ManageExchangeMobile_clientInfo)
 * [专营店客户查询（经理）/无跟进计划客户列表](ClientInfoMobile_managePlan)
+* [接待记录列表筛选](ManageRecordMobile_getSelect)
 * [获取战败明细](DefeatMobile_getDefeatInfo)
 * [获取客户详情](TrackMobile_info)
 * [获取订单信息](OrderMobile_getAduit)
