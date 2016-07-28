@@ -1,10 +1,10 @@
 ### **请求接口**
-index.php?app=Car&m=ManageClientMobile&a=clientInfo
+index.php?app=Car&m=ManageClientMobile&a=record
 
 
 
 ### **公网测试**
-http://www.apps.com/index.php?app=Car&m=ManageClientMobile&a=clientInfo
+http://www.apps.com/index.php?app=Car&m=ManageClientMobile&a=record
 
 ### **请求方式**
 get
