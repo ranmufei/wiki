@@ -1,39 +1,21 @@
 ### **请求接口**
-index.php?app=Car&m=OrderMobile&a=getAduit
+index.php?app=Car&m=TrackMobile&a=editTrack
 
 
 
 ### **公网测试**
-http://www.apps.com/index.php?app=Car&m=OrderMobile&a=getAduit
+http://www.apps.com/index.php?app=Car&m=TrackMobile&a=editTrack
 
 ### **请求方式**
-get
+post
 
 
 ### **参数**
 | 参数名称  |必填|     说明      |
 |------|-----|------|
-| id| 是 |   订单id|
+| updatetrack| 是 |   本次跟进信息，类型：array;包含参数：track_aim，|
 | client_id     | 是 |   客户id   |
 ### **返回结果**
 |字段        |值          |类型    |说明        |
 | ---------  |--------    |-------- |--------  |
 |brandArray|-------   |array  |汽车品牌  |
-|car_contacts|-------   |array  |预计提车时间  |
-|certificate_type|-------   |array  |证件类型  |
-| ---------  |--------    |-------- |--------  |
-|data|-------   |array  |订单信息：具体参数如下  |
-| ---------  |--------    |-------- |--------  |
-|name|-------   |string  |客户姓名  |
-|certificatetype| -------     |string    |证件类型     |
-|orginal_status| -------     |string    |客户信息状态     |
-|certificate_code| -------     |string   |客户编号    |
-|number| -------     |string    |订单编号    |
-|status| -------     |string    |订单状态     |
-|type| -------     |string    |订单类型    |
-|nsale_id| -------     |string   |销售顾问     |
-|createtime| -------     |string   |创建时间    |
-|order_contacts| -------     |string   |订单联系人    |
-|contacts| -------     |string   |提车联系人    |
-|car_contacts| -------     |string   |预计提车时间   |
-|earnest_money| -------     |float   |订金  |
