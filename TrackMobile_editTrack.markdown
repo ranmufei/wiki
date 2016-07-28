@@ -16,7 +16,7 @@ post
 ### **参数**
 | 参数名称  |必填|   类型  |说明      |
 |------|-----|------|------|
-| updatetrack| 是 | int|本次跟进信息|
+| updatetrack| 是 | array|本次跟进信息|
 | id| 是 | int|跟进表id|
 | client_id| 是 | int|客户id|
 | client_level| 是 | int|客户级别|
