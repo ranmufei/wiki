@@ -1,10 +1,10 @@
 ### **请求接口**
-index.php?app=Car&m=TrackMobile&a=getChanceInfo
+index.php?app=Car&m=VisitMobile&a=getChanceInfo
 
 
 
 ### **公网测试**
-http://www.apps.com/index.php?app=Car&m=TrackMobile&a=getChanceInfo
+http://www.apps.com/index.php?app=Car&m=VisitMobile&a=getChanceInfo
 
 ### **请求方式**
 get
@@ -13,23 +13,21 @@ get
 ### **参数**
 | 参数名称  |必填|     说明      |
 |------|-----|------|
-| orginal_status| 是 |   客户状态|
 | client_id     | 是 |   客户id   |
 ### **返回结果**
 |字段        |值          |类型    |说明        |
 | ---------  |--------    |-------- |--------  |
-|aim|-------   |array  |跟进目的  |
-|level|-------   |array  |客户级别  |
-|method|-------   |array  |跟进方式  |
-|track_result|-------   |array  |跟进结果  |
+|contnet|-------   |array  |回访内容  |
+|plan|-------   |array  |回访计划  |
+|satisfied|-------   |array  |满意度  |
+|visit_id|-------   |array  |被回访人  |
 | ---------  |--------    |-------- |--------  |
-|track|-------   |array  |本次跟进信息：具体参数如下  |
+|visit|-------   |array  |本次回访信息：具体参数如下  |
 | ---------  |--------    |-------- |--------  |
 |plan_date|-------   |string  |计划时间  |
-|date|-------   |string  |跟进时间  |
-|track_aim|-------   |int  |跟进目的  |
-|track_method|-------   |int  |跟进方式  |
-|track_result|-------   |int  |跟进结果  |
-|old_level|-------   |int  |客户级别  |
-|id|-------   |int  |跟进表id  |
-|track_result|-------   |string  |跟进结果  |
+|date|-------   |string  |回访时间  |
+|content|-------   |int  |回访内容  |
+|plan|-------   |int  |回访计划  |
+|visit_id|-------   |int  |被回访人  |
+|id|-------   |int  |回访表id  |
+|type|-------   |string  |回访类型  |
