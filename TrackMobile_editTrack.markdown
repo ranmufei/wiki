@@ -16,32 +16,24 @@ post
 ### **参数**
 | 参数名称  |必填|   类型  |说明      |
 |------|-----|------|------|
-| vid| 是 | int|版本vid|
-| sid| 是 | int|规格sid|
-| data| 是 | array|物料|
+| updatetrack| 是 | int|本次跟进信息|
+| id| 是 | int|跟进表id|
+| client_id| 是 | int|客户id|
+| client_level| 是 | int|客户级别|
+| orginal_status| 是 | int|客户状态|
+| addtrack| 是 | array|下次跟进信息|
+| orderid| 是 | int|订单id|
 
-     data  : array 物料     
-                      [0][sid]           //  Bom id
-                      [0][sid_t_id]      //  Bom 索引id
-                      [0][sname]         //  Bom 名
-                      [0][is_semi_pro]   //  是否是半成品
-                      [0][cat_id]        //  物料分类id
-                      [0][proname]       //  物料名
-                      [0][class_id]      //  物料分类id 
-                      [0][class_name]    //  物料分类名
-                      [0][code]          //  物料编码
-                      [0][name]          //  物料名
-                      [0][f_id]          //  物料规格id
-                      [0][stornNum]      //  物料库存
-                      [0][unit]          //  物料单位id
-                      [0][unitName]      //  物料单位名
-                      [0][id]            //  索引id
-                      [0][is_stock]      //  是否是新的物料(1,是;0,不是)
-                      [0][purchasePrice] //  成本价
-                      [0][num]           //  物料数量
-                      [0][price]         //  价格
-                      [0][wastage]       //  损耗
-                      [0][total_price]   //  物料总价
-                      [0][batchid]       //  批次id
-                      [0][batchname]     //  批次名
+     updatetrack array 本次跟进信息
+                  
+                 track_aim:0,     跟进目的
+                 track_method:0,  跟进方式
+                 track_result:14, 跟进结果/默认14
+                 new_level:0,     跟进级别
+                 track_record:'', 跟进理由
+    addtrack  array  下次跟进信息
 
+                 track_aim,     跟进目的
+                 track_method,  跟进方式
+                 plan_date,     计划时间
+                 track_reason,  跟进原因
