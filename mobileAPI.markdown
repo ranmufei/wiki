@@ -280,3 +280,5 @@
 * [获取订单信息](OrderMobile_getAduit)
 * [获取跟进信息](TrackMobile_getChanceInfo)
 * [修改跟进信息](TrackMobile_editTrack)
+* [获取回访信息](VisitMobile_getChanceInfo)
+* [修改回访信息](TisitMobile_editVisit)
