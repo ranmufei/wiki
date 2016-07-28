@@ -17,12 +17,10 @@ get
 ### **返回结果**
 |字段        |值          |类型    |说明        |
 | ---------  |--------    |-------- |--------  |
-|number|-------   |int  |客户数量  |
 |count| -------     |int    |客户总数     |
 |client_id| -------     |int    |客户id     |
-|clientlevel| -------     |string   |客户级别    |
+|level| -------     |string   |客户级别    |
 |name| -------     |string    |客户姓名     |
-|reason| -------     |string    |主要原因     |
-|sstatus| -------     |string    |处理动作     |
-|process_opinion| -------     |string    |处理意见     |
-|apply_time_time| -------     |string   |申请时间    |
+|source| -------     |string    |客户来源     |
+|description| -------     |string    |建卡渠道     |
+|time_cards| -------     |string    |建卡时间     |
