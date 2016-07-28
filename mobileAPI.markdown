@@ -269,7 +269,7 @@
 * [专营店客户查询（经理）/接待记录列表](ManageRecordMobile_record)
 * [专营店客户查询（经理）/历史跟进列表](ManageHtrackMobile_record)
 * [专营店客户查询（经理）/历史回访列表](ManageHvisitMobile_record)
-* [专营店客户查询（经理）/潜在客户列表](ManagePotentiaMobile_record)
+* [专营店客户查询（经理）/潜在客户列表](ManagePotentialMobile_record)
 * [专营店客户查询（经理）/我的客户列表](ManageClientMobile_clientInfo)
 * [专营店客户查询（经理）/我的车主列表](ManageOwnerMobile_record)
 * [专营店客户查询（经理）/订单管理列表](ManageOrderMobile_record)
