@@ -287,3 +287,4 @@
 * [获取回访信息](VisitMobile_getChanceInfo)
 * [修改回访信息](TisitMobile_editVisit)
 * [订单成交](OrderMobile_setCar)
+* [成交信息](OrderMobile_getOrderStatus)
