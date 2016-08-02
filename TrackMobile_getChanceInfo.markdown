@@ -21,6 +21,7 @@ get
 |aim|-------   |array  |跟进目的  |
 |level|-------   |array  |客户级别  |
 |method|-------   |array  |跟进方式  |
+|defeatreason|-------   |array  |战败原因  |
 |track_result|-------   |array  |跟进结果  |
 | ---------  |--------    |-------- |--------  |
 |track|-------   |array  |本次跟进信息：具体参数如下  |
