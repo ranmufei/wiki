@@ -23,6 +23,7 @@ post
 | orginal_status| 是 | int|客户状态|
 | addtrack| 是 | array|下次跟进信息|
 | orderid| 是 | int|订单id|
+| adddefeat| 是 | array|战败信息|
 
      updatetrack array 本次跟进信息
                   
@@ -39,4 +40,8 @@ post
                  plan_date,     计划时间
                  track_reason,  跟进原因
 
-     return  0 添加失败      1 添加成功
+     adddefeat array 战败信息
+                 
+                 reason int              战败原因
+                 defeat_explain  string  战败说明
+     return  0 添加失败      1 添加成功      2 添加战败失败
