@@ -41,4 +41,4 @@ post
                  
                  apply_explain             审核说明
 
-     return  0 添加失败      1 添加成功      2 添加战败失败
+     return  0 添加失败      1 添加成功      2 车型匹配失败
