@@ -289,3 +289,4 @@
 * [订单成交](OrderMobile_setCar)
 * [成交信息](OrderMobile_getOrderStatus)
 * [退单申请](OrderMobile_setdownAduit)
+* [订单申请](OrderMobile_setAduit)
