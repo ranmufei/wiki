@@ -25,23 +25,20 @@ post
 | updateorder| 是 | array|订单信息|
 | addaduit| 是 | array|审核信息|
 
-     updatetrack array 本次跟进信息
+     updateclient array 客户信息
                   
-                 track_aim:0,     跟进目的
-                 track_method:0,  跟进方式
-                 track_result:14, 跟进结果/默认14
-                 new_level:0,     跟进级别
-                 track_record:'', 跟进理由
+                certificate_type:0,    证件类型
+                certificate_code:'',   证件编号
 
-     addtrack  array  下次跟进信息
+     updateorder array  订单信息
 
-                 track_aim,     跟进目的
-                 track_method,  跟进方式
-                 plan_date,     计划时间
-                 track_reason,  跟进原因
+                 order_contacts:'',  订单联系人
+                 car_contacts:12,    预计提车时间
+                 contacts:'',        提车联系人
+                 earnest_money:0,    订金
 
-     adddefeat array 战败信息
+     addaduit array 审核信息
                  
-                 reason int              战败原因
-                 defeat_explain  string  战败说明
+                 apply_explain             审核说明
+
      return  0 添加失败      1 添加成功      2 添加战败失败
