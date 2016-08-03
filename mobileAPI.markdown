@@ -290,3 +290,5 @@
 * [成交信息](OrderMobile_getOrderStatus)
 * [退单申请](OrderMobile_setdownAduit)
 * [订单申请](OrderMobile_setAduit)
+* [意向品牌下的车型](OrderMobile_brand)
+* [车型下的规格](OrderMobile_product)
