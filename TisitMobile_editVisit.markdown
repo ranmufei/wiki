@@ -30,7 +30,7 @@ post
                  satisfied:0,    满意度
                  record:'',      回访记录
 
-     addvivit  array  下次回访信息
+     addvisit  array  下次回访信息
 
                  plan_date:'',       计划回访时间
                  type:'日常关系维护', 类型
