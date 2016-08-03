@@ -288,3 +288,4 @@
 * [修改回访信息](TisitMobile_editVisit)
 * [订单成交](OrderMobile_setCar)
 * [成交信息](OrderMobile_getOrderStatus)
+* [订单提交申请](OrderMobile_getAduit)
