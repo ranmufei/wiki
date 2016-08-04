@@ -16,9 +16,5 @@ get
 ### **返回结果**
 |字段        |值          |类型    |说明        |
 | ---------  |--------    |-------- |--------  |
-|data|-------   |array  |原因列表  |
-
-      data：array  原因列表
-            
-            id        int
-            reason    string
+|contnet|-------   |array  |内容列表  |
+|visit_id|-------   |array  |回访人列表  |
