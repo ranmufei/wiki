@@ -13,10 +13,15 @@ post
 ### **参数**
 | 参数名称  |必填|   类型  |说明      |
 |------|-----|------|------|
-| isputcar| 是 | int|0 提车  1 延迟提车|
+| isputcar| 是 | array|提车信息|
 | id| 是 | int|车主id|
 | client_id| 是 | int|客户id|
 | addvisit| 是 | array|下次回访信息|
+
+
+    isputcar  array  提车信息
+      put:0,
+      plan_date:'',
 
      addvisit  array  下次回访信息
 
