@@ -14,7 +14,7 @@ post
 | 参数名称  |必填|   类型  |说明      |
 |------|-----|------|------|
 | id| 是 | int|车主id|
-| car_vin| 是 | int|车辆VIN|
+| car_vin| 是 | string|车辆VIN|
 | car_id| 是 | int|车辆id|
 | addbackcar| 是 | array|退换车信息|
 
