@@ -21,3 +21,6 @@ get
 |status| -------     |array    |退换车类型     |
 |owner| -------     |array    |车主信息    |
 |car| -------     |array   |车辆信息     |
+
+
+![QQ图片20160805092629](http://192.168.1.240/uploads/ranmufei/apps/d288891a34/QQ%E5%9B%BE%E7%89%8720160805092629.png)
