@@ -294,3 +294,5 @@
 * [车型下的规格](OrderMobile_product)
 * [回访计划列表](OwnerMobile_getVisitInfo)
 * [退换车信息](OwnerMobile_getbackCar)
+* [提车](OwnerMobile_addVisit)
+* [退换车](OwnerMobile_exchange)
