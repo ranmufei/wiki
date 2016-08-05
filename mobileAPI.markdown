@@ -299,3 +299,5 @@
 * [无跟进计划客户跟进列表](ClientInfoMobile_trackType)
 * [无跟进计划客户跟进](ClientInfoMobile_addTrack)
 * [退单审核](ManageOrderMobile_aduit)
+* [退换车审核信息](ManageExchangeMobile_getExchange)
+* [退换车审核](ManageExchangeMobile_aduit)
