@@ -54,6 +54,7 @@
 * [初始化数据写在配置文件中](Initial_config)
 * [云应用授权SDK文档](sdk)
 
+## [手机短信/电话接口](yunxin)
 ## [首页消息接口列表](indexMessageApi)
 
 * [首页消息接口说明](indexMessage)
