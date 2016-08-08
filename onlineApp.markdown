@@ -1,71 +1,72 @@
 # 已上线的App登记
 >  新应用上线 需要在此登记记录  
 ## 7.0版登记的应用
-Account
-AccountApply
-Admin
-AfterSalers
-Asset
-Barcode
-Barcode_Suppliers
 
-Calendar2
-Car
+- Account
+- AccountApply
+- Admin
+- AfterSalers
+- Asset
+- Barcode
+- Barcode_Suppliers
 
-Comtxl
-Customer
-Cws
-Eboss
-Form
+- Calendar2
+- Car
 
-Home
+- Comtxl
+- Customer
+- Cws
+- Eboss
+- Form
 
-Ims
-InquiryManageClothing
-Invoicimg
-InvoicimgProduct
-InvoicimgProduct_Suppliers
-InvoicimgPurchase
-InvoicimgPurchase_Suppliers
-InvoicimgRecycle
-InvoicimgRecycle_Suppliers
-InvoicimgSmart
-InvoicimgSmart_Suppliers
-Invoicimg_Suppliers
-InvoicimgWarehouse
-InvoicimgWarehouse_Suppliers
-Kaoqin
+- Home
 
-Logistics
-Lore
-Maintenance
-Manufacture
-MyTxt
-Ngrok
-Notice
-Notify
+- Ims
+- InquiryManageClothing
+- Invoicimg
+- InvoicimgProduct
+- InvoicimgProduct_Suppliers
+- InvoicimgPurchase
+- InvoicimgPurchase_Suppliers
+- InvoicimgRecycle
+- InvoicimgRecycle_Suppliers
+- InvoicimgSmart
+- InvoicimgSmart_Suppliers
+- Invoicimg_Suppliers
+- InvoicimgWarehouse
+- InvoicimgWarehouse_Suppliers
+- Kaoqin
 
-Pmanager
+- Logistics
+- Lore
+- Maintenance
+- Manufacture
+- MyTxt
+- Ngrok
+- Notice
+- Notify
 
-Salary(111111111111111111)
-Sale
+- Pmanager
 
-Samples
-ShopManage
+- Salary(111111111111111111)
+- Sale
 
-ShouyinFace
-Staff
+- Samples
+- ShopManage
 
-Subconctracting
-Supplychain
-Ticket
+- ShouyinFace
+- Staff
 
-TreaSurer
-TreaSurer1
-TreaSurer2
-TreaSurer3
-Twitter
-Txl
-Wangpan
-Weibo
-Workflow
+- Subconctracting
+- Supplychain
+- Ticket
+
+- TreaSurer
+- TreaSurer1
+- TreaSurer2
+- TreaSurer3
+- Twitter
+- Txl
+- Wangpan
+- Weibo
+- Workflow
