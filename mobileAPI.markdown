@@ -303,3 +303,4 @@
 * [退换车审核](ManageExchangeMobile_aduit)
 * [客流量统计](IndicatorMobile_selectFlow)
 * [建卡量统计](IndicatorMobile_addClient)
+* [今天](IndexMobile_date)
