@@ -11,6 +11,11 @@
 
    > POST 方式
 
+## 请求地址
+
+   >  /index.php?app=Yunxin&m=Index&a=send
+
+
 ## 传入参数
  * type必须传！！
 
