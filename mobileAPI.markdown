@@ -307,3 +307,4 @@
 * [客户跟进统计](TrackManageMobile_getData)
 * [客户回访统计](VisitManageMobile_getData)
 * [销售指标统计](IndicatorMobile_saleFlow)
+* [权限](IndexMobile_level)
