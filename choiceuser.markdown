@@ -8,7 +8,7 @@
 |depart| boolean| true | 是否可以选择部门|
 |tipText|string|"选择发送范围…"|默认显示的文本|
 |placeholder|string|"输入同事或部门名称"|搜索表单显示的文本|
-|privilege| boolean|false |是否选择有权限的员工 |
+|privilege| object|{"show":false,list:[388,378,379]},|是否选择有权限的员工 |
 |open| function|  | 打开选择员工下拉框 |
 |getChoiceData| function| |获取选择的员工 |
 
