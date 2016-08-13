@@ -21,7 +21,7 @@ get
 | ---------  |--------    |-------- |--------  |
 |data|-------   |array  |战败列表  |
 
-      data：array  战败列表
+      data['data']：array  战败列表
             
             id                战败表id
             client_id         客户id
@@ -33,3 +33,8 @@ get
             process_time      处理时间
             status            处理状态  7 新建  8 驳回  9 同意  10 分配其他
             sale_name         销售顾问
+
+      data['sale']:array 销售顾问列表
+            
+           uid   销售顾问id
+           name  销售顾问姓名
