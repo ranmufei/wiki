@@ -308,3 +308,5 @@
 * [客户回访统计](VisitManageMobile_getData)
 * [销售指标统计](IndicatorMobile_saleFlow)
 * [权限](IndexMobile_level)
+* [战败列表（经理）](IndexMobile_level)
+* [战败处理（经理）](IndexMobile_level)
