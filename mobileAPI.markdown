@@ -311,3 +311,4 @@
 * [战败列表（经理）](DefeatMobile_defeatInfo)
 * [战败处理（经理）](DefeatMobile_level)
 * [展厅温度分析](IndicatorMobile_galleryFlow)
+* [展厅营业报表](ExhibitionMobile_getData)
