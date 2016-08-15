@@ -314,3 +314,4 @@
 * [展厅营业报表](ExhibitionMobile_getData)
 * [逾期统计分析](OverdueMobile_getData)
 * [客户来源分析](SourceMobile_getData)
+* [首页提醒](IndexMobile_getInfo)
