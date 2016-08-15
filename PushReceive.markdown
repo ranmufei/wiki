@@ -19,8 +19,8 @@
                         },
                         //重启PushServ连接，number:重启连接的最大次数，time:重启间隔时间单位为秒，值都必须为integer类型
                         resetWs:{
-                            number:3,
-                            time:3,
+                            number:13,
+                            time:2,
                         },
                         //准备开始连接 PushServ 的回调，可以加上动画（在wsOpen之前）
                         showLoading: function(){
@@ -49,7 +49,7 @@
 | 参数名称      |    必填 | 说明  |
 | :-------- | --------:| :--: |
 |UserAuthorize|是是| 当前组件的PushServ 注册信息  |
-|resetWs|否| 组件重启配置，如不写，将用默认配置（number:5,time:3）  |
+|resetWs|否| 组件重启配置，如不写，将用默认配置（number:13,time:2）  |
 |showLoading()|否| 准备开始连接 PushServ 的回调  |
 |hideLoading()|否| 成功连接 或 连接失败 PushServ 的回调  |
 |wsOpen()|否| 成功连接 PushServ 的回调  |
