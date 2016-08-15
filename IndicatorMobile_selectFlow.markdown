@@ -4,7 +4,7 @@ index.php?app=Car&m=IndicatorMobile&a=selectFlow
 
 
 ### **公网测试**
-http://www.apps.com/index.php?app=Car&m=IndicatorMobile&a=selectFlow&year=2016&month=4&access_token=
+http://www.apps.com/index.php?app=Car&m=IndicatorMobile&a=selectFlow&date=2016-04&access_token=
 
 ### **请求方式**
 get
