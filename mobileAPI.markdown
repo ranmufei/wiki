@@ -313,3 +313,4 @@
 * [展厅温度分析](IndicatorMobile_galleryFlow)
 * [展厅营业报表](ExhibitionMobile_getData)
 * [逾期统计分析](OverdueMobile_getData)
+* [客户来源分析](SourceMobile_getData)
