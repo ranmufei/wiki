@@ -312,3 +312,4 @@
 * [战败处理（经理）](DefeatMobile_level)
 * [展厅温度分析](IndicatorMobile_galleryFlow)
 * [展厅营业报表](ExhibitionMobile_getData)
+* [逾期统计分析](OverdueMobile_getData)
