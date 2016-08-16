@@ -18,6 +18,7 @@ get
 |data|-------   |array  |首页提醒  |
 
 经理：
+
     addno: "0",            需要建卡的接待记录
     passaddno: "0",        逾期未建卡的接待记录
     tracknum: "0",         需要跟进的客户
