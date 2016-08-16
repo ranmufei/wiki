@@ -18,7 +18,16 @@ get
 |data|-------   |array  |首页提醒  |
 
 经理：
-![QQ图片20160815193951](http://192.168.1.240/uploads/ranmufei/apps/96dcd80dcb/QQ%E5%9B%BE%E7%89%8720160815193951.png)
+    addno: "0",            需要建卡的接待记录
+    passaddno: "0",        逾期未建卡的接待记录
+    tracknum: "0",         需要跟进的客户
+    visit: "0",            需要回访的客户
+    trackno: "2",          无跟进计划的客户
+    weitrack: "7",         逾期未跟进的客户
+    visitno: "2",          逾期未回访的客户
+    defeatno: "6",         需要处理的战败请求
+    recepnum: "0",         接待客户批次
+    finish: "1"            成交客户
 
 销售顾问：
 
