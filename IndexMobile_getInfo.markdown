@@ -22,7 +22,6 @@ get
 
 销售顾问：
 
-{
     recepnum: "10",         接待客户批次
     finish: "0",            成交客户
     needrecep: "0",         需要处理的接待记录
@@ -33,4 +32,3 @@ get
     novisit: "16",          逾期未回访的客户
     trackno: "2",           无跟进计划客户
     defeatnum: "0"          战败请求
-}
