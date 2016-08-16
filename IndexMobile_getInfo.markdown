@@ -22,4 +22,15 @@ get
 
 销售顾问：
 
-![QQ图片20160815194107](http://192.168.1.240/uploads/ranmufei/apps/6bea2044e5/QQ%E5%9B%BE%E7%89%8720160815194107.png)
+{
+    recepnum: "10",         接待客户批次
+    finish: "0",            成交客户
+    needrecep: "0",         需要处理的接待记录
+    needpassrecep: "8",     逾期未处理的接待记录
+    tracknum: "0",          需要跟进的客户
+    weitrack: "2",          逾期未跟进的客户
+    needVisit: "0",         需要回访的客户
+    novisit: "16",          逾期未回访的客户
+    trackno: "2",           无跟进计划客户
+    defeatnum: "0"          战败请求
+}
