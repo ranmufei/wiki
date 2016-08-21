@@ -64,8 +64,10 @@
 * [PushMessage 普通消息Push服务类型为 (1)]
 * @param [int   ] $Suid    [发送消息者UID]
 * @param [array ] $Rlimits [消息发送的类型：1.应用主页连接，2.应用里的头部连接]
+* @param [array ] $AppNames[指定要发送的应用名称 "URL里的 index.php?App=Home 这个Home就是主页的应用名称"]
 * @param [array ] $Ruids   [消息的接收者UID；注意：必须索引数组]
 * @param [string] $SData   [消息的具体内容]
+* @param [string] $NData   [只用于通知提醒显示，没有业务数据结构]
 
-* @demo  {model('PushServ')->PushMessage(100,array(2,3),array(12,13,5,2,1),'发送的内容')}
+* @demo  {$obj->PushMessage(100,array(2,3,4),array(12,13,5,2,1),'消息的具体内容','通知提醒')}
 
