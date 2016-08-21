@@ -67,7 +67,7 @@
 * @param [array ] $AppNames[指定要发送的应用名称 "URL里的 index.php?App=Home 这个Home就是主页的应用名称"]
 * @param [array ] $Ruids   [消息的接收者UID；注意：必须索引数组]
 * @param [string] $SData   [消息的具体内容]
-* @param [string] $NData   [只用于通知提醒显示，没有业务数据结构]
+* @param [string] $NData   [只用于通知提醒显示，没有业务数据结构，一般用于 手机提醒]
 
 * @demo  {$obj->PushMessage(100,array(2,3,4),array(12,13,5,2,1),'消息的具体内容','通知提醒')}
 
