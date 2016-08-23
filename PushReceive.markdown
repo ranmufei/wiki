@@ -69,5 +69,5 @@
 * @param [string] $SData   [消息的具体内容]
 * @param [string] $NData   [只用于通知提醒显示，没有业务数据结构，一般用于 手机提醒]
 
-* @demo  {$obj->PushMessage(100,array(2,3,4),array(12,13,5,2,1),'消息的具体内容','通知提醒')}
+* @demo  {$obj->PushMessage( 100, array(2,3,4), array('Home','Lore'), array(12,13,5,2,1), '消息的具体内容', '通知提醒' )}
 
