@@ -63,7 +63,7 @@
 
 * [PushMessage 普通消息Push服务类型为 (1)]
 * @param [int   ] $Suid    [发送消息者UID]
-* @param [array ] $Rlimits [消息发送的类型：1.应用主页连接，2.应用里的头部连接]
+* @param [array ] $Rlimits [消息发送的类型[看 self::$PushConnType ]：[2].应用主页连接，[3].应用里的头部连接，[4].为手机端通知连接]
 * @param [array ] $AppNames[指定要发送的应用名称 "URL里的 index.php?App=Home 这个Home就是主页的应用名称"]
 * @param [array ] $Ruids   [消息的接收者UID；注意：必须索引数组]
 * @param [string] $SData   [消息的具体内容]
