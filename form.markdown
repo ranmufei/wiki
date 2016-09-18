@@ -58,10 +58,10 @@ form_vm.change_widget_type("show_form"  , -1 ,0 ,class_ids , class_id)
 form_vm.change_widget_type("show_form") 
 ````
 
-## 3. 保存提交的的表单信息 （保存自定义字段后返回set_id, info_id给你）
+## 3. 保存提交的的表单信息 （如果没有set_id,info_id , 保存自定义字段后返回set_id, info_id给你 , 如果已有，就保存数据）
 ````js
 
-form_vm.change_widget_type("save_form").done(function(data){
+form_vm.change_widget_type("save_form" ,set_id , info_id).done(function(data){
                       console.log("继续执行其他字段的保存" , data)
           }).fail(function(e){
                       console.log("ajax无返回" ,e) 
