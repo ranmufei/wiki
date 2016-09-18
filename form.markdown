@@ -89,7 +89,11 @@ form_vm.change_widget_type("edit_info" ,set_id , info_id ,class_ids , class_id)
 ````js
 
 form_vm.change_widget_type("add_form_class" ,-1 ,0 ,"" ,class_id) ; //添加当前分类的的id ; 
-
+.done(function(data){
+                      console.log("继续执行其他字段的保存" , data)
+          }).fail(function(e){
+                      console.log("ajax无返回" ,e) 
+         })
 ````
 
 ## 7. 清空自定义字段（layer打开或者关闭时执行， 可选）
