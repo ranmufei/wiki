@@ -150,7 +150,7 @@ $result['mystatus'] = 0或1、2        // 0没有审核   1审核同意 2 审核
 
 
 - 方式 : post
-- post data : { id: id} 
+- post data : {id: 当前消息的内容con_id  , notify_id : 当前消息的id }
 
 ```` php
 /** 
@@ -179,7 +179,7 @@ $is_last = 0或1   //0没有最终审核    1已结最终审核了 ,用于判断
 ##  五. 审核详情说明： 
    审核详情的url打开是个完整的页面，可供首页调用，url里面的参数决定详情的不同
 #### 方式 : post
-   post data : { id: id} 
+   post data : {id: 当前消息的内容con_id  , notify_id : 当前消息的id }
 #### 返回:
 - data 详细的数据 
 - status  状态  0失败  1成功
