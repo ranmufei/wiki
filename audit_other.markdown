@@ -39,8 +39,10 @@ post data : {id=数据的ID&reply_text=我同意了&next_uid=6}
 ````
 
 
-## 四. 历史记录的地址返回的数据格式： 
+## 四. 历史记录的地址返回的数据格式：
  
+ type : post ;
+postdata : {id: 当前消息的内容con_id  , notify_id : 当前消息的id }
 ```` php
 /** 驳回
 * @return 返回格式
@@ -63,3 +65,5 @@ $mystatus = 0或1、2        // 0没有审核   1审核同意 2 审核没同意 
 
 ##  五. 审核详情说明： 
    审核详情的url打开是个完整的页面，可供首页调用，url里面的参数决定详情的不同
+  type : post ;
+  postdata : {id: 当前消息的内容con_id  , notify_id : 当前消息的id }
