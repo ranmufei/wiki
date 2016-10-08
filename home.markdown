@@ -22,6 +22,8 @@
 
 * [linksame 文档](linksame_document)
 
+* [rancher 开发相关帮助](rancher-dev)
+
 ### [v7.0 已上线的应用](onlineApp)
 
 ### [发行及升级](versionorupdate)
