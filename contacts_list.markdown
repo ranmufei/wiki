@@ -25,6 +25,7 @@ http://www.apps.com/index.php?app=Comtxl&m=MobileApi&a=phoneBook
 |uid        |              |String |员工id  |
 |name       |              |string |员工姓名   |
 |postName   |              |String |员工职位名  |
+|avatar|              |String |员工头像  |
 |spelling   |              |String |员工姓名拼音全拼(小写) |
 |abbreviation |            |String |员工姓名拼音首字母(大写) |
 |change	(暂时未加入) |      |boolean|true有修改 ，false没有修改 |
