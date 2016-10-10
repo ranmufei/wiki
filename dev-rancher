@@ -6,10 +6,6 @@
 |:--:|:--|:--|
 |base 重启 | model("RancherRan")->base_restart()| base容器重启 |
 |ngxlua 重启 | model("RancherRan")->ngx_restart()| ngxlua容器重启 |
-|database重启 | model("RancherRan")->databases_restart()| 数据库容器重启 |
-| 获取容器名称id| model("RancherRan")->getContainer('base')| 获取容器名称id  参数 为 容器名称 默认返回第一条数据的 容器id|
-
-
 
 
 ## 容器升级说明
