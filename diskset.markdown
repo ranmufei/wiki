@@ -52,13 +52,3 @@ curl -u "CA536FF6119B49B21403:z5KLJ5RVH9gqzL5rrZw45G5LdKP9r5GeFpNAV6ZT" \
 'http://172.17.0.1:8080/v1/projects/1a5/services/1s43/?action=upgrade'
 
 ```
-
-
-
-#### 老系统升级 宿主机的 httpd
-
-- 修改 /home/www/maindata/system/httpd.conf 配置
-
-- 升级 crontab v2.0.9  配置 对于的映射  home:homn   httpd.conf  映射
-
-- 通过 wdcp 后台重启 httpd
