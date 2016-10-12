@@ -1,4 +1,4 @@
-# 万能表单 avalon组件  appLibrary/avalon.appLibrary
+# 关联应用 avalon组件  appLibrary/avalon.appLibrary
 
 ## 说明
 
