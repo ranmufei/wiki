@@ -50,6 +50,10 @@ appVM.info("showAppList",aid)
 //aid 当前行的主键id,比如销售订单的主键id、项目的id等 
 appVM.info("realtedList"  , aid) 
 
+//在组件配置中调用回调方法获取数据
+itemChange：function(data){
+   console.log("data",data); 
+}
 ````
 
 ## 3. 查看某条已关联应用的详情（点击事件时使用，以layer展示）
@@ -59,3 +63,10 @@ appVM.info("detail" ,"" , $index)
 
 ````
 
+## 4. 关闭关联应用弹出框的回调 （用于触发刷新已关联的应用列表）
+````js
+//在组件配置中调用回调方法获取回调事件
+closeAppLibrary：function(){
+   //你刷新已关联应用的事件 
+}
+````
