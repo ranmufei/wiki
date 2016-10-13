@@ -66,7 +66,7 @@ appVM.info("detail" ,"" , $index)
 ## 4. 关闭关联应用弹出框的回调 （用于触发刷新已关联的应用列表）
 ````js
 //在组件配置中调用回调方法获取回调事件
-closeAppLibrary：function(){
+closeAppLibrary:function(){
    //你刷新已关联应用的事件 
 }
 ````
