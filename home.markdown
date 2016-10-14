@@ -150,6 +150,7 @@
 -[进销存](app_jixniao)
 
 - [应用配置说明](appinforead) `20150828`
+-[商品属性和订单属性](property) `20161014`
 
 # 公共函数帮助查询
 
@@ -160,4 +161,4 @@
  * [markdown 语法](markdownWiki)
 
  * [wiki语法的使用](wikihelp)
-
+#
