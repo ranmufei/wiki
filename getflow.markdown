@@ -1,6 +1,14 @@
 # 审核流组件
 
 ## 引入方式
+
+### html代码
+````html
+<div ms-widget="getflow,$,$getflow" ></div>
+````
+
+
+
 ### js代码
 ````js
  require(['flow/getflow'])
@@ -18,10 +26,6 @@ $getflow :{
 }
 ````
 
-### html代码
-````html
-<div ms-widget="getflow,$,$getflow" ></div>
-````
 
 ## 使用方法
 
