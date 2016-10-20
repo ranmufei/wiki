@@ -39,7 +39,16 @@ $getflow :{
 ````html
     直接在引入<div ms-widget="getflow,$,$getflow" ms-duplex="你绑定的uid"></div>
 ````
-### 判断当前人审核人及流程（申请人提交时使用）
-````html
-    直接在引入<div ms-widget="getflow,$,$getflow" ms-duplex="你绑定的uid"></div>
+### 判断是否有提交下一步审核（是否显示下一步审核按钮）
+     如上面的    btnChange回调
+
+### 显示下一个审核人（通过并提交给下一个人审核使用）
+````js
+    *  添加审核，提交下一步审核时调用
+       * uid   审核发起人的uid , 注意是发起人，不一定是当前人的，
+       * step  当前审核步骤，从申请人开始0 ，1，2,3,4,5   最多为5 ， 注意此为非常关键参数
+       * condition  当前审核的条件，格式为数组, 如condition['money'] = 500 ， condition['number'] = 20
+      */  
+   flowVM.getFlow(uid,step,condition)  
+                  
 ````
