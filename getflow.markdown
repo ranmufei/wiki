@@ -47,7 +47,7 @@ $getflow :{
     *  添加审核，提交下一步审核时调用
        * uid   审核发起人的uid , 注意是发起人，不一定是当前人的，
        * step  当前审核步骤，从申请人开始0 ，1，2,3,4,5   最多为5 ， 注意此为非常关键参数
-       * condition  当前审核的条件，格式为数组, 如condition['money'] = 500 ， condition['number'] = 20
+       * condition  当前审核的条件，格式为数组, 如condition['money'] = 500 ， condition['number'] = 20 , 没有就留空
       */  
    flowVM.getFlow(uid,step,condition)  
                   
