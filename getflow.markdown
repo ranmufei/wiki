@@ -23,7 +23,7 @@ $getflow :{
         onInit : function(vmodels){
              flowVM  = vmodels ; 
         },
-        //用于是否显示提交下一步审核按钮, flow_type流程类型0自由类型心，1固定类型，is_last是否最后一个人，1是，0否，为1时就没有提交给下                   一个人审核的按钮了！！！！！！
+        //用于是否显示提交下一步审核按钮, flow_type流程类型0自由类型心，1固定类型，is_last是否最后一个人，1是，0否，为1时就没有提交给下一个人审核的按钮了！！！！！！
        btnChange:function(flow_type , is_last){
               if(flow_type==1 && is_last == 1){
                  //把提交下一步审核按钮的按钮隐藏掉.
