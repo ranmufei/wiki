@@ -4,7 +4,7 @@
 
 ### html代码
 ````html
-<div ms-widget="getflow,$,$getflow" ></div>
+<div ms-widget="getflow,$,$getflow" ms-duplex="你绑定的uid"></div>
 ````
 
 
@@ -37,7 +37,7 @@ $getflow :{
 
 ### 1.提交时获取当前的审核人及流程（申请人提交时使用）
 ````html
-    直接在引入<div ms-widget="getflow,$,$getflow" ms-duplex="你绑定的uid"></div>
+    <div ms-widget="getflow,$,$getflow" ms-duplex="你绑定的uid"></div>
 ````
 ### 2.判断是否有提交下一步审核（是否显示下一步审核按钮）
      如上面的    btnChange回调
