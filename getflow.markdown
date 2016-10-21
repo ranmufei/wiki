@@ -52,3 +52,28 @@ $getflow :{
    flowVM.getFlow(uid,step,condition)  
                   
 ````
+
+
+##  在应用里面调用流程设置（注意引用的组件不一样了！）
+  ````html
+<div ms-widget="flow,$,$flow"></div>
+````
+
+````
+````js
+ require(['flow/flow'])
+var flowVM = null
+
+
+/*配置参数*/
+$getflow :{
+        node : "" ,  //当前审核节点名称 , 注意跟node.php中配置的节点一致  ， 注意此为非常关键参数
+        onInit : function(vmodels){
+             flowVM  = vmodels ; 
+        }
+
+
+//触发layer弹出框事件：
+flowVM.setFlow_one();
+
+```
