@@ -315,3 +315,4 @@
 * [逾期统计分析](OverdueMobile_getData)
 * [客户来源分析](SourceMobile_getData)
 * [首页提醒](IndexMobile_getInfo)
+* [检测手机号码是否存在](ClientInfoMobile_verification)
