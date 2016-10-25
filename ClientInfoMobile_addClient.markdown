@@ -32,6 +32,6 @@ post
      reception  array  意向信息
 
                      brand_id:'',                string     车辆id
-
+    recep       int    接待id
 
      return  0 添加失败      1 添加成功 
