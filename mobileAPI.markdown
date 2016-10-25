@@ -316,3 +316,4 @@
 * [客户来源分析](SourceMobile_getData)
 * [首页提醒](IndexMobile_getInfo)
 * [检测手机号码是否存在](ClientInfoMobile_verification)
+* [建卡初始化信息](ClientInfoMobile_exploit)
