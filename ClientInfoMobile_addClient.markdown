@@ -27,6 +27,7 @@ post
                  source_id          客户来源id
                  certificate_type   证件类型
                  certificate_code   证件编号
+                 made_place_id      建卡渠道  6 店内  7 电话  8 店外
 
      reception  array  意向信息
 
