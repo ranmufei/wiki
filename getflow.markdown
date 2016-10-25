@@ -11,7 +11,7 @@
 
 ### js代码
 ````js
- require(['flow/getflow'])
+ require(['flow/avalon.getflow'])
 var flowVM = null
 
 
