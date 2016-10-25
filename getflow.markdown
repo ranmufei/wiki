@@ -18,7 +18,7 @@ var flowVM = null
 /*配置参数*/
 $getflow :{
         node : "" ,  //当前审核节点名称 , 注意跟node.php中配置的节点一致  ， 注意此为非常关键参数
-        step:null , //当前审核步骤，从申请人开始0 ，1，2,3,4,5   最多为5 ， 注意此为非常关键参数
+        step:null , //当前审核步骤，从申请人开始0 ，1，2,3,4,5   最多为5 ， 注意此为非常关键参数 , 不配置step就默认选择有权限的员工
         is_showFlow : true ,  //是否显示审核流程图
         onInit : function(vmodels){
              flowVM  = vmodels ; 
