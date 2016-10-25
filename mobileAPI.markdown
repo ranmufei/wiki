@@ -317,3 +317,4 @@
 * [首页提醒](IndexMobile_getInfo)
 * [检测手机号码是否存在](ClientInfoMobile_verification)
 * [建卡初始化信息](ClientInfoMobile_exploit)
+* [提交客户信息](ClientInfoMobile_addClient)
