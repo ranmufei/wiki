@@ -319,3 +319,4 @@
 * [建卡初始化信息](ClientInfoMobile_exploit)
 * [提交客户信息](ClientInfoMobile_addClient)
 * [客户跟进](ClientInfoMobile_track)
+* [查询待完善客户](ClientInfoMobile_wanshan)
