@@ -26,6 +26,7 @@ post
                  track_aim          跟进目的（下次）
                  track_reason       跟进理由   
                  plan_date          计划时间
+                 earnest_money      定金
                  
 
 
