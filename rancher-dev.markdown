@@ -53,7 +53,7 @@ curl -u "CA536FF6119B49B21403:z5KLJ5RVH9gqzL5rrZw45G5LdKP9r5GeFpNAV6ZT" \
 
 ```
 
-
+## base 容器升级完成后 需要重启 nginx 容器
 
 #### 老系统升级 宿主机的 httpd
 
