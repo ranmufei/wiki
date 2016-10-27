@@ -34,4 +34,6 @@ post
                      brand_id:'',                string     车辆id
      recep       int    接待id
 
+     birthday    生日
+
      return  0 添加失败      1 添加成功 
