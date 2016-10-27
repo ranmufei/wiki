@@ -26,13 +26,16 @@
 
 ```
 
-#参考案例
+#参考案例   例如执行升级需要用 宿主机 执行 切 执行base升级需要重启nginxlua
 
-	function run_shell_file(){
-          exec('/bin/sh /app/web/system/sh/rancher/crontab_upgrade.sh');
+    function run_shell_file(){
+         // exec('/bin/sh /app/web/system/sh/rancher/crontab_upgrade.sh');
+         $url="/sh/rancher/linksamephp_upgrade_vB.3.php";
+ 	 	$info=Model("RancherRan")->internal_host($url);
+ 	 	return $info;
     }
 
-
+   
 
 ```
 
