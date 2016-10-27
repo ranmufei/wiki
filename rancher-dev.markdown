@@ -57,8 +57,16 @@ curl -u "CA536FF6119B49B21403:z5KLJ5RVH9gqzL5rrZw45G5LdKP9r5GeFpNAV6ZT" \
 
 #### 老系统升级 宿主机的 httpd
 
-- 修改 /home/www/maindata/system/httpd.conf 配置
+- crontab 容器 修改 /home/www/maindata/system/httpd.conf 配置
 
 - 升级 crontab v2.0.9  配置 对于的映射  home:homn   httpd.conf  映射
 
-- 通过 wdcp 后台重启 httpd
+- 
+
+- 通过 wdcp 后台重启 httpd;;   'rm /etc/httpd/conf/.httpd.conf.swp'
+
+- chmod 777 '/home/database/' -R'  
+
+- 复制 crontab v2.0.9 中的 usr/bin/jq  到 宿主机的 /usr/bin 中  , 可通过新建一个容器 crontab 映射目录 /home  /usr /etc 来实施
+
+- 重启 nginxdev 容器
