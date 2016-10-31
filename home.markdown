@@ -95,6 +95,7 @@
 
 | 组件名称 |  类型  |  描述  |
 | :-- | ----:| :--: |
+|[在线Office组件(avalon)](office) `新`  | Avalon | office文档在线查看操作组件 `2016-10-31`|
 |[审核流组件(avalon)](getflow) `新`  | Avalon | 应用关联组件 `2016-10-19`|
 |[应用关联组件(avalon)](appLibrary) `新`  | Avalon | 应用关联组件 `2016-10-12`|
 |[云采购产品组件(avalon)](choseproduct) `新`  | Avalon | 云采购产品组件 `2016-06-29`|
