@@ -25,6 +25,9 @@
      onInit: function(vmodels){
          uploadnewVM= vmodels ;
 
+     },
+     sureCallback:function(){   //点击完成后的回调
+        getProductList();       //  此处执行列表更新
      }
    }
 ````
@@ -50,4 +53,3 @@
 
 
 ````
-
