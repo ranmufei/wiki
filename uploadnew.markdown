@@ -1,72 +1,53 @@
-# 关联应用 avalon组件  appLibrary/avalon.appLibrary
+# 导入 avalon组件  uploadnew/uploadnew
 
-## 说明
 
-  > 直接在一个应用里面关联另外的应用
-
-  > 应用场景例如： 关联工作流（可以直接新增工作流）、关联项目  ；
-
-  > js引入方式：require(['appLibrary/avalon.appLibrary'])
 
 ## 具体使用
 
 一. 引入
 ````js
 //js引入方式
-    require(['appLibrary/avalon.appLibrary'])
+    require(['uploadnew/uploadnew'])
 ````
 ````html
 <!-- html引入-->
-      <div ms-widget="appLibrary,$,$appLibrary"></div>
+      <div ms-widget="uploadnew,$,uploadnew"></div>
 ````
 #### 配置方式：
 ````js
 // 在定义avalon模板前 
- var appVM = null;
+ var uploadnewVM= null;
 
 //组件配置
-   $form:{
-     set_name :你的app_name加上id , //你的app_name加上id , id从0开始，注意不能重复，一旦定义后不能修改
-     itemChange: function(data){  //获取已关联应用的列表,这里是回调
-          console.log('data' , data)
-      } ,
+   uploadnew:{
+     downUrl:'/App/Invoicimg/static/moban.xls',  //下载模板地址
+     uploadUrl:'/index.php?app=Invoicimg_Suppliers&m=Product&a=suppliesLoade_new' // 导入exexl后台php处理路径
      onInit: function(vmodels){
-         appVM = vmodels ;
+         uploadnewVM= vmodels ;
 
      }
-}
+   }
 ````
-#### 接口调用:
+#### 注意事项:
 
-## 1. 可以关联的应用的列表( 触发 弹出layer框)
+## 1. 导入提交的方式 'post' 
 ````js
-//aid 当前行的主键id,比如销售订单的主键id、项目的id等 
-appVM.info("showAppList",aid) 
+后台接受参数   path   //导入文件的路劲
 
 ````
 
-## 2. 已关联应用的列表 （ 返回的是一个json对象 ，需要你自己展示）
+## 2. 后台处理数据后的返回格式
 ````js
-//aid 当前行的主键id,比如销售订单的主键id、项目的id等 
-appVM.info("realtedList"  , aid) 
 
-//在组件配置中调用回调方法获取数据
-itemChange：function(data){
-   console.log("data",data); 
-}
-````
+      $result['wrongData']['data']=$wrongData;  //错误数据
+      $result['wrongData']['header']=array('原料编码/料号','原料名称/品名规格','原料分类','供应商','成本','单位','备注','错误提示');   //导出文档的表头
+      $result['wrongData']['title'] ='原料错误数据导出'; //导出文件名 
+      $result['wrongData']['list']  ='H';              //显示错误的单元格列
+      $result['rightnum'] =$rightnum;                  //导入成功的数量
+      $result['wrongnum'] =$wrongnum;                  //导入失败的数量
+      $result['status']=1;                                
+      $result['type']=1;     // 1 非严格模式，成功导入，错误导出；   0 只要出现错误就返回  
 
-## 3. 查看某条已关联应用的详情（点击事件时使用，以layer展示）
-````js
-//$index   当前行的索引，从0开始
-appVM.info("detail" ,"" , $index) 
 
 ````
 
-## 4. 关闭关联应用弹出框的回调 （用于触发刷新已关联的应用列表）
-````js
-//在组件配置中调用回调方法获取回调事件
-closeAppLibrary:function(){
-   //你刷新已关联应用的事件 
-}
-````
