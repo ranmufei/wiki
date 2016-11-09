@@ -45,7 +45,7 @@
       $result['wrongData']['list']  ='H';              //显示错误的单元格列
       $result['rightnum'] =$rightnum;                  //导入成功的数量
       $result['wrongnum'] =$wrongnum;                  //导入失败的数量
-      $result['status']=1;                                
+      $result['status']=1;   //无论导入成功与否  返回都是1    存在数据插入失败 网络延迟 数据回滚 返回0                              
       $result['type']=1;     // 1 非严格模式，成功导入，错误导出；   0 只要出现错误就返回  
 
 
