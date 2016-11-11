@@ -74,6 +74,7 @@
 ## * [元数据接口整理](rootAPI) `新 2016-03-25`
 ## - [移动端API列表](mobileAPI)
 ## - [移动端需求列表](mobileDemand)
+## - [移动端根据cid获取Linksame移动应用列表](webmobile)
 
 # 辅助开发说明
 * [私有盘模板在线查阅](http://192.168.1.241/moban/matrix-admin00/)
