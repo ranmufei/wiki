@@ -2,6 +2,8 @@
 ### **请求接口**
 /index.php?app=Customer&m=MIndex&a=today_richen
 
+/index.php?app=Customer&m=Mreport&a=report_month  //首页数据
+
 ### **接口说明**
 
 ### **请求方式**
