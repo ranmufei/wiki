@@ -32,9 +32,10 @@ status: "error",
 
 
 
-{count: "81",
-totalPages: 5,
-nowPage: 1,
+{
+count: "81",      //总条数
+totalPages: 5,    //页数
+nowPage: 1,       //当前页
 data:[
   {
      id: "7",      
