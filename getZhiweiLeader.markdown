@@ -12,7 +12,9 @@ get
 ### **浏览器查看**
 http://www.apps.com/index.php?app=Legwork&m=MLegwork&a=getZhiweiLeader&access_token=
 
-http://www.apps.com/index.php?app=Legwork&m=MLegwork&a=carcustom汽车客户列表
+http://www.apps.com/index.php?app=Legwork&m=MLegwork&a=carcustom   //汽车客户列表
+
+http://www.apps.com/index.php?app=Legwork&m=MLegwork&a=isopen   //判断客户和汽车客户管理应用是否开启
 
 
 ### **返回结果**
@@ -51,4 +53,10 @@ data:[
      app: "Car"
    }
 ]
+}
+
+************判断客户和汽车客户管理应用是否开启*******************
+{
+Customer: 1,
+Car: 1
 }
