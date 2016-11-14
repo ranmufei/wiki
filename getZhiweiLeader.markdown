@@ -10,9 +10,9 @@
 get
 
 ### **浏览器查看**
-http://www.apps.com/index.php?app=Customer&m=MLegwork&a=getZhiweiLeader&access_token=
+http://www.apps.com/index.php?app=Legwork&m=MLegwork&a=getZhiweiLeader&access_token=
 
-http://www.apps.com/index.php?app=MLegwork&m=Index&a=carcustom汽车客户列表
+http://www.apps.com/index.php?app=Legwork&m=MLegwork&a=carcustom汽车客户列表
 
 
 ### **返回结果**
