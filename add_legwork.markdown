@@ -24,7 +24,7 @@ http://www.apps.com/index.php?app=Customer&m=MLegwork&a=add_legwork&access_token
 |lng        |  *           | string  |经度       |
 |lat        |  *           | string  | 维度      |
 |mark       |              | string  | 备注      |
-|type       |              | int  | 0为客户1为线索 ,如果选择了线索就不能选联系人      |
+|type       |              | int  | 0为客户1为线索2为汽车客户 ,如果选择了线索和汽车客户就不能选联系人      |
 |file       |            |      |上传的附件|
 
 ### **添加字段**
