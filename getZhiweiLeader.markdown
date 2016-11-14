@@ -29,17 +29,25 @@ info: "没有下属",
 status: "error",                     
 }
 
-[
-{
-id: "7",      
-name: "test9",        //客户名称
-phone: "13349888009",  //电话
-source_id: "2",
-nsale_id: "1",
-orginal_status: "5",  
-source: "老客户介绍",   //来源
-status: "已成交",      状态
-sale_name: "庆丰包子",   //负责人
-app: "Car"
-}
+
+
+
+{count: "81",
+totalPages: 5,
+nowPage: 1,
+data:[
+  {
+     id: "7",      
+     name: "test9",        //客户名称
+     phone: "13349888009",  //电话
+     source_id: "2",
+     nsale_id: "1",
+     orginal_status: "5",  
+     source: "老客户介绍",   //来源
+     status: "已成交",      //状态
+     sale_name: "庆丰包子",   //负责人
+     time: "03-29 16:48",    //创建时间
+     app: "Car"
+   }
 ]
+}
