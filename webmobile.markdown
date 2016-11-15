@@ -21,9 +21,39 @@
 /index.php?app=MobileUserApps&m=Api&a=list; 
 ````
 
-**获取方式**： get;
+**获取方式**： get/post;
 
 * @param cid integer [公司cid]
 * @param uid integer [用户uid]
 * @return data array [列表]
+* @return status integer [状态 0失败 1成功]
+
+
+## 3. 添加个人应用from移动应用库
+
+**接口**: 
+````php 
+/index.php?app=MobileUserApps&m=Api&a=add; 
+````
+
+**获取方式**： get/post;
+
+* @param cid integer [公司cid]
+* @param uid integer [用户uid]
+* @param appkey string [应用的key]
+* @return status integer [状态 0失败 1成功]
+
+
+## 4. 删除个人应用
+
+**接口**: 
+````php 
+/index.php?app=MobileUserApps&m=Api&a=del; 
+````
+
+**获取方式**： get/post;
+
+* @param cid integer [公司cid]
+* @param uid integer [用户uid]
+* @param appkey string [应用的key]
 * @return status integer [状态 0失败 1成功]
