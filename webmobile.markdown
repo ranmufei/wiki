@@ -2,12 +2,12 @@
 
 ## 1. 手机端全部应用列表
 
-   ** -接口**: 
+-**接口**: 
 ````php 
 /index.php?app=Appstore&m=Api&a=mobileFilterApp ; 
 ````
 
-** -获取方式**： get;
+-**获取方式**： get;
 
   *  @param cid  integer 必填 [公司cid]
   *  @param type  string  可选 [应用类型]
