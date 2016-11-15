@@ -2,7 +2,7 @@
 
 ## 1. 手机端全部应用列表
 
-   接口: 
+   **接口**: 
 ````php 
 /index.php?app=Appstore&m=Api&a=mobileFilterApp ; 
 ````
