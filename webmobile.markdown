@@ -18,7 +18,7 @@
 
 **接口**: 
 ````php 
-/index.php?app=MobileUserApps&m=Api&a=list; 
+/index.php?app=Home&m=MobileUserApps&a=list; 
 ````
 
 **获取方式**： get/post;
@@ -33,7 +33,7 @@
 
 **接口**: 
 ````php 
-/index.php?app=MobileUserApps&m=Api&a=add; 
+/index.php?app=Home&m=MobileUserApps&a=add; 
 ````
 
 **获取方式**： get/post;
@@ -48,7 +48,7 @@
 
 **接口**: 
 ````php 
-/index.php?app=MobileUserApps&m=Api&a=del; 
+/index.php?app=Home&m=MobileUserApps&a=del; 
 ````
 
 **获取方式**： get/post;
