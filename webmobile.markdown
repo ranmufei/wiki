@@ -1,7 +1,11 @@
 # 手机端引用Linksame接口列表
 
 ## 1. 手机端全部应用列表
-   接口: /index.php?app=Appstore&m=Api&a=mobileFilterApp ; 
+
+   接口: 
+````php 
+/index.php?app=Appstore&m=Api&a=mobileFilterApp ; 
+````
 
    获取方式： get;
 
