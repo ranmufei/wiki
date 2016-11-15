@@ -7,7 +7,7 @@
 /index.php?app=Appstore&m=Api&a=mobileFilterApp ; 
 ````
 
-   获取方式： get;
+**获取方式**： get;
 
   *  @param cid  integer 必填 [公司cid]
   *  @param type  string  可选 [应用类型]
