@@ -18,7 +18,7 @@
 
 **接口**: 
 ````php 
-/index.php?app=Home&m=MobileUserApps&a=list; 
+/index.php?app=Home&m=MobileUserApps&a=lists; 
 ````
 
 **获取方式**： get/post;
