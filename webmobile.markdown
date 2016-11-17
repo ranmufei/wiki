@@ -4,6 +4,8 @@
 
 **接口**: 
 ````php 
+kaifa.linksame.com
+www.linksame.com
 /index.php?app=Appstore&m=Api&a=mobileFilterApp ; 
 ````
 
