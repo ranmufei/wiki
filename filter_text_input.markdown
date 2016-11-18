@@ -1,6 +1,6 @@
 ## 富文本编辑器资源转换（PHP）
 
-## 模型 (FilterTextModel.class.php)
+### 模型 (FilterTextModel.class.php)
 
 ### - 使用方法很简单
 
