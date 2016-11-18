@@ -2,7 +2,7 @@
 
 ### **请求接口**
 /index.php?app=Customer&m=MLegwork&a=add_legwork
-
+/index.php?app=Legwork&m=MLegwork&a=add_legwork  //新接口
 ### **接口说明**
 `分页`
 
