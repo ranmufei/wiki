@@ -3,6 +3,8 @@
 ### **请求接口**
 /index.php?app=Customer&m=MLegwork&a=lists
 
+/index.php?app=Legwork&m=MLegwork&a=lists   //新接口 数据都一样
+
 ### **接口说明**
 `分页`
 
