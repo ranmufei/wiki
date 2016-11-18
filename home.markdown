@@ -56,6 +56,7 @@
 * [汉字转拼音PHP](fztopy)
 * [初始化数据写在配置文件中](Initial_config)
 * [云应用授权SDK文档](sdk)
+* [富文本编辑器，“复制外部网页资源转换至本地资源”和“A标签打开默认浏览器”](filter_text_input)
 
 ## [手机短信/电话接口](yunxin)
 ## [首页消息接口列表](indexMessageApi)
