@@ -5,5 +5,7 @@
 ### - 使用方法很简单
 
 ```php
-model("FilterText")->exec( $testHTML );
+
+$newTextHTML = model("FilterText")->exec( $textHTML );
+
 ```
