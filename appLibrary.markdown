@@ -25,15 +25,21 @@
  var appVM = null;
 
 //组件配置
-   $form:{
+   $apps:{
      set_name :你的app_name加上id , //你的app_name加上id , id从0开始，注意不能重复，一旦定义后不能修改
+     selectApps:"all" , // 默认关联所有已有的的app , 关联单个应用的应写单个应用的key值，如只关联售后请写'aftersales'，Workflow工作    流，Pmanager项目管理
      itemChange: function(data){  //获取已关联应用的列表,这里是回调
           console.log('data' , data)
       } ,
      onInit: function(vmodels){
          appVM = vmodels ;
 
-     }
+     },
+    selectInfo : function(data){  //获取当前选中的数据,这里是回调
+          console.log('data' , data)
+          //data.title  关联的标题
+           //data.wid   关联的主键
+      } ,
 }
 ````
 #### 接口调用:
