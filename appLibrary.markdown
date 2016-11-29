@@ -27,7 +27,7 @@
 //组件配置
    $apps:{
      set_name :你的app_name加上id , //你的app_name加上id , id从0开始，注意不能重复，一旦定义后不能修改
-     selectApps:"all" , // 默认关联所有已有的的app , 关联单个应用的应写单个应用的key值，如只关联售后请写'aftersales'，Workflow工作    流，Pmanager项目管理
+     selectApps:"all" , // 默认关联所有已有的的app , 关联单个应用的应写单个应用的key值，如只关联售后:'AfterSalers'，Workflow:工作    流，Pmanager:项目管理
      itemChange: function(data){  //获取已关联应用的列表,这里是回调
           console.log('data' , data)
       } ,
@@ -75,4 +75,11 @@ appVM.info("detail" ,"" , $index)
 closeAppLibrary:function(){
    //你刷新已关联应用的事件 
 }
+````
+
+## 5.获取某个应用的数据接口changeApps
+````js
+//$key应用的key
+//售后:'AfterSalers'，Workflow:工作流，Pmanager:项目管理
+appVM.changeApps($key)
 ````
