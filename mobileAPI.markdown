@@ -12,6 +12,7 @@
 * [接口列表](sale_api_list)
 
 ### 售后管理
+* [接口列表](AfterSalers_api_list)
 
 ### 进销存
 * [产品管理](Invoicimg_api_product)
