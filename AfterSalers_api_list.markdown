@@ -1,2 +1,14 @@
 ### **首页**
- - [售后单查询](search) 
+ - [报修线索](clue_index) 
+ - [我的线索](myclue_index)
+ - [售后单管理](fxd_index)
+ - [技术检测](check_index)
+### **维修单管理**
+ - [商品自修](zixiu_index)
+ - [物料单](materal_index)
+ - [返厂维修](fanchang_index)
+ - [商品换货](tuihuo_index)
+ - [商品退货](huanhuo_index)
+ - [商品延保](yanbao_index)
+### **维修单管理**
+ - [我的维修单](myfxd_index)
