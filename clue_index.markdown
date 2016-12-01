@@ -4,7 +4,7 @@ index.php?app=AfterSalers&m=Clue&a=getClueOrder
 
 
 ### **公网测试**
-http://www.apps.com/index.php?app=AfterSalers&m=Clue&a=getClueOrder&access_token=
+http://www.apps.com/index.php?app=AfterSalers&m=ClueMobile&a=getClueOrder&access_token=
 
 ### **请求方式**
 get
@@ -17,3 +17,4 @@ get
 
 ### **返回结果**
 |字段        |值          |类型    |说明        |
+![QQ图片20161201190230](http://192.168.1.240/uploads/ranmufei/apps/a2122a337b/QQ%E5%9B%BE%E7%89%8720161201190230.png)
