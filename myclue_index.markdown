@@ -19,4 +19,5 @@ get
 | dateTo| 否 | 结束时间   |
 | _type| 否 | 0 未审核线索  1 已审核线索 2 已完成线索   |
 
-### **返回结果**![大概](http://192.168.1.240/uploads/ranmufei/apps/aa15746659/%E5%A4%A7%E6%A6%82.png)
+### **返回结果**
+![大概](http://192.168.1.240/uploads/ranmufei/apps/aa15746659/%E5%A4%A7%E6%A6%82.png)
