@@ -69,6 +69,7 @@
 - SnsApi::cApi('Company/userList',$oauthArr);
 
 >  请求接口 SnsApi::cApi('接口地址','数组参数')
+- 微信会员、商城会员、连锁会员与会员中心数据交互接口(vip)
  
 
 # 接口
