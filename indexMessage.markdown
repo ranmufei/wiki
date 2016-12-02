@@ -28,7 +28,7 @@
 */
         $data['title'] = $arr['title'];       // 标题说明 
         $data['content'] = $arr['content'];  // 大概内容描述
-        $data['from'] = ""   ,   //应用的key值 ，注意拆分的应用必填，一定要填写拆分后的应用的key ，非拆分的应用可自动获取key  20160221新增
+        $data['from'] = ""   ,   //应用的key值 ，注意拆分的应用必填，一定要填写拆分后的应用的key ，非拆分的应用可自动获取key  ,20160221新增 ,一个应用中多有个类型的消息，配置from时直接在后面加-1,-2等
         $data['link'] = $arr['link'];       //查看详情跳转地址
         $data['receive'] = $arr['receive'];       //接受者uid
         $data['menu_id'] = 0 ;  // menu.html中左侧菜单对应的id ;
@@ -49,7 +49,7 @@
         // 必填
         $data['title'] = $arr['title'];       // 标题说明
         $data['content'] = $arr['content'];  // 大概内容描述
-        $data['from'] = ""   ,   //应用的key值 ，注意拆分的应用必填，一定要填写拆分后的应用的key ，非拆分的应用可自动获取key  20160221新增
+        $data['from'] = ""   ,   //应用的key值 ，注意拆分的应用必填，一定要填写拆分后的应用的key ，非拆分的应用可自动获取key  20160221新增,一个应用中多有个类型的消息，配置from时直接在后面加-1,-2等
         $data['link'] = $arr['link'];       //查看详情跳转地址
         $data['type'] = 4 ; 
         $data['check_url'] = $arr['check_url'] ;    // 点击确定的php处理地址
