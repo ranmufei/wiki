@@ -1,5 +1,5 @@
 ### **请求接口**
-index.php?app=AfterSalers&m=FxdclZxMobile&a=getCheckOrder
+index.php?app=AfterSalers&m=FxdclZxMobile&a=getFcOrder
 
 
 
