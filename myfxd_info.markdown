@@ -1,5 +1,5 @@
 ### **请求接口**
-index.php?app=AfterSalers&m=MyFxdMobile&a=getFxdDetails
+index.php?app=AfterSalers&m=MyFxdMobile&a=getRxdFcDetails
 
 
 
