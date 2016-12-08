@@ -6,6 +6,7 @@
  - [报修线索详情](clue_info)
  - [分类列表](clue_cate)
  - [获取订单列表](clue_order)
+ - [订单下产品列表](clue_goods)
  
 -----------我的线索--------------
  - [我的线索首页](myclue_index)
