@@ -1,10 +1,10 @@
 ### **请求接口**
-index.php?app=AfterSalers&m=FxdMobile&a=getSystemConfig
+index.php?app=AfterSalers&m=ClueMobile&a=getSystemConfig
 
 
 
 ### **公网测试**
-http://www.apps.com/index.php?app=AfterSalers&m=FxdMobile&a=getSystemConfig&access_token=
+http://www.apps.com/index.php?app=AfterSalers&m=ClueMobile&a=getSystemConfig&access_token=
 
 ### **请求方式**
 get
