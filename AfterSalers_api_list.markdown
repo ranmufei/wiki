@@ -7,6 +7,7 @@
  - [分类列表](clue_cate)
  - [获取订单列表](clue_order)
  - [订单下产品列表](clue_goods)
+ - [得到各类状态列表](clue_status)
  
 -----------我的线索--------------
  - [我的线索首页](myclue_index)
