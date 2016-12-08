@@ -4,3 +4,4 @@
 * [产品列表](Invoicimg_api_productlist)
 * [产品详情](Invoicimg_api_details)
 * [分类列表](Invoicimg_api_cate)
+* [产品规格列表](Invoicimg_Formatapi_cate)
