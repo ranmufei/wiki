@@ -10,6 +10,7 @@
  - [得到各类状态列表](clue_status)
  - [得到产品列表](clue_list)
  - [得到系统配置](clue_config)
+ - [线索提交](clue_tijiao)
  
 -----------我的线索--------------
  - [我的线索首页](myclue_index)
