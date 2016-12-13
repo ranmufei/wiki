@@ -8,7 +8,6 @@ get
 http://www.apps.com/index.php?app=Customer&m=MLegwork&a=count_lists
 
 ### **公共参数** 
-
 p=1  //分页
 module //类型    thread（销售线索）   custom （客户管理）  contacts（联系人）   chance （销售机会）   
 num=20   //每页显示的数量
