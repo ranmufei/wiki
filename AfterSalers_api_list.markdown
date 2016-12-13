@@ -32,6 +32,7 @@
  - [得到处理人](zixiu_deal)
  - [得到物料处理人](zixiu_wuliao)
  - [自修单分配](zixiu_fenpei)
+ - [物料单提交](zixiu_sub)
 
 -----------物料单--------------
  - [物料单](materal_index)
