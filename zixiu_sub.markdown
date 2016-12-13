@@ -14,14 +14,25 @@ post
 |------|-----|------|
 | data| 是 |array 具体如下|
 Supdata:{   //物料单对应的数据
-            rid:'',   //售后单id
-            r_order:'',  //售后单 order
-            c_id:'',     //顾客id
-            c_name:'',  //顾客name
-            sh_uid:'',  //审核人 id
-            js_id:'',    //经手人 id
-            js_uname:'',   //经手人name
-            remark:'',   //备注
-            supplies:[],  //物料
-            num:0,        //物料数量
-        },
+            
+rid:'',   //售后单id
+            
+r_order:'',  //售后单 order
+            
+c_id:'',     //顾客id
+           
+ c_name:'',  //顾客name
+            
+sh_uid:'',  //审核人 id
+            
+js_id:'',    //经手人 id
+            
+js_uname:'',   //经手人name
+            
+remark:'',   //备注
+            
+supplies:[],  //物料
+            
+num:0,        //物料数量
+       
+ },
