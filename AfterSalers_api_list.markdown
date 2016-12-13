@@ -30,6 +30,7 @@
  - [商品自修](zixiu_index)
  - [商品自修详请](zixiu_info)
  - [得到处理人](zixiu_deal)
+ - [自修单分配](zixiu_fenpei)
 
 -----------物料单--------------
  - [物料单](materal_index)
