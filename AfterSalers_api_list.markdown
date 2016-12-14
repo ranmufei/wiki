@@ -50,14 +50,20 @@
 -----------商品换货--------------
  - [商品换货](huanhuo_index)
  - [商品换货详情](huanhuo_info)
+ - [换货分配](huanhuo_fenpei)
+ - [换货完成](huanhuo_wancheng)
 
 -----------商品退货--------------
  - [商品退货](tuihuo_index)
  - [商品退货详请](tuihuo_info)
+ - [退货分配](tuihuo_fenpei)
+ - [退货完成](tuihuo_wancheng)
 
 -----------商品延保--------------
  - [商品延保](yanbao_index)
  - [商品延保详请](yanbao_info)
+ - [延保分配](yanbao_fenpei)
+ - [延保完成](yanbao_wancheng)
 
 ### **维修单管理**
 -----------我的维修单--------------
