@@ -44,6 +44,7 @@
  - [返厂维修详请](fanchang_info)
  - [返厂维修返厂](fanchang_fini)
  - [返厂维修分配](fanchang_fenpei)
+ - [返厂维修完成](fanchang_wancheng)
 
 -----------商品换货--------------
  - [商品换货](huanhuo_index)
