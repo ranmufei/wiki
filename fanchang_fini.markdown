@@ -1,9 +1,9 @@
 ### **请求接口**
-index.php?app=AfterSalers&m=FxdclZxMobile&a=fcRxdAllOrder
+index.php?app=AfterSalers&m=FxdclFcMobile&a=fcRxdAllOrder
 
 
 ### **公网测试**
-http://www.apps.com/index.php?app=AfterSalers&m=FxdclZxMobile&a=fcRxdAllOrder&access_token=
+http://www.apps.com/index.php?app=AfterSalers&m=FxdclFcMobile&a=fcRxdAllOrder&access_token=
 
 ### **请求方式**
 get
