@@ -72,4 +72,6 @@
  - [我的维修单](myrxd_index)
  - [我的维修单详请](myfxd_info)
  - [我的维修单转发](myfxd_zf)
+ - [得到故障原因](myfxd_wx)
+ - [得到维修项目](myfxd_xm)
  - [我的维修单完成](myfxd_fif)
