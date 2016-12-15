@@ -74,4 +74,6 @@
  - [我的维修单转发](myfxd_zf)
  - [得到故障原因](myfxd_wx)
  - [得到维修项目](myfxd_xm)
+ - [维修故障分配](myfxd_wxfp)
+ - [维修项目分配](myfxd_xmfp)
  - [我的维修单完成](myfxd_fif)
