@@ -7,7 +7,7 @@ index.php?app=AfterSalers&m=FxdclZxSupMobile&a=fxdOrderSh_tg
 http://www.apps.com/index.php?app=AfterSalers&m=FxdclZxSupMobile&a=fxdOrderSh_tg&access_token=
 
 ### **请求方式**
-post
+get
 
 
 ### **参数**
