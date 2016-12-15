@@ -6,7 +6,7 @@ index.php?app=AfterSalers&m=FxdclFcMobile&a=sucRxdAllOrder
 http://www.apps.com/index.php?app=AfterSalers&m=FxdclFcMobile&a=sucRxdAllOrder&access_token=
 
 ### **请求方式**
-get
+POST
 
 
 ### **参数**
