@@ -39,6 +39,10 @@
  - [物料单](materal_index)
  - [物料单详请](materal_info)
  - [物料列表](materal_list)
+ - [物料审核人](materal_shenhe)
+ - [物料转审](materal_zhuanshen)
+ - [物料审核通过](materal_ok)
+ - [物料驳回](materal_bh)
 
 -----------返厂维修--------------
  - [返厂维修](fanchang_index)
