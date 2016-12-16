@@ -77,4 +77,5 @@
  - [维修故障分配](myfxd_wxfp)
  - [维修项目分配](myfxd_xmfp)
  - [我的维修单完成](myfxd_fif)
- - [维修OK](myfxd_OK)
+ - [维修OK(故障原因)](myfxd_OK)
+ - [维修OK(维修项目)](myfxd_XMOK)
