@@ -1,10 +1,10 @@
 ### **请求接口**
-index.php?app=AfterSalers&m=MyFxdMobile&a=getRxdFcDetails
+index.php?app=AfterSalers&m=MyRxdMobile&a=getRxdFcDetails
 
 
 
 ### **公网测试**
-http://www.apps.com/index.php?app=AfterSalers&m=MyFxdMobile&a=getRxdFcDetails&id=531&access_token=
+http://www.apps.com/index.php?app=AfterSalers&m=MyRxdMobile&a=getRxdFcDetails&id=531&access_token=
 
 ### **请求方式**
 get
