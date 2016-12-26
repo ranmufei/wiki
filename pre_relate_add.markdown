@@ -25,7 +25,8 @@ post
 机会的
     [type] => 4
     [cate] => 2
-
+principal    //负责人 1为是，0为不是
+tag     //标记
 
  
 
