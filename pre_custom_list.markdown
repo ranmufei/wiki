@@ -15,7 +15,7 @@ http://www.apps.com/index.php?app=Customer&m=MPrecustom&a=lists&sta=1&access_tok
 `num`、`p`
 
 ### **其他参数**
-sta 默认不传（1为我参与的，2为我下属的） get
+sta 默认不传（1为我参与的，2为我下属的，3为公海客户） get
 
    custom_company   客户名称   post
 
