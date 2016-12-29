@@ -14,7 +14,7 @@ http://www.apps.com/index.php?app=Customer&m=MPrethread&a=lists&sta=1
 `num`、`p`
 
 ### **其他参数**
-sta  默认不传，当值为1是查询我下属的线索
+sta  默认不传，当值为1是查询我下属的线索  2为公海线索
 
 ### **返回结果**
 |字段       |值             |类型    |说明           |
