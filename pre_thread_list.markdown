@@ -13,11 +13,13 @@ http://www.apps.com/index.php?app=Customer&m=MPrethread&a=lists&sta=1
 /index.php?app=Customer&m=MPrethread&a=commonpower  公海权限为1就显示
 
 {
+
      xs:1,   //为1显示线索公海
 
      kh:1    //为1显示客户公海
 
      isxs:1    //为1显示我的下属
+
 }
 
 ### **公共参数** 
