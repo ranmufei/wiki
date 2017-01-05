@@ -1,5 +1,7 @@
 
 ### **请求接口** 
+/index.php?app=Invoicimg&m=SaleMobile&a=is_access_r   是否显示销售单和退货单
+
 /index.php?app=Invoicimg&m=SaleMobile&a=addsalecli      订单两个自定义字段的10条记录
 
 
