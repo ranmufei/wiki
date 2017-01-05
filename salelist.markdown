@@ -19,6 +19,11 @@ http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=saleList&status=1&acc
 ### **浏览器查看（退货订单）**
 http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=salethList&status=1&access_token=
 
+
+### **浏览器查看（退货订单）**
+http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=get_z_order&id=5357&access_token=   id为大单id
+
+
 ### **公共参数** 
 `num`、`p`
 
