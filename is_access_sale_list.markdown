@@ -3,7 +3,7 @@
 /index.php?app=Invoicimg&m=SaleMobile&a=addsalecli      订单两个自定义字段的10条记录
 
 
-
+/index.php?app=Invoicimg&m=SaleMobile&a=chiocecustom&status=1&p=1&n=15      选择客户的列表（status为1是我的客户 为2我参与的客户 为3我下属的客户  为4我下属参与的客户 为7所有客户   p当前页码，n每页的条数）
 ### **接口说明**
 无需传参数
 
@@ -29,5 +29,23 @@ openzdyarr2: [
 {
    sale_def2: "123.32313"
 },
+]
+}
+
+{
+count: "400",     //总条数
+totalPages: 27,    //总页码数
+nowPage: 1,    当前页码数
+data: [
+{
+id: "710",                 //客户id
+custom_company: "示例客户A 23343 ",    //公司名称
+apportion_id: "庆丰包子",          //负责人
+custom_type: "",                 //公司类别
+online_cid: "0",
+pid: "0",
+inputtime: "01-03 19:30",       创建时间
+type: 0
+}
 ]
 }
