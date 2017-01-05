@@ -3,7 +3,14 @@
 /index.php?app=Invoicimg&m=SaleMobile&a=addsalecli      订单两个自定义字段的10条记录
 
 
-/index.php?app=Invoicimg&m=SaleMobile&a=chiocecustom&status=1&p=1&n=15      选择客户的列表（status为1是我的客户 为2我参与的客户 为3我下属的客户  为4我下属参与的客户 为7所有客户   p当前页码，n每页的条数）
+/index.php?app=Invoicimg&m=SaleMobile&a=chiocecustom&status=1&p=1&n=15      
+选择客户的列表（
+status为1是我的客户 
+为2我参与的客户 
+为3我下属的客户  
+为4我下属参与的客户 
+为7所有客户   
+p当前页码，n每页的条数）
 ### **接口说明**
 无需传参数
 
