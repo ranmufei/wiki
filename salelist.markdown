@@ -83,3 +83,35 @@ uid: "1"
 ]
 }
 ]
+
+//销售单的
+ {
+                 key : "order_num",   name : "销售单号", （都有）
+                 key : "ordernum" ,     name : "订单号",（都有）
+                 key : "gys_name",       name : "客户",（都有）
+
+                 key : "default2", name : "状态",    （8为预计回款） 
+                 key : "money",name : "计划回款金额",（8为预计回款）
+                 key : "return_time",  name : "回款日期",（8为预计回款）
+
+ 		 key : "pro_list" , name : "产品名",  （除了状态8以外的）
+                 key : "count_price",name : "订单金额/折扣后总价",（除了状态8以外的）
+                 key : "creat_time", name : "创建时间",（除了状态8以外的）
+                 key : "to_time", name : "预计交货时间",（除了状态8以外的）
+                 key : "num", name : "销售数量",（除了状态8以外的）
+                 key : "stornstatu", name : "出库状态",（除了状态8以外的）
+                 key : "paystatu",name : "收款状态",（除了状态8以外的）
+                 key : "from",name : "订单来源",（除了状态8以外的）
+            
+            },
+//退单的
+{
+                 key : "order_num", name : "销售退货单号",
+                 key : "gys_name",name : "客户",
+                 key : "creat_time", name : "创建时间",
+                 key : "to_time",name : "预计交货时间",
+                 key : "count_price", name : "订单金额",
+                 key : "num",name : "退货数量",
+                 key : "stornstatu", name : "入库状态",
+                 key : "paystatu",  name : "退款状态",
+}
