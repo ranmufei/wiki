@@ -18,14 +18,15 @@ http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=addsalecli&access_tok
 
 
 ``` javascript
-{openzdyarr: [
 {
-sale_def1: "111111"
+openzdyarr: [
+{
+  sale_def1: "111111"
 },
 ],
 openzdyarr2: [
 {
-sale_def2: "123.32313"
+   sale_def2: "123.32313"
 },
 ]
 }
