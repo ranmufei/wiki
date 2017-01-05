@@ -19,6 +19,7 @@ http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=addsalecli&access_tok
 
 ``` javascript
 {
+allcussel:1,   //选择客户中（为1所有客户就显示）
 openzdyarr: [
 {
   sale_def1: "111111"
