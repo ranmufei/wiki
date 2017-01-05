@@ -36,6 +36,13 @@ http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=addsalecli&access_tok
 
 
 ``` javascript
+//是否显示
+{
+statu: 1,    1显示
+info: "ok",
+data: null
+}
+
 {
 allcussel:1,   //选择客户中（为1所有客户就显示）
 openzdyarr: [
