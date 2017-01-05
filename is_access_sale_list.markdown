@@ -17,6 +17,9 @@ status为1是我的客户
 为7所有客户   
 
 p当前页码，n每页的条数）
+
+/index.php?app=Invoicimg&m=SaleMobile&a=custom_address&gsyid=566(通过客户id查询收货地址列表)
+
 ### **接口说明**
 无需传参数
 
