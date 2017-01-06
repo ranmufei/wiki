@@ -35,6 +35,9 @@ http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=return_list&id=4843&s
 http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=return_list_log&id=3002&access_token=  
 
 
+### **浏览器查看（通过订单id查询详情【出库计划】）**
+http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=outhouseplanlist&id=5314&access_token=   
+
 ### **公共参数** 
 `num`、`p`
 
@@ -489,6 +492,7 @@ nopay: 600,       //未回款（开票）
 bfb: "0%"
 }
 ]
+
 //回款信息记录
 [
 {
@@ -497,5 +501,36 @@ uid: "庆丰包子",         //操作人
 relate_id: "3002",
 inputtime: "2016-10-19 10:27",        //回款（开票）时间
 money: "100.00"   //回款（开票）金额
+}
+]
+
+//出库计划
+[
+{
+id: "349",
+link_id: "225",
+pro_id: "604",
+pro_pid: "2204",
+query_num: "10",             //出库数量
+time_start: "1482940800",
+time_end: "1483027199",
+check_start: "1482940800",
+check_end: "1483027199",
+is_delete: "0",
+unit: "596",
+has_out: "0",
+out_status: "0",
+pro_name: "星期",    //产品名称
+pro_pname: "haha-4",  //规格
+unitName: "瓶",                  //单位
+check_start_str: "2016-12-29",      //计划出库时间
+check_end_str: "2016-12-29",     //计划出库时间
+initiator: "1",
+initiator_name: "庆丰包子",        //创建人
+time: "1483688856",
+time_str: "2017-01-06",           //创建时间
+type: 1,
+left_num: 10,
+status_name: "未完成"
 }
 ]
