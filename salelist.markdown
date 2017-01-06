@@ -31,6 +31,7 @@ http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=wuliulist&id=5355&acc
 
 ### **浏览器查看（通过订单id查询详情【回款信息】）**
 http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=return_list&id=4843&access_token=  
+http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=return_list_log&id=3002&access_token=  
 
 
 ### **公共参数** 
@@ -485,5 +486,15 @@ order_num: "XS2016112918442",
 sjpay: 0,       //已回款
 nopay: 600,       //未回款
 bfb: "0%"
+}
+]
+//回款信息记录
+[
+{
+id: "90",
+uid: "庆丰包子",         //操作人
+relate_id: "3002",
+inputtime: "2016-10-19 10:27",        //时间
+money: "100.00"   //金额
 }
 ]
