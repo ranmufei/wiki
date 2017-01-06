@@ -461,3 +461,29 @@ company: "中通快递",          //公司(如圆通)
 express_number: "424073676174"   //运单号
 }
 ]
+
+
+//回款信息
+[
+{
+id: "3028",
+uid: "庆丰包子",      //创建人
+orderid: "4843",
+charge: "庆丰包子",         
+custom_id: "紫江企业",
+inputtime: "2016-12-02 17:58",             //创建时间
+return_start: "2016-12-01",
+return_time: "2016-12-01 - 2016-12-31",       //回款时间
+money: "600.00",          // 计划回款金额 
+orderType: "2",
+type: "支票",                   //回款方式
+remark: "dawdaw",            //备注
+default1: "0",
+default2: "未回款",       //状态
+default3: "",
+order_num: "XS2016112918442",
+sjpay: 0,       //已回款
+nopay: 600,       //未回款
+bfb: "0%"
+}
+]
