@@ -538,3 +538,26 @@ left_num: 10,
 status_name: "未完成"
 }
 ]
+
+//出库信息
+[
+{
+id: "1789",
+orderid: "5320",
+batchid: "766",
+batchcode: "",
+sarinlcode: "20161229-021",   //序列号
+sarinlid: "27843",
+num: "0",
+time: "1482980251",
+userid: "1",
+default: "无",          //条码
+default1: "2204",
+default2: "1",
+default3: "0",
+productname: "星期",   //产品名称
+formatname: "haha-4",    //规格(编码)
+outtime: "2016-12-29 10:57",   //出库时间
+useradmin: "庆丰包子"
+}
+]
