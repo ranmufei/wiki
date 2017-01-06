@@ -430,7 +430,7 @@ isDelete: "0",
 default2: null,
 default3: null,
 wl_dynamic: null,     //数组  wl_dynamic[0][time]  wl_dynamic[0][context]
-company: null,              //公司
+company: null,              //公司(如圆通)
 express_number: null         //运单号
 }
 ],
