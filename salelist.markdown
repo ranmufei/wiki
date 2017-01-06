@@ -416,3 +416,21 @@ uid: "1"
 }
 
 //物流
+Logistics: [
+{
+id: "431",
+number: "XS20161229175127-1-1",
+order_id: "5358",
+sort: "0",
+time: "1483005016",
+stron_id: "32",
+uid: "1",
+default: "0",
+isDelete: "0",
+default2: null,
+default3: null,
+wl_dynamic: null,
+company: null,
+express_number: null
+}
+],
