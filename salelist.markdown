@@ -42,6 +42,9 @@ http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=outhouseplanlist&id=5
 ### **浏览器查看（通过订单id查询详情【出库信息】）**
 http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=salepclh&id=5320&access_token=   
 
+### **浏览器查看（通过订单id查询详情【协同人】）**
+http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=join_list&id=5193&access_token=   
+
 ### **公共参数** 
 `num`、`p`
 
