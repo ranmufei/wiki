@@ -23,8 +23,8 @@ http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=salethList&status=1&a
 ### **浏览器查看（通过大单id查询子单列表）**
 http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=get_z_order&id=5357&access_token=   
 
-
-
+### **浏览器查看（通过订单id查询详情【订单详情、产品信息、操作日志】）**
+http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=info&id=5357&access_token=   
 ### **公共参数** 
 `num`、`p`
 
