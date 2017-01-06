@@ -419,7 +419,7 @@ uid: "1"
 Logistics: [
 {
 id: "431",
-number: "XS20161229175127-1-1",
+number: "XS20161229175127-1-1",     
 order_id: "5358",
 sort: "0",
 time: "1483005016",
@@ -429,8 +429,8 @@ default: "0",
 isDelete: "0",
 default2: null,
 default3: null,
-wl_dynamic: null,
-company: null,
-express_number: null
+wl_dynamic: null,     //数组  wl_dynamic[0][time]  wl_dynamic[0][context]
+company: null,              //公司
+express_number: null         //运单号
 }
 ],
