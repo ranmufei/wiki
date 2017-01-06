@@ -29,6 +29,10 @@ http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=info&id=5357&access_t
 ### **浏览器查看（通过订单id查询详情【物流信息】）**
 http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=wuliulist&id=5355&access_token=   
 
+### **浏览器查看（通过订单id查询详情【回款信息】）**
+http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=return_list&id=4843&access_token=  
+
+
 ### **公共参数** 
 `num`、`p`
 
