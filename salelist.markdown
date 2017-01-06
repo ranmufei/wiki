@@ -31,6 +31,7 @@ http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=wuliulist&id=5355&acc
 
 ### **浏览器查看（通过订单id查询详情【回款/开票信息】）**
 http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=return_list&id=4843&sta=2&access_token=    sta为2回款，为6开票
+
 http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=return_list_log&id=3002&access_token=  
 
 
