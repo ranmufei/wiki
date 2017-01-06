@@ -561,3 +561,20 @@ outtime: "2016-12-29 10:57",   //出库时间
 useradmin: "庆丰包子"
 }
 ]
+
+//协同人
+[
+{
+id: "15",
+userid: "1",
+orderid: "5193",
+getuserid: "6",
+time: "6秒前",    时间
+tag: "",
+hkplan: "0",
+ckplan: "0",
+getname: "谷歌",   //协同人
+avater: "./Uploads/avatar/0/6.jpg",   头像
+isdelete: 1
+}
+]
