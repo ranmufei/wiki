@@ -416,21 +416,86 @@ uid: "1"
 }
 
 //物流
-Logistics: [
+[
 {
-id: "431",
-number: "XS20161229175127-1-1",     
-order_id: "5358",
+id: "432",
+number: "XS20161229171931-1-1",
+order_id: "5355",
 sort: "0",
-time: "1483005016",
+time: "1483005040",
 stron_id: "32",
 uid: "1",
 default: "0",
 isDelete: "0",
 default2: null,
 default3: null,
-wl_dynamic: null,     //数组  wl_dynamic[0][time]  wl_dynamic[0][context]
-company: null,              //公司(如圆通)
-express_number: null         //运单号
+wl_dynamic: null,
+company: null,
+express_number: null
+},
+{
+id: "433",
+number: "XS20161229171931-1-2",
+order_id: "5355",
+sort: "1",
+time: "1483005137",
+stron_id: "32",
+uid: "1",
+default: "1",
+isDelete: "0",
+default2: null,
+default3: null,
+wl_dynamic: [
+{
+time: "2017-01-03 11:44:15",
+ftime: "2017-01-03 11:44:15",
+context: "[汉阳] [武汉市] [汉阳]的派件已签收 感谢使用中通快递,期待再次为您服务!",
+location: ""
+},
+{
+time: "2017-01-03 08:21:38",
+ftime: "2017-01-03 08:21:38",
+context: "[汉阳] [武汉市] 快件已到达[汉阳],业务员龟北路分部正在第1次派件 电话:18062696872 请保持电话畅通、耐心等待",
+location: ""
+},
+{
+time: "2017-01-02 21:30:55",
+ftime: "2017-01-02 21:30:55",
+context: "[武汉中转部] [武汉市] 快件离开 [武汉中转部]已发往[汉阳]",
+location: ""
+},
+{
+time: "2017-01-02 03:58:05",
+ftime: "2017-01-02 03:58:05",
+context: "[南充中转站] [南充市] 快件到达 [南充中转站]",
+location: ""
+},
+{
+time: "2017-01-01 21:21:43",
+ftime: "2017-01-01 21:21:43",
+context: "[成都中转] [成都市] 快件离开 [成都中转]已发往[武汉中转部]",
+location: ""
+},
+{
+time: "2017-01-01 21:19:47",
+ftime: "2017-01-01 21:19:47",
+context: "[成都中转] [成都市] 快件到达 [成都中转]",
+location: ""
+},
+{
+time: "2017-01-01 16:59:10",
+ftime: "2017-01-01 16:59:10",
+context: "[眉山] [眉山市] 快件离开 [眉山]已发往[成都]",
+location: ""
+},
+{
+time: "2017-01-01 16:58:04",            //时间
+ftime: "2017-01-01 16:58:04", 
+context: "[眉山] [眉山市] [眉山]的山南三已收件 电话:13778810535",      //物流动态
+location: ""
 }
 ],
+company: "中通快递",          //公司(如圆通)
+express_number: "424073676174"   //运单号
+}
+]
