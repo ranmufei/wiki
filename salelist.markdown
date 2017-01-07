@@ -148,7 +148,7 @@ uid: "1"
 		uid: "1",
 		shenh_uid: "1",
 		gys_id: "578",
-		order_num: "XS20161229175127",    //销售单号
+		order_num: "XS20161229175127",    //销售单号或者退货订单号
 		creat_time: "16-12-29 17:47",	 //创建时间
 		to_time: "1970-01-01",              //交货时间
 		count_price: 4560,             //金额
@@ -156,7 +156,7 @@ uid: "1"
 		mark: "",                  //备注
 		ml_price: "0.00",         //抹零金额：
 		orderstatu: "0",
-		ordertype: "2",
+		ordertype: "2",           //为3表示退货订单
 		default2: "0",
 		default3: "1",
 		from: "销售订单",             
@@ -211,7 +211,7 @@ uid: "1"
 		instornNum2: "10.00",
 		instornNum: 100,
 		kptxmax: 4560,
-		kpmoney: "0.00",
+		kpmoney: "0.00",    //已开票金额
 		thsale_iszc: 0,
 		cws_data: {
 		amount: "4560.00",
