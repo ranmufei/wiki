@@ -431,7 +431,7 @@ uid: "1"
 		outStronOrder: [ ]
 }
 
-//物流
+//物流((salefrom!=12 &&ordertype==2&&is_bigorder==0)||ordertype==5）
 [
 {
 id: "432",
@@ -542,7 +542,7 @@ status_name: "未完成"
 }
 ]
 
-//出库信息
+//出库信息（salefrom!=12 &&ordertype!=3&&instornNum!=0&&salefrom!=16&&is_bigorder==0）
 [
 {
 id: "1789",
