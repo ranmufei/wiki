@@ -23,8 +23,8 @@
         height:'300px',
         title:'权限管理',
         key:'Invoicing',
-        callbackfun:avalon.noop //回调函数Init , 回调参数有 vmodel(模型),key（节点名称）,statu（更改后状态）,
-type(更改类型， 部门:jid 职位:zid 人员:uid ),typeid（所属部门 / 职位 / 人员id））
+        callbackfun:avalon.noop
+//回调函数Init , 回调参数有 vmodel(模型),key（节点名称）,statu（更改后状态）,type(更改类型， 部门:jid 职位:zid 人员:uid ),typeid（所属部门 / 职位 / 人员id））
 
 ## 基本属性配置
 
