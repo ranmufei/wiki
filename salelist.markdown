@@ -154,7 +154,7 @@ uid: "1"
 		count_price: 4560,          //金额
 		to_address: "",             //送货地址(is_bigorder==0)
 		mark: "",                  //备注
-		ml_price: "0.00",         //抹零金额：
+		ml_price: "0.00",         //抹零金额(default6==0)
 		orderstatu: "0",
 		ordertype: "2",           //为3表示退货订单
 		default2: "0",
