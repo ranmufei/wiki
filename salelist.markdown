@@ -150,9 +150,9 @@ uid: "1"
 		gys_id: "578",
 		order_num: "XS20161229175127",    //销售单号或者退货订单号
 		creat_time: "16-12-29 17:47",	 //创建时间
-		to_time: "1970-01-01",              //交货时间
-		count_price: 4560,             //金额
-		to_address: "",             //送货地址
+		to_time: "1970-01-01",       //交货时(is_bigorder==0&&salefrom!=14&&ordertype!=5&&salefrom!=15&&to_time!='1970-01-01')
+		count_price: 4560,          //金额
+		to_address: "",             //送货地址(is_bigorder==0)
 		mark: "",                  //备注
 		ml_price: "0.00",         //抹零金额：
 		orderstatu: "0",
