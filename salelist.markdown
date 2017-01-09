@@ -590,11 +590,11 @@ isdelete: 1
 {
 id: "371",
 img_id: "13020",
-time: "2017-01-09 10:12:53",
-type: "其他类型",
-name: "moban (8).xls",
-url: "Public/images/filetype/xls.gif",
-download: "http://www.apps.com/index.php?app=Home&m=Visitor&a=download&val=13020",
+time: "2017-01-09 10:12:53",      //创建时间
+type: "其他类型",               //文件类型
+name: "moban (8).xls",         //名称
+url: "Public/images/filetype/xls.gif",   //文件图标
+download: "http://www.apps.com/index.php?app=Home&m=Visitor&a=download&val=13020",   //下载地址
 extension: "xls"
 }
 ]
