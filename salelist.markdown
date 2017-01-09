@@ -257,9 +257,9 @@ uid: "1"
 				xlhtitle: null,
 				set_id: "0",
 				info_id: "0",
-				def1: "",
-				def2: "",
-				def3: "",
+				def1: "",         //产品自定义1的值（子单显示）
+				def2: "",         //产品自定义2的值（子单显示）
+				def3: "",         //产品自定义3的值（子单显示）
 				type: "0",
 				ispcStatus: "1",
 				xlhstatus: "1",
