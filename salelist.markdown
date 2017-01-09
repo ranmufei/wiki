@@ -43,7 +43,10 @@ http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=outhouseplanlist&id=5
 http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=salepclh&id=5320&access_token=   
 
 ### **浏览器查看（通过订单id查询详情【协同人】）**
-http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=join_list&id=5193&access_token=   
+http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=join_list&id=5193&access_token=  
+
+### **浏览器查看（通过订单id查询详情【合同附件】）**
+http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=img_lists&id=5391&access_token= 
 
 ### **公共参数** 
 `num`、`p`
@@ -579,5 +582,19 @@ ckplan: "0",
 getname: "谷歌",   //协同人
 avater: "./Uploads/avatar/0/6.jpg",   头像
 isdelete: 1
+}
+]
+
+//合同附件（ordertype==2&&default6==0&&salefrom!=15）
+[
+{
+id: "371",
+img_id: "13020",
+time: "2017-01-09 10:12:53",
+type: "其他类型",
+name: "moban (8).xls",
+url: "Public/images/filetype/xls.gif",
+download: "http://www.apps.com/index.php?app=Home&m=Visitor&a=download&val=13020",
+extension: "xls"
 }
 ]
