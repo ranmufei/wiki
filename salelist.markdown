@@ -431,7 +431,20 @@ uid: "1"
 		batchlist: null,
 		batchSarial: null,
 		choicebatch: null,
-		outStronOrder: [ ]
+		outStronOrder: [ ],
+                cpset: [
+                  "工厂",
+                  "",
+                  "",
+                  "1",      产品自定义1是否必填
+                  "0",      产品自定义2是否必填
+                  "0"       产品自定义3是否必填
+                ],
+                 AfterSaler_text: {
+                   name: "公里数",    //订单产品自定义名称
+                   is_bt: "0",        //订单产品自定义是否必填
+                   x_bt: "0"         //订单产品保修期是否必填
+                 }
 }
 
 //物流((salefrom!=12 &&ordertype==2&&is_bigorder==0)||ordertype==5）
