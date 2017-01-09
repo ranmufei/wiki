@@ -423,8 +423,8 @@ uid: "1"
 		}
 		],
 		sale_relate_th: 0,
-		sale_def1_text: " ",         //订单自定义1的名称
-		sale_def2_text: "铭牌型号",		//订单自定义2的名称
+		sale_def1_text: " ",         //订单自定义1的名称(default6==0&&ordertype!=3&&sale_def1_text)
+		sale_def2_text: "铭牌型号",		//订单自定义2的名称(default6==0&&ordertype!=3&&sale_def2_text)
 		batchlist: null,
 		batchSarial: null,
 		choicebatch: null,
