@@ -145,7 +145,7 @@ uid: "1"
                  key : "paystatu",  name : "退款状态",
 }
 
-//详情
+//详情（1.liuc==1&&default6==0显示通过并提交下一个审核按钮 审核通过按钮 驳回按钮   2.sub==1&&sub_audit==0&&default6==0显示提交按钮 3.sub_audit==1显示提交审核按钮）
 {
 		id: "5357",
 		uid: "1",
