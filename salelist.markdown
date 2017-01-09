@@ -250,8 +250,8 @@ uid: "1"
 				price_time: null,
 				address: null,
 				already_num: "0",
-				default1: "0",
-				default2: "0",
+				default1: "0",       //保修期（0,1,2....）  
+				default2: "0",       //保修期（默认、天、月、年）
 				wastage: "0",          //产品损耗（以基础单位算的数量）
 				thbatch: [ ],
 				xlhtitle: null,
@@ -263,7 +263,7 @@ uid: "1"
 				type: "0",
 				ispcStatus: "1",
 				xlhstatus: "1",
-				aftersale: "",
+				aftersale: "",   //（公里数）的值
 				xuliehao: [
 					{
 					productId: "604",
