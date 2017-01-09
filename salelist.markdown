@@ -167,7 +167,7 @@ uid: "1"
 		default6: "0",
 		is_bigorder: "1",
 		ckid_1: "0",
-		foreign_currency: "",          //汇率(foreign_currency.money_cr)
+		foreign_currency: "",          //汇率(foreign_currency.money_cr foreign_currency.money_gw  foreign_currency.money_name)
 		rebate_count: null,           //折后总价
 		sale_def1: "",            //订单自定义1的值
 		sale_def2: "123.32313",    //订单自定义2的值
@@ -205,7 +205,7 @@ uid: "1"
 		uname: "庆丰包子",    //创建人员
 		ckid: null,
 		num: "10.00",          //销售数量或者退货数量
-		salefrom: "10",
+		salefrom: "10",       (!=12显示产品信息)
 		ordercates: "自产销售订单",    //订单来源
 		gys: "紫江企业",       //客户
 		instornNum2: "10.00",
@@ -475,7 +475,7 @@ express_number: "424073676174"   //运单号
 ]
 
 
-//回款信息
+//回款信息（ordertype!=3&&default6==0 &&salefrom!=15）开票提醒（ordertype!=3&&default6==0 &&salefrom!=15）
 [
 {
 id: "3028",                //回款（开票）信息id（可查回款（开票）详细信息）
@@ -511,7 +511,7 @@ money: "100.00"   //回款（开票）金额
 }
 ]
 
-//出库计划
+//出库计划（ordertype!=3&&default6!=0）
 [
 {
 id: "349",
