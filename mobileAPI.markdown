@@ -110,6 +110,7 @@
 * [审核工作流](workflow_shenhe)
 * [发送催促](workflow_msg)
 * [操作记录](workflow_history)
+* [操作记录详情](workflow_history_info)
 * [获取选择下一个审核人列表](workflow_member)
 * [提交下一个审核人](workflow_user)
 
