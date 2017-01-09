@@ -565,7 +565,7 @@ useradmin: "庆丰包子"
 }
 ]
 
-//协同人
+//协同人（ordertype!=3&&default6==0&&(salefrom==10||salefrom==11||salefrom==12)）
 [
 {
 id: "15",
