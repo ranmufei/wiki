@@ -29,6 +29,9 @@ http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=info&id=5357&access_t
 ### **浏览器查看（通过退货订单id查询关联的销售订单详情【订单详情、产品信息】）**
 http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=relatedsale&id=5025&access_token=  
 
+### **浏览器查看（通过销售订单id查询关联的退货订单列表）**
+http://www.apps.com/index.php?app=Invoicimg&m=Sale&a=related_thsalelist&id=5025
+
 ### **浏览器查看（通过订单id查询详情【物流信息】）**
 http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=wuliulist&id=5355&access_token=   
 
