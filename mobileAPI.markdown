@@ -117,6 +117,8 @@
 * [操作记录](workflow_history)
 * [操作记录详情](workflow_history_info)
 * [全公司列表](manager)
+* [流程列表](liucheng_list)
+* [表单列表](form_list)
 * [获取选择下一个审核人列表](workflow_member)
 * [提交下一个审核人](workflow_user)
 
