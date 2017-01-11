@@ -1,7 +1,7 @@
 # 我的工作流列表
 ## 请求接口 
 
-> /index.php?app=Workflow&m=IndexApi&a=manger
+> /index.php?app=Workflow&m=IndexApi&a=getliuchengList
 
 >  method : post
 
