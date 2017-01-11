@@ -16,6 +16,8 @@
 
 ### 抢单
 * [抢单列表](Grab_api_index)
+* [抢单详情](Grab_api_info)
+* [抢单](Grab_api_grab)
 
 ### 进销存
 * [产品管理](Invoicimg_api_product)
