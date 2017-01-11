@@ -12,6 +12,8 @@ get
 ### **浏览器查看**
 /index.php?app=Customer&m=MIndex&a=today_richen&access_token=
 
+http://www.apps.com/index.php?app=Customer&m=MIndex&a=get_form_schedule&access_token=2c3b84599fcee0081496d827912c4a
+
 ### **公共参数** 
 
 ### **其他参数**
