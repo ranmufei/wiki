@@ -15,7 +15,7 @@
 * [接口列表](AfterSalers_api_list)
 
 ### 抢单
-* [列表列表](Grab_api_index)
+* [抢单列表](Grab_api_index)
 
 ### 进销存
 * [产品管理](Invoicimg_api_product)
