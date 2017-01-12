@@ -37,7 +37,7 @@ http://www.apps.com/index.php?app=Account&m=ExpenseApi&a=select_auditlist&apps=&
 
 (Sale Index audit)      订单审核
 
-(Sale  Index  SaleCancel)  审核作废
+(Sale  Index  SaleCancel)  作废申请
 
 
 ### **返回结果**
