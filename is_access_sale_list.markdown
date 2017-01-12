@@ -22,6 +22,8 @@ p当前页码，n每页的条数）
 
 /index.php?app=Invoicimg&m=SaleMobile&a=custom_address&gsyid=566(通过客户id查询收货地址列表)
 
+
+
 ### **接口说明**
 无需传参数
 
@@ -29,6 +31,7 @@ p当前页码，n每页的条数）
 ### **浏览器查看**
 http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=addsalecli&access_token=
 
+http://www.apps.com/index.php?app=Account&m=ExpenseApi&a=select_auditlist&apps=Customer&ms=Chance&as=autdior&access_token=
 
 
 
