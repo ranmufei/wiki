@@ -32,8 +32,11 @@ p当前页码，n每页的条数）
 http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=addsalecli&access_token=
 
 http://www.apps.com/index.php?app=Account&m=ExpenseApi&a=select_auditlist&apps=&ms=&as=&access_token=
+
 (Customer Chance   autdior)  客户战败
+
 (Sale Index audit)      订单审核
+
 (Sale  Index  SaleCancel)  审核作废
 
 
