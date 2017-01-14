@@ -54,6 +54,18 @@ http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=join_list&id=5193&acc
 ### **浏览器查看（通过订单id查询详情【合同附件】）**
 http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=img_lists&id=5391&access_token= 
 
+### **浏览器查看（销售审核操作）**
+http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=index_bx_down&id=5391&access_token=    //下一个审核人
+post 传参  reply_text 审核意见 next_uid下一个审核人
+
+http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=index_bx_pass&id=5391&access_token=    //审核通过
+post 传参  reply_text 审核意见
+
+http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=index_bx_no&id=5391&access_token=   //驳回
+
+
+http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=submitbx&id=5391&access_token=   //销售订单提交
+
 ### **公共参数** 
 `num`、`p`
 
