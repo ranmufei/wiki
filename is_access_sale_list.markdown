@@ -108,3 +108,15 @@ type: 0
 }
 ]
 }
+
+
+//审核人
+[
+{
+uid: "619",    //审核人的id
+audit: "619",
+name: "qwer",    //名称
+zname: "班主任",    //职位
+img: "./Uploads/avatar/0/619.jpg"   //头像
+}
+]
