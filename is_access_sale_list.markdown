@@ -152,26 +152,26 @@ num: "10.00"                     //订单数量
 //退货订单关联销售订单的产品信息
 [
 {
-pro_id: "604",
-xinhao: "2204",
-price: "456.00",
+pro_id: "604",  //产品ud
+xinhao: "2204",  //信号id
+price: "456.00",   //价格
 num: 10,
-unit: "596",
-intoStoreNum: "10.00",
+unit: "596",          //单位id
+intoStoreNum: "10.00",   数量
 id: "2204",
 name: "星期",         //商品名
 format: "haha-4()",     //规格型号
-unitname: "瓶",
-relation: 1,
-sellPrice: "456.00",
-batchss: [
+unitname: "瓶",      //单位名称
+relation: 1,            //单位换算倍数
+sellPrice: "456.00",       //价格
+batchss: [   //批次列表
 {
 id: "776",
-intonum: "5",
-name: "20161229175310",
-formatname: "haha-4",
-productname: "星期",
-thnum: 1,
+intonum: "5",          //出库数量
+name: "20161229175310",  //批次名称
+formatname: "haha-4",    //规格
+productname: "星期",     //产品名称
+thnum: 1,               //退货数量
 is_thsale: 0
 },
 {
