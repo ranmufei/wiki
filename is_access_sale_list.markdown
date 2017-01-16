@@ -41,6 +41,8 @@ http://www.apps.com/index.php?app=Account&m=ExpenseApi&a=select_auditlist&apps=&
 
 http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=relatesale&p=1&jump=10&gsyid=578   //退货订单关联销售订单的列表
 
+http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=thpr_data&id=5358     //退货订单关联销售订单的产品信息
+
 
 
 ### **返回结果**
@@ -145,3 +147,42 @@ num: "10.00"                     //订单数量
 }
 ]
 }
+
+
+//退货订单关联销售订单的产品信息
+[
+{
+pro_id: "604",
+xinhao: "2204",
+price: "456.00",
+num: 10,
+unit: "596",
+intoStoreNum: "10.00",
+id: "2204",
+name: "星期",         //商品名
+format: "haha-4()",     //规格型号
+unitname: "瓶",
+relation: 1,
+sellPrice: "456.00",
+batchss: [
+{
+id: "776",
+intonum: "5",
+name: "20161229175310",
+formatname: "haha-4",
+productname: "星期",
+thnum: 1,
+is_thsale: 0
+},
+{
+id: "775",
+intonum: "5",
+name: "20161229175011",
+formatname: "haha-4",
+productname: "星期",
+thnum: 1,
+is_thsale: 0
+}
+]
+}
+]
