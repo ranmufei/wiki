@@ -123,3 +123,25 @@ zname: "班主任",    //职位
 img: "./Uploads/avatar/0/619.jpg"   //头像
 }
 ]
+
+//退货订单关联销售订单的列表
+{
+count: 1,
+data: [
+{
+id: "5358",
+uid: "1",
+order_num: "XS20161229175127-1",   //销售单号
+gys_id: "578",                    
+creat_time: "2016-12-29",          //创建时间
+count_price: 4560,               //订单金额
+ordertype: "2",
+from: "自产销售订单",        
+ml_price: "0.00",
+default6: "5357",
+foreign: "",
+gys_name: "紫江企业",          //客户
+num: "10.00"                     //订单数量
+}
+]
+}
