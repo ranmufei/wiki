@@ -39,6 +39,9 @@ http://www.apps.com/index.php?app=Account&m=ExpenseApi&a=select_auditlist&apps=&
 
 (Sale  Index  SaleCancel)  作废申请
 
+http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=relatesale&p=1&jump=10&gsyid=578   //退货订单关联销售订单的列表
+
+
 
 ### **返回结果**
 
