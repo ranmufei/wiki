@@ -1,6 +1,8 @@
 ### **请求接口**
 /index.php?app=Customer&m=MPrethread&a=add_thread
 
+http://www.apps.com/index.php?app=Customer&m=MPrethread&a=custom_thread_source&access_token=2c3b84599fcee0081496d827912c4a //来源列表
+
 ### **接口说明**
 
 ### **请求方式**
