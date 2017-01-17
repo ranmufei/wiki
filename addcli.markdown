@@ -1,3 +1,5 @@
+
+``` javascript
 //退单数据
 data[shenh_uid]:1         //审核人 
 data[choiceData][0][id]:2204    //型号
