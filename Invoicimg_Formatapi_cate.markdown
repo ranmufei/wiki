@@ -5,7 +5,7 @@
 `分页`
 
 ### **请求方式**
-post
+get
 
 ### **浏览器查看**
 http://www.apps.com/index.php?app=Invoicimg&m=ProductApi&a=getFormatList
@@ -15,6 +15,10 @@ http://www.apps.com/index.php?app=Invoicimg&m=ProductApi&a=getFormatList
 | --------- |--------      |--------|--------       |
 |p          |              |string |分页         |
 |str       |               |string |检索字段|
+|form      |     非必填          |int    |判断产品的来源 贸易：form=0 ； 自产 form=1; 查看所有不填 |
+|trade     |     非必填          |int    |此参数传递的条件是必填 form=1  自产有bom trade=1 ; 无bom trade=0|
+
+
 ### **其他参数**
 无
 
