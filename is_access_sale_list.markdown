@@ -157,7 +157,7 @@ xinhao: "2204",  //信号id
 price: "456.00",   //价格
 num: 10,
 unit: "596",          //单位id
-intoStoreNum: "10.00",   数量
+intoStoreNum: "10.00",   //数量
 id: "2204",
 name: "星期",         //商品名
 format: "haha-4()",     //规格型号
