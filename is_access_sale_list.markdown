@@ -44,6 +44,8 @@ http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=relatesale&p=1&jump=1
 http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=thpr_data&id=5358     //退货订单关联销售订单的产品信息
 
 
+http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=money_cr&id=6   //查询通过汇率id查询汇率
+
 
 ### **返回结果**
 
@@ -186,3 +188,9 @@ is_thsale: 0
 ]
 }
 ]
+
+
+{
+rate: 8.3183,      //汇率
+rate_time: "2017-01-17&nbsp; 09:38:17"
+}
