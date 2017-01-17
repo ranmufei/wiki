@@ -141,7 +141,7 @@ ordertype: "2",
 from: "自产销售订单",        
 ml_price: "0.00",
 default6: "5357",
-foreign: "",
+foreign: "",                   //销售货币
 gys_name: "紫江企业",          //客户
 num: "10.00"                     //订单数量
 }
