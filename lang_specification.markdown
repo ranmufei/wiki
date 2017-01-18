@@ -9,4 +9,8 @@
 #### 二、使用动态语言
 这里使用全局函数lang代替thinkphp的L函数，lang($name, [appkey, [defautvalue]])
 
-
+> This is a blockquote.
+> 
+> This is the second paragraph in the blockquote.
+>
+> ## This is an H2 in a blockquote
