@@ -4,7 +4,7 @@
 
 /index.php?app=Customer&m=Mreport&a=report_month  //首页数据
 
-/index.php?app=Customer&m=MPrethread&a=in_comtom   //进入权限  返回1和0
+/index.php?app=Customer&m=MPrethread&a=in_comtom   //进入权限  返回1或者0
 ### **接口说明**
 
 ### **请求方式**
