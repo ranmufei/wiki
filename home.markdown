@@ -25,6 +25,8 @@
 
 * [rancher 开发相关帮助](rancher-dev)
 
+* [多语言系统使用说明](lang_specification)
+
 ### [v7.0 已上线的应用](onlineApp)
 
 ### [发行及升级](versionorupdate)
