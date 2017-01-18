@@ -18,3 +18,7 @@
 * 模块化调用，载入模块‘`lang/lang`’(假定当前加载器目录为Public1/js/avalon)，回调函数对应的参数名称则是动态语言的函数名。
 * 非模块化调用，这里需要转入两个文件`/Public1/js/avalon/globalinfo/langData.js`(由后端动态生成)， `/Public1/js/avalon/lang/jang.js`
 调用的函数名为ls.lang()。
+
+#### 四、使用注意
+* 因为前后端的差异，这里推荐使用后端去做。语言文件使用utf-8无dom格式保存，如果有bom可能影响全局缓存更新。
+* 为了提升文件载入的效率，每次更改语言文件都要更新缓存。
