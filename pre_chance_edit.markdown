@@ -20,7 +20,6 @@ post
 |name      |机会名称   |输入框 | | `*`         |
 |custom_id |所属客户 |选择 |[查询客户](http://192.168.1.240/ranmufei/apps/wikis/pre_custom_search_like) | （不能修改） |
 |count     |销售金额 |输入框 |||
-
 |type      |机会类型 |选项 | 1-新客户机会 2-老客户机会 ||
 |source    |机会来源 |选项 | 1-广告 2-研讨会 3-搜索引擎 4-客户介绍 5-其他 | |
 |remark    |备注     |输入框| | |
