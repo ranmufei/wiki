@@ -18,6 +18,7 @@ post
 |字段       |说明            |表单类型|表单补充    |必填           |
 | --------- |--------      |--------|------- |--------       |
 |custom_company|客户名称   |输入框 | | `*`         |
+|custom_number|客户编码  |输入框 | |         |
 |custom_type   |分类 |选择 |[选择客户分类](http://192.168.1.240/ranmufei/apps/wikis/pre_custom_type_list) | `*` |
 |pid       |父客户   |选择 |[选择父级客户](http://192.168.1.240/ranmufei/apps/wikis/pre_custom_search_like) | |
 |level     |重要级别   |选项   |1-A(重点客户) 2-B(普通客户) 3-C(非优先客户) ||
