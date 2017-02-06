@@ -49,7 +49,17 @@ lose_remark: "",                //战败原因
 fail_remark: "",    
 follow_rank_time: "172800",
 py: "",                      
-py_a: "",                      
+py_a: "",   
+prolist: [
+{
+format: "1asf()",    //规格
+name: "撒的11",     //产品名称
+unitname: "条",     //单位
+num: "1",     //数量
+id: "49"
+}
+]
+                   
 
 
 
