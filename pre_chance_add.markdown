@@ -30,6 +30,7 @@ post
 |follow_purpose|计划跟进目的|输入框| |  `*`   |
 |follow_reason|下次跟进理由|输入框| | `*`    |
 |is_customer| 0为客户，1为线索|int || `*`|
+|prolist| 产品数组|array || `*`|
 
 ### **返回结果**
 |字段       |值             |类型    |说明           |
@@ -37,5 +38,15 @@ post
 |status     |success/error |string |返回结果         |
 |data       |array         |array  | |
 |info       | '' | string | 接口状态说明  |
+
+``` javascript
+
+prolist[0][id]:2375    // 产品型号
+prolist[0][proid]:657  // 产品id
+prolist[0][name]:撒的11
+prolist[0][format]:1asf
+prolist[0][num]:1        //数量
+prolist[0][unit]:653
+prolist[0][unitname]:条
 
 
