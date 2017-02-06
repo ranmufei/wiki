@@ -30,7 +30,7 @@ post
 |follow_purpose|计划跟进目的|输入框| |  `*`   |
 |follow_reason|下次跟进理由|输入框| | `*`    |
 |is_customer| 0为客户，1为线索|int || `*`|
-|prolist| 产品数组|array |[产品列表](http://www.apps.com/index.php?app=Invoicimg&m=ProductApi&a=getFormatList&access_token=2c3b84599fcee0081496d827912c4a)||
+|prolist| 产品数组|array |[产品列表](http://www.apps.com/index.php?app=Invoicimg&m=ProductApi&a=getFormatList&access_token=2c3b84599fcee0081496d827912c4a)|[是否必填](http://www.apps.com/index.php?app=Customer&m=MPrechance&a=is_btpro&access_token=2c3b84599fcee0081496d827912c4a)|
 
 ### **返回结果**
 |字段       |值             |类型    |说明           |
