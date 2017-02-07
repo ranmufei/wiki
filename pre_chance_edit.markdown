@@ -3,6 +3,9 @@
 ### **请求接口**
 /index.php?app=Customer&m=MPrechance&a=edit_chance
 
+/index.php?app=Customer&m=MPrechance&a=delpro // 删除  参数（id )
+/index.php?app=Customer&m=MPrechance&a=edit_chance  //修改  参数（id  num)
+
 ### **接口说明**
 
 ### **请求方式**
