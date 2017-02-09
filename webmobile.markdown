@@ -1,7 +1,11 @@
 # 手机端引用Linksame接口列表
 
-## 1. 手机端全部应用列表
 
+
+
+## 1. 手机端全部应用列表
+# 这个已作废没用了，改成用pcd本地接口
+ PCD地址 + /index.php?app=Home&m=MobileUserApps&a=getApps&cid=公司cid&uid=当前的uid ;
 **接口**: 
 ````php 
 kaifa.linksame.com
