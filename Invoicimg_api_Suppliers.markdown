@@ -26,15 +26,27 @@ http://www.apps.com/index.php?app=Invoicimg&m=ProductApi&a=getSuppliersList
 
 ``` javascript
 {
-count: "26",
-totalPages: 2,
-nowPage: 1,
+count: "98",
+totalPages: 7,
+nowPage: 5,
 data: [
 {
-id: "60",
-name: "sad",  //商品名
-cate_id: "1",
-brand: "",  //品牌
-shelfLife: "0",  // 0表示没有保释期，1表示有保质期
-cate_name: "数码545"  //分类名
+id: "41",
+pro_id: null,
+sup_company: "测试22",
+sup_code: "",
+sup_phone: "84651123",
+url: "www.kjl.com",
+facsimile: "846521365",
+email: "fsda@qq.com",
+mark: "无",
+creat_time: "2016-01-26 10:13",
+uid: "1",
+address: "fsfdsa",
+isDelete: "0",
+cid: "0",
+default5: "0",
+sup_level_id: "0",
+username: "庆丰包子",
+sup_level_name: "--"
 },
