@@ -6,7 +6,7 @@
 get
 
 ### **浏览器查看**
-http://www.apps.com/index.php?app=Invoicimg&m=ProductApi&a=get_supplier_info
+http://www.apps.com/index.php?app=Invoicimg&m=ProductApi&a=get_supplier_info&access_token=2c3b84599fcee0081496d827912c4a&id=2
 
 ### **参数**
 id // 产品id
