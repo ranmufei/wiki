@@ -25,7 +25,7 @@ id // 产品id
 |contact|array | 类型 | 返回数据 数组|
 |----|----|----|-----|
 
-javascript
+``` javascript
 
 {
 info: {
