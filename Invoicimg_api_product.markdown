@@ -5,3 +5,5 @@
 * [产品详情](Invoicimg_api_details)
 * [分类列表](Invoicimg_api_cate)
 * [产品规格列表](Invoicimg_Formatapi_cate)
+* [供应商列表](Invoicimg_api_Suppliers)
+* [供应商详情](Invoicimg_api_Suppliers_info)
