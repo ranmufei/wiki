@@ -1,8 +1,11 @@
 技术部新员工学习计划
 
 1. linksame个人账户注册（注册地址：www.linksame.com）
+
 2. qq技术群加入（106306002）
+
 3. git 注册（192.168.1.240/），git本地安装(安装文件在qq技术群文件中)
+
 4. 项目文件结构说明（应用目录，自己只能修改自己的目录；公共目录，组件目录等）
 5. 我们平台里面有哪些应用、应用分类、应用之间的关联学习（以上1-5项1-2天）
 6. avalon基础学习（http://www.cnblogs.com/rubylouvre/p/3181291.html  ，  http://avalonjs.github.io/index2.html#tutorial/home/index.html）  （3-5天，需要拿出学习计划）
