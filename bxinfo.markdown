@@ -83,6 +83,7 @@ expenseid: "2015091752549797"
 expensename: "sdfsdf"
 id: "3"
 isdelete: "0"
+submit: 1    //为1显示提交按钮
 money: 1111
 time: "2015-09-17 10:30:12"
 userid: "谷歌"
