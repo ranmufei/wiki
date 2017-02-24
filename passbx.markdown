@@ -1,8 +1,7 @@
 # 报销审核
 ## 请求接口 
 > /index.php?app=Account&m=ExpenseApi&a=submitbx&id     
-   
-   get (参数id为报销单id)     提交操作
+ get (参数id为报销单id)     提交操作
 
 
 > /index.php?app=Account&m=ExpenseApi&a=passbx
