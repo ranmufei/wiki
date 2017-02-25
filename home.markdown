@@ -62,6 +62,7 @@
 * [富文本编辑器，“复制外部网页资源转换至本地资源”和“A标签打开默认浏览器”](filter_text_input)
 
 ## [手机短信/电话接口](yunxin)
+## [Linksame调用手机短信接口](linksameSMS)
 ## [首页消息接口列表](indexMessageApi)
 
 * [首页消息接口说明](indexMessage)
