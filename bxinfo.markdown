@@ -56,7 +56,7 @@
 ``` javascript
 {
 pj: {
-selfbh: 1,//为1就显示删除
+selfbh: 1,//为1就显示删除和撤回
 statu: 1,//为1就显示审核框和审核意见
 count:1,
 data: [
@@ -115,3 +115,10 @@ status: "财务已审核"
 ]
 }
 }
+
+
+
+> /index.php?app=Account&m=ExpenseApi&a=delete(post传参 id)
+
+
+> /index.php?app=Account&m=ExpenseApi&a=recallbx(post传参 id)
