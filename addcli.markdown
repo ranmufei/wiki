@@ -1,3 +1,6 @@
+/index.php?app=Invoicimg&m=SaleMobile&a=addsale
+
+JSON.stringify(data)
 
 ``` javascript
 //退单数据
