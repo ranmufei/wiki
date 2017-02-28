@@ -53,3 +53,10 @@ default1: "",
 default2: ""
 qx:'true'   //true就显示编辑和删除
 }
+
+> /index.php?app=Account&m=ExpenseApi&a=deletepj(post传参 id)
+
+> /index.php?app=Account&m=ExpenseApi&a=editpj(post传参)
+
+
+
