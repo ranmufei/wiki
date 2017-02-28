@@ -51,4 +51,5 @@ docbz: "无",
 audityz: "",
 default1: "",
 default2: ""
+qx:true   //true就显示编辑和删除
 }
