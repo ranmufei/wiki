@@ -32,6 +32,9 @@ data[choiceData][0][batch_data][1][thnum]:1
 data[choiceData][0][batch_data][1][is_thsale]:0
 data[choiceData][0][batch][0][id]:775            //退货批次的id
 data[choiceData][0][batch][0][num]:1             //退货批次的数量
+ data[choiceData][0][xlhdata]:[]            //序列号id数组
+               
+                
 data[choiceData][0][unitname]:瓶
 data[choiceData][0][action]:delete
 data[order]:XS-TH201711610646    //订单号 (*)
