@@ -185,7 +185,42 @@ productname: "星期",
 thnum: 1,
 is_thsale: 0
 }
+],
+xlhdata: {       //序列号列表
+count: "1", 
+totalPages: 1,
+nowPage: 1,
+data: [
+{
+id: "27938",      //序列号id
+orderid: "5356",
+small_id: "0",
+productId: "604",
+subTypeId: "2204",
+datatime: "2016-12-29 17:45",
+type: "33",
+storeId: "32",
+isShelf: "0",
+endtime: "0",
+xuliehao: "20161229-116",   //序列号
+piciTableId: "775",
+mark: null,
+default: "1",
+default2: null,
+ckstatus: "0",
+bound: "5358",
+intonum: 1,
+order_num: "XS20161229175127-1",
+sale_order_id: "5358",
+batch: "20161229175011",      //批次
+product: "星期/haha-4",       //产品/规格
+piciname: "20161229175011",
+stornhouse: "是是是是",       //出库
+disable: true
+},
+
 ]
+},
 }
 ]
 
