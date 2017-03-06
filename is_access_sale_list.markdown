@@ -43,6 +43,8 @@ http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=relatesale&p=1&jump=1
 
 http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=thpr_data&id=5358     //退货订单关联销售订单的产品信息
 
+http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=thxlhlist&id=5358&xinhao=2512&str=   退货关联销售订单的某个型号的序列号（str为搜索字段）
+
 
 http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=money_cr&id=6   //查询通过汇率id查询汇率
 
