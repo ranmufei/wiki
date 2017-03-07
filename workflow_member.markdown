@@ -1,5 +1,5 @@
 ### **请求接口**
-*测试http://www.apps.com/index.php?app=Workflow&m=IndexApi&getmember
+*测试http://www.apps.com/index.php?app=Workflow&m=IndexApi&a=getmember
 
 ### **请求方式**
 get/post
