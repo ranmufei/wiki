@@ -119,6 +119,7 @@
 * [全公司列表](manager)
 * [流程列表](liucheng_list)
 * [表单列表](form_list)
+* [重新选择审核人](check_user_change)
 * [获取选择下一个审核人列表](workflow_member)
 * [提交下一个审核人](workflow_user)
 
