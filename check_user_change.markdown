@@ -2,7 +2,7 @@
 
 > /index.php?app=Workflow&m=IndexApi&a=answer_work
 
->  method : post
+>  method : get
 
 > *测试http://www.apps.com/index.php?app=Workflow&m=IndexApi&a=answer_work
 ## 参数
