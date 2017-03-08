@@ -108,6 +108,7 @@
 
 ### 工作流
 * [工作流思维流程](my_luoji)
+* [应用权限](power_list)
 * [我的全部工作流](my_workflow)
 * [我待处理的任务](my_task)
 * [任务详情](mytask_Info)
