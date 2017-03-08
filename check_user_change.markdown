@@ -1,10 +1,10 @@
 ##工作流重新选择审核人
 
-> /index.php?app=Workflow&m=IndexApi&a=answer_work
+> /index.php?app=Workflow&m=IndexApi&a=changeCheckUser
 
 >  method : get
 
-> *测试http://www.apps.com/index.php?app=Workflow&m=IndexApi&a=answer_work
+> *测试http://www.apps.com/index.php?app=Workflow&m=IndexApi&a=changeCheckUser
 ## 参数
 
 ### **其他参数**
