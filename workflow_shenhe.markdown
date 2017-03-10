@@ -115,3 +115,16 @@
 | --------- |--------      |--------|--------       |
 |statu    |success/error |string |返回结果         |
 |info       | '' | string | 接口状态说明  |
+
+
+##工作终审未通过并结束 请求接口 
+
+> /index.php?app=Workflow&m=IndexApi&a=rejectEndFun
+
+>  method : get
+> *测试http://www.apps.com/index.php?app=Workflow&m=IndexApi&a=rejectEndFun
+### **其他参数**
+|字段       |说明            |类型    |必填           |
+| --------- |--------      |--------|--------       |
+|id         |工作id|int|   *|
+|mark         |回复信息|string|   必传|
