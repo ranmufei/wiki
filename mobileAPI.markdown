@@ -273,6 +273,7 @@
 * [订单管理/订单操作历史记录](OrderManageMobile_getLogList)
 
 * [选人列表](OrderManageMobile_getShList)
+* [驳回](OrderManageMobile_bh)
 
 ### 汽车4S店客户管理
 * [跟进提醒（销售顾问）/获取七天跟进客户](TrackMobile_Select)
