@@ -272,6 +272,8 @@
 * [订单管理/订单审核操作](OrderManageMobile_shStatusOpt)
 * [订单管理/订单操作历史记录](OrderManageMobile_getLogList)
 
+* [选人列表](OrderManageMobile_getShList)
+
 ### 汽车4S店客户管理
 * [跟进提醒（销售顾问）/获取七天跟进客户](TrackMobile_Select)
 * [跟进提醒（销售顾问）/获取跟进客户列表](TrackMobile_record)
@@ -282,7 +284,7 @@
 * [客户查询（销售顾问）/订单客户列表](OrderMobile_record)
 * [客户查询（销售顾问）/我的车主列表](OwnerMobile_record)
 * [客户查询（销售顾问）/我的客户列表](ClientInfoMobile_clientInfo)
-* [客户查询（销售顾问）/无跟进计划客户列表](ClientInfoMobile_clientPlan)
+* [客户查询（销售顾问）/无跟进计划客户列表](VersionMobile_clientPlan)
 * [专营店客户查询（经理）/接待记录列表](ManageRecordMobile_record)
 * [专营店客户查询（经理）/历史跟进列表](ManageHtrackMobile_record)
 * [专营店客户查询（经理）/历史回访列表](ManageHvisitMobile_record)
