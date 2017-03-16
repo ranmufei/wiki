@@ -273,6 +273,7 @@
 * [订单管理/订单操作历史记录](OrderManageMobile_getLogList)
 
 * [选人列表](OrderManageMobile_getShList)
+* [得到重新报价详情](TechnologyMobile_get_price)
 * [驳回](OrderManageMobile_bh)
 
 ### 汽车4S店客户管理
