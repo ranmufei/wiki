@@ -14,6 +14,7 @@ get
 | vid| 是 | int|版本vid|
 | status| 是 | int|状态|
 | reason| 是 | string|操作理由|
+| sh_uid| 是 | int|审核人|
 | price| 是 | float|重新报价价格(只有当status = 8 是 才必填)|
 
      status  :  状态  1   : 确定信息提交到技术审核
