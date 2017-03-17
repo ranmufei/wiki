@@ -4,7 +4,7 @@ index.php?app=InquiryManageClothing&m=TechnologyMobile&a=edit_bh
 ### **公网测试**
 http://www.apps.com/index.php?app=InquiryManageClothing&m=TechnologyMobile&a=edit_bh&access_token=
 ### **请求方式**
-get
+post
 
 
 ### **参数**
