@@ -1,5 +1,5 @@
 ### **请求接口**
-index.php?app=AfterSalers&m=Cate&a=getCatePer
+index.php?app=AfterSalers&m=CateMobile&a=getCatePer
 
 
 
