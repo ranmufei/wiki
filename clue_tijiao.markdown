@@ -7,7 +7,7 @@ index.php?app=AfterSalers&m=ClueMobile&a=createDatas
 http://www.apps.com/index.php?app=AfterSalers&m=ClueMobile&a=createDatas
 
 ### **请求方式**
-podt
+post
 
 ### **参数**
 | 参数名称  |必填|     说明      |
@@ -103,6 +103,8 @@ remark:按时                              //备注
 num:2                                    //商品数量
 
 money:0                                  //金额
+
+cate_per：0                              //分类负责人------------------------------2017/3/17新增
 
 ### **返回结果**
 |字段        |值          |类型    |说明        |
