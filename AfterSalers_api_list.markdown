@@ -11,6 +11,10 @@
 
  - [待处理维修单审核](FxdclAllMobile_fxdsh_tg)
 
+ - [维修项目列表](FxdclProMobile_getPro)
+
+ - [维修项目审核](FxdclProMobile_shPro)
+
 -----------报修线索--------------
 
  - [报修线索首页](clue_index)
