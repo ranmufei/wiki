@@ -18,5 +18,5 @@ post
 | is_sale_price| 是 |是否修改价格|
 | is_num| 是 |是否修改数量|
 | is_lose| 是 |是否修改损耗|
-| oid| 是 |数量|
-| p_oid| 是 |数量|
+| oid| 是 |订单id|
+| p_oid| 是 |父级id|
