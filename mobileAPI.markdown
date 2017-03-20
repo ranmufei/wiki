@@ -275,6 +275,9 @@
 * [选人列表](OrderManageMobile_getShList)
 * [得到重新报价详情](TechnologyMobile_get_price)
 * [驳回](OrderManageMobile_bh)
+* [订单修改](OrderManageMobile_editGoodsOpt)
+* [订单删除](OrderManageMobile_delGoodsOpt)
+* [附件删除](OrderManageMobile_fileDel)
 
 ### 汽车4S店客户管理
 * [跟进提醒（销售顾问）/获取七天跟进客户](TrackMobile_Select)
