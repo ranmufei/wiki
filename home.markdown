@@ -28,6 +28,8 @@
 
 * [多语言系统使用说明](lang_specification)
 
+* GraphQL api 模块使用(graphql-api)
+
 ### [v7.0 已上线的应用](onlineApp)
 
 ### [发行及升级](versionorupdate)
