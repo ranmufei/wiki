@@ -11,6 +11,6 @@
  * SysTypes.php (公共类型注册表，可以用此注册表类只接引用`user`(员工) , `post`(职位) , `dept`(部门) 等类型 )
  * Type (目录中存放的是所有公共类型)
      * UserType.php
-   * PostType.php
+    * PostType.php
    * …
 
