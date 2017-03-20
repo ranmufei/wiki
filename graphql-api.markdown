@@ -20,4 +20,8 @@
      * Post.php
      * …
 
-SysTypes.php是公共类型的注册表类，建议从这里使用公共类型（`SysTypes::user()、SysTypes::post()…`）,同时也对系统的标量类型进行了封装（`SysTypes::id()、SysTypes::string()…`）。
+SysTypes.php ：是公共类型的注册表类，建议从这里使用公共类型（`SysTypes::user()、SysTypes::post()…`）,同时也对系统的标量类型进行了封装（`SysTypes::id()、SysTypes::string()…`）。
+
+Data\DataSource.php ：提供了对公共类型数据的查询，并且封装成对了对应 `Vo` 对象，如查询指定 `id` 的用户信息，如果用户自己对公共类型提供数据，则必须转换成对应的 `Vo` 对象。
+
+Vo\User.php… ：为了统一规范化对类型的赋值，如果是自己对类型提供的数据需要转换成对应的 `Vo`类型。 
