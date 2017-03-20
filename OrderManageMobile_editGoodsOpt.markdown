@@ -16,6 +16,8 @@ post
 | num| 是 |数量|
 | sale_price| 是 |销售价格|
 | total_price| 是 |总价|
-| is_sale_price| 是 |是否销售价|
+| is_sale_price| 是 |是否改价格|
+| is_num| 是 |是否改数量|
+| is_lose| 是 |是否改损耗|
 | oid| 是 |数量|
 | p_oid| 是 |数量|
