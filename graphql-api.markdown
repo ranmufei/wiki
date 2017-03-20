@@ -20,4 +20,4 @@
      * Post.php
      * …
 
-SysTypes.php是公共类型的注册表类，建议从这里使用公共类型（SysTypes::user()、SysTypes::post()…）,同时也对系统的标量类型进行了封装（SysTypes::id()、SysTypes::string()…）。
+SysTypes.php是公共类型的注册表类，建议从这里使用公共类型（`SysTypes::user()、SysTypes::post()…`）,同时也对系统的标量类型进行了封装（`SysTypes::id()、SysTypes::string()…`）。
