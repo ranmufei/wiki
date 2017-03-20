@@ -8,7 +8,7 @@
 目前定义了一些公共的类型文件，位于`Addons\GraphQL`目录，对应的命名空间前缀`GraphQL\Project\`。类型命名空间为`GraphQL\Project\Type`，公共的GraphQL文件目录如下：
 
 * Addons\GraphQL\
- * SysTypes.php `(公共类型注册表，可以用此注册表类直接引用`user`(员工) , `post`(职位) , `dept`(部门) 等类型 )`
+ * SysTypes.php
  * Type <small>(目录中存放的是所有公共类型)</small>
      * UserType.php
      * PostType.php
@@ -20,3 +20,4 @@
      * Post.php
      * …
 
+SysTypes.php是公共类型的注册表类，建议从这里使用公共类型（SysTypes::user()、SysTypes::post()…）,同时也对系统的标量类型进行了封装（SysTypes::id()、SysTypes::string()…）。
