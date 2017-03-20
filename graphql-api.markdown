@@ -12,5 +12,5 @@
  * Type (目录中存放的是所有公共类型)
      * UserType.php
      * PostType.php
-   * …
+     * …
 
