@@ -278,6 +278,7 @@
 * [订单修改](OrderManageMobile_editGoodsOpt)
 * [订单删除](OrderManageMobile_delGoodsOpt)
 * [附件删除](OrderManageMobile_fileDel)
+* [系统单位列表](IndexMobile_getUnit)
 
 ### 汽车4S店客户管理
 * [跟进提醒（销售顾问）/获取七天跟进客户](TrackMobile_Select)
