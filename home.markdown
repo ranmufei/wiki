@@ -69,6 +69,7 @@
 
 * [首页消息接口说明](indexMessage)
 * [应用消息接口说明](appMessage)
+* [Email接口说明](email)
 
 # 与linksame官网通信接口
 
