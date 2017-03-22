@@ -1,5 +1,5 @@
 # 邮件接口说明
-[邮件列表]
+[邮件列表]()
 url :/index.php?app=Email&m=Index&a=get_email
 data:{folder:0,seen:0,eid:vm.listMail[vm.current_index]['id'] ,account:vm.listMail[vm.current_index]['account']}
 * 返回：
