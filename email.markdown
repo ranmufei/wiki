@@ -15,8 +15,8 @@
 + data:{new:1,eid:vm.listMail[vm.current_index]['id'],account:vm.listMail[vm.current_index]['account']}
 + 返回：
     {
-errNum: 0,
-sucNum: 26,
-status: 1,
-info: "更新邮件成功！！"
-}
+    errNum: 0,
+    sucNum: 26,
+    status: 1,
+    info: "更新邮件成功！！"
+    }
