@@ -27,8 +27,9 @@
 + 返回：
 ![1](http://192.168.1.240/uploads/ranmufei/apps/47a463c624/1.jpg)
 
+````
+二.[获取新邮件]()  
 
-二.[获取新邮件]()
 ````
 
 + url :/index.php?app=Email&m=Index&a=get_email
