@@ -44,3 +44,13 @@
     }
 
 ````
+
+### 二.[邮件内容]()  
+
+````
+. url:/index.php?app=Email&m=Index&a=get_email_content
+. type:"post"
+. data:{e_list_id:e_list_id} 
+. 返回数组和附件
+
+````
