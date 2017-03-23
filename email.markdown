@@ -14,7 +14,7 @@
 + type:"get/post"
 + data:{new:1,eid:vm.listMail[vm.current_index]['id'],account:vm.listMail[vm.current_index]['account']}
 + 返回：
-````php
+````
 {
     errNum: 0,
     sucNum: 26,
