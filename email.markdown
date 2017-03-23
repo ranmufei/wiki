@@ -30,16 +30,18 @@
 
 ---
 二.[获取新邮件]()
----
+````
+
 + url :/index.php?app=Email&m=Index&a=get_email
 + type:"get/post"
 + data:{new:1,eid:vm.listMail[vm.current_index]['id'],account:vm.listMail[vm.current_index]['account']}
 + 返回：
-````
+
 {
     errNum: 0,
     sucNum: 26,
     status: 1,
     info: "更新邮件成功！！"
     }
+
 ````
