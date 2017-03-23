@@ -10,7 +10,7 @@
 
 ```` flagged:0 , //是否星标 0未星标的  1已星标的  
 
-``` eid:vm.listMail[vm.current_index]['id'] , //账户id
+```` eid:vm.listMail[vm.current_index]['id'] , //账户id
 
 ``` account:vm.listMail[vm.current_index]['account'],  //账户
 
