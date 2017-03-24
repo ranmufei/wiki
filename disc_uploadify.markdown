@@ -13,7 +13,6 @@ http://www.apps.com/index.php?app=Wangpan&m=MobileApi&a=uploadify
 |----------- |-----|------------|
 | uid        | 是  |   用户id   |
 | fid  | 否  |   本接口传入此参数表示目录id,不传表示默认为0  |
-| file  | 是  |   本接口传入此参数表示上传文件信息  |
 
 
 ### **返回结果**
