@@ -17,7 +17,7 @@ http://www.apps.com/index.php?app=Wangpan&m=MobileApi&a=app_accessor
 ### **返回结果**
 |字段       |值             |类型    |说明           |
 | --------- |--------      |--------|--------       |
-|name   |              |string|菜单名称，应用附件|
+|name   |              |string|菜单名称：应用附件|
 |access|              |int |0=无权限，1=有权限|
 ### 实例
 
