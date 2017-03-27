@@ -1,11 +1,11 @@
 ### **请求接口**
-/index.php?app=Wangpan&m=MobileApi&a=xxxxx
+/index.php?app=Wangpan&m=MobileApi&a=company_lists
 
 ### **请求方式**
 get
 
 ### **公网测试**
-http://www.apps.com/index.php?app=Wangpan&m=MobileApi&a=xxxxx
+http://www.apps.com/index.php?app=Wangpan&m=MobileApi&a=company_lists
 
 ### **请求参数**
 
