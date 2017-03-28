@@ -3,6 +3,7 @@
 
 ### 写法示例
 获取员工信息的接口，可以在`GraphIQL Feen`看到效果
+
 `http://www.apps.com/index.php?app=Home&m=Organ`
 
 ### 应用定义类型文件
