@@ -23,7 +23,7 @@ http://www.apps.com/index.php?app=Wangpan&m=MobileApi&a=Appaccessory_list
 |name       |              |string |文件（夹）名称   |
 |size       |              |String |文件大小  |
 |inputtime  |              |string    |文件（夹）创建时间 |
-|file_extension |          |String |文件类型id |
+|file_extension |          |String |文件类型id,文件类型（1=图片 2=音乐 3=视频 4=文件） |
 |type       |              |string    |file or folder |
 |file_extension_icon|              |string|文件类型图片 |
 |imgUrl|              |string|文件缩略图 |
