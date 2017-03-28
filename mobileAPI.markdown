@@ -83,7 +83,7 @@
 ##### 应用附件
 * [当前用户是否有权限进入应用附件](app_accessor)
 * [应用附件 首页应用文件夹列表](Appaccessory)
-
+* [应用附件 下属文件夹内容详情](Appaccessory_list)
 ### 进销存
 * [产品列表](productList)
 * [产品具体详情](productInfo)
