@@ -2,7 +2,7 @@
 使用composer默认的集成方式，组件位于根目录的composer组件文件夹里，只需要导入"`./vendor/autoload.php`"自动加载文件，就可以使用GraphQL组件生成新的API。
 
 ### 写法示例
-`http://www.apps.com/index.php?app=Home&m=TestGraphql`
+`http://www.apps.com/index.php?app=Home&m=Organ`
 
 ### 应用定义类型文件
 在GraphQL中自定义类型应该使用命名空间前缀`GraphQL\App\` + 应用名 + `\自己的目录结构结构`。
