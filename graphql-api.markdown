@@ -1,7 +1,7 @@
 ### GraphQL 
 使用composer默认的集成方式，组件位于根目录的composer组件文件夹里，只需要导入"`./vendor/autoload.php`"自动加载文件，就可以使用GraphQL组件生成新的API。
 
-### 写法示例(获取员工信息的接口，可以在`GraphIQL Feen`看到效果)
+### 写法示例(#### 获取员工信息的接口，可以在`GraphIQL Feen`看到效果)
 `http://www.apps.com/index.php?app=Home&m=Organ`
 
 ### 应用定义类型文件
