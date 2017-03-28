@@ -1,17 +1,18 @@
 ### **请求接口**
-/index.php?app=Wangpan&m=MobileApi&a=Appaccessory
+/index.php?app=Wangpan&m=MobileApi&a=Appaccessory_list
 
 ### **请求方式**
 get
 
 ### **公网测试**
-http://www.apps.com/index.php?app=Wangpan&m=MobileApi&a=Appaccessory
+http://www.apps.com/index.php?app=Wangpan&m=MobileApi&a=Appaccessory_list
 
 ### **请求参数**
 
 | 参数名称  |必填|     说明      |
 |------|-----|------|
 | uid     | 是 |   用户id   |
+| folder_id| 是 |  文件夹id   |
 
 ### **返回结果**
 |字段       |值             |类型    |说明           |
