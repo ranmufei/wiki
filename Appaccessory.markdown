@@ -26,7 +26,7 @@ http://www.apps.com/index.php?app=Wangpan&m=MobileApi&a=Appaccessory
 |type       |              |int    |file or folder |
 |file_extension_icon|              |string|文件类型图片 |
 |imgUrl|              |string|文件缩略图 |
-
+|icon|              |string|文件夹标示图 |
 
 ### 实例
 
