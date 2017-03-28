@@ -5,7 +5,7 @@
 get
 
 ### **公网测试**
-http://www.apps.com/index.php?app=Wangpan&m=MobileApi&a=_REQUEST
+http://www.apps.com/index.php?app=Wangpan&m=MobileApi&a=Appaccessory
 
 ### **请求参数**
 
