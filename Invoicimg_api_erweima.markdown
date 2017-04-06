@@ -62,5 +62,6 @@ formatname: "9999-大号",
 unitname: "夫人"
 }
 ],
-status: 2  // 1 代表入库 2 出库
+order_status: 2, // 1 表示入库  2 出库
+status: 1        //1 表示查询成功  0 失败
 }
