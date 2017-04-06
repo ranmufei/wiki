@@ -62,5 +62,5 @@ formatname: "9999-大号",
 unitname: "夫人"
 }
 ],
-status: 2
+status: 2  // 1 代表入库 2 出库
 }
