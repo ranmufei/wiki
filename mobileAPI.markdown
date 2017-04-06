@@ -23,6 +23,7 @@
 * [产品管理](Invoicimg_api_product)
 * [采购管理](Invoicimg_api_Purchase)
 * [库存管理](Invoicimg_api_Instock)
+* [二维码扫描信息](Invoicimg_api_erweima)
 
 
 ### 生产ERP
