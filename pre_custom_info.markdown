@@ -30,9 +30,11 @@ get
 id: "277",                   //客户ID
 userid: "庆丰包子",           //创建者
 custom_type: "代理商",        //客户分类 
+custom_typeid: "45",          //客户分类id 
 custom_company: "武汉大学",   //客户名称
 level: "",                   //重要等级
 pid: "",                     //父级客户名称
+pidid: "0",                     //父级客户id
 url: "",                     //公司网址
 scope: "",                   //员工人数
 sales: "",                   //年销售额
