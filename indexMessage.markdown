@@ -39,6 +39,8 @@
         $data['con_id'] = 数据id ;  //数据ID，用于后续数据分析用 ， 2016-01-31新加
         // 获取审核详情地址，具体说明见下面五
         $data['detail_url'] = $arr['detail_url'];   
+      
+        $data['uid'] = $arr['uid'] ;  //选填，不填默认为当前登陆的人的uid
 
 ```` 
 
@@ -69,6 +71,8 @@
 
        // 选填	
         $data['check_name'] = $arr['check_name'] ;   //审核的按钮的名称，默认：审核
+      
+       $data['uid'] = $arr['uid'] ;  //选填，不填默认为当前登陆的人的uid
 ```` 
 
 ###  3.有操作的消息（业务审批($type = 2)/办公审批($type = 3) ）
@@ -105,7 +109,9 @@
         $data['is_next_check'] = $arr['is_next_check'] ;   //是否有提交下一步审核的按钮， 默认1：有   ，0：无
         $data['check_name'] = $arr['check_name'] ;   //审核的按钮的名称，默认：审核
         $data['reject_name'] = $arr['reject_name'] ;   //审核的按钮的名称，默认：驳回
-        $data['next_check_name'] = $arr['next_check_name'] ;   //审核的按钮的名称，默认：提交下一步审核	
+        $data['next_check_name'] = $arr['next_check_name'] ;   //审核的按钮的名称，默认：提交下一步审核
+
+        $data['uid'] = $arr['uid'] ;  //选填，不填默认为当前登陆的人的uid	
         
         	
 ````
