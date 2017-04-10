@@ -1,14 +1,14 @@
-# 二维码扫描接口
+# 二维码扫描入库接口
 ## 请求接口 
 
 > /index.php?app=Invoicimg&m=ProductApi&a=getStronOrderByDimension
 
 >  method : post
 
-> http://www.apps.com/index.php?app=Invoicimg&m=ProductApi&a=getStronOrderByDimension&access_token=e133ac84d35628422ca6c2c408667a&dimension=XS201662195242-1
+> http://www.apps.com/index.php?app=Invoicimg&m=InstockApi&a=inStockOperation&access_token=e133ac84d35628422ca6c2c408667a
 ## 参数
 
-| 参数名称      |    必填 | 说明  |
+| 参数名称  data    |    必填 | 说明  |
 | :-------- | :--------:| :-- |
 |dimension| 是 |二维码或者订单号|
 
