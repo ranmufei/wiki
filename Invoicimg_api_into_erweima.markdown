@@ -16,7 +16,6 @@
 |mark| 是 |备注|
 |piciname| 是 |批次|
 |product| 是 |产品数组|
-|product[ id ] | 是 |数据id|
 
 
 
