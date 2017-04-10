@@ -30,6 +30,8 @@
 
 * [GraphQL api 模块使用](graphql-api)
 
+* [apps 公共模型 API 网页版查询](apps_doc_view)
+
 ### [v7.0 已上线的应用](onlineApp)
 
 ### [发行及升级](versionorupdate)
