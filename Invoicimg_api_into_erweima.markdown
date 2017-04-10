@@ -1,7 +1,7 @@
 # 二维码扫描入库接口
 ## 请求接口 
 
-> /index.php?app=Invoicimg&m=ProductApi&a=getStronOrderByDimension
+> /index.php?app=Invoicimg&m=InstockApi&a=inStockOperation
 
 >  method : post
 
