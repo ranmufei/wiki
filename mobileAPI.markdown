@@ -112,6 +112,7 @@
 * [接收提交的考勤申请数据（非补卡申请）](add_kaoqin_record)
 * [接收提交的补卡申请数据](add_qiandao_record)
 * [获取当前这个人的考勤设置](get_my_set)
+* [考勤审核权限的人员列表](power_kaoqin)
 
 ### 工作流
 * [工作流思维流程](my_luoji)
