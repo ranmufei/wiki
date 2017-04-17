@@ -103,6 +103,15 @@
 
 - [数据库设计工具建模](desginDataBase)
 
+
+# 工作交接文档
+
+- [进销存](Invoicimg)
+
+
+
+
+
 # 私有盘控件
 
 * - [部分Avalon组件在线预览 案例](http://www.apps.com/index.php?app=Invoicimg&m=TestApi&a=widget) 
