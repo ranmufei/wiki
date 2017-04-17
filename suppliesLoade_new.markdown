@@ -1,6 +1,6 @@
 ## 数据处理 model('Excel')->importExcel($path); //导入数据处理
 
--$value[0];//商品名称
+- $value[0];//商品名称
 -$value[1];//规格一
 -$value[2];//规格二
 -$value[3];//多规格/单品
