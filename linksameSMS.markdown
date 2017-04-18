@@ -1,8 +1,8 @@
 # Linksame调用手机短信接口
 
->  linksame上面调用：model('Sms')->index($type,$sendArr)
+###  linksame上面调用：model('Sms')->index($type,$sendArr)
 
->  PCD、云应用调用方式：SnsApi::uApi('Sms/index',$sendArr)
+### PCD、云应用调用方式：SnsApi::uApi('Sms/index',$sendArr)
 
 > /*
 >        * type必须传！！
