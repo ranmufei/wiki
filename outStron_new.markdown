@@ -11,6 +11,7 @@
  * @return [type]         array
 
 ## 判断订单是否预约序列号
- - （即销售创建自动入库单  数据表 sale_relate  字段 addinhouse==1） 
+ - （即销售创建自动入库单  数据表 sale_relate  字段 addinhouse==1）
+ -  url ：： app=Invoicimg&m=Batch&a=getformatbatchlist_new&ckid=4&subid=471&orderid=1218&allview=0 
 
  
