@@ -10,6 +10,7 @@
  * @param  integer $allview     是否显示所有
  * @return [type]         array
 
-## 判断订单是否预约序列号（即销售创建自动入库单  数据表 sale_relate  字段 addinhouse==1） 
+## 判断订单是否预约序列号
+ - （即销售创建自动入库单  数据表 sale_relate  字段 addinhouse==1） 
 
  
