@@ -1,3 +1,5 @@
+>接口    url='/index.php?app=Invoicimg&m=Supply&a=outStron_new'
+
 ## 销售出库订单
 
 
