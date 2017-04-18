@@ -23,4 +23,6 @@
 > 选择序列号  oa_jinxiao_batch_info
  - 1 ckstatus 序列号是否预约 0 非预约 1预约
  - 2 bound    绑定的销售子订单id  0 非绑定  >0 销售子订单id 
+ - 3 default  出库状态 0 在库 1 已出库
+
  
