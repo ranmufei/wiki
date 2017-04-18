@@ -15,5 +15,9 @@
  -  url ：： app=Invoicimg&m=Batch&a=getformatbatchlist_new&ckid=4&subid=471&orderid=1218&allview=0 
  - jinxiao_batch 中的 ckstatus ==1 表示该批次被全部预约 不可被其他出库单调用  2 部分预约  0 非预约
 
+> 出库选择批次   
+ - 1 预约订单（自产销售订单）  批次的数量 = 预约的序列号总数
+ - 2 非预约订单  批次实际数量（可选） = 批次库存总数- 预约数
+
 
  
