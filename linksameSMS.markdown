@@ -4,6 +4,10 @@
 
 ### PCD、云应用调用方式：SnsApi::uApi('Sms/index',$sendArr)
 
+
+| templateid   | 功能   | $type  | $sendArr |
+| :--  | ----:| :--: | :--: |
+| :--  | 发送短信验证码|  type =1  | 还需传入参数1个： mobile ; mobile(目标手机号) |
 > /*
 >        * type必须传！！
 
