@@ -1,3 +1,4 @@
+>接口    url='/index.php?app=Invoicimg&m=Supply&a=intoStron'
 ## 入库管理
    > 针对订单入库   （批次 产品管理  ispcStatus==1   序列号  xlhstatus==1 ）  
    - 1 销售自动入库单   （如果销售那边没有生成序列号在入库时生成序列号，销售勾选生成序列号， 入库时勾选序列号入库）
