@@ -8,3 +8,4 @@
 
 ### 产品库存
 * [出库流程](process)
+* [出库管理](outStron_new)
