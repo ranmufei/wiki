@@ -11,3 +11,5 @@
 * [出库管理](outStron_new)
 * [仓库管理](warehouse)
 * [入库管理](intoStron)
+* [出入库的接口] (getOrderList)
+
