@@ -118,7 +118,6 @@
 
 | 组件名称 |  类型  |  描述  |
 | :-- | ----:| :--: |
-
 |[新建项目(avalon)](addmanager) `新`  | Avalon | 导入组件 `2017-04-20`|
 |[统一导入组建(avalon)](uploadnew) `新`  | Avalon | 导入组件 `2016-11-9`|
 |[在线Office组件(avalon)](office) `新`  | Avalon | office文档在线查看操作组件 `2016-10-31`|
