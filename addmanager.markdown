@@ -20,8 +20,8 @@
 
 //组件配置
    $pmanager:{
-      objective:"",  /*陈孔毅新增20170323*/
-        pro_name:"", /*陈孔毅新增20170323*/    
+        pro_name:"", /*项目名称*/   
+        objective:"",  /*项目描述*/
         onInit: avalon.noop ,
         add_callback:function(pid,url){  /*添加项目的回调 , 回调两个参数，一个是项目pid，一个项目的详情页面url*/
 
