@@ -1,6 +1,9 @@
 ### **首页**
 -----------2017/5/4新增---------
 - [公海线索列表](seaClue_getClueOrder)
+- [创建公海线索](seaClue_createDatas)
+- [获取线索详情](seaClue_getClueDetails)
+- [线索分配](Fxd_fenpeiClue)
 
 -----------2017/4/24新增---------
 - [维修单驳回](fcdclall_rxd_bh)
