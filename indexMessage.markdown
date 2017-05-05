@@ -206,12 +206,13 @@ $is_last = 0或1   //0没有最终审核    1已结最终审核了 ,用于判断
   电脑端审核通过后，手机端在查看审核详情时，需要通过判断历史记录接口返回的mystatus字段，当mystatus>=1时，通过接口更改这条信息的状态为已审核并且不能操作了
 
 
-##  七. 在应用中审核后调用接口
- > 注意：在已审核情况下才能用
+##  七. 在应用中审核(或删除)后调用接口
+
 ```` php
-   # $con_id ： 发送通知的数据id，为你的应用审核表的主键
+  # $con_id ： 发送通知的数据id，为你的应用审核表的主键
   #  $app_name : 发送消息时的那个应用form ， 默认为应用的key值
-   model('Notify')->changeNotifyStatus($con_id,$app_name) ;
+  #  $status : 消息的状态   0未读   1已读  2已审核    3已删除
+   model('Notify')->changeNotifyStatus($con_id,$app_name,$status) ;
 ````
 返回成功 :+1: 
 ```` php
