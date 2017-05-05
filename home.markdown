@@ -32,6 +32,8 @@
 
 * [apps 公共模型 API 网页版查询](apps_doc_view)
 
+* [消息推送模型 推送移动端 推送pc端 推送IM](push_model)
+
 ### [v7.0 已上线的应用](onlineApp)
 
 ### [发行及升级](versionorupdate)
