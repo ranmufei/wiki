@@ -4,6 +4,8 @@
 
 # 开发帮助
 
+* [消息推送模型 推送移动端 推送pc端 推送IM](push_model) `20170505`
+
 * [升级包升级常见问题及注意事项](sql_error)
 
 * [内部开发环境帮助说明](devHelp)
@@ -32,7 +34,7 @@
 
 * [apps 公共模型 API 网页版查询](apps_doc_view)
 
-* [消息推送模型 推送移动端 推送pc端 推送IM](push_model)
+
 
 ### [v7.0 已上线的应用](onlineApp)
 
