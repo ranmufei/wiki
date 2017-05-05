@@ -5,6 +5,9 @@
 - [获取线索详情](seaClue_getClueDetails)
 - [线索分配](Fxd_fenpeiClue)
 
+-[节点权限](cate_quanxian)
+
+
 -----------2017/4/24新增---------
 - [维修单驳回](fcdclall_rxd_bh)
 
