@@ -98,12 +98,12 @@ model('Flow')->flowInfo($node);
           $data['status'] = 1 ; 
           $data['info'] = "固定流程" ; 
           $data['flow_type'] = 1 ;
-          $data['flow_set'] = $set['base_data'] ;
+          $data['step'] = 0 ;
 或者：
           $data['status'] = 0 ; 
           $data['info'] = "查不到固定流程，认为是自由流程" ; 
           $data['flow_type'] = 0 ;
-          $data['flow_set'] = array() ; 
+          $data['step'] = $step ; //共有几步
 */
 
 ````
