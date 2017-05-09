@@ -57,7 +57,12 @@
 |id              int|是| 收取消息的json 字符串中 id  |
 
 
-### 消息收取数据结构
+### curl  
+
+> http://www.apps.com/index.php?app=Im&m=User&a=del_notice&access_token=2c3b84599fcee0081496d827912c4a&id=94
+
+
+### 参考消息收取数据结构
 
 ```
 {
