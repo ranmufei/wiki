@@ -18,4 +18,18 @@
 
 
 
-## 案例html 
+# 移动端登录成功后回调 注册手机型号 （token）到系统
+
+## API   
+
+## HTTP URL   /index.php?app=Im&m=User&a=mobileInfo
+
+## 携带参数
+| 参数名称  type    |    必填 | 说明  |
+| :-------- | --------:| :--: |
+|access_token       string|是| 手机端登录授权token  |
+|token              string|是| 手机端token 专指IPhone 官方分配的手机唯一token(安卓端不需要)  |
+|type                int|是|  1：IPhone  0：安卓  |
+
+
+
