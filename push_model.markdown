@@ -57,7 +57,7 @@
 |id              int|是| 收取消息的json 字符串中 id  |
 
 
-### curl  
+### curl  请求案例 
 
 > http://www.apps.com/index.php?app=Im&m=User&a=del_notice&access_token=2c3b84599fcee0081496d827912c4a&id=94
 
