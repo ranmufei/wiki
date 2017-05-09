@@ -1,9 +1,10 @@
 # 测试发送消息接口
 
 > www.apps.com/index.php?app=Im&m=Im&a=testapi&s_uid=1232&type=3  
+
 > s_uid  收消息人的 uid   ;;    type  消息类型   0：全平台 1：pc  2 移动  3 Im
 
-
+> apps 上开发 iphone 收消息  oa_member_mobile_push  用户的type 手机类型 1 为IPHONE 0 位安卓
 
 # （1）消息推送 ＰＨＰ开发 模型
 
