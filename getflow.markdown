@@ -107,3 +107,14 @@ model('Flow')->flowInfo($node);
 */
 
 ````
+
+### 首页详情接口中增加一个返回值：
+````php
+   /* 增加data.flow,结构如下
+    flow_type:1    //由上面的一个接口model('Flow')->flowInfo($node);提供
+    node: ""   //node
+    is_last:1   //是否是最后一个审核人，由接口返回的$data['step']和当前应用的第几个审核人比较判断 ，1是最后一个，0不是
+    step:2    //当前应用的第几个审核人
+    uid:"1"   //
+*/
+````
