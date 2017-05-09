@@ -81,3 +81,29 @@ $getflow :{
 flowVM.setFlow_one();
 
 ```
+
+
+## 首页业务审核引入审核流：
+````php
+  /**
+  * 获取审核流信息
+  * @param  [string] $node [节点命名]  
+  * @return [ array ]  data
+  */
+
+model('Flow')->flowInfo($node);
+
+/*
+返回：
+          $data['status'] = 1 ; 
+          $data['info'] = "固定流程" ; 
+          $data['flow_type'] = 1 ;
+          $data['flow_set'] = $set['base_data'] ;
+或者：
+          $data['status'] = 0 ; 
+          $data['info'] = "查不到固定流程，认为是自由流程" ; 
+          $data['flow_type'] = 0 ;
+          $data['flow_set'] = array() ; 
+*/
+
+````
