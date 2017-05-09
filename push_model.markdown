@@ -17,6 +17,19 @@
 |$type   int|否|  消息推送平台 0：全平台 1：pc  2 移动； 默认为1 电脑端 |
 
 
+## 案例
+
+```` php
+
+    $massage['title']='title helloworld'.time();
+    $massage['contant']='你好这是内容'.time();
+    $massage['description']='你好这是内容'.time();
+    $massage['info']='dis'.time();
+    $type=I("type");// 0：全平台 1：pc  2 移动 3 IM
+    $result=  model("Im")->push($s_uid,$massage,$type);
+
+````
+
 
 # （2）移动端登录成功后回调 注册手机型号 （token）到系统
 
