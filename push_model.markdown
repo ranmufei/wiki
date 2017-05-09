@@ -33,7 +33,7 @@
 
 # （2）移动端登录成功后回调 注册手机型号 以及（token）到系统
 
-### API   
+### API    del_notice
 
 ### HTTP URL   /index.php?app=Im&m=User&a=mobileInfo
 
@@ -44,5 +44,35 @@
 |token              string|是| 手机端token 专指IPhone 官方分配的手机唯一token(安卓端不需要)  |
 |type                int|是|  1：IPhone  0：安卓  |
 
+# （3）移动端收到消息后回调 标记本消息已收取
+
+### API    del_notice
+
+### HTTP URL   /index.php?app=Im&m=User&a=del_notice
+
+### 携带参数
+| 参数名称  type    |    必填 | 说明  |
+| :-------- | --------:| :--: |
+|access_token       string|是| 手机端登录授权token  |
+|id              int|是| 收取消息的json 字符串中 id  |
+
+
+### 消息收取数据结构
+
+```
+{
+    "user": "173",
+    "msg": {
+        "title": "title helloworld1494321375",
+        "contant": "你好这是内容1494321375",
+        "description": "你好这是内容1494321375",
+        "info": "dis1494321375"
+    },
+    "myuid": "1",
+    "pushtype": "2",
+    "id": 94
+}
+
+```
 
 
