@@ -1,3 +1,10 @@
+# 测试发送消息接口
+
+> www.apps.com/index.php?app=Im&m=Im&a=testapi&s_uid=1232&type=3  
+> s_uid  收消息人的 uid   ;;    type  消息类型   0：全平台 1：pc  2 移动  3 Im
+
+
+
 # （1）消息推送 ＰＨＰ开发 模型
 
 ## model("Im")->push($s_uid,$massage,$type)
