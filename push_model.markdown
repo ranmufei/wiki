@@ -4,7 +4,7 @@
 
 > s_uid  收消息人的 uid   ;;    type  消息类型   0：全平台 1：pc  2 移动  3 Im
 
-> apps 上开发 iphone 收消息  oa_member_mobile_push  用户的type 手机类型 1 为IPHONE 0 位安卓
+> apps 上开发 iphone 收消息  oa_member_mobile_push  用户的type 手机类型 1 为IPHONE 0 位安卓； uid为一 默认为冉幕飞的IPhone 手机
 
 # （1）消息推送 ＰＨＰ开发 模型
 
