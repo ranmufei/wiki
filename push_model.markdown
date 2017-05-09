@@ -20,11 +20,11 @@
 
 # （2）移动端登录成功后回调 注册手机型号 （token）到系统
 
-## API   
+### API   
 
-## HTTP URL   /index.php?app=Im&m=User&a=mobileInfo
+### HTTP URL   /index.php?app=Im&m=User&a=mobileInfo
 
-## 携带参数
+### 携带参数
 | 参数名称  type    |    必填 | 说明  |
 | :-------- | --------:| :--: |
 |access_token       string|是| 手机端登录授权token  |
