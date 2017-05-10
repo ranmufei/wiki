@@ -8,7 +8,8 @@
 get
 
 ### **浏览器查看**
-/index.php?app=Customer&m=MPrecustom&a=list_delivery&customid=328&&access_token=
+/index.php?app=Customer&m=MPrecustom&a=list_delivery&customid=328&access_token=
+
 
 
 
@@ -48,3 +49,16 @@ isdelete: 1                       //是否可删除，1可删，0不可删除
 }
  ]
 }
+
+
+### **新增收货地址**
+/index.php?app=Customer&m=MPrecustom&a=add_delivery&access_token=   
+
+custom_id:799    //客户id
+receiver:呜呜呜   //收货人
+area:120115      //所在地区(地址编码)
+address:65656565    //详细地址
+mobile:1523658965   //联系方式:手机
+phone:             //联系方式:电话
+email:136@qq.com   //邮箱
+remark:的撒旦     //备注
