@@ -1,4 +1,4 @@
-## 客户日程列表
+## 客户地址列表
 ### **请求接口**
 /index.php?app=Customer&m=MPrecustom&a=list_delivery
 
