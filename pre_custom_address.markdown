@@ -62,3 +62,19 @@ mobile:1523658965   //联系方式:手机
 phone:             //联系方式:电话
 email:136@qq.com   //邮箱
 remark:的撒旦     //备注
+
+
+### **修改收货地址**
+/index.php?app=Customer&m=MPrecustom&a=edit_delivery&access_token=  
+
+
+custom_id:799    //客户id
+id:255                //地址id
+receiver:呜呜呜   //收货人
+area:120115      //所在地区(地址编码)
+address:65656565    //详细地址
+mobile:1523658965   //联系方式:手机
+phone:             //联系方式:电话
+email:136@qq.com   //邮箱
+remark:的撒旦     //备注
+submit:1       //必须为1
