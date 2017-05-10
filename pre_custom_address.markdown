@@ -51,7 +51,7 @@ isdelete: 1                       //是否可删除，1可删，0不可删除
 }
 
 
-### **新增收货地址**
+### **新增收货地址**（post 传参 )
 /index.php?app=Customer&m=MPrecustom&a=add_delivery&access_token=   
 
 custom_id:799    //客户id
@@ -64,7 +64,7 @@ email:136@qq.com   //邮箱
 remark:的撒旦     //备注
 
 
-### **修改收货地址**
+### **修改收货地址**（post 传参 )
 /index.php?app=Customer&m=MPrecustom&a=edit_delivery&access_token=  
 
 
@@ -78,3 +78,7 @@ phone:             //联系方式:电话
 email:136@qq.com   //邮箱
 remark:的撒旦     //备注
 submit:1       //必须为1
+
+### **删除收货地址**（post 传参 )
+/index.php?app=Customer&m=MPrecustom&a=delete_delivery&access_token=   
+ （post 传参  id为收货地址id）
