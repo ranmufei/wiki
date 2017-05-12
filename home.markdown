@@ -161,6 +161,7 @@
 |[设置右键](settingmenu)| js | js右键下载 |
 |[下载监听](downloadAddevenlist)| js | 软件下载文件保存地址接口 |
 |[上传组件](upload)|js|以webuploader为核心的上传组件|
+|[表格导出](tableExport)|js|js扩展,表格导出|
 |[商品添加保修期(avalon)](maintenance)   | Avalon | 商品添加保修期|
 |[选择地区](chicecity_widget)|Avalon|选择地址组件,可以配合地区ID在公共模型查地区坐标|
 
