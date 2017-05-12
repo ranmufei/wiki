@@ -23,6 +23,9 @@
         //objective /*项目描述,可填*/
  pmanagerVM.create(pro_name,objective);
 
+// 查看项目详情
+   /*  pid:项目的id*/
+    pmanagerVM.show_detail(pid)
 
 //组件配置
    $pmanager:{
