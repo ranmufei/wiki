@@ -82,31 +82,25 @@ flowVM.setFlow_one();
 
 ```
 
+## 三. 应用中为每条审核订单增加审核流：
+   //在提交订单成功后，使用下面的回调
+   /* @param  $con_id int[此审核订单在你自己应用中的主键id] */
+   flow_vm.addFlow(con_id);
 
-## 三.首页审核引入审核流：
+## 四.首页审核引入审核流，增加了审核流的注意：
 ````php
-  /**
-  * 获取审核流信息
-  * @param  [string] $node [节点命名]  
-  * @return [ array ]  data
-  */
-
-model('Flow')->flowInfo($node);
-
+在详情返回数据$result中【顶层】添加如下：
+ 
 /*
-返回：
-          $data['status'] = 1 ; 
-          $data['info'] = "固定流程" ; 
-          $data['flow_type'] = 1 ;
-          $data['step'] = 0 ;
-或者：
-          $data['status'] = 0 ; 
-          $data['info'] = "查不到固定流程，认为是自由流程" ; 
-          $data['flow_type'] = 0 ;
-          $data['step'] = $step ; //共有几步
-*/
-
+ * @param  $node string [节点标示，如Produce.Index.pq_list]
+ * @param  $current_step  int[当前的审核人是第几个，从1开始]
+ * @param  $uid int [审核最开始发起人的uid，是订单的创始人哦]
+ * @param  $con_id int[此审核订单在你自己应用中的主键id]
+ */
+$result['flow'] = model('FlowPub')->flowInfo($node,$current_step,$uid,$con_id) ;
+ 
 ````
+
 
 ### 首页详情接口中增加一个返回值：
 ````php
