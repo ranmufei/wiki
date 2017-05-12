@@ -19,6 +19,6 @@ define依赖define(['tableExport/tableExport'])
                               consoleLog:false,   // 是否开启测试：输出导出数据 ,默认false
 		              tableName: '表名',   // 导出文件名，表名
                 	      type: 'excel',   // excel、doc;导出文件类型 : 默认为excel() 
-                          }
+                          };
                       $(".yp_table_1").tableExport(defaults);    // "yp_table_1"是需要导出的表格的选择器，建议保证唯一性
                   }
