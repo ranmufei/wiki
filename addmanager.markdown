@@ -17,6 +17,10 @@
 ````js
 // 在定义avalon模板前 
  var pmanagerVM= null;
+ 
+//调出新增项目的弹出框
+ pmanagerVM.create();
+
 
 //组件配置
    $pmanager:{
