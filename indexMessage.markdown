@@ -196,6 +196,19 @@ $is_last = 0或1   //0没有最终审核    1已结最终审核了 ,用于判断
 - mystatus    0或1、2        // 0没有审核   1审核同意 2 审核没同意
 - audit_status  当前审核的状态，如 “报销中，待审核，已通过，已驳回，待确认，带归还 ， 已作废 ，已报销 ， ......”
 
+## 增加了审核流的注意：
+````php
+在详情返回数据$result中【顶层】添加如下：
+ 
+/*
+ * @param  $node string [节点标示，如Produce.Index.pq_list]
+ * @param  $current_step  int[当前的审核人是第几个，从1开始]
+ * @param  $uid int [审核最开始发起人的uid，是订单的创始人哦]
+ * @param  $con_id int[此审核订单在你自己应用中的主键id]
+ */
+$result['flow'] = model('FlowPub')->flowInfo($node,$current_step,$uid,$con_id) ;
+ 
+````
 
 ##  六. PHP更改消息状态接口
   注意：在已审核情况下才能用
