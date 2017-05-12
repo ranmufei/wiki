@@ -7,7 +7,7 @@ define依赖define(['tableExport/tableExport'])
 
 | 配制参数 |  类型| 默认值 |  描述  |
 | :-- | :-- | ----:| :--: |
-|`consoleLog`|boolean|'false'|是否开启测试：输出导出数据 ,默认false|
+|`consoleLog`|boolean|false|是否开启测试：输出导出数据 ,默认false|
 |`tableName`|string|  |导出文件名，默认为"列表"。|
 |`type`|string| 'excel'或者'doc' |导出文件类型，默认为excel。|
 
