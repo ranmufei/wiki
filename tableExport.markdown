@@ -1,5 +1,5 @@
 不用经过后台处理实现页面展示的smartgrid表格元素导出，导出格式可以是excel和doc 
-### 调用方式  
+### 调用方式(接口修改中，请不要调用)
 HTML中：`<div class="table_header_1 new_top_110 yp_table_1">
              <div ms-widget="smartgrid,$"></div>
         </div>` ,
