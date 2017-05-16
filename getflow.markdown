@@ -47,12 +47,14 @@ $getflow :{
 
 ### 3.显示下一个审核人（通过并提交给下一个人审核使用）
 ````js
-    *  添加审核，提交下一步审核时调用
-       * uid   审核发起人的uid , 注意是发起人，不一定是当前人的，
-       * step  当前审核步骤，从申请人开始0 ，1，2,3,4,5   最多为5 ， 注意此为非常关键参数
-       * condition  当前审核的条件，格式为数组, 如condition['money'] = 500 ， condition['number'] = 20 , 没有就留空
-      */  
-   flowVM.getFlow(uid,step,condition)  
+/*
+                     * 获取审核流，通过后台获取数据
+                     * uid   审核发起人的uid , 注意是发起人，不一定是当前人的
+                     * current_step  当前审核步骤，从申请人开始0 ，1，2,3,4,5   最多为5 ， 注意此为非常关键参数
+                     * con_id [interger] [应用里面该条审核记录的主键id]
+                     * condition  当前审核的条件，格式为数组, 如condition['money'] = 500 ， condition['number'] = 20
+                     */
+   flowVM.getFlowNew(current_step,uid,con_id)  
                   
 ````
 
@@ -83,11 +85,24 @@ flowVM.setFlow_one();
 ```
 
 ## 三. 应用中为每条审核订单增加审核流：
+
+````php
+//在新建订单时，获取审核人, 注意要带0：
+   flow_vm.getFlowNew(0);
+````
+
+````php
+//在新建订单时，更改订单条件，获取审核人：
+//* condition  当前审核的条件，格式为数组, 如condition['money'] = 500 ， condition['number'] = 20 , 没有就留空
+   flow_vm.changeFlow(condition);
+````
+
 ````php
    //在提交订单成功后，使用下面的回调
    /* @param  $con_id int[此审核订单在你自己应用中的主键id] */
    flow_vm.addFlow(con_id);
 ````
+
 ## 四.首页审核引入审核流，增加了审核流的注意：
 ````php
 在详情返回数据$result中【顶层】添加如下：
