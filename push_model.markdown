@@ -8,7 +8,7 @@
 
 # （1）消息推送 ＰＨＰ开发 模型
 
-## model("Im")->push($s_uid,$massage,$type)
+## model("Im")->push($s_uid,$massage,$type,$localtion)
 
 ## 说明
 
@@ -23,6 +23,7 @@
 |$s_uid   int|是| 收消息人的uid  |
 |$massage   array|是| 发送的消息  可以是一个数组结构（`注意：请和移动开发者讨论好格式`）  |
 |$type   int|否|  消息推送平台 0：全平台 1：pc  2 移动； 默认为1 电脑端 |
+|$location string| no | 消息推送位置 Index 首页 ； 应用key 表示应用内置页面 ：针对PC 端选择 |
 
 
 ## 案例
