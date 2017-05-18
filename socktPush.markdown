@@ -1,4 +1,4 @@
-# (一) 消息推送组件 socktMassage/push
+# (一) socket 接收推送消息组件 socktMassage/push
 
 > 开发者 ： 冉幕飞
 
