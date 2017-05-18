@@ -41,9 +41,11 @@
 
   > 引入 Avalon组件地址 socktMassage/push
 
-   [在线预览案列 发送 向用户uid =1 的首页发送测试](http://www.apps.com//index.php?app=Invoicimg&m=TestApi&a=testsentpush&uid=1&type=1&location=Index) http://www.apps.com//index.php?app=Invoicimg&m=TestApi&a=testsentpush&uid=1&type=1&location=Index
+   [在线预览案列 发送 向用户uid =1 的首页发送测试](http://www.apps.com//index.php?app=Invoicimg&m=TestApi&a=testsentpush&uid=1&type=1&location=Index) 
 
-   [结果预览](http://www.apps.com/index.php?app=Invoicimg&m=TestApi&a=widget)http://www.apps.com/index.php?app=Invoicimg&m=TestApi&a=widget#
+
+
+   [结果预览](http://www.apps.com/index.php?app=Invoicimg&m=TestApi&a=widget)
 
 ``` javascript
 
