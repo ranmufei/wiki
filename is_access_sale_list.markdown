@@ -97,8 +97,42 @@ sc: 1,      //1为 自产销售订单
        is_bt: "0",        //订单产品自定义是否必填
         x_bt: "0"         //订单产品保修期是否必填
  },
-wl_isopen: 1   //1为 配件销售订单
+wl_isopen: 1,   //1为 配件销售订单
+cws: [      //汇率列表
+{
+id: "6",
+name: "英镑",
+coding: "GBP"
+},
+{
+id: "5",
+name: "澳币",
+coding: "AUD"
+},
+{
+id: "4",
+name: "港币",
+coding: "HKD"
+},
+{
+id: "3",
+name: "日元",
+coding: "JPY"
+},
+{
+id: "2",
+name: "欧元",
+coding: "EUR"
+},
+{
+id: "1",
+name: "美金",
+coding: "USD"
 }
+]
+
+}
+
 
 
 //客户
