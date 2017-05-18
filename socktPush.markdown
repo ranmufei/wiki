@@ -1,13 +1,13 @@
-# 消息推送组件 socktMassage/push
+# (一) 消息推送组件 socktMassage/push
 
 > 开发者 ： 冉幕飞
 
 > 时间 ： 2017 5 18 
 
-## avalon 组件名称 socktMassage/push
+## （1）avalon 组件名称 socktMassage/push
 
 
-## 组件说明
+## （2）组件说明
 
   > 该组件用于试试监听后台消息推送，传统获取消息的方式是 定时ajax 轮询 ，缺点是不够实时 并且浪费请求资源 ，时间就了对浏览器的内存资源也大大浪费。
 
@@ -16,20 +16,20 @@
  >> 本组件为消息接受组件 发送组件 请参考
 
 
-## 组件配置参数说明
+## （3）组件配置参数说明
 
               title:'sockt111',              
               key:'Index',
               
 
-## 基本属性配置
+## （4）基本属性配置
 
 | 参数名称      |    必填 | 说明  |
 | :-------- | --------:| :--: |
 |title|否| 定义抄送标题 有默认值 但建议填写 |
 |key|否|  监听接收消息    Index:'默认主页接受'; 应用内部接收请填写 应用key |
 
-##  接口方法
+##  （5）接口方法
 
 | 参数名称      |    必填 | 说明  |
 | :-------- | --------:| :--: |
@@ -37,7 +37,7 @@
 
 
 
-## 使用方法
+## （6）使用方法
 
   > 引入 Avalon组件地址 socktMassage/push
 
@@ -79,7 +79,7 @@ require(['avalon','socktMassage/push','domReady!'],function(avalon){
 })
 
 ```
-## HTML
+## （7）HTML
 ```
   <div ms-widget="socktMassage,socktMassagedddd,$socktMassageopt"> sockt</div>
 
