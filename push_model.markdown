@@ -35,7 +35,8 @@
     $massage['description']='你好这是内容'.time();
     $massage['info']='dis'.time();
     $type=I("type");// 0：全平台 1：pc  2 移动 3 IM
-    $result=  model("Im")->push($s_uid,$massage,$type);
+    $localtion='Index'; // 消息推送位置  Index  首页； 内部页面 请用 应用KEY ； 只对PC端推送有效
+    $result=  model("Im")->push($s_uid,$massage,$type,$location);
 
 ````
 
