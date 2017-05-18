@@ -48,6 +48,8 @@ http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=thxlhlist&id=5358&xin
 
 http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=money_cr&id=6   //查询通过汇率id查询汇率
 
+http://www.apps.com/index.php?app=Invoicimg&m=SaleMobile&a=periodlsit&p=1&jump=15&gid=768   //查询周期单（jump 每页显示的条数 p当前查询的页码数 gid客户id）
+
 
 ### **返回结果**
 
@@ -230,4 +232,43 @@ disable: true
 {
 rate: 8.3183,      //汇率
 rate_time: "2017-01-17&nbsp; 09:38:17"
+}
+
+
+
+//周期单  （某个客户的）
+
+{
+count: "1",
+totalPages: 1,
+nowPage: 1,
+data: [
+{
+id: "64",
+number: "JK2017031356485310",   //周期单编号
+userid: "1",
+customid: "768",
+time: "2017-03-13",            //创建时间
+startime: "1488988800",
+endtime: "1490284800",
+orderarr: "6469,6481,6515,6517,6635",
+iskp: "1",                          //开票  1为开票 0为不开票
+mark: "6666",             //备注
+statuskp: "1",
+gys_name: "我的是",    //客户
+count: 5,             //订单数量
+exptime: "2017-03-09~2017-03-24",          //预计结款时间
+money: 1573771,         //应收
+havePay: 1573771,     //已收金额
+kps: {
+payMoney: 200,
+amount: "20424.00",
+periodPercent: "0.9%",
+percent: "200,20424.00,0.9%"
+},
+percent: "200,20424.00,0.9%",      //开票进度（已经开票的额度，总的额度，所占百分比） 已经开票的额度等于0表示尚未开票，总的额度减去已经开票的额度等于0表示开票完成
+amount: 1573771,
+noPay: 0             //待收金额
+}
+],
 }
