@@ -13,6 +13,8 @@
 
   > 本消息组件是 基于 socket 连接的长连接 实时消息监听。 开发者只需要在组件的回调方法中 自行处置 有消息推送来的业务处理。 callbackfun:function(data){ } 详细请看后面的案例
 
+ >> 本组件为消息接受组件 发送组件 请参考
+
 
 ## 组件配置参数说明
 
@@ -61,11 +63,9 @@ require(['avalon','socktMassage/push','domReady!'],function(avalon){
               title:'sockt111',              
               key:'Index',
               callbackfun:function(data){
-                   //   var xz= socktinfo.getSelected();
-                   //   avalon.log('sockt:::::',data);
-
+                   // 当有自己的消息来的时候 本函数会被自动执行
                    console.log('2',data);
-                   //console.log('回调',socktinfo.getinfo);
+                  
 
               },
             }
