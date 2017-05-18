@@ -1,5 +1,9 @@
 # 消息推送组件 socktMassage/push
 
+> 开发者 ： 冉幕飞
+
+> 时间 ： 2017 5 18 
+
 ## avalon 组件名称 socktMassage/push
 
 
