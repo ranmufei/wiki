@@ -49,28 +49,25 @@
 * test
 * 
 */
-require(['avalon','twitterCopy/twitterCopy','domReady!'],function(avalon){
+require(['avalon','socktMassage/push','domReady!'],function(avalon){
    var cpmodel=null;
    var model=avalon.define({ 
         $id:'root',
-         $copy:{
-               onInit:function(cmodel){
-                  console.log('oninit:',cmodel);
-                  cpmodel=cmodel;
-               },
-               callbackfun:function(){
-                  avalon.log('callbackfun 被调用');
-               },
-               width:'400px',
-               height:'500px',
-               title:'产品采购审批结果',
-               content:'新产品打折季节洗碗大家炉里看实现去啊年的销售而',
-               form:'InvoicimgProduct',
-               msgtype:'2'
-            },
-              ,tijiao:function(){
-               //提交抄送
-               cpmodel.sendmsg();
+        $socktMassageopt:{
+              onInit:function(sockt){
+                 socktinfo=sockt;
+                 console.log("hello sockt");
+              },
+              title:'sockt111',              
+              key:'Index',
+              callbackfun:function(data){
+                   //   var xz= socktinfo.getSelected();
+                   //   avalon.log('sockt:::::',data);
+
+                   console.log('2',data);
+                   //console.log('回调',socktinfo.getinfo);
+
+              },
             }
             
    })
@@ -82,20 +79,7 @@ require(['avalon','twitterCopy/twitterCopy','domReady!'],function(avalon){
 ```
 ## HTML
 ```
-<script src="/App/Invoicimg/AvalonAction/avalon_test.js"></script>
-
-
-<h1>avalon  组件测试 demo </h1>
-<div ms-controller="root">
- 
-<div ms-widget="twitterCopy,dasdasd,$copy"></div>
- <span ms-on-click=tijiao()> 测试发送</span>
-
-
-</div>
-
-
-
+  <div ms-widget="socktMassage,socktMassagedddd,$socktMassageopt"> sockt</div>
 
 
 ```
